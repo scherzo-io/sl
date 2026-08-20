@@ -1,0 +1,222 @@
+# Property Management
+
+slug:   property-management
+status: publish
+url:    https://www.streamlineusa.com/property-management/
+wp_id:  2545
+
+## post_content (Elementor shortcode shell stripped)
+
+S
+
+Property Management & Projects
+
+Streamline’s certified technicians will oversee your property inside and outside. We will maintain all the systems and finishes. We specialize in providing for all of our residential construction systems in your townhouse and apartment. We offer weekly, bi-weekly, and monthly check-up plans. Let us handle the hassle and protect your property for years to come.
+
+24 hours 365 Days
+
+Property Care and Management
+
+One call handles it all
+
+Give us a call today and our specialists will provide a custom quote on a management plan.
+
+646 307 9007
+
+Give us a call today and our specialists will provide a custom quote on a management plan.
+
+Service Plans
+
+Gold
+
+-
+Weekly
+
+Silver
+
+-
+Bi-Weekly
+
+Bronze
+
+-
+Monthly
+
+Property Management Services
+
+Plumbing
+
+Drains, Leaks, Water Pressure.
+
+HVAC
+
+Filter replacement and balancing.
+
+electrical
+
+Smart System Programming and light bulb replacement
+
+Roofing
+
+Caulking and leak repairs.
+
+Windows
+
+Exterior/ Interior Cleaning and Caulking
+
+AV
+
+Security upgrades and sound systems.
+
+Doors
+
+Lock replacement and weather stripping.
+
+tile
+
+Grout replacement and polishing.
+
+flooring
+
+Wood screening, carpet steaming, and marble buffing.
+
+landscaping
+
+Clean ups and watering.
+
+Painting
+
+Touch ups and seasonal refresh.
+
+exterminating
+
+Insects and rodent removal.
+
+Closeup Of Male Technician Fixing Sink Pipe In a Bathroom
+Get in touch
+
+Get a quote
+
+-
++1 646-307-9007
+
+-
+483 10th Ave Suite 205 New York, NY 10018
+
+Please enable JavaScript in your browser to complete this form. Your Name * Email * Phone Number Your Message * Message
+SEND MESSAGE
+
+## _elementor_data (copy fields only)
+
+[heading]
+  title: S
+[divider]
+  text: Divider
+[heading]
+  title: Property Management & Projects
+[text-editor]
+  editor: Streamline’s certified technicians will oversee your property inside and outside. We will maintain all the systems and finishes. We specialize in providing for all of our residential construction systems in your townhouse and apartment. We offer weekly, bi-weekly, and monthly check-up plans. Let us handle the hassle and protect your property for years to come.
+[icon-box]
+  title_text: 24 hours 365 Days
+  description_text: Property Care and Management
+[icon-box]
+  title_text: One call handles it all
+  description_text: Give us a call today and our specialists will provide a custom quote on a management plan.
+[icon-box]
+  title_text: 646 307 9007
+  description_text: Give us a call today and our specialists will provide a custom quote on a management plan.
+[heading]
+  title: Service Plans
+[price-table]
+  heading: Gold
+[price-table]
+  heading: Silver
+[price-table]
+  heading: Bronze
+[heading]
+  title: Property Management Services
+[heading]
+  title: Plumbing
+[divider]
+  text: Divider
+[text-editor]
+  editor: Drains, Leaks, Water Pressure.
+[heading]
+  title: HVAC
+[divider]
+  text: Divider
+[text-editor]
+  editor: Filter replacement and balancing.
+[heading]
+  title: electrical
+[divider]
+  text: Divider
+[text-editor]
+  editor: Smart System Programming and light bulb replacement
+[heading]
+  title: Roofing
+[divider]
+  text: Divider
+[text-editor]
+  editor: Caulking and leak repairs.
+[heading]
+  title: Windows
+[divider]
+  text: Divider
+[text-editor]
+  editor: Exterior/ Interior Cleaning and Caulking
+[heading]
+  title: AV
+[divider]
+  text: Divider
+[text-editor]
+  editor: Security upgrades and sound systems.
+[heading]
+  title: Doors
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lock replacement and weather stripping.
+[heading]
+  title: tile
+[divider]
+  text: Divider
+[text-editor]
+  editor: Grout replacement and polishing.
+[heading]
+  title: flooring
+[divider]
+  text: Divider
+[text-editor]
+  editor: Wood screening, carpet steaming, and marble buffing.
+[heading]
+  title: landscaping
+[divider]
+  text: Divider
+[text-editor]
+  editor: Clean ups and watering.
+[heading]
+  title: Painting
+[divider]
+  text: Divider
+[text-editor]
+  editor: Touch ups and seasonal refresh.
+[heading]
+  title: exterminating
+[divider]
+  text: Divider
+[text-editor]
+  editor: Insects and rodent removal.
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Get a quote
+[icon-list]
+  icon_list[].text: +1 646-307-9007
+  icon_list[].text: 483 10th Ave Suite 205 New York, NY 10018
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

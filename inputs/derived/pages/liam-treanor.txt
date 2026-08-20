@@ -1,0 +1,66 @@
+# Liam Treanor
+
+slug:   liam-treanor
+status: publish
+url:    https://www.streamlineusa.com/about/liam-treanor/
+wp_id:  2648
+
+## post_content (Elementor shortcode shell stripped)
+
+CHIEF OPERATING OFFICER
+
+Liam is an analytical, energetic, detail-oriented Chief Operating Officer with more than 25 years of broad experience and deep knowledge in high level commercial and residential construction projects. He started his career working as a carpenter's helper for his brother-in-law, grew to finish carpentry working in high end McMansions and homes on the north shore in Long Island. Liam moved on to work as a framing carpenter learning extensions and dormers, timber framing, roofing, siding, framing of houses and foundations. At 25, he was offered the opportunity and took over his brother-in-law's business doing finish carpentry while bartending in Manhattan, making business connections, and moving from residential building to hospitality building bars, restaurants, nightclubs and lounges, growing from a subcontractor to a GC. A perfectionist, he strives for quality work and clients loved that he was always reliable and could work 24/7. Eventually growing big enough to not only be a GC at most hospitality venues in Manhattan, he was also hired as a Sub by other larger GC's, essentially having played a part in building most clubs and lounges in all of Manhattan. Liam also replicated work from only a picture & took designers' and clients' visions with one-of-a-kind designs, making them a reality.
+
+Streamline USA was created in 2014 after partnering up with Eric and creating two divisions, high-end residential, and a commercial/ hospitality/retail division. As the C.O.O. he is involved and dedicated to every project, while running a staff of 100 team members. Liam is responsible for overseeing scheduling, inspections, quality control, job site safety, and provides on-site management for all phases of all construction projects. His purpose for Streamline USA is to facilitate successful completion of projects on budget, and on schedule while ensuring that Streamline's services consistently exceed client's expectations. The company's mission is based on customer service, giving the client what they are looking for, in the time frame, and within the budget. Streamline USA is a problem solver, we don't just ask for design decisions, we offer solutions.
+
+Get in touch
+
+Contact Liam
+
+-
+-
+
+Phone - +1 646-307-9001 main office
+
+-
+
+Email - liam@StreamlineUSA.com mobile 516-509-2236
+
+-
+
+Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: http://www.streamlineusa.com/wp-content/uploads/2019/12/SL-_-Commercial-Indeed-01-4x5.65-1.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Contact
+[divider]
+  text: Divider
+[heading]
+  title: CHIEF OPERATING OFFICER
+[image]
+  image: http://www.streamlineusa.com/wp-content/uploads/2019/12/3dcfb570-9aae-4c97-b9e7-7c3beb86bf41.jpg
+[divider]
+  text: Divider
+[text-editor]
+  editor: Liam is an analytical, energetic, detail-oriented Chief Operating Officer with more than 25 years of broad experience and deep knowledge in high level commercial and residential construction projects. He started his career working as a carpenter's helper for his brother-in-law, grew to finish carpentry working in high end McMansions and homes on the north shore in Long Island. Liam moved on to work as a framing carpenter learning extensions and dormers, timber framing, roofing, siding, framing of houses and foundations. At 25, he was offered the opportunity and took over his brother-in-law's business doing finish carpentry while bartending in Manhattan, making business connections, and moving from residential building to hospitality building bars, restaurants, nightclubs and lounges, growing from a subcontractor to a GC. A perfectionist, he strives for quality work and clients loved that he was always reliable and could work 24/7. Eventually growing big enough to not only be a GC at most hospitality venues in Manhattan, he was also hired as a Sub by other larger GC's, essentially having played a part in building most clubs and lounges in all of Manhattan. Liam also replicated work from only a picture & took designers' and clients' visions with one-of-a-kind designs, making them a reality.
+    
+    Streamline USA was created in 2014 after partnering up with Eric and creating two divisions, high-end residential, and a commercial/ hospitality/retail division. As the C.O.O. he is involved and dedicated to every project, while running a staff of 100 team members. Liam is responsible for overseeing scheduling, inspections, quality control, job site safety, and provides on-site management for all phases of all construction projects. His purpose for Streamline USA is to facilitate successful completion of projects on budget, and on schedule while ensuring that Streamline's services consistently exceed client's expectations. The company's mission is based on customer service, giving the client what they are looking for, in the time frame, and within the budget. Streamline USA is a problem solver, we don't just ask for design decisions, we offer solutions.
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact Liam
+[icon-list]
+  icon_list[].text: Phone - +1 646-307-9001 main office
+  icon_list[].text: Email - liam@StreamlineUSA.com mobile 516-509-2236
+  icon_list[].text: Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

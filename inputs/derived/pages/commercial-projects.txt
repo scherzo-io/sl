@@ -1,0 +1,29 @@
+# Commercial Projects
+
+slug:   commercial-projects
+status: publish
+url:    https://www.streamlineusa.com/commercial-projects/
+wp_id:  72
+
+## post_content (Elementor shortcode shell stripped)
+
+Commercial
+
+Projects
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/Free-People-by-Streamline-USA-5.65x4.11-1.jpg
+  [heading]
+    title: Commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+[posts]
+  text: Load More
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

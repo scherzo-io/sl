@@ -1,0 +1,58 @@
+# Contact
+
+slug:   contact
+status: publish
+url:    https://www.streamlineusa.com/contact/
+wp_id:  74
+
+## post_content (Elementor shortcode shell stripped)
+
+request a quote
+
+Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[wpforms id="11"]
+Get in touch
+
+Contact us
+
+-
+Main Office: +1 646-307-9001
+
+-
+Mobile: +1 917-837-4757
+
+-
+Eric@StreamlineUSA.com
+
+-
+483 10th Ave Suite 205 New York, NY 10018
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2020/05/Contacts-Page.jpeg
+  [divider]
+    text: Divider
+  [heading]
+    title: Contact
+[heading]
+  title: request a quote
+[text-editor]
+  editor: Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[shortcode]
+  shortcode: [wpforms id="11"]
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact us
+[icon-list]
+  icon_list[].text: Main Office: +1 646-307-9001
+  icon_list[].text: Mobile: +1 917-837-4757
+  icon_list[].text: Eric@StreamlineUSA.com
+  icon_list[].text: 483 10th Ave Suite 205 New York, NY 10018
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

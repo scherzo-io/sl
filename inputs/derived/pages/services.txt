@@ -1,0 +1,172 @@
+# Services
+
+slug:   services
+status: publish
+url:    https://www.streamlineusa.com/services/
+wp_id:  71
+
+## post_content (Elementor shortcode shell stripped)
+
+S
+
+Services
+
+What we do
+
+Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+
+Streamline USA version 2.0 is now operating on Procore Construction Management Software.
+
+- 01
+
+General contracting
+
+A lump sum agreement between client and Streamline USA that is based on the architectural and design drawings.
+
+- 02
+
+Construction management
+
+Open book contract when ownership holds the sub contracts and Streamline USA manages the project, provides and selects the subcontractors and deals with all aspects of billing, insurance, schedules and pre construction planning.
+
+- 03
+
+design build
+
+Streamline USA and the design team work hand in hand with our client to build the project phase by phase.
+
+- 04
+
+millwork
+
+Streamline USA prices out, fabricates and installs the millwork package for our client.
+
+- 05
+
+carpentry
+
+Our team of in house carpenters can handle all aspects of carpentry and finish work. This can give us the winning edge with speed and quality of work since we control the most important trade.
+
+- 06
+
+pre construction planning
+
+Pricing out the drawings, providing input on the schedule and VE value engineering is a specialty.
+
+Why work with us
+
+Flexible Bidding
+
+We can bid your project as the GC / CM or as a sub contractor.
+
+Fast Paced schedules
+
+We can meet all deadlines once agreed upon with desiogn team and ownership.
+
+We meet deadlines
+
+We work overtime and on weekends when the project requires it.
+
+Highest quality finishing
+
+Our team of finishers leave the project at 100% complete everytime.
+
+Owner operated
+
+Our CEO and COO are involved from start to finish on every project we engage in.
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/Boqueria_West40_0518_LizClayman_206-scaled.jpg
+  [heading]
+    title: S
+  [divider]
+    text: Divider
+  [heading]
+    title: Services
+[heading]
+  title: What we do
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+    
+    Streamline USA version 2.0 is now operating on Procore Construction Management Software.
+[image]
+  image: https://www.streamlineusa.com/wp-content/uploads/2020/05/Procorelogo.png
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2019/12/1-1.jpg
+[heading]
+  title: - 01
+[heading]
+  title: General contracting
+[divider]
+  text: Divider
+[text-editor]
+  editor: A lump sum agreement between client and Streamline USA that is based on the architectural and design drawings.
+[heading]
+  title: - 02
+[heading]
+  title: Construction management
+[divider]
+  text: Divider
+[text-editor]
+  editor: Open book contract when ownership holds the sub contracts and Streamline USA manages the project, provides and selects the subcontractors and deals with all aspects of billing, insurance, schedules and pre construction planning.
+[heading]
+  title: - 03
+[heading]
+  title: design build
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline USA and the design team work hand in hand with our client to build the project phase by phase.
+[heading]
+  title: - 04
+[heading]
+  title: millwork
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline USA prices out, fabricates and installs the millwork package for our client.
+[heading]
+  title: - 05
+[heading]
+  title: carpentry
+[divider]
+  text: Divider
+[text-editor]
+  editor: Our team of in house carpenters can handle all aspects of carpentry and finish work. This can give us the winning edge with speed and quality of work since we control the most important trade.
+[heading]
+  title: - 06
+[heading]
+  title: pre construction planning
+[divider]
+  text: Divider
+[text-editor]
+  editor: Pricing out the drawings, providing input on the schedule and VE value engineering is a specialty.
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/12/Creme_Mint-Kitchen_HR-16-1-scaled.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Why work with us
+  [icon-box]
+    title_text: Flexible Bidding
+    description_text: We can bid your project as the GC / CM or as a sub contractor.
+  [icon-box]
+    title_text: Fast Paced schedules
+    description_text: We can meet all deadlines once agreed upon with desiogn team and ownership.
+  [icon-box]
+    title_text: We meet deadlines
+    description_text: We work overtime and on weekends when the project requires it.
+  [icon-box]
+    title_text: Highest quality finishing
+    description_text: Our team of finishers leave the project at 100% complete everytime.
+  [icon-box]
+    title_text: Owner operated
+    description_text: Our CEO and COO are involved from start to finish on every project we engage in.
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

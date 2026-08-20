@@ -1,0 +1,818 @@
+Header/footer, Astra hooks and Elementor templates — the copy that lives
+outside pages (PLAN §3: 'content outside pages — extract deliberately').
+Extracted by scripts/wxr-extract.py.
+
+==============================================================================
+astra-advanced-hook #380 — Site Footer [publish]
+==============================================================================
+
+-- _elementor_data --
+
+
+==============================================================================
+elementor_library #2560 — Test Project management [draft]
+==============================================================================
+
+-- post_content --
+commercial
+
+Projects
+
+-- _elementor_data --
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-06-free-img.jpg
+  [heading]
+    title: commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+
+==============================================================================
+elementor_library #2603 — Contact form [draft]
+==============================================================================
+
+==============================================================================
+elementor_library #350 — Elementor Header #350 [publish]
+==============================================================================
+
+-- _elementor_data --
+
+
+==============================================================================
+elementor_library #1036 — about [publish]
+==============================================================================
+
+-- post_content --
+A few words
+
+About us
+
+streamline usa
+
+mission statement
+
+Our first commitment is the quality of our product. Fulfilling and exceeding our client and design team’s expectations drives our company’s culture.
+Each partner is actively engaged in promoting a company culture that attracts and nurtures the outstanding talent in all areas of business: from artisan tradesmen to resourceful project managers.
+Together we have built a successful team of industry professionals. They are all loyal and passionate about constructing client satisfaction.
+
+Leading company
+
+Why work with us
+
+Flexible Bidding
+
+We can bid your project as the GC / CM or as a sub contractor.
+
+International experience
+
+We have our own millwork shop and team of carpenters & finishers.
+
+We meet deadlines
+
+We specialize in fast paced schedules and high end interior finishes.
+
+Sustainable design
+
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Attention to detail
+
+We know what it takes to bring in a project on time and on budget.
+
+Our officers
+
+About us
+
+Eric ortense
+
+Eric is a senior sales and marketing leader who excels at communicating the strengths, vision, and value proposition of the organization to others. As the son of a developer, Eric grew up in the trades and transitioned into management. With a life history in Manhattan, he considers NYC to be his backyard.
+Liam treanor
+
+A highly qualified executive with over 20 years of experience managing high level projects. Liam started as a finish carpenter and now manages his staff of nearly 100 team members. His strengths are in full scale renovations, change of use and out of ground projects.
+
+-- _elementor_data --
+  [_elementor_data present but not parseable as JSON]
+
+==============================================================================
+elementor-hf #1062 — Global Footer [publish]
+==============================================================================
+
+-- post_content --
+Streamline USA LLC 2022
+
+-- _elementor_data --
+[heading]
+  title: Streamline USA LLC 2022
+
+==============================================================================
+elementor_library #1743 — story [publish]
+==============================================================================
+
+-- post_content --
+Our Story
+
+Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+This team came together with a vision that each member would bring his own unique talents and problem-solving abilities to bear. By combining a passion for construction and the synergy of a partnership, Streamline has continued to grow stronger while remaining agile and dynamic. Streamline is your partner for commercial and residential projects.
+
+-- _elementor_data --
+[heading]
+  title: Our Story
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+    
+    This team came together with a vision that each member would bring his own unique talents and problem-solving abilities to bear. By combining a passion for construction and the synergy of a partnership, Streamline has continued to grow stronger while remaining agile and dynamic. Streamline is your partner for commercial and residential projects.
+
+==============================================================================
+elementor_library #1868 — project new [publish]
+==============================================================================
+
+-- post_content --
+Size
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+Designed by
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+Architecture
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+Description
+
+-- _elementor_data --
+[heading]
+  title: Size
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Designed by
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Architecture
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+
+==============================================================================
+elementor_library #1871 — contact page [publish]
+==============================================================================
+
+-- post_content --
+request a quote
+
+Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[wpforms id="11"]
+Get in touch
+
+Contact us
+
+-
+Phone - +1 646-307-9001 main office
+
+-
+Email - Eric@StreamlineUSA.com mobile 917-837-4757
+
+-
+Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+-- _elementor_data --
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/12/f39573e7-e198-4c65-8384-cd0cfa9c4793.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Contact
+[heading]
+  title: request a quote
+[text-editor]
+  editor: Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[shortcode]
+  shortcode: [wpforms id="11"]
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact us
+[icon-list]
+  icon_list[].text: Phone - +1 646-307-9001 main office
+  icon_list[].text: Email - Eric@StreamlineUSA.com mobile 917-837-4757
+  icon_list[].text: Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+==============================================================================
+elementor_library #1875 — Residential [publish]
+==============================================================================
+
+-- post_content --
+Location
+
+Size
+
+Designed by
+
+Architect
+
+Our Role
+
+Why work with us
+
+-
+
+Flexible Bidding
+
+We can bid your project as the GC / CM or as a sub contractor.
+
+Fast Paced schedules
+
+We can meet all deadlines once agreed upon with desiogn team and ownership.
+
+We meet deadlines
+
+We work overtime and on weekends when the project requires it.
+
+Highest quality finishing
+
+Our team of finishers leave the project at 100% complete everytime.
+
+Owner operated
+
+Our CEO and COO are involved from start to finish on every project we engage in.
+
+More Projects
+
+-- _elementor_data --
+[divider]
+  text: Divider
+[heading]
+  title: Contact
+[text-editor]
+  editor: Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[heading]
+  title: Location
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Size
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Designed by
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Architect
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Our Role
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[divider]
+  text: Divider
+[heading]
+  title: Why work with us
+[icon-box]
+  title_text: Flexible Bidding
+  description_text: We can bid your project as the GC / CM or as a sub contractor.
+[icon-box]
+  title_text: Fast Paced schedules
+  description_text: We can meet all deadlines once agreed upon with desiogn team and ownership.
+[icon-box]
+  title_text: We meet deadlines
+  description_text: We work overtime and on weekends when the project requires it.
+[icon-box]
+  title_text: Highest quality finishing
+  description_text: Our team of finishers leave the project at 100% complete everytime.
+[icon-box]
+  title_text: Owner operated
+  description_text: Our CEO and COO are involved from start to finish on every project we engage in.
+[heading]
+  title: More Projects
+[posts]
+  text: Load More
+
+==============================================================================
+elementor_library #2103 — Commercial Projects [publish]
+==============================================================================
+
+-- post_content --
+commercial
+
+Projects
+
+-- _elementor_data --
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-06-free-img.jpg
+  [heading]
+    title: commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+
+==============================================================================
+elementor_library #2108 — newest projects [publish]
+==============================================================================
+
+-- post_content --
+commercial
+
+Projects
+
+-- _elementor_data --
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-06-free-img.jpg
+  [heading]
+    title: commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+
+==============================================================================
+elementor_library #2112 — new new projects [publish]
+==============================================================================
+
+-- post_content --
+commercial
+
+Projects
+
+-- _elementor_data --
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-06-free-img.jpg
+  [heading]
+    title: commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+
+==============================================================================
+elementor_library #2116 — projects grid [publish]
+==============================================================================
+
+-- _elementor_data --
+
+
+==============================================================================
+elementor_library #2169 — Commercial [publish]
+==============================================================================
+
+-- post_content --
+Location
+
+Size
+
+Designed by
+
+Architect
+
+Our Role
+
+Why work with us
+
+-
+
+Flexible Bidding
+
+We can bid your project as the GC / CM or as a sub contractor.
+
+Fast Paced schedules
+
+We can meet all deadlines once agreed upon with desiogn team and ownership.
+
+We meet deadlines
+
+We work overtime and on weekends when the project requires it.
+
+Highest quality finishing
+
+Our team of finishers leave the project at 100% complete everytime.
+
+Owner operated
+
+Our CEO and COO are involved from start to finish on every project we engage in.
+
+-- _elementor_data --
+[divider]
+  text: Divider
+[heading]
+  title: Contact
+[text-editor]
+  editor: Send us a message, or call for a walk through. We will respond within 24 hours and can turn around a bid in 7-10 days depending on the size of the project set of drawings. We are happy to jump in early and give a rough budget of construction costs before it goes to a design team if that can help.
+[heading]
+  title: Location
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Size
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Designed by
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Architect
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[heading]
+  title: Our Role
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+[divider]
+  text: Divider
+[heading]
+  title: Why work with us
+[icon-box]
+  title_text: Flexible Bidding
+  description_text: We can bid your project as the GC / CM or as a sub contractor.
+[icon-box]
+  title_text: Fast Paced schedules
+  description_text: We can meet all deadlines once agreed upon with desiogn team and ownership.
+[icon-box]
+  title_text: We meet deadlines
+  description_text: We work overtime and on weekends when the project requires it.
+[icon-box]
+  title_text: Highest quality finishing
+  description_text: Our team of finishers leave the project at 100% complete everytime.
+[icon-box]
+  title_text: Owner operated
+  description_text: Our CEO and COO are involved from start to finish on every project we engage in.
+[posts]
+  text: Load More
+
+==============================================================================
+elementor_library #2263 — Default Kit [publish]
+==============================================================================
+
+-- _elementor_data --
+
+
+==============================================================================
+elementor_library #2297 — Testimonials [publish]
+==============================================================================
+
+-- post_content --
+Our happy clients
+
+Clients
+
+Visionary clients
+
+What our clients say?
+
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+Frances Owens
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+Jose Barnes
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+Lori Fisher
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+James Bell
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+Patrick Diaz
+
+-- _elementor_data --
+[section]
+  background_image: https://websitedemos.net/architects-04/wp-content/uploads/sites/403/2018/07/bg-img-07-free-img.jpg
+  [heading]
+    title: Our happy clients
+  [divider]
+    text: Divider
+  [heading]
+    title: Clients
+[heading]
+  title: Visionary clients
+[divider]
+  text: Divider
+[heading]
+  title: What our clients say?
+[testimonial]
+  testimonial_content: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  testimonial_name: Frances Owens
+  link: #
+[testimonial]
+  testimonial_content: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  testimonial_name: Jose Barnes
+  link: #
+[testimonial]
+  testimonial_content: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  testimonial_name: Lori Fisher
+  link: #
+[testimonial]
+  testimonial_content: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  testimonial_name: James Bell
+  link: #
+[testimonial]
+  testimonial_content: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+  testimonial_name: Patrick Diaz
+  link: #
+
+==============================================================================
+elementor_library #2483 — Standard page template [publish]
+==============================================================================
+
+-- post_content --
+commercial
+
+Projects
+
+-- _elementor_data --
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/Free-People-by-Streamline-USA-5.65x4.11-1.jpg
+  [heading]
+    title: commercial
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+
+==============================================================================
+elementor_library #2540 — Property Mngtmnt [publish]
+==============================================================================
+
+-- post_content --
+Property Management
+
+What we do
+
+Streamline's certified technicians will oversee your property inside and outside. We will maintain all the systems and finishes. We specialize in providing for all of our residential construction systems in your townhouse and apartment. We offer weekly, bi-weekly, and monthly check-up plans. Let us handle the hassle and protect your property for years to come.
+
+Services
+
+Plumbing
+
+Drains, Leaks, Water Pressure.
+
+HVAC
+
+Filter replacement and balancing.
+
+electrical
+
+Smart System Programming and light bulb replacement
+
+Roofing
+
+Caulking and leak repairs.
+
+Windows
+
+Exterior and Interior cleaning.
+
+AV
+
+Security upgrades and sound systems.
+
+Doors
+
+Lock replacement and weather stripping.
+
+tile
+
+Grout replacement and polishing.
+
+flooring
+
+Wood screening and carpet steaming.
+
+landscaping
+
+Clean ups and watering.
+
+Painting
+
+Touch ups and seasonal refresh.
+
+exterminating
+
+Insects and rodent removal.
+
+Why work with us
+
+Gold
+
+Weekly Plan
+
+Silver
+
+Bi-Weekly Plan
+
+Bronze
+
+Monthly Plan
+
+24 hours 365 Days
+
+Property Care and Management
+
+One call handles it all
+
+Give us a call today and our specialists will provide a custom quote on a management plan.
+
+-- _elementor_data --
+[section]
+  background_image: http://www.staging5.streamlineusa.com/wp-content/uploads/2020/07/Boqueria_West40_0518_LizClayman_206-scaled-1.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Property Management
+[heading]
+  title: What we do
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline's certified technicians will oversee your property inside and outside. We will maintain all the systems and finishes. We specialize in providing for all of our residential construction systems in your townhouse and apartment. We offer weekly, bi-weekly, and monthly check-up plans. Let us handle the hassle and protect your property for years to come.
+[image]
+  image: https://www.staging5.streamlineusa.com/wp-content/plugins/elementor/assets/images/placeholder.png
+[heading]
+  title: Services
+[heading]
+  title: Plumbing
+[divider]
+  text: Divider
+[text-editor]
+  editor: Drains, Leaks, Water Pressure.
+[heading]
+  title: HVAC
+[divider]
+  text: Divider
+[text-editor]
+  editor: Filter replacement and balancing.
+[heading]
+  title: electrical
+[divider]
+  text: Divider
+[text-editor]
+  editor: Smart System Programming and light bulb replacement
+[heading]
+  title: Roofing
+[divider]
+  text: Divider
+[text-editor]
+  editor: Caulking and leak repairs.
+[heading]
+  title: Windows
+[divider]
+  text: Divider
+[text-editor]
+  editor: Exterior and Interior cleaning.
+[heading]
+  title: AV
+[divider]
+  text: Divider
+[text-editor]
+  editor: Security upgrades and sound systems.
+[heading]
+  title: Doors
+[divider]
+  text: Divider
+[text-editor]
+  editor: Lock replacement and weather stripping.
+[heading]
+  title: tile
+[divider]
+  text: Divider
+[text-editor]
+  editor: Grout replacement and polishing.
+[heading]
+  title: flooring
+[divider]
+  text: Divider
+[text-editor]
+  editor: Wood screening and carpet steaming.
+[heading]
+  title: landscaping
+[divider]
+  text: Divider
+[text-editor]
+  editor: Clean ups and watering.
+[heading]
+  title: Painting
+[divider]
+  text: Divider
+[text-editor]
+  editor: Touch ups and seasonal refresh.
+[heading]
+  title: exterminating
+[divider]
+  text: Divider
+[text-editor]
+  editor: Insects and rodent removal.
+[section]
+  background_image: https://www.staging5.streamlineusa.com/wp-content/plugins/elementor/assets/images/placeholder.png
+  [heading]
+    title: Why work with us
+  [divider]
+    text: Divider
+  [icon-box]
+    title_text: Gold
+    description_text: Weekly Plan
+  [icon-box]
+    title_text: Silver
+    description_text: Bi-Weekly Plan
+  [icon-box]
+    title_text: Bronze
+    description_text: Monthly Plan
+  [icon-box]
+    title_text: 24 hours 365 Days
+    description_text: Property Care and Management
+  [icon-box]
+    title_text: One call handles it all
+    description_text: Give us a call today and our specialists will provide a custom quote on a management plan.
+
+==============================================================================
+elementor_library #2608 — Team Member [draft]
+==============================================================================
+
+==============================================================================
+elementor_library #2644 — bio [publish]
+==============================================================================
+
+-- post_content --
+Chief executive Officer
+
+Eric is a senior sales and marketing leader that knows all the nuts and bolts of high-end construction. He excels at communicating the strengths, vision, and value proposition of the company to his clients and colleagues across the city. Day to day operations for Eric consist of interfacing with clients, architects, designers and owners reps while design phase budgeting, execution of RFP's and contract negotiations happen by the hour. Eric's 20+ years of industry experience gives him the knowledge for overseeing all the sales and estimating staff at Streamline, as well as the marketing for the brand. His department does all the quantity take offs from the plans, solicits bids from sub contractors, levels all the bids looking for missed items, then conducts a thorough review before submission. Eric's goal in estimating is to capture everything in the drawings and understand the scope from A-to-Z so he can de-scope the project with his partner and Chief Operating Officer, Liam Treanor, once it becomes a live project.
+Growing up the son of a real estate developer, Eric was on the job at a very young age hearing about the numbers, with a hammer in his hand, loading materials with his brother, being taught to work hard from the beginning. Initially a carpentry outfit for years, Streamline Corp was launched in 2008 and quickly grew into a powerful force in NYC construction. Since conception, Streamline has been building and renovating townhouses, restaurants, corporate offices, broadway retail and landlord work of all sorts. Eric started off driving the truck, wearing the tool belt, performing the estimate, and doing his own invoicing. In 2014, Eric and Liam merged their companies to form Streamline USA LLC construction and management. Presently staffed with more than 50 employees, Streamline USA has since passed the 100 million dollar mark in gross sales and continues to dominate the NYC market.
+
+Get in touch
+
+Contact Eric
+
+-
+Phone - +1 646-307-9001 main office
+
+-
+Email - Eric@StreamlineUSA.com mobile 917-837-4757
+
+-
+Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+-- _elementor_data --
+[section]
+  background_image: http://www.streamlineusa.com/wp-content/uploads/2019/12/SL-_-Commercial-Indeed-01-4x5.65-1.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Contact
+[divider]
+  text: Divider
+[heading]
+  title: Chief executive Officer
+[image]
+  image: http://www.streamlineusa.com/wp-content/uploads/2020/02/dc16d6bf-90ec-4fa4-a272-07ab2dcc661b.jpg
+[divider]
+  text: Divider
+[text-editor]
+  editor: Eric is a senior sales and marketing leader that knows all the nuts and bolts of high-end construction. He excels at communicating the strengths, vision, and value proposition of the company to his clients and colleagues across the city. Day to day operations for Eric consist of interfacing with clients, architects, designers and owners reps while design phase budgeting, execution of RFP's and contract negotiations happen by the hour. Eric's 20+ years of industry experience gives him the knowledge for overseeing all the sales and estimating staff at Streamline, as well as the marketing for the brand. His department does all the quantity take offs from the plans, solicits bids from sub contractors, levels all the bids looking for missed items, then conducts a thorough review before submission. Eric's goal in estimating is to capture everything in the drawings and understand the scope from A-to-Z so he can de-scope the project with his partner and Chief Operating Officer, Liam Treanor, once it becomes a live project.
+    Growing up the son of a real estate developer, Eric was on the job at a very young age hearing about the numbers, with a hammer in his hand, loading materials with his brother, being taught to work hard from the beginning. Initially a carpentry outfit for years, Streamline Corp was launched in 2008 and quickly grew into a powerful force in NYC construction. Since conception, Streamline has been building and renovating townhouses, restaurants, corporate offices, broadway retail and landlord work of all sorts. Eric started off driving the truck, wearing the tool belt, performing the estimate, and doing his own invoicing. In 2014, Eric and Liam merged their companies to form Streamline USA LLC construction and management. Presently staffed with more than 50 employees, Streamline USA has since passed the 100 million dollar mark in gross sales and continues to dominate the NYC market.
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact Eric
+[icon-list]
+  icon_list[].text: Phone - +1 646-307-9001 main office
+  icon_list[].text: Email - Eric@StreamlineUSA.com mobile 917-837-4757
+  icon_list[].text: Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+==============================================================================
+elementor_library #3993 — Elementor Header #3993 [publish]
+==============================================================================
+
+-- _elementor_data --
+

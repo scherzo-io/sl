@@ -1,0 +1,60 @@
+# Eric Ortense
+
+slug:   eric-ortense
+status: publish
+url:    https://www.streamlineusa.com/about/eric-ortense/
+wp_id:  2616
+
+## post_content (Elementor shortcode shell stripped)
+
+Chief executive Officer
+
+Eric is a senior sales and marketing leader that knows all the nuts and bolts of high-end construction. He excels at communicating the strengths, vision, and value proposition of the company to his clients and colleagues across the city. Day to day operations for Eric consist of interfacing with clients, architects, designers and owners reps while design phase budgeting, execution of RFP's and contract negotiations happen by the hour. Eric's 20+ years of industry experience gives him the knowledge for overseeing all the sales and estimating staff at Streamline, as well as the marketing for the brand. His department does all the quantity take offs from the plans, solicits bids from sub contractors, levels all the bids looking for missed items, then conducts a thorough review before submission. Eric's goal in estimating is to capture everything in the drawings and understand the scope from A-to-Z so he can de-scope the project with his partner and Chief Operating Officer, Liam Treanor, once it becomes a live project.
+Growing up the son of a real estate developer, Eric was on the job at a very young age hearing about the numbers, with a hammer in his hand, loading materials with his brother, being taught to work hard from the beginning. Initially a carpentry outfit for years, Streamline Corp was launched in 2008 and quickly grew into a powerful force in NYC construction. Since conception, Streamline has been building and renovating townhouses, restaurants, corporate offices, broadway retail and landlord work of all sorts. Eric started off driving the truck, wearing the tool belt, performing the estimate, and doing his own invoicing. In 2014, Eric and Liam merged their companies to form Streamline USA LLC construction and management. Presently staffed with more than 50 employees, Streamline USA has since passed the 100 million dollar mark in gross sales and continues to dominate the NYC market.
+
+Get in touch
+
+Contact Eric
+
+-
+Phone - +1 646-307-9001 main office
+
+-
+Email - Eric@StreamlineUSA.com mobile 917-837-4757
+
+-
+Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: http://www.streamlineusa.com/wp-content/uploads/2019/12/SL-_-Commercial-Indeed-01-4x5.65-1.jpg
+  [divider]
+    text: Divider
+  [heading]
+    title: Contact
+[divider]
+  text: Divider
+[heading]
+  title: Chief executive Officer
+[image]
+  image: http://www.streamlineusa.com/wp-content/uploads/2020/02/dc16d6bf-90ec-4fa4-a272-07ab2dcc661b.jpg
+[divider]
+  text: Divider
+[text-editor]
+  editor: Eric is a senior sales and marketing leader that knows all the nuts and bolts of high-end construction. He excels at communicating the strengths, vision, and value proposition of the company to his clients and colleagues across the city. Day to day operations for Eric consist of interfacing with clients, architects, designers and owners reps while design phase budgeting, execution of RFP's and contract negotiations happen by the hour. Eric's 20+ years of industry experience gives him the knowledge for overseeing all the sales and estimating staff at Streamline, as well as the marketing for the brand. His department does all the quantity take offs from the plans, solicits bids from sub contractors, levels all the bids looking for missed items, then conducts a thorough review before submission. Eric's goal in estimating is to capture everything in the drawings and understand the scope from A-to-Z so he can de-scope the project with his partner and Chief Operating Officer, Liam Treanor, once it becomes a live project.
+    Growing up the son of a real estate developer, Eric was on the job at a very young age hearing about the numbers, with a hammer in his hand, loading materials with his brother, being taught to work hard from the beginning. Initially a carpentry outfit for years, Streamline Corp was launched in 2008 and quickly grew into a powerful force in NYC construction. Since conception, Streamline has been building and renovating townhouses, restaurants, corporate offices, broadway retail and landlord work of all sorts. Eric started off driving the truck, wearing the tool belt, performing the estimate, and doing his own invoicing. In 2014, Eric and Liam merged their companies to form Streamline USA LLC construction and management. Presently staffed with more than 50 employees, Streamline USA has since passed the 100 million dollar mark in gross sales and continues to dominate the NYC market.
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact Eric
+[icon-list]
+  icon_list[].text: Phone - +1 646-307-9001 main office
+  icon_list[].text: Email - Eric@StreamlineUSA.com mobile 917-837-4757
+  icon_list[].text: Address - 336 West 37th Street, Suite 1520, New York, NY 10018
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

@@ -1,0 +1,123 @@
+# Home
+
+slug:   template
+status: publish
+url:    https://www.streamlineusa.com/
+wp_id:  143
+
+## post_content (Elementor shortcode shell stripped)
+
+Our Story
+
+Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+
+This team came together with a vision that each member would bring his own unique talents and problem-solving abilities to bear. By combining a passion for construction and the synergy of a partnership, Streamline has continued to grow stronger while remaining agile and dynamic. Streamline is your partner for Project Management, Commercial and Residential projects.
+
+The Partners
+
+The Partners
+
+Services
+
+General Contracting
+
+Construction management based on a lump sum cost agreement
+
+CONSTRUCTION MANAGEMENT
+
+Job execution based on open book management with ownership that involves fixed costs for general conditions, profit, overhead and insurance
+
+Design Build
+When designer works hand in hand with GC to develop the concept while the project is under construction
+
+Get in touch
+
+Contact us
+
+-
+
+Main Office: +1 646-307-9001
+
+-
+
+Mobile: +1 917-837-4757
+
+-
+
+Eric@StreamlineUSA.com
+
+-
+
+483 10th Ave Suite 205 New York, NY 10018
+
+[wpforms id="11"]
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/f39573e7-e198-4c65-8384-cd0cfa9c4793.jpg
+[heading]
+  title: Our Story
+[divider]
+  text: Divider
+[text-editor]
+  editor: Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.
+    
+    This team came together with a vision that each member would bring his own unique talents and problem-solving abilities to bear. By combining a passion for construction and the synergy of a partnership, Streamline has continued to grow stronger while remaining agile and dynamic. Streamline is your partner for Project Management, Commercial and Residential projects.
+[heading]
+  title: The Partners
+[divider]
+  text: Divider
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2019/12/3dcfb570-9aae-4c97-b9e7-7c3beb86bf41.jpg
+  link: #
+[heading]
+  title: The Partners
+[divider]
+  text: Divider
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2019/12/dc16d6bf-90ec-4fa4-a272-07ab2dcc661b.jpg
+  link: #
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-02-free-img.jpg
+  [heading]
+    title: Services
+  [divider]
+    text: Divider
+  [image]
+    image: https://www.streamlineusa.com/wp-content/uploads/2020/04/ezgif.com-webp-to-jpg.jpg
+    link: #
+  [text-editor]
+    editor: General Contracting
+      
+      Construction management based on a lump sum cost agreement
+  [image]
+    image: https://www.streamlineusa.com/wp-content/uploads/2020/04/ezgif.com-webp-to-jpg-2.jpg
+    link: #
+  [text-editor]
+    editor: CONSTRUCTION MANAGEMENT
+      
+      Job execution based on open book management with ownership that involves fixed costs for general conditions, profit, overhead and insurance
+  [image]
+    image: https://www.streamlineusa.com/wp-content/uploads/2020/04/ezgif.com-webp-to-jpg-1.jpg
+    link: #
+  [text-editor]
+    editor: Design Build
+      When designer works hand in hand with GC to develop the concept while the project is under construction
+[heading]
+  title: Get in touch
+[divider]
+  text: Divider
+[heading]
+  title: Contact us
+[icon-list]
+  icon_list[].text: Main Office: +1 646-307-9001
+  icon_list[].text: Mobile: +1 917-837-4757
+  icon_list[].text: Eric@StreamlineUSA.com
+  icon_list[].text: 483 10th Ave Suite 205 New York, NY 10018
+[shortcode]
+  shortcode: [wpforms id="11"]
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

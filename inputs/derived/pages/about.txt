@@ -1,0 +1,124 @@
+# About
+
+slug:   about
+status: publish
+url:    https://www.streamlineusa.com/about/
+wp_id:  70
+
+## post_content (Elementor shortcode shell stripped)
+
+A few words
+
+About us
+
+streamline usa
+
+mission statement
+
+Our first commitment is the quality of our product. Fulfilling and exceeding our client and design team’s expectations drives our company’s culture.
+Each partner is actively engaged in promoting a company culture that attracts and nurtures the outstanding talent in all areas of business: from artisan tradesmen to resourceful project managers.
+Together we have built a successful team of industry professionals. They are all loyal and passionate about constructing client satisfaction.
+
+Leading company
+
+Why work with us
+
+Flexible Bidding
+
+We can bid your project as the GC / CM or as a sub contractor.
+
+International experience
+
+We have our own millwork shop and team of carpenters & finishers.
+
+We meet deadlines
+
+We specialize in fast paced schedules and high end interior finishes.
+
+Sustainable design
+
+Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Attention to detail
+
+We know what it takes to bring in a project on time and on budget.
+
+Our officers
+
+About us
+
+Eric ortense
+
+Eric is a senior sales and marketing leader who excels at communicating the strengths, vision, and value proposition of the organization to others. As the son of a developer, Eric grew up in the trades and transitioned into management. With a life history in Manhattan, he considers NYC to be his backyard.
+Liam treanor
+
+A highly qualified executive with over 20 years of experience managing high level projects. Liam started as a finish carpenter and now manages his staff of nearly 100 team members. His strengths are in full scale renovations, change of use and out of ground projects.
+
+MICHAEL COLLINS
+
+Michael brings 35 years of residential construction experience in New York City to Streamline. Ever mindful of the personal dimensions of residential work, he enjoys interacting with our clients and their designers to achieve their visions for townhouses, lofts, and apartments.
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-04-free-img.jpg
+  [heading]
+    title: A few words
+  [divider]
+    text: Divider
+  [heading]
+    title: About us
+[heading]
+  title: streamline usa
+[divider]
+  text: Divider
+[heading]
+  title: mission statement
+[text-editor]
+  editor: Our first commitment is the quality of our product. Fulfilling and exceeding our client and design team’s expectations drives our company’s culture.
+    Each partner is actively engaged in promoting a company culture that attracts and nurtures the outstanding talent in all areas of business: from artisan tradesmen to resourceful project managers.
+    Together we have built a successful team of industry professionals. They are all loyal and passionate about constructing client satisfaction.
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2018/07/image-01-free-img.png
+[section]
+  background_image: https://erico4.sg-host.com/wp-content/uploads/2019/11/bg-img-09-free-img.jpg
+  [heading]
+    title: Leading company
+  [divider]
+    text: Divider
+  [heading]
+    title: Why work with us
+  [icon-box]
+    title_text: Flexible Bidding
+    description_text: We can bid your project as the GC / CM or as a sub contractor.
+  [icon-box]
+    title_text: International experience
+    description_text: We have our own millwork shop and team of carpenters & finishers.
+  [icon-box]
+    title_text: We meet deadlines
+    description_text: We specialize in fast paced schedules and high end interior finishes.
+  [icon-box]
+    title_text: Sustainable design
+    description_text: Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  [icon-box]
+    title_text: Attention to detail
+    description_text: We know what it takes to bring in a project on time and on budget.
+[heading]
+  title: Our officers
+[divider]
+  text: Divider
+[heading]
+  title: About us
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2019/12/dc16d6bf-90ec-4fa4-a272-07ab2dcc661b.jpg
+  link: #
+[image]
+  image: https://erico4.sg-host.com/wp-content/uploads/2019/12/3dcfb570-9aae-4c97-b9e7-7c3beb86bf41.jpg
+  link: #
+[image]
+  image: https://www.streamlineusa.com/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-22-at-11.10.32-AM.jpeg
+  link: #
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

@@ -1,0 +1,29 @@
+# Residential Projects
+
+slug:   residential-projects
+status: publish
+url:    https://www.streamlineusa.com/residential-projects/
+wp_id:  1755
+
+## post_content (Elementor shortcode shell stripped)
+
+Residential
+
+Projects
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/BlackHenselNYC_061-scaled.jpg
+  [heading]
+    title: Residential
+  [divider]
+    text: Divider
+  [heading]
+    title: Projects
+[posts]
+  text: Load More
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

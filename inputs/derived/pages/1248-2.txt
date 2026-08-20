@@ -1,0 +1,18 @@
+# (untitled)
+
+slug:   1248-2
+status: publish
+url:    https://www.streamlineusa.com/1248-2/
+wp_id:  1248
+
+## post_content (Elementor shortcode shell stripped)
+
+[sliders_pack id="1247"]
+
+## _elementor_data (copy fields only)
+
+(no Elementor data)
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.

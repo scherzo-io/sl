@@ -1,0 +1,115 @@
+# Clients
+
+slug:   clients
+status: publish
+url:    https://www.streamlineusa.com/clients/
+wp_id:  73
+
+## post_content (Elementor shortcode shell stripped)
+
+S
+
+Testimonials
+
+Testimonials
+
+What our clients say
+
+Streamline USA did an amazing job for us. Fast, super high quality, and non nonsense from start to finish. I wouldn’t trust anyone else with all of my renovations. We have been working together for about 8 years and they have never let me down.
+Mercer St Loft Owners
+Having worked with Streamline on a major gut renovation, as well as a variety of side projects in our home, we cannot imagine working with anyone else. Their beautiful craftsmanship, accessibility, transparent communications, and honesty are just the start. We have particularly valued their absolute insistence on getting things right, and their willingness to work with us on the inevitable, unforeseen challenges that attend construction in the city. Beyond their professionalism, though, every person we have interacted with at Streamline has been trustworthy, kind, and just fundamentally decent. That really matters when you have folks in and out of your home and interacting with your kids. It’s been a pleasure working with Streamline, and we can’t recommend them highly enough.
+69th St Townhouse Owners
+Streamline USA hit the project hard from the minute we signed the contract. Their attention to detail is second to none. The guys were polite and very clean cut every day during the renovation of our Jackson Heights townhouse. Eric and Liam helped us out tremendously with the renovation of our Hamptons house consulting every step of the way. I give them a 10 on a 10 scale for an all around great experience. I highly recommend them.
+Jackson Heights Townhouse Owners
+
+Eric, Liam and the whole team at Streamline have become trusted partners for Vivvi. Their attention to detail in construction, focus on budget consciousness and relentless pursuit of tight timelines has made them a key partner for us as we grow.
+Charles Bonnello
+Co-Founder & CEO, Vivvi Early Learning
+The process of renovating your home is complex and emotional. Many decisions to make, money to spend, and uncertainty of what the outcome will be. The importance of finding the right contractor is extremely important. Streamline made it easy. From providing a competitive quote, prompt communication, problem solving, design and execution to emotional support and honest opinion. Eric, Liam, and the team were there throughout the process and are still in touch months after compilation to inquire if anything is needed. Thank you all very much
+West End Ave Apt Owners
+
+Fast turnaround and quick solutions to our ever changing retail needs. Eric and his team have an excellent grasp on how to manage elevated finishes in a fast fashion and cut out all the red tape.
+Nick Annacone
+NYC Chief Operator, Kith
+I’ve worked with Streamline on several large hospitality projects throughout the Tri-state area. Their quality, professionalism, and adherence to the project schedule are always best in class. I highly recommend Streamline. They're as good as it gets.
+Joseph Vicari
+Partner, Trust3 hospitality
+
+As architects, we always hope our projects are built by a great contractor and Streamline has consistently delivered exceptional quality on schedule. Their team of project managers, supervisors, and their support teams can't be rivaled by any other contractor we have worked with over the past 25 years. They are dedicated, professional, thorough, accommodating, responsive, hardworking, committed to excellence.
+Antonio Di Oronzo
+Founder and Principal, Bluarch
+Streamline USA is my go-to GC for all our hospitality and corporate office build outs. They are always ahead of schedule and have a tremendous team of construction professionals. They treat commercial work as if it was residential. Very high quality all around. I highly recommend them.
+James Famularo
+President, Meridian Retail Leasing
+THE MAKING OF A TOWNHOUSE
+
+https://www.youtube.com/watch?v=4199ReoOpok
+Streamline Hospitality
+
+## _elementor_data (copy fields only)
+
+[section]
+  background_image: https://www.streamlineusa.com/wp-content/uploads/2019/12/SL-_-Commercial-Indeed-01-4x5.65.jpg
+  [heading]
+    title: S
+  [divider]
+    text: Divider
+  [heading]
+    title: Testimonials
+[image]
+  image: https://www.streamlineusa.com/wp-content/uploads/2022/05/518F6A36-ECF4-49C9-BE68-29396D579C17-scaled.jpeg
+[heading]
+  title: Testimonials
+[divider]
+  text: Divider
+[heading]
+  title: What our clients say
+[testimonial]
+  testimonial_content: Streamline USA did an amazing job for us. Fast, super high quality, and non nonsense from start to finish. I wouldn’t trust anyone else with all of my renovations. We have been working together for about 8 years and they have never let me down.
+  testimonial_name: Mercer St Loft Owners
+  link: #
+[testimonial]
+  testimonial_content: Having worked with Streamline on a major gut renovation, as well as a variety of side projects in our home, we cannot imagine working with anyone else. Their beautiful craftsmanship, accessibility, transparent communications, and honesty are just the start. We have particularly valued their absolute insistence on getting things right, and their willingness to work with us on the inevitable, unforeseen challenges that attend construction in the city. Beyond their professionalism, though, every person we have interacted with at Streamline has been trustworthy, kind, and just fundamentally decent. That really matters when you have folks in and out of your home and interacting with your kids. It’s been a pleasure working with Streamline, and we can’t recommend them highly enough.
+  testimonial_name: 69th St Townhouse Owners
+  link: #
+[testimonial]
+  testimonial_content: Streamline USA hit the project hard from the minute we signed the contract. Their attention to detail is second to none. The guys were polite and very clean cut every day during the renovation of our Jackson Heights townhouse. Eric and Liam helped us out tremendously with the renovation of our Hamptons house consulting every step of the way. I give them a 10 on a 10 scale for an all around great experience. I highly recommend them.
+  testimonial_name: Jackson Heights Townhouse Owners
+  link: #
+[testimonial]
+  testimonial_content: Eric, Liam and the whole team at Streamline have become trusted partners for Vivvi. Their attention to detail in construction, focus on budget consciousness and relentless pursuit of tight timelines has made them a key partner for us as we grow.
+  testimonial_name: Charles Bonnello
+  testimonial_job: Co-Founder & CEO, Vivvi Early Learning
+  link: #
+[testimonial]
+  testimonial_content: The process of renovating your home is complex and emotional. Many decisions to make, money to spend, and uncertainty of what the outcome will be. The importance of finding the right contractor is extremely important. Streamline made it easy. From providing a competitive quote, prompt communication, problem solving, design and execution to emotional support and honest opinion. Eric, Liam, and the team were there throughout the process and are still in touch months after compilation to inquire if anything is needed. Thank you all very much
+  testimonial_name: West End Ave Apt Owners
+  link: #
+[testimonial]
+  testimonial_content: Fast turnaround and quick solutions to our ever changing retail needs. Eric and his team have an excellent grasp on how to manage elevated finishes in a fast fashion and cut out all the red tape.
+  testimonial_name: Nick Annacone
+  testimonial_job: NYC Chief Operator, Kith
+  link: #
+[testimonial]
+  testimonial_content: I’ve worked with Streamline on several large hospitality projects throughout the Tri-state area. Their quality, professionalism, and adherence to the project schedule are always best in class. I highly recommend Streamline. They're as good as it gets.
+  testimonial_name: Joseph Vicari
+  testimonial_job: Partner, Trust3 hospitality
+  link: #
+[testimonial]
+  testimonial_content: As architects, we always hope our projects are built by a great contractor and Streamline has consistently delivered exceptional quality on schedule. Their team of project managers, supervisors, and their support teams can't be rivaled by any other contractor we have worked with over the past 25 years. They are dedicated, professional, thorough, accommodating, responsive, hardworking, committed to excellence.
+  testimonial_name: Antonio Di Oronzo
+  testimonial_job: Founder and Principal, Bluarch
+  link: #
+[testimonial]
+  testimonial_content: Streamline USA is my go-to GC for all our hospitality and corporate office build outs. They are always ahead of schedule and have a tremendous team of construction professionals. They treat commercial work as if it was residential. Very high quality all around. I highly recommend them.
+  testimonial_name: James Famularo
+  testimonial_job: President, Meridian Retail Leasing
+  link: #
+[heading]
+  title: THE MAKING OF A TOWNHOUSE
+[heading]
+  title: Streamline Hospitality
+
+---
+Extracted by scripts/wxr-extract.py. Styling, spacing and layout keys are
+dropped on purpose — this is the copy, not the design.
