@@ -4,8 +4,9 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor (merge commit 2) · next action: **Alexey —
-send `content/eric-email.md`. Do not start Phase F. Do not push unless asked.**
+Last updated: **2026-08-20** · by: Cursor (Claude Code handoff) · next action: **Claude Code —
+paste [`handoff-to-claude.md`](handoff-to-claude.md). Review both lanes against their work
+orders. Do not start Phase F. Do not push.**
 
 ---
 
@@ -52,10 +53,10 @@ phase boundary rather than assuming what you read at the start still holds.
 
 ## Next up
 
-1. Leftover list in [`sessions/2026-08-20-cursor-03.md`](sessions/2026-08-20-cursor-03.md) + this session [`04`](sessions/2026-08-20-cursor-04.md).
-2. **Alexey:** send [`content/eric-email.md`](../content/eric-email.md). Video hosting / mapping / no-logo cuts. 25 REVIEW targets in `content/findings/legacy-review-rows.md`.
+1. **Claude Code:** [`handoff-to-claude.md`](handoff-to-claude.md) — review Grok + Cursor against their work orders. Write `reviews/claude-2026-08-20.md`. Do not patch unless Alexey assigns. Do not start F. Do not push.
+2. **Alexey:** send [`content/eric-email.md`](../content/eric-email.md). Video hosting / mapping / no-logo cuts. 25 REVIEW targets in `content/findings/legacy-review-rows.md`. Flip `scherzo-io/sl` private.
 3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project. 887 alt-text is Cursor, later.
-4. **Do not push** this merge unless Alexey asks. Remote is still public.
+4. **Do not push** this merge unless Alexey asks. Remote is still public. Local `main` is `2b0a0de`, ahead of `origin/main`.
 
 ## Blocked, and on whom
 

@@ -24,6 +24,7 @@ away — it is what makes coming back to this project cheap, and both lanes main
 | `reviews/` | Cursor's adversarial reviews of those handoffs, `grok-<date>.md` |
 | `cursor-plan.md` | Cursor's own executable plan, committed before it starts work |
 | `cursor-kickoff.md` | paste-ready first Cursor Agent message. Grok wrote it 2026-08-20. Does not replace `cursor-images.md` |
+| [`handoff-to-claude.md`](handoff-to-claude.md) | paste-ready Claude Code review of both lanes against their work orders (after merge + partners names) |
 
 ---
 
