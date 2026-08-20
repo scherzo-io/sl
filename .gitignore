@@ -4,11 +4,12 @@
 # WordPress dump — ~11 GB, must never reach GitHub (100 MB file cap, 1 GB free LFS)
 wp-content/
 
-# Dependencies & build output (Phase 0 scaffold)
+# Dependencies & build output
 node_modules/
 .next/
 out/
 dist/
+tsconfig.tsbuildinfo
 
 # Environment & secrets
 .env

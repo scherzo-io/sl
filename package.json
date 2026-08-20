@@ -1,0 +1,30 @@
+{
+  "name": "streamline-usa",
+  "private": true,
+  "version": "0.1.0",
+  "description": "streamlineusa.com rebuild — Next.js App Router + Sanity",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 8080",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 8080",
+    "typecheck": "tsc --noEmit",
+    "check:tokens": "node scripts/check-retired-hex.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "^15.5.23",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": "5.9"
+  }
+}
