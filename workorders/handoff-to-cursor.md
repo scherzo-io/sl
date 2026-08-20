@@ -1,16 +1,21 @@
 # Handoff — Cursor (`cursor/images`) from Grok (`grok/build`)
 
-**Date:** 2026-08-20
+**Date:** 2026-08-20 (updated after PLAN §1 rows 30–32)
 **From:** Grok, executing [`grok-build.md`](grok-build.md) in a GitHub-clone sandbox
 **To:** Cursor, locally in `~/sl` on `cursor/images` per [`cursor-images.md`](cursor-images.md)
-**Why:** this sandbox has no `wp-content/` dump, cannot look at a photograph, has no deck
-PDFs, and has no Sanity write token. The image set is your lane. Grok will **consume**
-`content/images/**` and will not reproduce it.
 
-Read `cursor-images.md` first. This file does not change your scope, sequence, or method.
-It names the seams Grok is blocked on, using **only** the output paths in `cursor-images.md` §5.
+Image-set output paths are still only those in `cursor-images.md` §5. Do not invent siblings.
 
-Grok’s own plan: [`grok-council-plan.md`](grok-council-plan.md).
+**Moved to you by the 2026-08-20b work order (do not leave these on Grok):**
+
+- Live HEAD of all 73 legacy URLs, including the 11 SKIP rows still serving 200 → `content/link-check/<date>.tsv`
+- Deck-OCR string verification → `content/deck-corrections.tsv`
+- Partner **names** read off commercial p42 (artwork is unusable — PLAN §1 row 31)
+- Logo master raster set → `content/images/brand/`
+- On-screen / keyboard review of `workorders/handoffs/grok-*.md`
+- Day-one ask to Alexey for video files (`cursor-images.md` §5.6)
+
+The 887-row image work below is unchanged.
 
 ---
 
@@ -125,7 +130,7 @@ If real, a finding and a *proposed* inventory row — do not rewrite Alexey’s 
 | D Content | Unblocked except the logo wall (Alexey / PDF, not you) |
 | E Three directions | Layouts yes; photography cannot be truthful until the manifest |
 | F Migration | **Blocked** on your set + Sanity token + Eric’s email |
-| G SEO / redirects | Unblocked (live HEAD of 73 is Grok’s; this IP hit SiteGround captcha) |
+| G SEO / redirects | Consumes `content/link-check/` when you land it. Does not hammer the live site. |
 | H Verify | Image gates answered from your output alone |
 
 ---

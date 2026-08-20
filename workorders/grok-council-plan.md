@@ -2,10 +2,17 @@
 
 **Date:** 2026-08-20
 **Branch:** `grok/build` (never `main`)
-**HEAD at plan time:** `347aea5` — `git pull` was already up to date with `origin/main`
 **Work order:** [`grok-build.md`](grok-build.md) — this file does not replace it
+
+> **Changelog 2026-08-20b/c** (merged `workorders/lane-scope-and-status`): Cursor now owns live
+> HEAD of 73 URLs, deck-OCR verification, partner *names* off p42, logo raster set, and
+> on-screen review of Grok handoffs. Partner *artwork* cannot come from the decks (PLAN §1
+> row 31). Video files: ask Alexey first (row 32); two homepage variants stay empty. Progress
+> lives in `STATUS.md` + `sessions/` + `handoffs/`. Phase G consumes `content/link-check/`;
+> do not hammer production. Re-read `grok-build.md` changelog at every phase gate.
+
 **Pre-flight:** `python3 scripts/wxr-extract.py` → `assertions failed: 0`
-(projects=58 attachments=1764 referenced=887 pages=19 nav=6 chrome=22)
+
 
 This is how Grok will execute the work order: eight gated phases, a six-seat council on
 every gate, and a hard stop at anything the work order says is not ours. PLAN.md §1 still

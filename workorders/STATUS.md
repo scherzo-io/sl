@@ -4,8 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Claude (cowork session 3) · next action: **Cursor brainstorms
-`workorders/cursor-images.md` and commits `workorders/cursor-plan.md` before executing**
+Last updated: **2026-08-20** · by: Grok (session 01) · next action: **Grok Phase B scaffold on `grok/build`; Cursor still needs `cursor-plan.md` before executing; Alexey reviews `content/eric-email.md` then sends**
 
 ---
 
@@ -14,7 +13,7 @@ Last updated: **2026-08-20** · by: Claude (cowork session 3) · next action: **
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
 | **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **not started.** Work order broadened 2026-08-20 to cover all local-only work + reviewing Grok's handoff | `cursor/images` | — |
-| **Grok** — the build | [`grok-build.md`](grok-build.md) | **started 2026-08-20**, phase A | `grok/build` | — |
+| **Grok** — the build | [`grok-build.md`](grok-build.md) | **Phase A draft landed** 2026-08-20. Next: B scaffold | `grok/build` | `content/eric-email.md` |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
 the change is additive and called out in that file's changelog — read it again at your next
@@ -28,26 +27,23 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | Adversarial review + rebuild of the whole document set; conflict table; content inventory; both deck transcripts | `PLAN.md`, `DESIGN.md`, `CLAUDE.md`, `COWORK.md`, `content/**` |
 | 2026-08-20 | The two 19 Aug drafts archived, redacted | `docs/archive/` |
 | 2026-08-20 | **Source ingest.** The 2026-08-20 WXR export committed with text extracts; 3 extractors; 17 assertions passing; 2 findings; PLAN §1 rows 23–29 | `inputs/**`, `scripts/**`, `content/findings/**` |
-| 2026-08-20 | Two work orders + this status protocol | `workorders/**` |
+| 2026-08-20 | Two work orders + this status protocol; Cursor lane broadened; deck-raster finding; video ask | `workorders/**`, `content/findings/deck-raster-finding.md` |
+| 2026-08-20 | **Grok Phase A.** Eric email drafted. Council plan + Cursor image handoff. Branch not pushed (remote public) | `content/eric-email.md`, `workorders/grok-council-plan.md`, `workorders/handoffs/grok-2026-08-20.md` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
-| Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | unblocks PLAN §11 step 10; everything downstream of migration waits on Eric's answers |
+| Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | **draft complete.** Alexey sends. Unblocks PLAN §11 step 10 |
+| Grok | B — scaffold | about to start | Next.js + tokens + patterns A/B/C. Not blocked on Eric |
 
 ## Next up
 
-1. **Cursor:** brainstorm the work order → commit `workorders/cursor-plan.md` → execute. The
-   image set is the critical path for everything visual; the 887-image alt-text pass is the
-   single largest job in the build.
-1b. **Cursor → Alexey, on day one: ask for the video files.** There are none on this machine, so
-   two of the four homepage variants are unbuildable until they arrive. It is one question, and
-   it unblocks half the variant set (`cursor-images.md` §5.6, PLAN §1 row 32).
-2. **Grok:** phases B–H (scaffold → schema → content → three directions → migration → SEO).
-3. **Cursor:** review Grok's handoff when it lands (`cursor-images.md` §C).
-4. **Alexey:** send Eric's email once Grok's draft is reviewed; create the Sanity project when
-   scaffolding starts.
+1. **Alexey:** review and send `content/eric-email.md`. Flip the GitHub remote private if `grok/build` should be pushed.
+1b. **Grok (this lane, next):** Phase B scaffold.
+2. **Cursor:** brainstorm the work order → commit `workorders/cursor-plan.md` → execute. Day-one video ask still stands (`cursor-images.md` §5.6).
+3. **Cursor:** review Grok's Phase A handoff (`workorders/handoffs/grok-2026-08-20.md`).
+4. **Alexey:** Sanity project when scaffolding needs a real dataset (Phase C deploy / F).
 
 ## Blocked, and on whom
 
@@ -64,7 +60,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 |---|---|---|
 | 1 · documents, hygiene, conflicts, inventory | ✅ done | — |
 | 2 · extract 58 projects, image audit, REST verification | ✅ done | — |
-| 3 · Eric's conflict email | 🟡 drafting | Grok |
+| 3 · Eric's conflict email | 🟡 drafted, not sent | Grok |
 | 4 · image manifest, raw snapshot, re-verify totals | 🟡 snapshot + extracts done; manifest open | Cursor |
 | 5 · deck transcription | ✅ raw OCR both decks · 🟡 string verification against page images open | Cursor |
 | 6 · scaffold | ⬜ open | Grok |
