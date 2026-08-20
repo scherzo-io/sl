@@ -1,0 +1,61 @@
+wp_id	category	slug	images	featured_dims	min_w	median_w	max_w	n_ge1920	n_square	n_no_alt	hero_capable
+3966	residential	lantern-house	16	2048x2048	2048	2048	2048	16	16	16	YES
+3946	residential	795-5th-ave-the-pierre	16	2048x2048	2048	2048	2048	16	16	16	YES
+3496	residential	262-mott-st	22	1920x1280	1920	1920	1920	22	0	22	YES
+3493	commercial	momofuku-noodle-bar-171-1st-ave	16	1920x1280	1920	1920	1920	16	0	16	YES
+3490	residential	652-hudson-st	21	2048x2048	2048	2048	2048	21	21	21	YES
+3487	residential	40-e66th-st	19	2048x2048	2048	2048	2048	19	19	19	YES
+3467	commercial	ketchy-shubby	23	1920x1280	1282	1920	1920	22	0	23	YES
+3454	residential	92-laight-st	19	1920x1280	1280	1920	1920	17	0	19	YES
+3451	commercial	bad-roman-columbus-circle-mall	47	1920x1280	1920	1920	1920	47	0	47	YES
+3432	residential	700-park-ave	18	1920x1280	1280	1920	1920	16	0	18	YES
+3392	residential	11th-ave-apt	18	2048x1366	1707	2048	2048	13	0	18	YES
+3364	residential	w23rd-st-duplex	10	1536x1024	768	1536	1536	0	0	10	no
+3349	commercial	mexicue	19	1200x800	970	2048	2048	13	0	19	YES
+2853	commercial	vivvi-daycare-hudson-yards	33	2048x1366	2048	2048	2048	33	0	33	YES
+2850	commercial	hudson-yards-mall	18	2048x1366	2048	2048	2048	18	0	18	YES
+2847	residential	warren-st-apt	18	1200x800	1200	1200	1600	0	0	18	no
+2842	residential	riverside-drive-apartment	12	2048x1366	2048	2048	2048	12	0	12	YES
+2838	residential	53rd-st-studio	16	1600x1067	1027	1600	1600	0	0	16	YES
+2520	commercial	haus-nightclub	11	1124x763	880	1124	1124	0	0	11	no
+2504	residential	12th-st-townhouse-greenwich-village	12	640x295	640	640	640	0	0	12	NO — worst
+2425	commercial	my-darling-ivy	32	1200x800	799	1200	1200	0	0	32	no
+2409	residential	upper-west-side-apartment	8	1200x900	900	1200	1200	0	0	8	no
+2396	residential	84th-st-townhouse	9	1792x828	1792	1792	1792	0	0	9	YES
+2384	commercial	ground-central-coffee-company	9	1200x800	1200	1200	1200	0	0	9	no
+2366	residential	wainscott-east-hampton-residence	15	1792x828	828	1792	1792	0	0	15	YES
+2345	commercial	motel-23-lounge	18	1200x800	800	1200	1200	0	0	18	no
+2306	residential	e64-st-townhouse	30	1200x800	800	1200	1200	0	0	30	no
+1931	commercial	mackage-soho	11	2048x1536	1568	2048	2048	10	0	11	YES
+1907	residential	sullivan-st-duplex-2	16	2048x1366	2048	2048	2048	16	0	16	YES
+564	commercial	upper-east-side-townhouse	5	1074x717	513	1074	1695	0	0	5	no
+561	commercial	kith	35	1020x1311	600	1920	2048	27	0	35	YES
+558	commercial	autrium-corporate-office	5	1695x1233	513	1431	2048	1	0	5	no
+555	commercial	indeed-corporate-office-suite	13	1034x647	600	1600	1920	5	0	13	YES
+552	residential	duane-street-penthouse	42	2048x1366	1066	1600	2048	8	0	42	YES
+549	commercial	gunter-seeger	7	1000x585	938	1000	2048	1	0	7	no
+546	commercial	versa-marriott	9	1920x1080	938	1920	2048	7	0	9	YES
+527	residential	1st-ave-apt	7	1200x870	800	1200	1200	0	0	7	no
+534	residential	thompson-st-studio	5	2048x1366	2048	2048	2048	5	0	5	YES
+520	residential	tribeca-loft	6	1920x2560	1920	1920	1920	6	0	6	YES
+570	residential	69th-st-townhouse	14	2048x1587	1200	2048	2048	8	0	14	YES
+567	residential	horatio-st-townhouse	16	990x740	513	990	1695	0	0	16	no
+1835	residential	lexington-ave-townhouse	13	599x399	352	800	1024	0	0	13	NO — worst
+537	residential	west-23rd-townhouse-2	9	990x740	990	990	990	0	0	9	no
+523	residential	madison-ave-duplex-2	6	1027x900	900	1027	2048	1	0	6	no
+512	commercial	momofuku-ko	8	1500x1000	1500	1500	1500	0	0	8	no
+509	commercial	burger-lobster	7	1200x800	1200	1200	1200	0	0	7	no
+506	commercial	spring-studios-spring-place	12	640x360	640	900	2048	1	2	12	no
+503	commercial	free-people-retail-store	6	513x601	513	1107	1920	1	0	6	no
+494	commercial	vivvi-daycare-tribeca	13	2048x1536	2048	2048	2048	13	0	13	YES
+491	commercial	kat-theo	10	1866x1236	818	1860	2048	2	0	9	YES
+443	commercial	mint-kitchen-restaurant	27	2048x1366	1707	1707	2048	12	0	27	YES
+439	commercial	boqueria-restaurant	9	2048x1367	1709	2048	2048	7	0	8	YES
+436	commercial	sugar-cane-raw-bar-and-grill	9	1200x800	800	1200	1500	0	0	9	no
+433	commercial	grand-ole-opry-city-stage	11	1800x1200	480	1800	1800	0	0	11	YES
+531	residential	st-lukes-place-townhouse	17	1649x1100	733	1649	2048	1	0	17	YES
+517	residential	hudson-street-penthouse	10	1280x854	640	1280	1600	0	0	10	no
+540	residential	e63-st-penthouse	5	640x392	640	640	640	0	0	5	NO — worst
+2860	residential	wyckoff-townhouse	12	2048x1365	2048	2048	2048	12	0	12	YES
+
+TOTALS	58 projects	880 images	445 ge1920 (51%)	259 ge2048 (29%)	74 square	878 of 880 missing alt text	34 of 58 hero-capable
