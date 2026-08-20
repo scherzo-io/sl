@@ -7,7 +7,7 @@
 
 Image-set output paths are still only those in `cursor-images.md` §7. Do not invent siblings.
 
-Grok's build is on **`grok/build` and local `main` at `d9d2276`**. **`origin/main` is still `347aea5`.** The remote is public — do not push until Alexey flips it private. Get this tree onto the laptop with the bundle, or wait for a private push. Do not review against `origin/main`.
+Grok's build is on **`main` and `grok/build` at `129136e`**, now on origin. **The GitHub repo is still public.** Flip it private. On the laptop: `git pull origin main` then `git checkout -b cursor/images`. Do not review a stale `347aea5`.
 
 ---
 

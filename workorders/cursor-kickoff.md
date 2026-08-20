@@ -33,15 +33,12 @@ git log --oneline -5
 cat workorders/STATUS.md
 ```
 
-`grok/build` and **local `main`** are the same tree. **`origin/main` is still `347aea5`** and does **not** contain the site. The remote is public; neither lane pushes until Alexey flips it private. If `git rev-parse grok/build` fails and `git log -1 --oneline` is still `347aea5`:
-
-- Fetch the bundle Alexey has (`git fetch grok-build.bundle grok/build:grok/build`), or
-- Stop and tell him you do not have the tree. Do not review against `origin/main`. Do not invent the branch.
-
-Once the tree is present (`d9d2276` or later):
+`origin/main` and `origin/grok/build` are the build (`129136e` at push). The GitHub repo is still **public** — flip it private. If this clone is behind:
 
 ```bash
-git checkout grok/build
+git fetch origin
+git checkout main
+git pull origin main
 git checkout -b cursor/images
 python3 scripts/wxr-extract.py --uploads wp-content/uploads
 # must print: assertions failed: 0

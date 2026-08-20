@@ -4,7 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Grok (session 08) · next action: **`main` locally = `d9d2276` (12 commits ahead of origin). Not pushed — remote still public. Paste `workorders/cursor-kickoff.md` into Cursor after that machine has this tree (bundle or a later private push).**
+Last updated: **2026-08-20** · by: Grok (session 08) · next action: **`origin/main` is `129136e`. Cursor: `git pull` then paste `workorders/cursor-kickoff.md`. Repo is still public — flip it private.**
 
 ---
 
@@ -36,7 +36,7 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | **Grok Phase G.** 37 301s, 11 SKIP never redirected, 25 REVIEW 404, 2×410, metadata, JSON-LD, sitemap/robots, consent banner (IDs null) | `middleware.ts`, `lib/redirects.ts`, `lib/seo.ts`, `content/copy/redirects.json`, `content/findings/legacy-review-rows.md` |
 | 2026-08-20 | **Grok Phase H.** Gate table. F still blocked. `npm run build` not run (dev on 8080) | `workorders/handoffs/grok-2026-08-20-h.md` |
 | 2026-08-20 | **Cursor kickoff.** Handoff rewritten for A–E/G/H. Paste-ready prompt. `grok/build` still not on origin | `workorders/cursor-kickoff.md`, `workorders/handoff-to-cursor.md` |
-| 2026-08-20 | **Local `main` fast-forwarded** to `d9d2276` (A–H + kickoff). `origin/main` still `347aea5`. Not pushed | this file |
+| 2026-08-20 | **Pushed** `main` and `grok/build` to origin at `129136e`. Repo still **public** | https://github.com/scherzo-io/sl |
 
 ## In flight
 
