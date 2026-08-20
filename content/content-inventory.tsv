@@ -1,0 +1,67 @@
+wp_id	slug	title	category	location_live	size_sqft_live	role_raw_live	roles_atoms	designer_live	architect_live	architect_status	images	hero_capable	featured_in_gallery	in_workbook	sub_category	status	conflicts
+433	grand-ole-opry-city-stage	Grand Ole Opry City Stage	commercial	Times Square	22000	Construction Manager	CM	Morris Nathanson Interior Design	SWA architecture	ok	11	YES	yes	yes		live	site template hides architect (ACF has SWA architecture)
+436	sugar-cane-raw-bar-and-grill	Sugarcane Raw Bar And Grill	commercial	Brooklyn	12500	General Contractor + Millwork	GC+MW	CetraRuddy Design	Lawrence Jones Architecture	ok	9	no	yes	yes	Nightlife & Events	live	
+439	boqueria-restaurant	Boqueria Restaurant	commercial	Midtown	10500	General Contractor	GC	Studio Razavi	Bill White	ok	9	YES	yes	yes	Restaurants & Bars	live	location(wb Midtown vs deck Times Square vs live?)
+443	mint-kitchen-restaurant	Mint Kitchen Restaurant	commercial	West Village	4000	General Contractor	GC	Creme	MZA Architecture	ok	27	YES	yes	yes		live	
+491	kat-theo	Kat &#038; Theo	commercial	Flatiron District	2300	General Contractor + Millwork	GC+MW	Aviva Collective	Claudia Pinto	ok	10	YES	yes	yes		live	size(wb+live 2300 vs deck 2500)
+494	vivvi-daycare-tribeca	ViVVI Daycare Tribeca	commercial	Tribeca	10000	General Contractor	GC	Eleven of Eleven architecture	Carol Gretter	ok	13	YES	yes	yes		live	
+503	free-people-retail-store	Free People Retail Store	commercial	Meatpacking District	7000	Carpentry + Finishes	CP+FN	David Levy Design	David Levy Architecture	ok	6	no	NO	yes		live	
+506	spring-studios-spring-place	Spring Studios, Spring Place	commercial	Tribeca	15000	General Contractor	GC	Bluarch Design	Antonio DiOronzo	ok	12	no	yes	yes		live	
+509	burger-lobster	Burger &#038; Lobster	commercial	Bryant Park	8500	General Contractor + Millwork	GC+MW	MZA Architecture	Design LSM	ok	7	no	yes	yes		live	designer/architect suspected swap (wb+deck)
+512	momofuku-ko	Momofuku KO	commercial	Bowery	4500	General Contractor	GC	Richard Lewis design	Richard Lewis Architecture	ok	8	no	yes	yes		live	
+517	hudson-street-penthouse	Hudson Street Penthouse	residential	Tribeca	3500	Millwork + Finishes	MW+FN	Alex May	212Box Architecture	ok	10	no	NO	yes		live	
+520	tribeca-loft	Tribeca Loft	residential	Tribeca	2500	Millwork + Finishes	MW+FN	Bore		missing	6	YES	yes	yes		live	
+523	madison-ave-duplex-2	Madison Ave Duplex	residential	Murray Hill	3400	General Contractor + Millwork	GC+MW	Lynch Eisinger Design	Christian Lynch	ok	6	no	NO	yes		live	
+527	1st-ave-apt	1st Ave Apartment	residential	Murray Hill	2000	General Contractor + Millwork	GC+MW	Lua Scremin	SWA Architecture	ok	7	no	yes	yes		live	
+531	st-lukes-place-townhouse	St. Lukes Place townhouse	residential	West Village	5500	General Contractor	GC	Barlis Wedlick	Barlis Wedlick	ok	17	YES	NO	yes		live	
+534	thompson-st-studio	Thompson St. Studio	residential	SOHO	600	General Contractor + Millwork	GC+MW	Efrain Perez	SWA Architecture	ok	5	YES	yes	yes		live	
+537	west-23rd-townhouse-2	West 23rd St. Townhouse	residential	Chelsea	2200	General Contractor + Millwork	GC+MW	Tersigni Palachek Design	Tersigni Palachek Design	ok	9	no	NO	yes		live	
+540	e63-st-penthouse	e63rd st Penthouse	residential	Lenox Hill	1700	General Contractor + Millwork	GC+MW	Jennifer Aderholdt Design	SWA Architecture	ok	5	NO — worst	yes	yes		live	
+546	versa-marriott	Versa at the Marriott Renaissance	commercial	Herald Square	18000	Construction Manager	CM	Celano Design	SRAA architecture	ok	9	YES	yes	yes		live	
+549	gunter-seeger	Gunter-Seeger	commercial	West Village	3300	General Contractor + Millwork	GC+MW	AWI Interiors	MZA Architecture	ok	7	no	yes	yes		live	
+552	duane-street-penthouse	Duane Street Penthouse	residential	Tribeca	4000	General Contractor	GC	Dean Winters and Diana Gomez	SWA Architecture	ok	42	YES	yes	yes		live	
+555	indeed-corporate-office-suite	Indeed Corporate Office Suite	commercial	Midtown	36000	Carpentry + Millwork	CP+MW	Indeed corporate		missing	13	YES	NO	yes		live	location(wb Midtown vs deck Tribeca)
+558	autrium-corporate-office	Atrium Corporate Office	commercial	NoHo	5000	General Contractor + Millwork	GC+MW	Sam Ben avraham	Bang 3 Design	ok	5	no	NO	yes		live	
+561	kith	KITH	commercial	NoHo	7500	General Contractor	GC	Snarkitecture	Snarkitecture	ok	35	YES	yes	yes	Retail & Showrooms	live	
+564	upper-east-side-townhouse	Washington Sq. Dermatology	commercial	West Village	2500	General Contractor	GC	Samer Jaber	Walter Scott Architecture	ok	5	no	yes	yes		live	identity: is Washington Sq. Dermatology, mislabeled slug (wb note)
+567	horatio-st-townhouse	Horatio St. Townhouse	residential	Meat Packing District	3200	General Contractor + Millwork	GC+MW	Tersigni Palachek Design	David Bae Architect	ok	16	no	yes	yes		live	
+570	69th-st-townhouse	69th St Townhouse	residential	Upper West Side	6000	General Contractor + Millwork	GC+MW	Fury Design	Adi Gershoni	ok	14	YES	yes	yes		live	
+1835	lexington-ave-townhouse	Lexington Ave Townhouse	residential	Upper East Side	4500	General Contractor	GC	Salvatore LaRosa	B5 Studio Architects	ok	13	NO — worst	yes	yes		live	
+1907	sullivan-st-duplex-2	Sullivan St duplex	residential	SOHO	6000	Millwork + Finishes	MW+FN	Butter and Eggs Design	Michael Tower Architecture	ok	16	YES	yes	yes		live	
+1931	mackage-soho	Mackage SoHo	commercial	SoHo	4500	General Contractor	GC	Burdifilek		missing	11	YES	yes	yes		live	
+2306	e64-st-townhouse	e64th St Townhouse	residential	Lenox Hill	3800	General Contractor	GC	Virginia Tupker Interiors	MZA Architecture	ok	30	no	yes	yes		live	
+2345	motel-23-lounge	Motel 23 Lounge	commercial	Chelsea	3500	General Contractor	GC	Colin Fuda	Atelier New York	ok	18	no	yes	yes		live	
+2366	wainscott-east-hampton-residence	Wainscott, East Hampton Residence	residential	Wainscott, East Hampton	3200	Construction Consultant	CS	Nathalie Akiya Design		missing	15	YES	yes	yes		live	
+2384	ground-central-coffee-company	Ground Central Coffee Company	commercial	Murray Hill	550	General Contractor	GC	Daniel O'Connor Architects	Daniel O'Connor Architects	ok	9	no	yes	yes		live	
+2396	84th-st-townhouse	84th st townhouse	residential	Jackson Heights	2200	General Contractor	GC	Nathalie Akiya Design	SWA Architecture	ok	9	YES	yes	yes		live	
+2409	upper-west-side-apartment	Upper West Side Apartment	residential	Upper West Side	1400	General Contractor	GC	Yael and Ori Morag	MZA Architecture	ok	8	no	yes	yes		live	
+2425	my-darling-ivy	My Darling Ivy	commercial	Chelsea	1500	General Contractor	GC	VJ Moscaritola	Studio Stigsby	ok	32	no	yes	yes		live	
+2504	12th-st-townhouse-greenwich-village	12th st townhouse	residential	Greenwich Village	7000	Carpentry Millwork + Finishes	CP+MW+FN	Elisabeth de Kergorlay	Jacobson Sonoba	ok	12	NO — worst	yes	yes		live	
+2520	haus-nightclub	Haus Nightclub	commercial	Lower Manhattan	5500	General Contractor	GC	John Rawlins Design	SWA Architecture	ok	11	no	yes	yes		live	
+2838	53rd-st-studio	53rd st studio	residential	Hell's Kitchen	750	General Contractor	GC	LDN interiors	Lynh Nguyen	ok	16	YES	yes	yes		live	
+2842	riverside-drive-apartment	Riverside Drive Apartment	residential	Morningside Heights	2900	General Contractor	GC	Samantha Orley Interiors	MZA Architecture	ok	12	YES	yes	yes		live	
+2847	warren-st-apt	WARREN ST APT	residential	Tribeca	2600	General Contractor	GC	Current Interiors	Michael Tower Architecture	ok	18	no	yes	yes		live	
+2850	hudson-yards-mall	Hudson Yards Mall	commercial	Hudson Yards	3500	General Contractor	GC	Jack Mazzolla		missing	18	YES	yes	yes		live	
+2853	vivvi-daycare-hudson-yards	Vivvi Daycare Hudson Yards	commercial	Hudson Yards	7500	General Contractor	GC	Eleven of Eleven design	Carol Gretter Elven of Eleven architecture	ok	33	YES	yes	yes		live	
+2860	wyckoff-townhouse	Wyckoff Townhouse	residential	Boerum Hill	4500	General Contractor	GC	Current Interiors	Rachel Kane & Xandro Aventajado	ok	12	YES	yes	yes		live	
+3349	mexicue	Mexicue	commercial	NoHo	3500	General Contractor	GC	Treehouse Designs	SWA Architecture	ok	19	YES	yes	NO		live	location(wb NoHo=live vs deck Chelsea)
+3364	w23rd-st-duplex	w23rd st duplex	residential	Chelsea	1850	General Contractor	GC	Patricia Pericas	Studio MDA	ok	10	no	yes	NO		live	
+3392	11th-ave-apt	11th ave Apt	residential	West Village	2200	General Contractor	GC	Cetra Ruddy	Cetra Ruddy	ok	18	YES	yes	NO		live	
+3432	700-park-ave	700 Park Ave	residential	Upper East Side	2800	General Contractor	GC	Irene Pappas	Jorge Porta GDSNY architecture	ok	18	YES	NO	NO		live	size(wb 2100 vs live 2800); designer(wb Griffin/Jorge Porta vs live Irene Pappas); architect(live Jorge Porta GDSNY)
+3451	bad-roman-columbus-circle-mall	Bad Roman	commercial	Columbus Circle Mall	12500	General Contractor/Design Build	GC+DB	Michael Stillman	GRT Architects LLP	ok	47	YES	yes	NO		live	size(wb 12500=live vs deck 11200); role(deck+live DB vs wb GC); location(wb UWS vs live+deck Columbus Circle)
+3454	92-laight-st	92 Laight St	residential	Tribeca	2400	General Contractor	GC	Holly Jonsson Design	None Involved	pseudo-blank	19	YES	yes	NO		live	
+3467	ketchy-shubby	Ketchy Shuby	commercial	SoHo: 406 Broome St	7500	General Contractor	GC	Dimitri Hyacinthe Interiors	RIP Consulting Steve Salveson	ok	23	YES	yes	NO		live	
+3487	40-e66th-st	40 e66th st	residential	Upper East Side	2803	General Contractor	GC	Ximena Rodriguez of CR	Cetra Ruddy	ok	19	YES	yes	NO		live	size(wb 2200 vs live 2803); designer(wb Cetra Ruddy vs live Ximena Rodriguez of CR)
+3490	652-hudson-st	652 Hudson st	residential	Meatpacking District	1800	General Contractor	GC	Angela Redei	Built In Studios	ok	21	YES	yes	NO		live	
+3493	momofuku-noodle-bar-171-1st-ave	Momofuku Noodle Bar	commercial	East Village	3500	General Contractor	GC	Richard Lewis	Richard Lewis	ok	16	YES	yes	NO		live	size(wb 4200 vs live 3500)
+3496	262-mott-st	262 Mott St	residential	SoHo	1598	General Contractor	GC	Matthew Weiner	None Involved	pseudo-blank	22	YES	yes	NO		live	size(wb 1400 vs live 1598)
+3946	795-5th-ave-the-pierre	795 5th ave The Pierre	residential	5th Ave	1500	General Contractor	GC	Ryan Korbin Studios	Built-in Studios	ok	16	YES	yes	NO		live	
+3966	lantern-house	Lantern House	residential	Chelsea	4200	General Contractor	GC	Catalina Castaneo interiors	None	pseudo-blank	16	YES	yes	NO		live	
+		Twinta														pipeline — no content	promised Jul 10 call
+		218 Carlton Ave Townhouse														pipeline — no content	promised Jul 10 call
+		870 UN Plaza														pipeline — no content	workbook pipeline row
+		149 Madison Ave														pipeline — no content	workbook pipeline row
+		220 W 19th St — Covision Corporate Office														pipeline — no content	workbook pipeline row
+		144 W 23rd St														pipeline — no content	workbook pipeline row
+		514 Broadway Loft														pipeline — no content	workbook pipeline row
+		Chaps & Co Men's Barber Shop														pipeline — no content	workbook pipeline row

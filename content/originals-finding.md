@@ -44,7 +44,16 @@ So hero-capability stays at roughly 34 of 58. What changes is that those 34 go f
 
 ## Also worth knowing
 
-The library holds **1,744 images but only 938 are attached to projects** — roughly 800 unattached. Could be alternate takes, unused shoots, or junk. Worth a look before assuming a project's photography is limited to what's currently linked.
+The library holds **1,744 images, of which 887 unique files are referenced by projects** —
+roughly 857 unreferenced. Could be alternate takes, unused shoots, or junk. Worth a look
+before assuming a project's photography is limited to what's currently linked.
+
+> Corrected 2026-08-20 (REST-verified). This section originally said "938 attached" — that
+> was 880 gallery references + 58 featured references without dedupe. In reality **featured
+> images are usually inside their project's gallery, but not always**: 8 projects have a
+> featured image outside their own gallery (Free People, Hudson St Penthouse, Madison Ave
+> Duplex, St Luke's Place, West 23rd Townhouse, Indeed, Atrium, 700 Park Ave), and 7 of those
+> files appear in no gallery at all. 880 + 7 = **887 unique referenced files**.
 
 ## How we use them — no download needed
 
@@ -57,7 +66,10 @@ That avoids a ~1.5 GB local download entirely. The one thing worth doing anyway 
 
 ## Migration rule: what "attached" means
 
-**Decision: migrate only images used by a project. 880 in, 864 dropped.**
+**Decision: migrate only images used by a project — `project_gallery` ∪ `_thumbnail_id` =
+887 in, ~857 dropped.** (Corrected 2026-08-20; the earlier "880 in, 864 dropped" assumed
+featured ⊆ gallery, which is false for 8 projects and would have silently dropped 7 featured
+images — including hero sources.)
 
 One trap to avoid. WordPress has its own `post` field recording which post an attachment was uploaded to — and it disagrees with reality here:
 
@@ -71,8 +83,16 @@ Those 137 are live project photography — they show on the site right now — b
 
 So the filter is **"referenced by ACF `project_gallery` or `_thumbnail_id`"**, never WordPress's attachment parent. Filtering on `post` would silently drop 137 real photographs and nobody would notice until a gallery looked short.
 
-Genuinely unused: **864 of 1,744** library images are referenced by no project. Those are out of scope.
+Genuinely unused: **~857 of 1,744** library images are referenced by no project. Those are
+out of scope. (The 1,744 library total is measured-from-live 19 Aug via the authenticated
+media endpoint and not yet reproducible from this repo — the manifest script re-verifies both
+totals at migration time.)
 
 ## Reproducing the manifest
 
-Requires an authenticated session (the media endpoint returns empty anonymously). `scripts/build-image-manifest.mjs` in this repo regenerates the full per-image manifest — scaled URL, original URL, true dimensions — at migration time.
+Requires an authenticated session (the media endpoint returns empty anonymously).
+`scripts/build-image-manifest.mjs` regenerates the full per-image manifest — scaled URL,
+original URL, true dimensions — at migration time. **Status: not yet written** (PLAN §11
+step 4); until it exists, the 1,744 / 791 / 387 / 137 numbers above are dated live
+measurements, not repo-reproducible facts. The 880 gallery total and the 887 union ARE
+reproducible: `content/image-audit.tsv` and the anonymous posts endpoint.

@@ -182,7 +182,14 @@ Three coherent resolutions:
 2. **Red in the sidebar.** Replace the grey scrim `rgba(121,121,121,0.95)` with a near-black and put the red in the wordmark and hairlines. Keeps the format, gives Streamline its own presence.
 3. **Red-forward sidebar.** Sidebar carries brand colour properly. Furthest from the reference, most obviously Streamline, and the loudest.
 
-Contrast constraint that applies to all three: `#D42E12` measures **5.0:1 on white** (passes) and **4.2:1 on black** (fails normal text). On the dark sidebar it needs lightening to roughly `#E8492B` or it can only be used for large type and non-text elements.
+Contrast constraint that applies to all three: `#D42E12` measures **5.0:1 on white** (passes) and **4.2:1 on black** (fails normal text).
+
+> **Superseded 2026-08-20 — see PLAN §1 rows 11–12.** The brand red is now `#DA2128` (the
+> logo master's family; 4.97:1 on white), and the sidebar landed on `#1A1A1A`, not black.
+> On `#1A1A1A`, normal-size red text uses **`#E25257`** (4.62:1, AA pass); `#DA2128` is
+> allowed there for large type and hairlines only (3.51:1 ≥ 3:1). The "~`#E8492B`" suggestion
+> below this section's original text was computed against pure black and **fails AA on
+> `#1A1A1A` at 4.49:1** — do not use it.
 
 This is the one thing worth showing Eric as swatches before building anything, because all three are defensible and only he can pick.
 
