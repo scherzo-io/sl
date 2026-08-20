@@ -66,6 +66,64 @@ read. It does not help this: tinting a title card produces a dimmer title card.
 4. If Eric has no such footage, the honest answer is that the homepage is photographic and the
    video variants come off the list — which is a decision, not a failure.
 
+## Cursor addendum — 390 / 1440 / tint
+
+Looked 2026-08-20 on `localhost:8080`, direction A, tab foregrounded. Joined to the
+inventory (1024×576, titles, logo bug) and to `HomeVideo.tsx` (`bg-black/45` computes
+`oklab(0 0 0 / 0.45)`). Does not change the rule above.
+
+### Poster (ffmpeg `-ss 4`)
+
+`public/videos/reel-1.jpg` is **not** a sensible still. At t=4s the living-room frame
+already carries the full lower-third (“BUDGETING & ESTIMATING FOR / ARCHITECTS,
+DESIGNERS, AND REAL ESTATE PROFESSIONALS”) plus the STREAMLINE USA bug. That is what
+`prefers-reduced-motion` holds. `reel-2.jpg` is the same class: office lobby with the
+title boxes already on the frame (`MMERCIAL BU` / `CTS, DESI` / `TATE PROF`). Neither
+is black and neither is the end card. Both are title cards. Proposed: a later `-ss`
+only if Eric ever wants these posters to ship — do not change the script for a
+review instrument.
+
+### 1440 × 900
+
+- `?home=video-loop&d=a` — video 1024×576 into a 1240×900 slot, muted, looping,
+  overlay absent. Quiet interiors (a shower, a living room) do move nicely behind
+  the 200px sidebar. Then the burned-in **STREAMLINE / CONSTRUCTION** mark lands
+  full-bleed in the hero, a second wordmark next to the sidebar’s red one. Full
+  strength makes the footage loud; the titles make it louder.
+- `?home=video-tint&d=a` — same reel, `bg-black/45` present. The sidebar wordmark
+  and nav sit quieter. The STREAMLINE CONSTRUCTION bug is still the loudest thing
+  on the page; it is just a dimmer title card. **45% is the right number for this
+  footage.** 35% would give the bright interiors back to competing with `#DA2128`.
+  55% would grey the rooms without hiding the type. Leave `bg-black/45`.
+- `?home=video-scroll&d=a` — `HomeShell` unlocks the content pane when
+  `home === "video-scroll"` (`scroll="pane"`). `document.scrollHeight` stays 900
+  because Shell scrolls an inner pane, not the document. The wrapper is
+  `min-h-[160vh]`. I did not separately prove the pane’s scroll distance. The
+  same titles play.
+
+Does motion help this layout at all? **Only on untitled footage.** On these reels
+the answer is no, tinted or not. The stills variants remain the only shippable
+homepage.
+
+### 390 × 844
+
+`aside` `display: none`. Dark top bar, red wordmark, red hamburger, red hairline —
+joined to the Phase E check. The reel fills the rest of the short viewport.
+
+- Full strength: the burned-in STREAMLINE CONSTRUCTION & MANAGEMENT mark plus a
+  circular S bug sit under chrome that already says Streamline. Triple branding.
+  The title card eats most of the 844px.
+- 45% tint: still present (`oklab(0 0 0 / 0.45)`). It earns a little — the
+  footage is bright under a thin dark bar — but the burned-in type is now also
+  **clipped on both sides** (the screenshot reads “AMLIN” / “RUCTION & MANAG”).
+  Lower-third + mobile chrome fights worse than at 1440, tint or not.
+
+### Rule, unchanged
+
+Ship no video on this footage. 45% stays. Poster `-ss 4` is a title card; propose
+a different timestamp only if these posters ever ship. Do not upscale, crop, or
+re-encode.
+
 ## Reproducing
 
 ```bash
