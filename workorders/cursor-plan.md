@@ -186,9 +186,11 @@ Counts from the manifest, not inventory.
 
 ### Task 8: Stop protocol
 
-- [ ] `workorders/sessions/2026-08-20-cursor-06.md` from the template
-- [ ] `STATUS.md` Last updated / In flight / Next up — 404 and trailing slash are **done**
-- [ ] Commit; `git status` clean of keepers; kill 8080
+- [x] `workorders/sessions/2026-08-20-cursor-06.md` from the template
+- [x] `STATUS.md` Last updated / In flight / Next up — 404 and trailing slash are **done**
+- [x] Commit; `git status` clean of keepers; kill 8080
+
+First-wave alt stopped after `652-hudson-st` (Alexey: skip remaining alt). `check:alt` **83/887**.
 
 ---
 

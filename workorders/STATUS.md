@@ -4,10 +4,10 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Claude Code (fix session 2 — video variants + variant switcher) · next action: **Cursor —
-paste [`cursor-kickoff-2.md`](cursor-kickoff-2.md), then work from
-[`handoff-to-cursor-2.md`](handoff-to-cursor-2.md). The redirect blocker is fixed and photography
-renders; the 887 alt-text pass is the last large piece of work.**
+Last updated: **2026-08-20** · by: Cursor session 06 · next action: **continue alt at
+`40-e66th-st` (19 frames).** Photography and video findings are written. Alt is
+**83/887** (6/58 projects). The 404 blocker and trailing-slash call are **done**
+(PLAN §1 rows 33–37).
 
 ---
 
@@ -15,7 +15,7 @@ renders; the 887 alt-text pass is the last large piece of work.**
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + review on `main`; `/partners` names live, artwork empty.** Alt-text / Sanity deferred | `cursor/images` merged into `main` | 887 manifest, link-check, 30 names on wall |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + session 06 findings on `cursor/images`.** Alt **83/887** (6 projects); first-wave paused | `cursor/images` (local, not pushed) | photography + video findings; `alt-text.tsv` 83 rows |
 | **Grok** — the build | [`grok-build.md`](grok-build.md) | **A–E, G, H on `main`.** F skipped | `main` | A–E, G, H. F not started |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
@@ -47,37 +47,35 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | **Claude Code fix session 2.** Video homepage variants (tinted + untinted) staged and playing; variant switcher rebuilt with disabled-with-reason groups and a reset; homepage-video finding | `scripts/prepare-videos.mjs`, `lib/videos.ts`, `components/media/HomeVideo.tsx`, `components/review/*`, `content/findings/homepage-video-finding.md` |
 | 2026-08-20 | **Claude Code fix session.** All 73 legacy URLs resolve (111 redirect rules: 37 legacy + 58 cross-category + 16 measured REVIEW targets); 887 photographs render through `next/image` off a git-ignored symlink; trailing slash restored per row 3; alt-text gate added | `content/redirect-decisions.tsv`, `lib/photos.ts`, `scripts/link-photos.mjs`, `scripts/check-alt.mjs`, `scripts/qa-render.mjs`, `next.config.mjs`, `middleware.ts` |
 | 2026-08-20 | **Claude Code review of both lanes.** Every runnable gate re-run; Phase E reproduced in a browser; the 404 regression found by joining Cursor's production link-check to Grok's redirect table | `workorders/reviews/claude-2026-08-20.md` |
+| 2026-08-20 | **Cursor session 06.** Photography vs DESIGN §8; video 390/1440/tint; four `median_w` rows; alt started then paused | `content/findings/photography-render-finding.md`, `homepage-video-finding.md` addendum, `median-w-finding.md`, `content/images/alt-text.tsv` (83/887), `workorders/sessions/2026-08-20-cursor-06.md` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
-| Cursor | idle | 2026-08-20 | Names on the wall; artwork empty |
+| Cursor | session 06 done | 2026-08-20 | Findings landed. Alt paused at 83/887 |
 | — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 6 defects, 3 nits. Nothing patched |
 | — | fix session 2 | done 2026-08-20 | Homepage video variants play for real (`video-loop` full strength, `video-tint` under 45% black); variant switcher rebuilt — it was inert under Archive and blank on video, both fixed, plus Reset. **New finding: both reels carry burned-in titles + a logo bug, so nothing ships on this footage** (`homepage-video-finding.md`). PLAN §1 rows 40–42 |
 | — | fix session | done 2026-08-20 | 404 blocker closed (all 73 legacy URLs → 200, production's exact targets, one hop); photography wired and rendering; trailing slash restored; PROGORE, flags.json and the unrunnable QA scripts fixed. PLAN §1 rows 33–39 |
-| Cursor | 887 alt-text pass | next | [`handoff-to-cursor-2.md`](handoff-to-cursor-2.md) §3.1. Gate: `npm run check:alt`, 0/887 today |
+| Cursor | 887 alt-text pass | paused 2026-08-20 | `npm run check:alt` → **83/887** (6/58). Resume at `40-e66th-st` (19). Log: [`sessions/2026-08-20-cursor-06.md`](sessions/2026-08-20-cursor-06.md) |
 | — | branch audit | done 2026-08-20 | review §9. All six refs are ancestors of `main`; **nothing stranded**. `origin/workorders/lane-scope-and-status` is merged and deletable; `origin/cursor/images` and `origin/grok/build` are behind `main` — fast-forward before resuming either lane |
 
 ## Next up
 
-1. **Alexey — the redirect decision (blocker for cutover).** Review §1b of
-   [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). All 73 legacy URLs resolve on
-   production today; **32 of them 404 on the new build** (25 REVIEW rows + 7 cross-category SKIP
-   paths). The targets are not unknown — production supplies all 25, and `_wp_old_slug` in the
-   committed WXR reproduces the mapping offline. Assign the fix and the owner.
-2. **Alexey — the trailing-slash call.** The build drops it; PLAN §1 row 3 says "exactly". Either
-   `trailingSlash: true` or a superseding row.
-3. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
+1. **Cursor — remaining alt.** Resume at `40-e66th-st` (19 frames), then the rest of the
+   first-wave unusable set, then the other 44 live projects. Gate: `npm run check:alt`
+   (today **83/887**). Do not invent rows to turn it green.
+2. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
    public remote. Send [`content/eric-email.md`](../content/eric-email.md). Video **masters**, not
-   the WhatsApp reels (1024×576, audio, end logos, one watermarked frame — unusable for the
-   variants). Then hosting + per-variant mapping.
-4. **Whoever is assigned:** the four one-liners — `PROGORE` → `Procore` in
-   `content/copy/proof-points.json`; two stale `flags.json` `emptyUntilCursor` entries; and either
-   add `playwright` or delete `scripts/qa-*.mjs`, which cannot run as committed.
-5. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project. 887 alt-text is Cursor,
-   later. `lib/projects.ts` should adopt hero 35/58 inside F.
+   the WhatsApp reels (1024×576, burned-in titles + logo bug — unusable). Then hosting +
+   per-variant mapping.
+3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project.
+   `lib/projects.ts` should adopt hero 35/58 inside F (C-2). Proposed hero overrides
+   (Spring 1902, Free People 1022, Kith judgment) stay in the session log until Alexey wants
+   a column.
+
+The 404 blocker and trailing-slash call are **done** (PLAN §1 rows 33–37). Do not re-open them.
 
 ## Blocked, and on whom
 
@@ -99,7 +97,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | 5 · deck transcription | ✅ raw OCR · 🟡 ship-strings corrected (`deck-corrections.tsv`); testimonials not visually verified (REFERENCES pages skipped) | Cursor |
 | 6 · scaffold | ✅ Phase B landed 2026-08-20 | Grok |
 | 7 · page copy, logo wall, testimonials | 🟡 copy assembled; 30 names on the wall; artwork still an ask (decks cannot supply it) | Grok + Cursor |
-| 7b · photography | ✅ **887 frames render** — measured originals via `next/image`, heroes scored, ragged wall, nothing committed. 🟡 **alt text 0/887** | Claude + Cursor |
+| 7b · photography | ✅ **887 frames render** — measured originals via `next/image`, heroes scored, ragged wall, nothing committed. 🟡 **alt text 83/887** (6/58; paused mid first-wave) | Claude + Cursor |
 | 8 · Directions A, B, C + variants | ✅ Phase E landed 2026-08-20 | Grok |
 | 9 · Eric picks a direction | 🟡 unblocked on 8; waiting on Eric looking at the three | — |
 | 10 · migration into `staging` | 🔒 blocked on 3 + Sanity project + ingest scripts | Grok |
