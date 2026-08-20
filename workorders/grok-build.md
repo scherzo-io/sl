@@ -9,6 +9,22 @@ upload. That is Cursor's (`cursor-images.md`), and it is running in parallel.
 Read `workorders/README.md` §1 first — the read order and the rules binding both lanes are
 there and are not repeated here.
 
+> **Changelog — 2026-08-20b, added after this lane started.** Additive only; nothing already
+> in this file was retracted. Re-read this block at your next phase gate.
+> 1. **§8 progress protocol** — commit at checkpoints, write a session log, update
+>    `workorders/STATUS.md` before you stop. This is how the project survives a session ending.
+> 2. **§9 handoffs** — at each phase gate, write `workorders/handoffs/grok-<date>.md`. Cursor
+>    reviews it adversarially and reproduces your gate claims locally.
+> 3. **Work that needs this machine moved to Cursor** and now arrives as an input rather than a
+>    gap: the partner firm-name manifest, deck-OCR corrections, the live link-check sweep, the
+>    logo raster set, and the on-screen render/keyboard verification. Marked inline in phases D,
+>    E and G below.
+> 4. **2026-08-20c, two measured corrections:** the deck pages are flattened rasters, so the
+>    partner logo *artwork* cannot come from them at all — names and layout only (Phase D,
+>    `content/findings/deck-raster-finding.md`); and there are zero video files anywhere on the
+>    machine, so two homepage variants stay declared-but-empty until Alexey supplies them
+>    (Phase E).
+
 ---
 
 ## 1. Mission
@@ -80,7 +96,7 @@ one sitting, defaults proposed where a default is defensible.
 
 Must cover:
 
-1. The 20 rows of `source-conflicts.md` section A. Group them so he can rattle through:
+1. The 21 rows of `source-conflicts.md` section A (row 21 is the WP 558 typo, added 20 Aug). Group them so he can rattle through:
    the six size/credit disagreements where live and workbook agree (1, 5, 10–15), the three
    where the deck is the lone outlier (7, 8, 9), the Bad Roman cluster (1–4), and the ones
    needing a real decision (6 Burger & Lobster's suspected designer/architect swap, 18 the
@@ -92,7 +108,9 @@ Must cover:
 3. Content or kill for the 8 pipeline projects, Twinta especially — it exists only in the
    July 10 transcript, so nothing can be written without him.
 4. Vector logo. Only a 2048×566 PNG exists.
-5. Video files without end logos, and where he wants them hosted.
+5. Video files without end logos, and where he wants them hosted — **but ask Alexey before you
+   write this one**: Cursor is chasing him for the files directly (PLAN §1 row 32), so this may
+   already be answered, or may need to be sharper than "please send video".
 6. **WP 564** — confirm the slug correction to `/commercial/washington-sq-dermatology/`. Worth
    telling him it is not a new name: it is that project's own former URL, still in WordPress's
    history, and the post is already titled "Washington Sq. Dermatology".
@@ -180,10 +198,23 @@ TypeGen pass. Schema *deploy* is blocked — no Sanity project exists yet
   in the commercial deck, including the architect voice (Antonio Di Oronzo, Bluarch — one
   canonical spelling, not "DiOronzo"). "Mercer St Loft Owners" has no matching project
   anywhere — conflicts row 18, Eric's call, so leave it flagged and unpublished.
-- **Partners**: the ~30 firm marks on commercial deck p42. The OCR gives you most of the
-  names, mangled — treat every one as unverified until a human confirms the spelling. The
-  logo *images* are inside a PDF that is deliberately not in this repo, so the wall cannot be
-  finished here: build the type and the layout, and list what's missing.
+- **Partners**: the ~30 firm marks on commercial deck p42. **Updated 2026-08-20b —** Cursor
+  now extracts the marks from the PDF locally and reads the firm names off the page, landing
+  them in `content/images/partners/` with a manifest of verified spellings. **Corrected
+  2026-08-20c — the artwork does not exist in a usable form.** Every deck page is a single
+  flattened raster (p42 is one 1020×1320 JPEG, 97 KB), so each mark is a ~170px region of a
+  low-resolution scan. What you get is the **verified firm-name manifest** plus
+  not-for-publication reference crops; publishable marks must come from each firm's press kit or
+  from Eric. **Build the wall's type and layout against the name manifest and leave the artwork
+  slot visibly empty.** Never publish a name straight from the OCR, and never trace, upscale or
+  generate a third-party logo. `content/findings/deck-raster-finding.md`.
+- **Deck strings — updated 2026-08-20b.** Cursor is verifying the strings that will actually
+  ship against the page images and filing `content/deck-corrections.tsv` (OCR string →
+  corrected string, page, confidence). Apply those corrections; do not publish raw OCR,
+  especially the proof points and testimonial attributions.
+- **Logo — updated 2026-08-20b.** An interim raster set (trimmed, transparent, retina, plus a
+  light-on-dark treatment for the sidebar) arrives from Cursor at `content/images/brand/`. A
+  vector is still pending Eric; do not trace or regenerate one.
 - **`siteSettings`**: address 483 10th Ave, Suite 205, New York 10018. Phone is pending Phase
   A question 8 — leave the field empty rather than choosing a number, and never render an
   empty field as a placeholder.
@@ -212,8 +243,13 @@ All three built fully, not sketched, with the variants switchable:
   wall as ambient proof, services demoted to one supporting page.
 
 Variants, switchable: homepage ×4 (non-scrolling video loop · non-scrolling rotating stills ·
-scrolling video hero · single still — the video ones are blocked on files), nav ×4,
-testimonials ×4.
+scrolling video hero · single still), nav ×4, testimonials ×4. **Updated 2026-08-20b/c:** the
+local dump contains **zero video files** of any format, so the two video homepage variants
+cannot be built or even mocked until files arrive — build the two stills variants, and leave the
+video ones as declared-but-empty rather than faking a placeholder loop. Cursor is asking Alexey
+for the files directly (PLAN §1 row 32); if the answer is self-hosted rather than YouTube, the
+`video` doc type's YouTube-ID shape in PLAN §8 needs revisiting, so treat that as a schema
+question you may get handed.
 
 Project detail in every direction: full-bleed lightbox inside the persistent sidebar, thin
 chevron paging, title bottom-left, × close, ⌃ expand → panel with location · sq ft · role ·
@@ -222,7 +258,9 @@ designer · architect (only when present) · description.
 Gate (DESIGN §10): all three render at 390 / 768 / 1440; lightbox fully keyboardable — Esc
 closes, arrows page, focus trapped, title announced; visible focus states on nav, filter,
 lightbox controls and the RFP form; `prefers-reduced-motion` respected; body never below 16px;
-AA contrast using only the §2 tokens.
+AA contrast using only the §2 tokens. **Updated 2026-08-20b:** Cursor re-runs these on a real
+screen and keyboard as part of reviewing your handoff — state your gate results as claims it
+can reproduce, and say which ones you could not verify yourself rather than asserting them.
 
 ### Phase F — Migration · PLAN §11 step 10 · blocked on Phase A + a Sanity project
 
@@ -264,7 +302,10 @@ This is bigger than PLAN §9 knew. Read `content/findings/legacy-slugs-finding.m
 - `LocalBusiness` + `GeneralContractor` JSON-LD, 483 10th Ave Ste 205, NY 10018. Sitemap and
   robots.
 - Link-check old vs new before cutover, and give every one of the 73 legacy rows a live `HEAD`
-  — the table is a work list, not a verified set.
+  — the table is a work list, not a verified set. **Updated 2026-08-20b:** the live sweep is
+  Cursor's (it runs from the machine), landing dated results in `content/link-check/<date>.tsv`
+  — including confirmation that each of the 11 `SKIP` rows serves 200 as its own live project.
+  Consume that file; don't hammer production yourself.
 - GA4 · Search Console · Meta pixel · LinkedIn tag, behind a **consent banner**: minimal,
   bottom-anchored. It is a visible cost of the retargeting decision, not an afterthought.
 
@@ -325,3 +366,41 @@ From CLAUDE.md, the gates that are yours:
 3. Blocked on a person → `workorders/README.md` §5. Note it, finish everything that isn't
    blocked, and list what you left out. Scaling the work down is Alexey's call, not yours.
 4. A rule in §5 makes the work impossible → stop and say so rather than routing around it.
+
+## 8. Progress protocol — added 2026-08-20b, non-negotiable
+
+The point is that Alexey can come back after a week and see exactly where things stand,
+without you being there to explain it.
+
+- **Commit at every checkpoint**, not at the end of a phase. A working scaffold, a schema type
+  that compiles, a page whose copy is assembled — that is a commit.
+- **Before you stop**, three things: commit; write
+  `workorders/sessions/<date>-grok-NN.md` from the template in that directory; update
+  `workorders/STATUS.md` (**Last updated**, **In flight**, **Next up**, and your lane's row).
+- **Nothing important stays in chat.** Findings go to `content/findings/`, decisions into your
+  session log as *proposed* PLAN §1 rows, numbers into a committed file with a reproduction
+  command. If it only exists in a conversation, it is already lost — that has happened on this
+  project once (COWORK.md §0), and it cost the entire 19 Aug document merge.
+- **Say what you skipped**, in the session log, every time. A silent gap reads as done.
+
+## 9. Handoffs — added 2026-08-20b
+
+At each phase gate, write `workorders/handoffs/grok-<date>.md`. Cursor reviews it — and it
+reviews adversarially, reproducing your claims locally rather than reading them, because it is
+the lane that can run the build on a real screen and keyboard.
+
+Make that review cheap and honest:
+
+- **State gate results as reproducible claims**, each with the command that produces it. "Build
+  clean" is not a claim; `npm run build` with its output is.
+- **Separate what you verified from what you asserted.** Anything you could not check yourself
+  — rendering at three widths, keyboard behaviour, contrast on real pixels — say so plainly and
+  hand it over as unverified. Asserting it and being wrong costs far more than flagging it.
+- **List every skip and every guess**, including fields you deliberately left empty because a
+  conflict row or a blocked decision wasn't resolved. Those are the right call; hiding them
+  isn't.
+- **Name the files you touched** outside the obvious, and any place you came close to the
+  ownership boundary in `README.md` §2.
+- Expect the review to come back as a file of its own under `workorders/reviews/`, one row per
+  claim: confirmed / not reproduced / contradicted. Disagreeing with a finding is fine — do it
+  in writing, in the repo.
