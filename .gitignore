@@ -1,0 +1,22 @@
+# OS junk
+.DS_Store
+
+# WordPress dump — ~11 GB, must never reach GitHub (100 MB file cap, 1 GB free LFS)
+wp-content/
+
+# Dependencies & build output (Phase 0 scaffold)
+node_modules/
+.next/
+out/
+dist/
+
+# Environment & secrets
+.env
+.env.*
+
+# Sanity
+.sanity/
+
+# Logs
+*.log
+npm-debug.log*
