@@ -51,9 +51,10 @@ invalidates a decision gets a new PLAN §1 row, not an edit.
   ownership content never enter this repo, the CMS, the site, commit messages, or any
   document that could reach a third party. The repo has a GitHub remote — assume it can leak.
 - **Deck REFERENCES block** (architect direct contacts): never into the repo or the site.
-- **The two rescued 19 Aug drafts** (`streamline-redesign-plan.md`, `build-brief.md`) quote
-  call-level commercial detail. They live outside the repo until Alexey explicitly decides to
-  archive them (strip the commercial lines first if so).
+- **The two rescued 19 Aug drafts** are archived in `docs/archive/` (Alexey's call,
+  2026-08-20) with the Silver Lining engagement figures stripped. The unredacted originals
+  remain outside the repo. Anything else quoting call-level commercial detail follows the
+  same pattern: strip before it enters a repo with a remote.
 - Client photography and decks are Eric's property — fine in the repo, not for reuse elsewhere.
 
 ## 6. Session log
