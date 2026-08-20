@@ -3,6 +3,7 @@ import { HomeShell } from "@/components/shell/HomeShell";
 import { loadLiveProjects } from "@/lib/projects";
 import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
+import { primaryVideo } from "@/lib/videos";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ export default function Home() {
   const heroes = projects.filter((p) => p.heroCapable);
   return (
     <HomeShell>
-      <HomeHero projects={projects} heroes={heroes} />
+      <HomeHero projects={projects} heroes={heroes} reel={primaryVideo()} />
     </HomeShell>
   );
 }

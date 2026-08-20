@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 import { ArchiveIndex } from "@/components/media/ArchiveIndex";
 import { HeroSlot } from "@/components/media/HeroSlot";
+import { HomeVideo } from "@/components/media/HomeVideo";
 import { ProjectImageSlot } from "@/components/media/ProjectImageSlot";
 import type { LiveProject } from "@/lib/projectTypes";
-import { VIDEO_HOME } from "@/lib/review";
+import type { HomeVideo as Reel } from "@/lib/videos";
+import { TINTED_HOME, VIDEO_HOME } from "@/lib/review";
 import { useReview } from "@/components/review/ReviewProvider";
 
 function useReducedMotion() {
@@ -54,9 +56,12 @@ function RotatingStills({
 export function HomeHero({
   projects,
   heroes,
+  reel = null,
 }: {
   projects: LiveProject[];
   heroes: LiveProject[];
+  /** The staged homepage reel, or null when none is staged. */
+  reel?: Reel | null;
 }) {
   const { state } = useReview();
   const { direction, home } = state;
@@ -70,15 +75,27 @@ export function HomeHero({
   }
 
   if (VIDEO_HOME.has(home)) {
+    // No reel staged (fresh clone, or `npm run videos:prepare` never run) — the empty dark
+    // field, same as an unlinked photograph. Never a placeholder.
+    if (!reel) {
+      return (
+        <div
+          className={
+            home === "video-scroll" ? "min-h-[160vh] w-full bg-sidebar" : "h-full w-full bg-sidebar"
+          }
+        >
+          <h1 className="sr-only">Streamline USA</h1>
+        </div>
+      );
+    }
     return (
-      <div
-        className={
-          home === "video-scroll"
-            ? "min-h-[160vh] w-full bg-sidebar"
-            : "h-full w-full bg-sidebar"
-        }
-      >
+      <div className={home === "video-scroll" ? "w-full" : "h-full w-full"}>
         <h1 className="sr-only">Streamline USA</h1>
+        <HomeVideo
+          reel={reel}
+          tint={TINTED_HOME.has(home)}
+          scroll={home === "video-scroll"}
+        />
       </div>
     );
   }

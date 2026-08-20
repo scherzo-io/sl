@@ -18,9 +18,22 @@ import {
   type ReviewState,
 } from "@/lib/review";
 
+/**
+ * What the tree can actually show right now, resolved on the server: the photography dump and
+ * the staged reel are both git-ignored, so either can be absent. The review panel greys out
+ * the variants that would render an empty field rather than letting a reviewer pick one and
+ * conclude the build is broken.
+ */
+export type ReviewCapabilities = {
+  video: boolean;
+  photos: boolean;
+};
+
 type ReviewContextValue = {
   state: ReviewState;
   setReview: (patch: Partial<ReviewState>) => void;
+  reset: () => void;
+  capabilities: ReviewCapabilities;
 };
 
 const ReviewContext = createContext<ReviewContextValue | null>(null);
@@ -37,9 +50,11 @@ function persist(state: ReviewState) {
 
 export function ReviewProvider({
   initial,
+  capabilities = { video: false, photos: false },
   children,
 }: {
   initial: ReviewState;
+  capabilities?: ReviewCapabilities;
   children: ReactNode;
 }) {
   const [state, setState] = useState<ReviewState>(initial);
@@ -78,7 +93,15 @@ export function ReviewProvider({
     });
   }, []);
 
-  const value = useMemo(() => ({ state, setReview }), [state, setReview]);
+  const reset = useCallback(() => {
+    persist(REVIEW_DEFAULTS);
+    setState({ ...REVIEW_DEFAULTS });
+  }, []);
+
+  const value = useMemo(
+    () => ({ state, setReview, reset, capabilities }),
+    [state, setReview, reset, capabilities],
+  );
 
   return <ReviewContext.Provider value={value}>{children}</ReviewContext.Provider>;
 }

@@ -4,6 +4,8 @@ import { cookies, headers } from "next/headers";
 import { ConsentBanner } from "@/components/seo/ConsentBanner";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { ReviewProvider } from "@/components/review/ReviewProvider";
+import { photosAvailable } from "@/lib/photos";
+import { primaryVideo } from "@/lib/videos";
 import { parseReview, REVIEW_COOKIE } from "@/lib/review";
 import { PAGE_DESCRIPTION, SITE_ORIGIN } from "@/lib/seo";
 import { site } from "@/lib/site";
@@ -47,7 +49,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" className={`${benchNine.variable} ${lato.variable}`}>
       <body className="font-body font-light antialiased">
         <JsonLd />
-        <ReviewProvider initial={initial}>
+        <ReviewProvider
+          initial={initial}
+          capabilities={{ video: primaryVideo() !== null, photos: photosAvailable() }}
+        >
           {children}
           <ConsentBanner initial={consent} />
         </ReviewProvider>

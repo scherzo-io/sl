@@ -89,6 +89,23 @@ for (const r of ROUTES) {
   }
 }
 
+// The homepage video variants must emit a real <video>, and the tinted one an overlay.
+{
+  const [loop, tint, stills] = await Promise.all([
+    get("/?home=video-loop"),
+    get("/?home=video-tint"),
+    get("/?home=still"),
+  ]);
+  const vid = (b) => (b.match(/<video/g) ?? []).length;
+  ok("video-loop plays a reel", vid(loop.body) === 1, `${vid(loop.body)} <video>`);
+  ok("video-tint plays a reel", vid(tint.body) === 1, `${vid(tint.body)} <video>`);
+  ok("video-tint lays a black over it", tint.body.includes("bg-black/45"));
+  ok("video-loop has no overlay", !loop.body.includes("bg-black/45"));
+  ok("still variant uses photography, not video", vid(stills.body) === 0);
+  const reel = await fetch(`${base}/videos/reel-1.mp4`, { headers: { range: "bytes=0-999" } });
+  ok("reel serves byte ranges", reel.status === 206, `status ${reel.status}`);
+}
+
 // The three directions and the variant switches must actually differ.
 {
   const [a, b, c] = await Promise.all([get("/?d=a"), get("/?d=b"), get("/?d=c")]);

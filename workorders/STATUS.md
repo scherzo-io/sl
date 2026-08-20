@@ -4,7 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Claude Code (fix session — blocker closed, photography live) · next action: **Cursor —
+Last updated: **2026-08-20** · by: Claude Code (fix session 2 — video variants + variant switcher) · next action: **Cursor —
 paste [`handoff-to-cursor-2.md`](handoff-to-cursor-2.md) and start the 887 alt-text pass. The
 redirect blocker is fixed and photography renders; alt text is the last large piece of work.**
 
@@ -43,6 +43,7 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | Cursor review of Grok A/E/G/H (local build + HTTP) | `workorders/reviews/grok-2026-08-20.md` |
 | 2026-08-20 | **Merge `cursor/images` → `main` (commit 1).** Artifacts on the build tree. Site behavior unchanged at that commit | this merge |
 | 2026-08-20 | **`partners.json` names filled from TSV (commit 2).** 30 names, `artwork: []`. `/partners` shows type + empty tiles | `content/copy/partners.json` |
+| 2026-08-20 | **Claude Code fix session 2.** Video homepage variants (tinted + untinted) staged and playing; variant switcher rebuilt with disabled-with-reason groups and a reset; homepage-video finding | `scripts/prepare-videos.mjs`, `lib/videos.ts`, `components/media/HomeVideo.tsx`, `components/review/*`, `content/findings/homepage-video-finding.md` |
 | 2026-08-20 | **Claude Code fix session.** All 73 legacy URLs resolve (111 redirect rules: 37 legacy + 58 cross-category + 16 measured REVIEW targets); 887 photographs render through `next/image` off a git-ignored symlink; trailing slash restored per row 3; alt-text gate added | `content/redirect-decisions.tsv`, `lib/photos.ts`, `scripts/link-photos.mjs`, `scripts/check-alt.mjs`, `scripts/qa-render.mjs`, `next.config.mjs`, `middleware.ts` |
 | 2026-08-20 | **Claude Code review of both lanes.** Every runnable gate re-run; Phase E reproduced in a browser; the 404 regression found by joining Cursor's production link-check to Grok's redirect table | `workorders/reviews/claude-2026-08-20.md` |
 
@@ -53,6 +54,7 @@ phase boundary rather than assuming what you read at the start still holds.
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
 | Cursor | idle | 2026-08-20 | Names on the wall; artwork empty |
 | — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 6 defects, 3 nits. Nothing patched |
+| — | fix session 2 | done 2026-08-20 | Homepage video variants play for real (`video-loop` full strength, `video-tint` under 45% black); variant switcher rebuilt — it was inert under Archive and blank on video, both fixed, plus Reset. **New finding: both reels carry burned-in titles + a logo bug, so nothing ships on this footage** (`homepage-video-finding.md`). PLAN §1 rows 40–42 |
 | — | fix session | done 2026-08-20 | 404 blocker closed (all 73 legacy URLs → 200, production's exact targets, one hop); photography wired and rendering; trailing slash restored; PROGORE, flags.json and the unrunnable QA scripts fixed. PLAN §1 rows 33–39 |
 | Cursor | 887 alt-text pass | next | [`handoff-to-cursor-2.md`](handoff-to-cursor-2.md) §3.1. Gate: `npm run check:alt`, 0/887 today |
 | — | branch audit | done 2026-08-20 | review §9. All six refs are ancestors of `main`; **nothing stranded**. `origin/workorders/lane-scope-and-status` is merged and deletable; `origin/cursor/images` and `origin/grok/build` are behind `main` — fast-forward before resuming either lane |
@@ -83,7 +85,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | **flip `scherzo-io/sl` private — everything is already on a public remote** · **videos: the 2 reels are 1024×576 with audio and end logos, so masters are needed, not trims — hosting and mapping still open** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · **25 REVIEW redirect targets** · analytics IDs |
+| **Alexey** | **flip `scherzo-io/sl` private — everything is already on a public remote** · **videos: both reels carry burned-in titles and a logo bug through most of their length at 1024×576 — the variants play so motion can be judged, but nothing ships on this footage. The specific ask is in `content/findings/homepage-video-finding.md`** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · **25 REVIEW redirect targets** · analytics IDs |
 
 ## PLAN §11 step tracker
 

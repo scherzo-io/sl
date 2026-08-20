@@ -1,7 +1,8 @@
 # Handoff — Cursor — after the fix session
 
 **Date:** 2026-08-20 · **From:** Claude Code · **To:** Cursor
-**Tree:** local `main`, one commit on top of `b802778`. Working tree clean, **not pushed**.
+**Revision 2** — adds the homepage video variants and the rebuilt variant switcher (§0, §3.2a, §6a)
+**Tree:** local `main`, two commits on top of `b802778`. Working tree clean, **not pushed**.
 **Supersedes:** `handoff-to-claude.md` (that job is done — see `reviews/claude-2026-08-20.md`).
 
 Paste this as your first message for a cold start. Read it, then §2 before you touch anything.
@@ -22,8 +23,10 @@ not a boundary slip. Re-read your own work order's §7 paths; they are unchanged
 | `PROGORE` → `Procore` (your correction, finally applied) | `content/copy/proof-points.json` |
 | `flags.json` no longer claims your landed work is missing | `content/copy/flags.json` |
 | The two `playwright` QA scripts replaced with one that actually runs | `scripts/qa-render.mjs` |
+| **Homepage video variants now play** — `video-loop` at full strength and `video-tint` under a 45% black, plus `video-scroll`. Reels staged into a git-ignored `public/videos` | `scripts/prepare-videos.mjs`, `lib/videos.ts`, `components/media/HomeVideo.tsx` |
+| **The variant switcher rebuilt.** It read as broken for three real reasons; all three fixed | `components/review/ReviewControls.tsx`, `components/review/ReviewProvider.tsx`, `app/layout.tsx` |
 | New gate: alt-text coverage | `scripts/check-alt.mjs`, `npm run check:alt` |
-| PLAN §1 rows **33–39** record every decision above; CLAUDE.md gates reworded to match | `PLAN.md`, `CLAUDE.md` |
+| PLAN §1 rows **33–42** record every decision above; CLAUDE.md gates reworded to match | `PLAN.md`, `CLAUDE.md` |
 
 **Nothing of yours was reverted.** The manifest, checksums, link-check, partner names, brand
 sampling and deck corrections are all still exactly as you left them — and three of them turned
@@ -48,6 +51,11 @@ out to be load-bearing:
 - Do not push. Remote is public and Alexey has not flipped it.
 - Do not invent alt text to make `check:alt` pass. That gate exists to stay red until the work
   is done.
+- **Do not delete `public/videos/` expecting it to regenerate itself.** `npm run videos:prepare`
+  rebuilds it from `content/video-inventory.tsv`; without it the video variants correctly render
+  the empty field and the switcher greys them out.
+- Do not try to make the reels shippable — no upscaling, no cropping out the burned-in titles.
+  See §3.2a.
 
 ## 2. First ten minutes
 
@@ -57,6 +65,7 @@ npm run photos:link                       # public/photos -> wp-content/uploads,
 python3 scripts/wxr-extract.py            # assertions failed: 0
 npm run typecheck && npm run check:copy
 npm run redirects:build && npm run check:redirects -- --offline
+npm run videos:prepare                    # stages both reels + poster frames (ffmpeg)
 npm run build && npm run check:tokens && npm run check:alt
 npm run start &                           # :8080
 node scripts/qa-render.mjs                # all checks passed
@@ -106,6 +115,31 @@ only one that needs vision, and it now has a gate watching it (`npm run check:al
 **Fastest way to see a frame:** `open public/photos/<source_path>` from the manifest, or
 `http://localhost:8080/_next/image/?url=%2Fphotos%2F<urlencoded>&w=1200&q=75` in a browser.
 
+### 3.2a The homepage video variants — look, then tell Eric what to send
+
+Two new variants play the reels for real: `?home=video-loop` at full strength and
+`?home=video-tint` under a 45% black. The tint exists because the footage is bright and busy
+and the sidebar is not; muting it lets the red wordmark and nav read. Both are worth showing
+Eric, because they settle *should the homepage move at all* — a real question with a real answer.
+
+**What they cannot settle is which reel ships, because neither can.** Playing them full-bleed
+turned up something the inventory could not: both reels carry **burned-in marketing typography
+across the lower third** — "BUDGETING & ESTIMATING FOR / ARCHITECTS, DESIGNERS, AND / REAL
+ESTATE PROFESSIONALS" — plus a **STREAMLINE logo bug**, for most of their length, not just an
+end card. A hero carrying its own headline and logo fights a layout built around a wordmark in a
+200px sidebar over silent photography. Tinting a title card gives you a dimmer title card.
+
+Full write-up and the exact ask in `content/findings/homepage-video-finding.md`. Your job here:
+
+- Watch both variants at 390 and 1440 and say whether motion helps the design at all, tinted or
+  not. You are the lane that can watch it.
+- Check the tint value. 45% was chosen by eye against the wordmark; if 35% or 55% reads better
+  over this footage, say so with a screenshot — it is one number in `HomeVideo.tsx`.
+- Confirm the poster frame is a sensible still (it is grabbed at t=4s by ffmpeg, and it is what
+  shows under `prefers-reduced-motion`).
+- Do **not** attempt to salvage the footage. No upscaling from 1024×576, no cropping to hide the
+  titles, no re-encode. Those are all invented content in a different costume.
+
 ### 3.2 Look at what the photography actually did to the design
 
 You are the only lane that can. The build now renders real images, so several DESIGN §8
@@ -154,7 +188,7 @@ Do not work around these; note them and move on.
 | **Repo is public** | Everything reviewed and fixed is already on a public remote. Flip it private. Grok flagged this and declined to push for exactly this reason; the push happened anyway |
 | **Eric's email** | `content/eric-email.md`, drafted, unsent. 21 conflict rows, the taxonomy, pipeline content, WP 564/558, publishable phones |
 | **Sanity project + token** | Phase F cannot start. No `projectId`, no `.env`, no ingest scripts — correctly |
-| **Video masters** | The two reels are 1024×576 with audio, end logos, and a third-party watermark on one frame. Unusable for a full-bleed variant at any resolution. The two video homepage variants stay declared-and-empty |
+| **Video masters** | Worse than the inventory suggested: burned-in titles and a logo bug run through most of both reels, at 1024×576. The variants now *play*, so Eric can judge motion — but nothing ships on this footage. The specific ask (no titles, no logo bug, no end card, ≥1920, loops, audio not needed) is in `content/findings/homepage-video-finding.md` |
 | **Partner artwork** | Names render; marks cannot come from the decks at all (`content/findings/deck-raster-finding.md`) |
 | **WP 564 / WP 558** | `content/redirect-decisions.tsv` preserves today's production behaviour. When Eric confirms, flip one row and re-run `npm run redirects:build` — note production currently sends `washington-sq-dermatology` **to** `upper-east-side-townhouse`, the opposite of the planned fix |
 
@@ -175,6 +209,26 @@ project today is never redirected.** `lookupRedirect` checks live paths before t
 
 To change a target: edit `content/redirect-decisions.tsv`, run `npm run redirects:build`, run
 `npm run check:redirects -- --offline`. Never hand-edit `content/copy/redirects.json`.
+
+## 6a. The variant switcher, and why it looked broken
+
+It genuinely was, in three separate ways — worth knowing so you do not re-report them:
+
+1. **It did not look like a control.** The word "Review" sat in the sidebar footer among the nav
+   links. It is now a bordered button reading "Review options" with the current selection under
+   it ("Faithful · One photograph"), opening a 320px panel *over* the content rather than inside
+   the 200px column.
+2. **The Homepage group is genuinely inert under direction C.** Archive renders an index, not a
+   hero, so clicking those options did nothing and looked dead. The group is now disabled with
+   the legend "Homepage · not used by Archive".
+3. **Picking a video variant produced a blank screen** because no reel was staged. Unavailable
+   variants are now greyed with "no reel staged — run npm run videos:prepare", driven by
+   server-resolved capabilities (`photos`, `video`) threaded through `ReviewProvider`.
+
+Plus **Reset to defaults**, because the choice persists in `localStorage` — a reviewer who
+landed on an empty variant previously had no way back, which is most of why it read as broken.
+Esc closes the panel. If you change variants, `HOME_LABEL` and `HOME_HINT` in `lib/review.ts`
+are what a reviewer actually reads; keep them plain-language.
 
 ## 6. How photography works now
 

@@ -5,6 +5,7 @@ export const HOME_VARIANTS = [
   "still",
   "stills",
   "video-loop",
+  "video-tint",
   "video-scroll",
 ] as const;
 export type HomeVariant = (typeof HOME_VARIANTS)[number];
@@ -39,7 +40,10 @@ export const REVIEW_DEFAULTS: ReviewState = {
   testimonials: "quotes",
 };
 
-export const VIDEO_HOME = new Set<HomeVariant>(["video-loop", "video-scroll"]);
+export const VIDEO_HOME = new Set<HomeVariant>(["video-loop", "video-tint", "video-scroll"]);
+
+/** The variants that lay a transparent black over the footage to mute it (PLAN §1 row 40). */
+export const TINTED_HOME = new Set<HomeVariant>(["video-tint"]);
 
 export const DIRECTION_LABEL: Record<Direction, string> = {
   a: "Faithful",
@@ -48,10 +52,20 @@ export const DIRECTION_LABEL: Record<Direction, string> = {
 };
 
 export const HOME_LABEL: Record<HomeVariant, string> = {
-  still: "Still",
-  stills: "Stills",
-  "video-loop": "Video loop",
-  "video-scroll": "Video scroll",
+  still: "One photograph",
+  stills: "Rotating photographs",
+  "video-loop": "Video, full strength",
+  "video-tint": "Video, muted by a black tint",
+  "video-scroll": "Video, scrolling hero",
+};
+
+/** Shown under each option in the review panel so a reviewer knows what they are choosing. */
+export const HOME_HINT: Record<HomeVariant, string> = {
+  still: "The single best hero frame. Does not scroll.",
+  stills: "Hero frames drifting every 8s. Does not scroll.",
+  "video-loop": "The reel at full strength, edge to edge.",
+  "video-tint": "The same reel under a transparent black, so the wordmark and nav sit quieter.",
+  "video-scroll": "The reel as a hero you scroll past.",
 };
 
 export const NAV_LABEL: Record<NavVariant, string> = {

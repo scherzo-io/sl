@@ -18,7 +18,8 @@
     "typegen": "sanity typegen generate",
     "check:alt": "node scripts/check-alt.mjs",
     "photos:link": "node scripts/link-photos.mjs",
-    "qa:render": "node scripts/qa-render.mjs"
+    "qa:render": "node scripts/qa-render.mjs",
+    "videos:prepare": "node scripts/prepare-videos.mjs"
   },
   "engines": {
     "node": ">=22"
