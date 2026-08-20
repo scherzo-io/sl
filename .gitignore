@@ -23,3 +23,9 @@ npm-debug.log*
 
 # Python venv for the local lane (PyMuPDF, pypdf, Pillow)
 .venv/
+
+# Video binaries — never commit. Inventory lives in content/video-inventory.tsv
+*.mp4
+*.mov
+*.webm
+*.m4v
