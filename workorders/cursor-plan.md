@@ -185,6 +185,10 @@ No re-do loops. Parent merges, commits, updates STATUS + session log.
 Watch `workorders/handoffs/` and `grok/build`. Do not edit Grok-owned paths.
 Alt-text batches are a separate follow-on if idle time stretches.
 
+**Do not write a review, and do not hand back to Claude Code, until a
+`workorders/handoffs/grok-*.md` file exists.** A missing handoff is not a
+reviewable claim. (A 2026-08-20 empty review was written and then deleted.)
+
 ---
 
 ## Phase 3 — Grok handoff review (light)
