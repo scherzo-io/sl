@@ -33,12 +33,12 @@ git log --oneline -5
 cat workorders/STATUS.md
 ```
 
-`grok/build` is **not on GitHub** (remote is public; neither lane pushes). `main` / `origin/main` is `347aea5` and does **not** contain the site. If `git rev-parse grok/build` fails:
+`grok/build` and **local `main`** are the same tree. **`origin/main` is still `347aea5`** and does **not** contain the site. The remote is public; neither lane pushes until Alexey flips it private. If `git rev-parse grok/build` fails and `git log -1 --oneline` is still `347aea5`:
 
 - Fetch the bundle Alexey has (`git fetch grok-build.bundle grok/build:grok/build`), or
-- Stop and tell him you do not have `grok/build`. Do not review against `main`. Do not invent the branch.
+- Stop and tell him you do not have the tree. Do not review against `origin/main`. Do not invent the branch.
 
-Once `grok/build` is present (`1c85bb9` or later):
+Once the tree is present (`d9d2276` or later):
 
 ```bash
 git checkout grok/build
