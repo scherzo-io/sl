@@ -7,6 +7,8 @@ the work.
 |---|---|---|
 | [`cursor-images.md`](cursor-images.md) | **Cursor**, running locally in `~/sl` | everything about the image set — the ~12 GB WordPress dump, the 887 referenced files, originals, dimensions, alt text, the upload set |
 | [`grok-build.md`](grok-build.md) | **Grok**, reading `scherzo-io/sl` on GitHub | everything else — Eric's email, scaffold, Sanity schema, content assembly, all three design directions, migration scripts, SEO/redirects |
+| [`grok-council-plan.md`](grok-council-plan.md) | **Grok** | how Grok will execute `grok-build.md` (gated phases + six-seat council). Does not replace the work order |
+| [`handoff-to-cursor.md`](handoff-to-cursor.md) | **Grok → Cursor** | seams Grok cannot close without the dump / vision; output paths stay those in `cursor-images.md` §5 |
 
 The split follows the tooling. Cursor is on the machine that holds the dump and can look at a
 photograph; Grok reads the repo and writes code and copy. Neither needs the other's
