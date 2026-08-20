@@ -19,6 +19,12 @@ python3 scripts/xlsx-extract.py
 acceptable answer** — a failure means either the export changed or a PLAN number moved, and
 either way it needs a human before anything downstream runs.
 
+The **committed** extracts are the no-flag output, so `inputs/derived/` stays a pure function
+of `inputs/raw/` and regenerates identically on a machine with no dump. `--uploads` adds disk
+columns for local verification and will leave the tree dirty; don't commit that variant.
+`stage-raw-inputs.py` finds the author addresses it redacts by pattern rather than by name —
+hardcoding them in a committed script would defeat the redaction.
+
 ## Still to be written
 
 | Script | Owner | Per |

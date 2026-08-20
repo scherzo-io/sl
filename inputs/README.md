@@ -43,9 +43,16 @@ Regenerate everything with:
 
 ```bash
 python3 scripts/wxr-extract.py                                # repo-only, no network
-python3 scripts/wxr-extract.py --uploads wp-content/uploads   # adds the disk cross-check
 python3 scripts/xlsx-extract.py                               # workbooks → TSV
 ```
+
+**What is committed is the no-flag output**, so that `inputs/derived/` is a pure function of
+`inputs/raw/` and a fresh clone with no dump regenerates it byte-for-byte. Adding
+`--uploads wp-content/uploads` appends two on-disk columns to `project-images.tsv` and a disk
+section to the report — useful locally, deliberately not committed, and it will show as a
+dirty tree. The disk result itself is recorded once, dated, in
+`content/findings/wxr-export-finding.md`: **887 of 887** referenced files present, and
+**887 of 887** originals.
 
 | Path | What |
 |---|---|

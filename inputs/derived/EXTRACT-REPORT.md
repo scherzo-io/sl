@@ -77,13 +77,6 @@ authenticated media endpoint.
 - `washington-sq-dermatology` — the slug PLAN §1 row 16 wants to restore on WP 564 — is itself in that project's `_wp_old_slug` history. The correction restores the project's own former URL rather than inventing one. (It also appears in `hudson-yards-mall`'s history, which is the shuffle showing.)
 - Page copy lives in `_elementor_data`, not `post_content`. The extracts in `pages/` unwrap the copy fields and drop styling keys.
 
-## Disk cross-check
-
-Against `/Users/alexeyetcheverry/sl/wp-content/uploads` (git-ignored):
-
-- referenced served files present: 887 / 887
-- referenced originals present: 887 / 887
-
 ## Reproducing
 
 ```bash

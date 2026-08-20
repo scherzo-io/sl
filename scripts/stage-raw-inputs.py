@@ -5,12 +5,14 @@ Run once from the repo root, with the 20 Aug source folder still present on this
 machine (paths below). Re-running is idempotent. Prints the sha256 of every file
 before and after staging so inputs/raw/README.md can record provenance.
 
-The only transform applied is the removal of two WordPress author email
-addresses from the WXR export (a third party's personal Gmail and Alexey's own).
-Everything else is copied byte-for-byte.
+The only transform applied is the removal of the WordPress author email addresses
+from the WXR export (a third party's personal Gmail and Alexey's own). They are
+found by pattern, never hardcoded — writing them down here would defeat the
+redaction, since this file is committed. Everything else is copied byte-for-byte.
 """
 import hashlib
 import os
+import re
 import shutil
 import sys
 
@@ -20,7 +22,7 @@ SL_DIR = os.path.join(SRC_DIR, "Streamline USA")
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(REPO, "inputs", "raw")
 
-REDACT = ("etcheverryalexey@gmail.com", "rosemary.guzman9@gmail.com")
+AUTHOR_EMAIL = re.compile(r"<wp:author_email><!\[CDATA\[(.*?)\]\]></wp:author_email>")
 REDACT_WITH = "[email redacted 2026-08-20]"
 
 # (source path, destination path, mode) — mode "text" applies REDACT, "binary" copies as-is
@@ -81,9 +83,11 @@ def main():
         redactions = 0
         if mode == "text":
             text = open(src, encoding="utf-8").read()
-            for needle in REDACT:
-                redactions += text.count(needle)
-                text = text.replace(needle, REDACT_WITH)
+            # Whatever addresses the export's author blocks carry, scrubbed wherever
+            # else in the document they also appear.
+            for address in {a for a in AUTHOR_EMAIL.findall(text) if "@" in a}:
+                redactions += text.count(address)
+                text = text.replace(address, REDACT_WITH)
             with open(dst, "w", encoding="utf-8", newline="") as fh:
                 fh.write(text)
         else:
