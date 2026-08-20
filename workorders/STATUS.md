@@ -4,8 +4,8 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor (session 02, corrected) · next action: **wait for
-Grok handoff under `workorders/handoffs/`. Do not review or hand back until it exists.**
+Last updated: **2026-08-20** · by: Cursor (session 03) · next action: **Claude Code —
+`workorders/sessions/2026-08-20-cursor-03.md`. Two tips: `cursor/images` and `origin/main` @ `129136e`.**
 
 ---
 
@@ -13,8 +13,8 @@ Grok handoff under `workorders/handoffs/`. Do not review or hand back until it e
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos done. Idle — waiting on Grok handoff** (Track C + handback not started) | `cursor/images` | `31af6e9` |
-| **Grok** — the build | [`grok-build.md`](grok-build.md) | **started 2026-08-20**, phase A | `grok/build` | — |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + Grok review.** Alt-text / Sanity deferred | `cursor/images` | review of `129136e` |
+| **Grok** — the build | [`grok-build.md`](grok-build.md) | **A–E, G, H on `origin/main` and `origin/grok/build` @ `129136e`.** F skipped. Pushed to `main` (against the work order) | `grok/build` = `main` | `129136e` |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
 the change is additive and called out in that file's changelog — read it again at your next
@@ -31,20 +31,22 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | Two work orders + this status protocol | `workorders/**` |
 | 2026-08-20 | Cursor Wave 1: measured 887 originals, checksums, live link-check, deck corrections, 30 partner names, logo sample `#DE2426` | `content/images/**`, `content/link-check/`, `content/deck-corrections.tsv`, `scripts/build-image-manifest.mjs` |
 | 2026-08-20 | Two WhatsApp reels inventoried (end logos present); binaries moved out of repo | `content/video-inventory.tsv` |
+| 2026-08-20 | Grok A–E, G, H (F skipped) landed on GitHub `main` / `grok/build` | `origin/main` `129136e` |
+| 2026-08-20 | Cursor review of those handoffs (local build + HTTP) | `workorders/reviews/grok-2026-08-20.md` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
-| Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | unblocks PLAN §11 step 10; not in this repo yet |
-| Cursor | idle — waiting on Grok handoff | 2026-08-20 | Wave 1 + video inventory landed. Review starts when `workorders/handoffs/grok-*.md` exists |
+| Grok | F — migration | blocked | Eric + Sanity project + Cursor image artifacts not yet merged onto the build tree |
+| Cursor | handback | 2026-08-20 | Review filed. Leftover list in session 03 |
 
 ## Next up
 
-1. **Grok:** land Phase A (`content/eric-email.md` + `workorders/handoffs/grok-<date>.md`).
-2. **Cursor:** review that handoff (Track C), then leftover sweep + Claude Code handback. Not before.
-3. **Alexey:** video hosting / mapping / no-logo cuts — files at `~/Downloads/Zipcodes/Streamline USA/videos/`. See [`content/images/video-ask.md`](../content/images/video-ask.md).
-4. **Alexey:** send Eric's email once the draft exists; Sanity project later.
+1. **Alexey / Claude Code:** leftover list in [`sessions/2026-08-20-cursor-03.md`](sessions/2026-08-20-cursor-03.md) — especially what to do with `main` (Grok pushed there) vs `cursor/images`.
+2. **Alexey:** send [`content/eric-email.md`](../content/eric-email.md) (lives on `main`, not this branch).
+3. **Alexey:** video hosting / mapping / no-logo cuts.
+4. **Later:** merge Cursor image/partner/link-check into the build tree; then Grok F. Sanity project when that starts.
 5. **Cursor, later:** 887 alt-text.
 
 ## Blocked, and on whom
