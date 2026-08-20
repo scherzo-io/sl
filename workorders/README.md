@@ -5,12 +5,23 @@ the work.
 
 | Work order | Agent | Owns |
 |---|---|---|
-| [`cursor-images.md`](cursor-images.md) | **Cursor**, running locally in `~/sl` | everything about the image set — the ~12 GB WordPress dump, the 887 referenced files, originals, dimensions, alt text, the upload set |
-| [`grok-build.md`](grok-build.md) | **Grok**, reading `scherzo-io/sl` on GitHub | everything else — Eric's email, scaffold, Sanity schema, content assembly, all three design directions, migration scripts, SEO/redirects |
+| [`cursor-images.md`](cursor-images.md) | **Cursor**, running locally in `~/sl` | everything local — the image set (the ~12 GB dump, the 887 referenced files, originals, dimensions, alt text, the upload set), plus the deck PDFs, the logo master, the live link-check, backup integrity, and reviewing Grok's handoffs |
+| [`grok-build.md`](grok-build.md) | **Grok**, reading `scherzo-io/sl` on GitHub | the build — Eric's email, scaffold, Sanity schema, content assembly, all three design directions, migration scripts, SEO/redirects |
 
-The split follows the tooling. Cursor is on the machine that holds the dump and can look at a
-photograph; Grok reads the repo and writes code and copy. Neither needs the other's
-permission to work, because the file-ownership map below has no overlaps.
+The split follows the tooling. Cursor is on the machine: it holds the dump, opens a PDF, looks
+at a photograph, hits the live site, and watches the build render on a real screen. Grok reads
+the repo and writes code and copy. Neither needs the other's permission to work, because the
+file-ownership map below has no overlaps.
+
+**Where things stand at any moment: [`STATUS.md`](STATUS.md).** Read it first if you have been
+away — it is what makes coming back to this project cheap, and both lanes maintain it.
+
+| Also here | What it holds |
+|---|---|
+| [`sessions/`](sessions/README.md) | one log per session per lane — what was done, what landed, what was skipped, what's next |
+| `handoffs/` | Grok's phase-gate handoffs, `grok-<date>.md` |
+| `reviews/` | Cursor's adversarial reviews of those handoffs, `grok-<date>.md` |
+| `cursor-plan.md` | Cursor's own executable plan, committed before it starts work |
 
 ---
 
@@ -41,7 +52,9 @@ report — do not reach across.
 
 | Path | Owner |
 |---|---|
-| `scripts/build-image-manifest.mjs`, `content/images/**` | **Cursor** |
+| `scripts/build-image-manifest.mjs`, `content/images/**`, `content/link-check/**`, `content/deck-corrections.tsv`, `workorders/cursor-plan.md`, `workorders/reviews/**` | **Cursor** |
+| `workorders/handoffs/**` | **Grok** |
+| `workorders/STATUS.md`, `workorders/sessions/**` | **both** — append your own rows and session logs; don't rewrite the other lane's |
 | `app/**`, `sanity/**`, `components/**`, `lib/**`, `public/**`, `scripts/import-*`, `package.json`, config files | **Grok** |
 | `content/pages/**`, `content/copy/**`, `content/eric-email.md` | **Grok** |
 | `inputs/raw/**` | nobody — source of record, immutable |
@@ -61,8 +74,24 @@ report — do not reach across.
   already lost — the 19 Aug document set was lost exactly that way.
 - Commit messages: descriptive, and subject to the same sensitivity rules as everything else.
   No revenue, spend, staffing or ownership content in a message.
-- End every session by adding a row to `COWORK.md` §6 in your session report (Alexey applies
-  it) and leaving `git status` clean of anything you meant to keep.
+- **End every session with three things**, in this order: commit; write
+  `workorders/sessions/<date>-<lane>-NN.md` from that directory's template; update
+  `STATUS.md`. Propose a `COWORK.md` §6 row in your session log — Alexey applies it. Leave
+  `git status` clean of anything you meant to keep.
+
+## 3a. How the lanes hand off
+
+```
+Grok phase gate  →  workorders/handoffs/grok-<date>.md
+                 →  Cursor reproduces the claims locally, adversarially
+                 →  workorders/reviews/grok-<date>.md   (confirmed / not reproduced / contradicted)
+                 →  Alexey decides what gets fixed, and by whom
+```
+
+Cursor **reports**; it does not patch Grok's files unless Alexey says so, and then in separate
+commits. Grok may disagree with a review finding — in writing, in the repo. The point of the
+loop is that no claim about this build survives on assertion alone: the lane that can actually
+run it on a screen is the one that confirms it.
 
 ## 4. Rules that bind both lanes
 
@@ -94,7 +123,7 @@ skipped.
 
 | Blocked | Owner | Blocks |
 |---|---|---|
-| The 20 source-conflict rows in section A | Eric | migrating those specific fields (PLAN §11 step 10) |
+| The 21 source-conflict rows in section A | Eric | migrating those specific fields (PLAN §11 step 10) |
 | `subCategory` taxonomy — workbook's 10 two-level values vs the retired flat 5 | Eric | the second filter level; 55 of 58 need backfill either way |
 | Content for the 8 pipeline projects (Twinta especially — it exists only in the transcript) | Eric | those 8 drafts stay title-only |
 | Vector logo (only a 2048×566 PNG exists) | Eric | crisp wordmark at large sizes |
@@ -102,21 +131,10 @@ skipped.
 | Confirm the WP 564 slug fix, and the newly found WP 558 `autrium` typo | Eric | two redirect rows |
 | RFP recipient addresses · Procore mention keep/drop · Mercer St testimonial attribution · which phone numbers are publishable · references-page approach · one site or two | Eric | the RFP form, one services line, one testimonial, `siteSettings` |
 | Sanity project + write token | Alexey | schema deploy, TypeGen against a real dataset, any migration dry-run |
-| Partner logo *marks* (~30, commercial deck p42 — names are OCR-recoverable, images are not) | Alexey (locally, from the PDF) | the logo wall |
+| ~~Partner logo marks~~ | **now Cursor's** (`cursor-images.md` §5.2) — it can open the PDF | no longer blocked |
 
 ## 6. Where the work stands
 
-| PLAN §11 step | Status | Lane |
-|---|---|---|
-| 1 · document set, hygiene, conflicts, inventory | done 2026-08-20 | — |
-| 2 · extract 58 projects, image audit, verification | done 2026-08-20 | — |
-| 3 · Eric's conflict email | drafting | Grok |
-| 4 · image manifest, raw snapshot, re-verify totals | **snapshot + extracts done** (`inputs/`); manifest open | Cursor |
-| 5 · deck transcription | done (raw OCR, both decks) | — |
-| 6 · scaffold | open | Grok |
-| 7 · page copy, logo wall, testimonials | copy now extracted, not yet assembled | Grok |
-| 8 · Directions A, B, C + variants | open | Grok |
-| 9 · Eric picks a direction | blocked on 8 | — |
-| 10 · migration into `staging` | blocked on 3 + Sanity project | Grok (Cursor supplies the image set) |
-| 11 · SEO / redirect layer | open, and bigger than PLAN §9 knew — see `legacy-slugs-finding.md` | Grok |
-| 12 · staging sign-off, cutover | blocked | — |
+Moved to [`STATUS.md`](STATUS.md), so there is exactly one tracker and it cannot drift from
+this file. It carries the PLAN §11 step tracker, what is in flight, what is next, and a
+"how to resume" block for coming back after a break.

@@ -28,7 +28,10 @@ failure structurally impossible to repeat.
 | `inputs/raw/` | snapshotted sources (WXR export, workbooks, logo master) | immutable — never edited, never regenerated |
 | `inputs/derived/` | text extracts of the above | change the script in `scripts/` and re-run; never hand-edit |
 | `scripts/` | extractors now, image manifest + migration later | ordinary code review; stdlib only for the extractors |
-| `workorders/` | the two agent lanes and the file-ownership map | update when a lane's scope changes |
+| `workorders/` | the two agent lanes and the file-ownership map | update when a lane's scope changes; a mid-run change is additive and goes in that file's changelog |
+| `workorders/STATUS.md` | where the work actually stands — the single tracker | both lanes update it before they stop; if it drifts from the repo, the repo wins |
+| `workorders/sessions/` | one log per session per lane | template in its README; written before the session ends, not after being asked |
+| `workorders/handoffs/` · `workorders/reviews/` | Grok's phase-gate handoffs and Cursor's adversarial reviews of them | one file per gate, one row per claim |
 
 **Propagation rule:** any PLAN §1 row that touches tokens, schema, URLs, or content rules must
 be mirrored into DESIGN.md / CLAUDE.md in the same session, and the row cites what it
@@ -69,5 +72,6 @@ invalidates a decision gets a new PLAN §1 row, not an edit.
 | 2026-08-20 | Adversarial review + fix | hygiene commit; PLAN/DESIGN/CLAUDE/COWORK rebuilt; content-inventory.tsv; source-conflicts.md; spec+originals patches; deck transcripts; FINAL-PLAN.md deleted |
 | 2026-08-20 | Archive decision | `docs/archive/` — the two 19 Aug drafts, redacted |
 | 2026-08-20 | Source ingest + work orders | `inputs/raw/` (WXR export, both workbooks, logo master, 2022 export CSV); `inputs/derived/` (83 extracts, 17 assertions passing); `scripts/` (3 extractors + README); `workorders/` (README + Cursor + Grok lanes); 2 findings; PLAN §1 rows 23–29; source-conflicts A-21 + §F; CLAUDE/COWORK/originals synced |
+| 2026-08-20 | Lane scope + progress protocol | Cursor lane broadened to all local work (deck PDFs, partner logo marks, logo sampling, live link-check, backup checksums) + adversarial review of Grok's handoffs, with a brainstorm→plan→execute opening; Grok's order gets a progress protocol and a handoff obligation; `workorders/STATUS.md`, `sessions/`, `handoffs/`, `reviews/`; PLAN §1 row 30 |
 
 Add a row per session, same day.

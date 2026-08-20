@@ -20,7 +20,7 @@ This is the single source of truth. Companion documents hold detail, not decisio
 | `inputs/raw/` | snapshotted sources, immutable: the 2026-08-20 WXR export, both workbooks, the logo master (row 23) |
 | `inputs/derived/` | script-generated text extracts of the above — projects, pages, attachments, legacy slugs, workbook sheets |
 | `scripts/` | the extractors. Stdlib Python 3, no network, no credentials |
-| `workorders/` | the two agent lanes: `cursor-images.md` (the image set) and `grok-build.md` (everything else), plus the ownership map (row 29) |
+| `workorders/` | the two agent lanes: `cursor-images.md` (everything local) and `grok-build.md` (the build), the ownership map, and `STATUS.md` — the one place that says where the work actually stands (rows 29–30) |
 
 > **Provenance.** The original four-document merge (19 Aug) was never persisted — its output
 > existed only in a chat session and is lost. This PLAN was rebuilt 20 Aug from
@@ -36,8 +36,9 @@ This is the single source of truth. Companion documents hold detail, not decisio
 Settled decisions with reasoning. **Do not silently change a row — add a new row that
 supersedes it.** Rows 1–10 reconstruct the 19 Aug merge (labeled R — reconstructed from the
 two surviving drafts; the original table is lost). Rows 11–22 are from the 20 Aug review
-(labeled V — verified, with evidence). Rows 23–29 are from the 20 Aug source-ingest session
-(labeled S — the WordPress export arriving in the repo, and what it proved).
+(labeled V — verified, with evidence). Rows 23–30 are from the 20 Aug source-ingest and
+work-order sessions (labeled S — the WordPress export arriving in the repo, what it proved,
+and how the two agent lanes are scoped).
 
 | # | Decision | Resolution | Why / evidence |
 |---|---|---|---|
@@ -70,6 +71,8 @@ two surviving drafts; the original table is lost). Rows 11–22 are from the 20 
 | 27 S | WP 558 `autrium-corporate-office` | **"Atrium Corporate Office" is live at a typo'd slug.** Correctly spelled `atrium-corporate-office` is in its retired history. Same class as row 16 → **PENDING ERIC** (`source-conflicts.md` A-21). Until he answers, the live URL is preserved as-is per row 3 | Found in the export's slug history. A typo in a URL is the one case where row 3's "preserve exactly" is worth asking about |
 | 28 S | Newest project date | **Lantern House and 795 5th Ave (The Pierre) were published 2023-10-18** — corrects §3's "Newest: Lantern House (Oct 2024)". No new project in 22 months | Both `wp:post_date` values in the export. Worth knowing before describing the portfolio as current |
 | 29 S | Division of labour | **Two lanes, one repo: Cursor owns the image set, Grok owns everything else.** Work orders in `workorders/` — `README.md` carries the file-ownership map, branch policy (`cursor/images`, `grok/build`; `main` is Alexey's), and the blocked-on-a-person list. Deck PDFs stay out of the repo (row 21 — the REFERENCES block), so the scrubbed OCR transcripts remain the repo-side source | Cursor is on the machine with the ~12 GB dump and can see a photograph; Grok reads the repo over GitHub. The ownership map has no overlaps, so both lanes can run at once |
+
+| 30 S | Lane scope and how progress survives a session | **All local-only work is Cursor's**, not just images: the deck PDFs (string verification + the ~30 partner logo marks off commercial p42), the logo master's red sampling, the live link-check sweep across all 73 legacy URLs, the dump's checksum manifest, and the on-screen render/keyboard gates. **Cursor also reviews Grok's handoffs adversarially.** Cursor brainstorms its work order and commits `workorders/cursor-plan.md` before executing. **Progress persists in `workorders/STATUS.md` + `workorders/sessions/`**, updated by both lanes before they stop; handoffs in `workorders/handoffs/`, reviews in `workorders/reviews/`. Unblocks the partner logo wall (was on Alexey) | Cursor is the only lane on the machine — it can open a PDF, sample a pixel, hit the live site, and watch the build render. And the failure this project already had was a session ending with its output only in a chat log (COWORK §0), so a status file plus per-session logs is the structural fix |
 
 Open items requiring people, not analysis: §12.
 
