@@ -12,6 +12,7 @@ import {
 } from "react";
 import { HeroSlot } from "@/components/media/HeroSlot";
 import { ProjectImageSlot } from "@/components/media/ProjectImageSlot";
+import type { ProjectPhoto } from "@/lib/photos";
 import { useReview } from "@/components/review/ReviewProvider";
 import { projectIndexHref } from "@/lib/nav";
 import type { LiveProject, ProjectSibling } from "@/lib/projectTypes";
@@ -87,9 +88,12 @@ function useFocusTrap(ref: RefObject<HTMLElement | null>, active: boolean) {
 export function ProjectView({
   project,
   catalog,
+  photos = [],
 }: {
   project: LiveProject;
   catalog: ProjectSibling[];
+  /** The project's full gallery, in WordPress order. Empty when the dump is absent. */
+  photos?: ProjectPhoto[];
 }) {
   const { state } = useReview();
   const router = useRouter();
@@ -150,7 +154,9 @@ export function ProjectView({
   };
 
   if (state.direction === "c") {
-    const extras = Math.max(0, project.imageCount - 1);
+    // Direction C is the editorial case study: the hero sits beside the copy column and the
+    // rest of the gallery runs full-bleed beneath it, each frame at its own measured aspect.
+    const sequence = photos.filter((p) => p.id !== project.hero?.id);
     return (
       <div
         ref={rootRef}
@@ -166,6 +172,7 @@ export function ProjectView({
             <HeroSlot
               project={project}
               direction="c"
+              priority
               className="h-full min-h-[42vh] w-full lg:min-h-dvh"
             />
           </div>
@@ -207,17 +214,19 @@ export function ProjectView({
             </div>
           </article>
         </div>
-        {extras > 0 ? (
+        {sequence.length > 0 ? (
           <div className="flex flex-col">
-            {Array.from({ length: extras }, (_, i) => (
+            {sequence.map((photo) => (
               <div
-                key={i}
+                key={photo.id}
                 className="w-full"
-                style={{
-                  aspectRatio: `${project.featuredWidth} / ${project.featuredHeight}`,
-                }}
+                style={{ aspectRatio: `${photo.width} / ${photo.height}` }}
               >
-                <ProjectImageSlot className="h-full w-full" />
+                <ProjectImageSlot
+                  photo={photo}
+                  className="h-full w-full"
+                  sizes="100vw"
+                />
               </div>
             ))}
           </div>
@@ -236,7 +245,7 @@ export function ProjectView({
       onKeyDown={onDialogKey}
       className="relative h-full w-full overflow-hidden bg-sidebar"
     >
-      <HeroSlot project={project} direction={state.direction} className="h-full w-full" />
+      <HeroSlot project={project} direction={state.direction} priority className="h-full w-full" />
 
       <button
         type="button"

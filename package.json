@@ -2,7 +2,7 @@
   "name": "streamline-usa",
   "private": true,
   "version": "0.1.0",
-  "description": "streamlineusa.com rebuild — Next.js App Router + Sanity",
+  "description": "streamlineusa.com rebuild \u2014 Next.js App Router + Sanity",
   "scripts": {
     "dev": "next dev -H 0.0.0.0 -p 8080",
     "build": "next build",
@@ -15,7 +15,10 @@
     "pt:sample": "node scripts/to-portable-text.mjs sample",
     "pt:all": "node scripts/to-portable-text.mjs all",
     "schema:extract": "sanity schema extract",
-    "typegen": "sanity typegen generate"
+    "typegen": "sanity typegen generate",
+    "check:alt": "node scripts/check-alt.mjs",
+    "photos:link": "node scripts/link-photos.mjs",
+    "qa:render": "node scripts/qa-render.mjs"
   },
   "engines": {
     "node": ">=22"

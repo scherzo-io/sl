@@ -1,3 +1,4 @@
+import type { ProjectPhoto } from "@/lib/photos";
 import type { RoleAtom } from "@/lib/roles";
 import type { SkipField } from "@/lib/skipFields";
 
@@ -9,6 +10,11 @@ export type ProjectTile = {
   featuredHeight: number;
   heroCapable: boolean;
   imageCount: number;
+  /**
+   * The chosen hero frame, measured off disk. Null when the dump is not present
+   * (`public/photos` unlinked) — every slot then falls back to the empty dark field.
+   */
+  hero: ProjectPhoto | null;
 };
 
 export type LiveProject = ProjectTile & {

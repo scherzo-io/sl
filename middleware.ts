@@ -12,10 +12,13 @@ import {
  * and forwards the resolved state so the layout can SSR the same values.
  * Public pathnames stay `/`, `/portfolio`, `/commercial/<slug>`, `/residential/<slug>`.
  *
- * Redirects: 37 × 301 from legacy-slugs.tsv, 2 × 410 (PLAN §9).
- * SKIP slugs never redirect. REVIEW rows fall through to 404.
- * Use the WHATWG URL constructor — NextURL.clone() re-applies a trailing slash
- * and would 308 `/commercial/<slug>/` onto itself.
+ * Redirects: 111 × 301 (37 legacy rows + one cross-category path per live slug + the 16
+ * resolved REVIEW paths) and 2 × 410 (PLAN §9). `lookupRedirect` normalises the trailing
+ * slash before matching, so both URL forms hit the same rule. A live path is never
+ * redirected — that is what keeps the SKIP slugs serving their own project.
+ *
+ * `trailingSlash: true` (next.config) makes the slashed form canonical, per PLAN §1 row 3.
+ * Redirect targets are emitted slashed so a legacy hit lands in one hop, not two.
  */
 function sameOrigin(request: NextRequest, pathname: string, search = "") {
   const url = new URL(request.url);
@@ -35,12 +38,9 @@ export function middleware(request: NextRequest) {
     });
   }
   if (hit.kind === "redirect") {
-    return NextResponse.redirect(sameOrigin(request, hit.to), 301);
-  }
-
-  if (pathname.length > 1 && pathname.endsWith("/")) {
-    const stripped = pathname.replace(/\/+$/, "") || "/";
-    return NextResponse.redirect(sameOrigin(request, stripped, request.nextUrl.search), 308);
+    // Land on the canonical slashed form so a legacy URL costs one hop, not two.
+    const to = hit.to.endsWith("/") ? hit.to : `${hit.to}/`;
+    return NextResponse.redirect(sameOrigin(request, to), 301);
   }
 
   const patch = reviewFromSearchParams(request.nextUrl.searchParams);

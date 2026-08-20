@@ -22,10 +22,11 @@ const PAGES = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = PAGES.map((path) => ({
-    url: path === "/" ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}${path}`,
+    // Trailing slash is canonical (PLAN §1 row 3, next.config trailingSlash).
+    url: path === "/" ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}${path}/`,
   }));
   const projects = loadLiveProjects().map((p) => ({
-    url: `${SITE_ORIGIN}/${p.category}/${p.slug}`,
+    url: `${SITE_ORIGIN}/${p.category}/${p.slug}/`,
   }));
   return [...pages, ...projects];
 }

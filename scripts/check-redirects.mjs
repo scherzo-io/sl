@@ -34,7 +34,15 @@ const skipSlugs = new Set(data.skipSlugs);
 const permanentFrom = new Set(data.permanent.map((r) => r.from));
 
 if (data.counts.legacyRows !== 73) fail(`legacyRows ${data.counts.legacyRows} !== 73`);
-if (data.permanent.length !== 37) fail(`permanent ${data.permanent.length} !== 37`);
+if (data.permanent.length !== 111) {
+  fail(`permanent ${data.permanent.length} !== 111 (37 legacy + 58 cross-category + 16 review)`);
+}
+if (data.counts.fromLegacy301 !== 37) fail(`fromLegacy301 ${data.counts.fromLegacy301} !== 37`);
+if (data.counts.fromCrossCategory !== 58) fail(`fromCrossCategory ${data.counts.fromCrossCategory} !== 58`);
+if (data.counts.fromReviewDecisions !== 16) fail(`fromReviewDecisions ${data.counts.fromReviewDecisions} !== 16`);
+if (data.counts.reviewUnresolved !== 0) {
+  fail(`reviewUnresolved ${data.counts.reviewUnresolved} !== 0 — a legacy URL would 404`);
+}
 if (data.skip.length !== 11) fail(`skip rows ${data.skip.length} !== 11`);
 if (data.skipSlugs.length !== 10) fail(`skipSlugs ${data.skipSlugs.length} !== 10 (mexicue twice)`);
 if (data.review.length !== 25) fail(`review ${data.review.length} !== 25`);
@@ -48,14 +56,27 @@ if (commercial !== 27 || residential !== 31) {
 }
 
 for (const r of data.permanent) {
+  // The one invariant that matters: a URL that serves a project today is never redirected.
   if (livePaths.has(r.from)) fail(`301 from live path ${r.from}`);
-  const slug = r.from.split("/").filter(Boolean)[1];
-  if (slug && skipSlugs.has(slug)) fail(`301 slug is SKIP ${slug}`);
   if (!livePaths.has(r.to)) fail(`301 target is not live ${r.to}`);
+  // A SKIP slug may now appear in a 301 *source* — but only at a path that is not its own.
+  // That is the cross-category case, and it must land on that same slug's live page.
+  const slug = r.from.split("/").filter(Boolean)[1];
+  if (slug && skipSlugs.has(slug) && r.to !== liveBySlug.get(slug)) {
+    fail(`SKIP slug ${slug} redirected away from its live page: ${r.from} -> ${r.to}`);
+  }
 }
 
 for (const slug of data.skipSlugs) {
   if (!liveBySlug.has(slug)) fail(`SKIP slug ${slug} has no live owner`);
+  // Every SKIP slug must still terminate at its own project, directly or via one 301.
+  const own = liveBySlug.get(slug);
+  for (const cat of ["commercial", "residential"]) {
+    const p = `/${cat}/${slug}`;
+    if (livePaths.has(p)) continue;
+    const to = data.permanent.find((r) => r.from === p)?.to;
+    if (to !== own) fail(`SKIP slug ${slug}: ${p} neither live nor 301 to ${own}`);
+  }
 }
 
 for (const path of data.gone) {
@@ -67,6 +88,9 @@ const reviewSlugs = [...new Set(data.review.map((r) => r.slug))];
 if (reviewSlugs.length !== 13) {
   fail(`unique REVIEW slugs ${reviewSlugs.length} !== 13`);
 }
+for (const r of data.review) {
+  if (!r.resolved) fail(`REVIEW row still unresolved: ${r.from}`);
+}
 
 if (process.exitCode) {
   console.error("check-redirects: invariant failures");
@@ -74,7 +98,7 @@ if (process.exitCode) {
 }
 
 console.log(
-  `check-redirects: invariants  301=${data.permanent.length}  skipRows=${data.skip.length}  skipSlugs=${data.skipSlugs.length}  review=${data.review.length}  gone=${data.gone.length}  live=${data.live.length} (${commercial}C/${residential}R)`,
+  `check-redirects: invariants  301=${data.permanent.length} (legacy=${data.counts.fromLegacy301} cross=${data.counts.fromCrossCategory} review=${data.counts.fromReviewDecisions})  skipRows=${data.skip.length}  skipSlugs=${data.skipSlugs.length}  reviewUnresolved=${data.counts.reviewUnresolved}  gone=${data.gone.length}  live=${data.live.length} (${commercial}C/${residential}R)`,
 );
 
 if (offline) process.exit(0);

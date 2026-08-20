@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { ProjectView } from "@/components/media/ProjectView";
 import { Shell } from "@/components/shell/Shell";
-import { loadLiveProjects, projectBySlug } from "@/lib/projects";
+import { loadLiveProjects, photosFor, projectBySlug } from "@/lib/projects";
 import { toSibling } from "@/lib/projectTypes";
 import { projectPageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -34,7 +34,7 @@ export default async function ResidentialProjectPage({
   const catalog = loadLiveProjects().map(toSibling);
   return (
     <Shell>
-      <ProjectView project={project} catalog={catalog} />
+      <ProjectView project={project} catalog={catalog} photos={photosFor(slug)} />
     </Shell>
   );
 }

@@ -30,3 +30,6 @@ npm-debug.log*
 *.mov
 *.webm
 *.m4v
+
+# Photography is served from the git-ignored WordPress dump via a symlink
+public/photos

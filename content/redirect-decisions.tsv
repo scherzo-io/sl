@@ -1,0 +1,17 @@
+old_path	target_path	target_wp_id	target_title	claimants	basis	measured	note
+/commercial/atrium-corporate-office	/commercial/autrium-corporate-office	558	Atrium Corporate Office	2	measured-from-live	2026-08-20	the typo'd autrium slug is the live one (WP 558); flip this row when Eric confirms the spelling
+/commercial/murray-hill-apartments	/residential/1st-ave-apt	527	1st Ave Apartment	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/commercial/upper-east-side-penthouse	/residential/e63-st-penthouse	540	e63rd st Penthouse	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/commercial/vivvi-daycare	/commercial/vivvi-daycare-tribeca	494	ViVVI Daycare Tribeca	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/commercial/washington-sq-dermatology	/commercial/upper-east-side-townhouse	564	Washington Sq. Dermatology	2	measured-from-live	2026-08-20	production sends WSD *to* upper-east-side-townhouse — the opposite of the pending WP 564 fix. Preserve today's behaviour; flip this row when Eric confirms
+/residential/hells-kitchen-apt	/residential/53rd-st-studio	2838	53rd st studio	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/horatio-st-townhouse-2	/residential/tribeca-loft	520	Tribeca Loft	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/jackson-heights-townhouse	/residential/upper-west-side-apartment	2409	Upper West Side Apartment	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/murray-hill-apartments	/residential/1st-ave-apt	527	1st Ave Apartment	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/sullivan-st-duplex	/residential/sullivan-st-duplex-2	1907	Sullivan St duplex	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/upper-east-side-penthouse	/residential/e63-st-penthouse	540	e63rd st Penthouse	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/upper-east-side-penthouse__trashed	/residential/e63-st-penthouse	540	e63rd st Penthouse	1	measured-from-live	2026-08-20	WordPress trash artefact; production 301s it to a live project, so preserve that rather than inventing a 410
+/residential/upper-west-side-townhouse	/residential/69th-st-townhouse	570	69th St Townhouse	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/vivvi-daycare	/commercial/vivvi-daycare-tribeca	494	ViVVI Daycare Tribeca	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/west-23rd-townhouse	/residential/west-23rd-townhouse-2	537	West 23rd St. Townhouse	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates
+/residential/west-village-townhouse	/residential/st-lukes-place-townhouse	531	St. Lukes Place townhouse	2	measured-from-live	2026-08-20	two claimants in legacy-slugs.tsv; production already disambiguates

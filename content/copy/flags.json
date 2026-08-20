@@ -1,29 +1,43 @@
 {
-  "unpublishedTestimonials": ["mercer-st-loft-owners"],
+  "unpublishedTestimonials": [
+    "mercer-st-loft-owners"
+  ],
   "notAPerson": {
     "name": "Michael Collins",
     "liveOn": "/about/",
     "reason": "People documents are Eric and Liam only. Live about-page blurb exists; not rendered, not a person doc. Not on deck p2."
   },
-  "skippedSentences": ["Procore keep-or-drop is Eric's — stored on services.json.procore.include=false"],
-  "emptyUntilEric": ["phone", "RFP estimating recipient", "pipeline project copy", "subCategory assignments"],
-  "emptyUntilCursor": ["partner names", "partner artwork", "deck-corrections.tsv", "logo raster set", "project photography"],
-  "emptyUntilAlexey": ["video files"],
+  "skippedSentences": [
+    "Procore keep-or-drop is Eric's \u2014 stored on services.json.procore.include=false"
+  ],
+  "emptyUntilEric": [
+    "phone",
+    "RFP estimating recipient",
+    "pipeline project copy",
+    "subCategory assignments"
+  ],
+  "emptyUntilCursor": [
+    "partner artwork",
+    "photo alt text (887 to write)"
+  ],
+  "emptyUntilAlexey": [
+    "video files"
+  ],
   "scrubbedFromBios": [
     "headcount and gross-sales closing paragraph on Eric's live bio",
     "staff-of-100 clause on Liam's live bio",
     "direct mobiles and the retired West 37th office on both partner pages"
   ],
   "droppedFromAbout": [
-    "Sustainable design icon-box — live body was placeholder copy",
-    "International experience heading — body was the millwork sentence; millwork lives on /about/millwork"
+    "Sustainable design icon-box \u2014 live body was placeholder copy",
+    "International experience heading \u2014 body was the millwork sentence; millwork lives on /about/millwork"
   ],
   "typosFixedOnPurpose": [
     {
       "from": "desiogn",
       "to": "design",
       "where": "services why-work-with-us",
-      "authority": "PLAN §3 known fault"
+      "authority": "PLAN \u00a73 known fault"
     }
   ],
   "typosNotSilentlyFixed": [
@@ -32,5 +46,11 @@
       "where": "West End Ave Apt Owners testimonial",
       "reason": "in both workbook and live page; not on the known-fault list"
     }
-  ]
+  ],
+  "landedFromCursor": {
+    "partner names": "content/images/partners/names.tsv \u2014 30 verified firm names, rendered on /partners",
+    "deck-corrections.tsv": "content/deck-corrections.tsv \u2014 43 rows; the one that mattered (PROGORE) is applied",
+    "photography": "content/images/image-manifest.tsv \u2014 887 measured originals, wired through lib/photos.ts",
+    "logo raster set": "content/images/brand/ \u2014 delivered; sidebar still renders the wordmark as type pending a decision"
+  }
 }

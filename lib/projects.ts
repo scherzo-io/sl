@@ -1,11 +1,14 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { heroFor } from "@/lib/photos";
 import type { LiveProject, ProjectTile } from "@/lib/projectTypes";
 import { atomsForRawRole } from "@/lib/roles";
 import { SKIP_FIELDS, SQUARE_SLUGS, type SkipField } from "@/lib/skipFields";
 
 export type { LiveProject, ProjectTile } from "@/lib/projectTypes";
 export { formatSqFt, projectHref } from "@/lib/projectTypes";
+export { photosAvailable, photosFor } from "@/lib/photos";
+export type { ProjectPhoto } from "@/lib/photos";
 
 function rootFile(rel: string) {
   return join(process.cwd(), rel);
@@ -63,6 +66,7 @@ export function loadProjectTiles(): ProjectTile[] {
       featuredHeight: Number(match[2]),
       heroCapable: (rec.hero_capable ?? "").startsWith("YES"),
       imageCount,
+      hero: heroFor(rec.slug!),
     });
   }
   if (tiles.length !== 58) {

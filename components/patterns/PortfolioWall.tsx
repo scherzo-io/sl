@@ -50,10 +50,18 @@ export function PortfolioWall({
               aria-label={project.title}
               className="w-full shrink-0 md:w-tile"
               style={{
-                aspectRatio: `${project.featuredWidth} / ${project.featuredHeight}`,
+                // Native aspect from the measured original, so rows stay ragged
+                // (DESIGN §4 B) instead of being forced to a common ratio.
+                aspectRatio: project.hero
+                  ? `${project.hero.width} / ${project.hero.height}`
+                  : `${project.featuredWidth} / ${project.featuredHeight}`,
               }}
             >
-              <ProjectImageSlot className="h-full w-full" />
+              <ProjectImageSlot
+                photo={project.hero}
+                className="h-full w-full"
+                sizes="(max-width: 768px) 100vw, 332px"
+              />
             </Link>
           ))}
         </div>

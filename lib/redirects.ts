@@ -19,20 +19,30 @@ export type RedirectHit =
   | { kind: "none" };
 
 /**
- * SKIP slugs are never redirected in either category prefix.
- * Live (category, slug) pairs always fall through to the project page.
- * REVIEW rows are not in PERMANENT — they 404.
+ * Order matters.
+ *
+ * 1. The two PLAN §9 410s.
+ * 2. A live (category, slug) path always falls through to its project page — this is what
+ *    protects the SKIP slugs, and it is checked before any redirect so no live URL can be
+ *    redirected away.
+ * 3. PERMANENT, which now carries three kinds of 301: the 37 unambiguous legacy rows, one
+ *    cross-category path per live slug, and the 16 ambiguous REVIEW paths resolved from
+ *    `content/redirect-decisions.tsv`.
+ *
+ * The cross-category entries exist because WordPress resolves an old slug ignoring the
+ * category segment: `/residential/mackage-soho` 301s to the commercial project on production
+ * today. Matching on exact path alone 404s those (review claude-2026-08-20 §1b).
  */
 export function lookupRedirect(pathname: string): RedirectHit {
   const path = normalizePath(pathname);
   if (GONE.has(path)) return { kind: "gone" };
   if (LIVE.has(path)) return { kind: "live" };
-  const parts = path.split("/").filter(Boolean);
-  const slug = parts.length === 2 ? parts[1] : undefined;
-  if (slug && SKIP_SLUGS.has(slug)) return { kind: "none" };
   const to = PERMANENT.get(path);
   if (to) return { kind: "redirect", to };
   return { kind: "none" };
 }
+
+/** Kept for the redirect checker's invariants: no SKIP slug may lose its live page. */
+export const skipSlugs = SKIP_SLUGS;
 
 export const redirectSeed = data;

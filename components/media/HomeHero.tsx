@@ -43,7 +43,7 @@ function RotatingStills({
 
   return (
     <div className="h-full w-full">
-      <HeroSlot project={current} direction={direction} />
+      <HeroSlot project={current} direction={direction} priority />
       <p className="sr-only" aria-live="polite">
         {current.title}
       </p>
@@ -97,7 +97,7 @@ export function HomeHero({
     <div className="h-full w-full overflow-hidden">
       <h1 className="sr-only">Streamline USA</h1>
       {still ? (
-        <HeroSlot project={still} direction={direction} />
+        <HeroSlot project={still} direction={direction} priority />
       ) : (
         <ProjectImageSlot className="h-full w-full" />
       )}

@@ -83,6 +83,9 @@ session protocol. If you are an agent working one of the two lanes, your work or
 - Prefer the hidden full-size originals (strip WordPress `-scaled`/`-WxH` suffixes; see
   `content/originals-finding.md`); migrate via `_sanityAsset` original URLs so Sanity builds
   derivatives; production never references the legacy WordPress CDN
+- **Alt-text gate:** `npm run check:alt` reports coverage and `--strict` fails the migration.
+  Until `content/images/alt-text.tsv` exists, photographs render `alt=""` inside a figure
+  labelled by the project title — honest, and not invented (PLAN §1 row 39).
 - Every image gets descriptive alt text at migration. Pattern:
   "<Project name> — <room/space>, <notable feature>". No filename-as-alt — which makes the
   real count **887 to write, not 885**: the only two images with any alt value carry
@@ -96,6 +99,10 @@ session protocol. If you are an agent working one of the two lanes, your work or
 - No upscaling, AI enhancement, retouching or generated imagery. Streamline's own photography
   only; a generated pixel is invented content
 - `next/image` everywhere; `object-cover`; tiles keep native aspect ratios
+- **Serving:** `scripts/link-photos.mjs` symlinks the dump to `public/photos` (git-ignored) and
+  `next/image` resizes on demand — no derivative is ever committed. WebP only, deliberately;
+  AVIF decoded blank in the review browser. Heroes are `priority`, index tiles stay lazy
+  (PLAN §1 row 38)
 
 ## URLs, redirects, SEO
 
@@ -130,7 +137,9 @@ session protocol. If you are an agent working one of the two lanes, your work or
 - [ ] The 8 featured-outside-gallery projects resolve a real `heroImage`
 - [ ] `roles[]` contains only the six atoms; `roleDetail` populated; no whitespace variants
 - [ ] `architect` null on exactly the 8 known projects; credit line hidden for them
-- [ ] `sizeSqFt` numeric on all 58
+- [ ] `sizeSqFt` numeric on all 58 **less the slugs with an open `source-conflicts.md` §A row**
+      (6 today: A-1, A-5, A-10, A-11, A-12, A-14 — they render no value at all), and the
+      suppressed count is reported, not inferred (PLAN §1 row 36)
 - [ ] No duplicate slugs; every category/person reference resolves
 - [ ] Output greps clean: `<p`, `_cdata`, `[object Object]`, `555-1234`, `456-7890`,
       `123 Construction`, `Hello world`
@@ -139,6 +148,10 @@ session protocol. If you are an agent working one of the two lanes, your work or
 - [ ] All three directions render at 390 / 768 / 1440; lightbox keyboardable;
       `prefers-reduced-motion` respected
 - [ ] Every legacy URL resolves 200 / 301 / intentional 410 — including all 73 rows of
-      `inputs/derived/legacy-slugs.tsv`, with the 11 `SKIP` rows still serving 200
+      `inputs/derived/legacy-slugs.tsv`. **Each of the 11 `SKIP` slugs terminates at its own
+      live project, directly or via one 301, and is never redirected to a different project**
+      (PLAN §1 row 35 — 7 of the 11 are 301→200 on production, not 200). The 25 `REVIEW` rows
+      take their measured targets from `content/redirect-decisions.tsv` (row 33), and every
+      live slug's other-category path 301s to it (row 34)
 - [ ] `python3 scripts/wxr-extract.py` prints `assertions failed: 0`
 - [ ] `npm run dev` and `npm run build` clean; TypeGen current
