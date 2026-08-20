@@ -36,9 +36,9 @@ This is the single source of truth. Companion documents hold detail, not decisio
 Settled decisions with reasoning. **Do not silently change a row — add a new row that
 supersedes it.** Rows 1–10 reconstruct the 19 Aug merge (labeled R — reconstructed from the
 two surviving drafts; the original table is lost). Rows 11–22 are from the 20 Aug review
-(labeled V — verified, with evidence). Rows 23–30 are from the 20 Aug source-ingest and
+(labeled V — verified, with evidence). Rows 23–32 are from the 20 Aug source-ingest and
 work-order sessions (labeled S — the WordPress export arriving in the repo, what it proved,
-and how the two agent lanes are scoped).
+how the two agent lanes are scoped, and what the source files can and cannot supply).
 
 | # | Decision | Resolution | Why / evidence |
 |---|---|---|---|
@@ -73,6 +73,9 @@ and how the two agent lanes are scoped).
 | 29 S | Division of labour | **Two lanes, one repo: Cursor owns the image set, Grok owns everything else.** Work orders in `workorders/` — `README.md` carries the file-ownership map, branch policy (`cursor/images`, `grok/build`; `main` is Alexey's), and the blocked-on-a-person list. Deck PDFs stay out of the repo (row 21 — the REFERENCES block), so the scrubbed OCR transcripts remain the repo-side source | Cursor is on the machine with the ~12 GB dump and can see a photograph; Grok reads the repo over GitHub. The ownership map has no overlaps, so both lanes can run at once |
 
 | 30 S | Lane scope and how progress survives a session | **All local-only work is Cursor's**, not just images: the deck PDFs (string verification + the ~30 partner logo marks off commercial p42), the logo master's red sampling, the live link-check sweep across all 73 legacy URLs, the dump's checksum manifest, and the on-screen render/keyboard gates. **Cursor also reviews Grok's handoffs adversarially.** Cursor brainstorms its work order and commits `workorders/cursor-plan.md` before executing. **Progress persists in `workorders/STATUS.md` + `workorders/sessions/`**, updated by both lanes before they stop; handoffs in `workorders/handoffs/`, reviews in `workorders/reviews/`. Unblocks the partner logo wall (was on Alexey) | Cursor is the only lane on the machine — it can open a PDF, sample a pixel, hit the live site, and watch the build render. And the failure this project already had was a session ending with its output only in a chat log (COWORK §0), so a status file plus per-session logs is the structural fix |
+
+| 31 S | Partner logo wall — what the decks can actually supply | **Names yes, artwork no.** Every page of both decks is a single flattened raster (commercial ~1020×1320, residential ~1105×1430, zero text characters), so p42's ~30 marks are 150–200px regions of one 97 KB JPEG. Deliverable from the deck is a **human-read, verified firm-name list** plus not-for-publication reference crops; publishable marks must come from each firm's press kit or Eric — **never traced, upscaled or generated**. Build the wall's type and layout and leave the artwork slot visibly empty. Also kills any hope of better OCR: higher dpi upsamples the same pixels | Measured with PyMuPDF 2026-08-20b — `content/findings/deck-raster-finding.md`. Corrects the assumption in `workorders/cursor-images.md` §5.2 as first written. Residential deck's real filename is `Open Full residential 32824.pdf` |
+| 32 S | Video assets | **Ask Alexey first, not Eric.** The dump holds **zero** video files, so two of the four homepage variants (non-scrolling loop, scrolling hero) are unbuildable and unmockable, and the `video` doc type has no content. Cursor asks Alexey directly for files, end-logo status, hosting preference, per-variant mapping and poster frames (`cursor-images.md` §5.6); files never enter the repo — an inventory does (`content/video-inventory.tsv`). If self-hosting wins, the `video` type's YouTube-ID shape (§8) becomes a schema question | PLAN §12 had this queued behind Eric; it is one question to Alexey that unblocks half the homepage variant set, so it goes first |
 
 Open items requiring people, not analysis: §12.
 

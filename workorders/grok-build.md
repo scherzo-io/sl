@@ -16,9 +16,14 @@ there and are not repeated here.
 > 2. **§9 handoffs** — at each phase gate, write `workorders/handoffs/grok-<date>.md`. Cursor
 >    reviews it adversarially and reproduces your gate claims locally.
 > 3. **Work that needs this machine moved to Cursor** and now arrives as an input rather than a
->    gap: the partner logo marks, deck-OCR corrections, the live link-check sweep, the logo
->    raster set, and the on-screen render/keyboard verification. Marked inline in phases D, E
->    and G below.
+>    gap: the partner firm-name manifest, deck-OCR corrections, the live link-check sweep, the
+>    logo raster set, and the on-screen render/keyboard verification. Marked inline in phases D,
+>    E and G below.
+> 4. **2026-08-20c, two measured corrections:** the deck pages are flattened rasters, so the
+>    partner logo *artwork* cannot come from them at all — names and layout only (Phase D,
+>    `content/findings/deck-raster-finding.md`); and there are zero video files anywhere on the
+>    machine, so two homepage variants stay declared-but-empty until Alexey supplies them
+>    (Phase E).
 
 ---
 
@@ -91,7 +96,7 @@ one sitting, defaults proposed where a default is defensible.
 
 Must cover:
 
-1. The 20 rows of `source-conflicts.md` section A. Group them so he can rattle through:
+1. The 21 rows of `source-conflicts.md` section A (row 21 is the WP 558 typo, added 20 Aug). Group them so he can rattle through:
    the six size/credit disagreements where live and workbook agree (1, 5, 10–15), the three
    where the deck is the lone outlier (7, 8, 9), the Bad Roman cluster (1–4), and the ones
    needing a real decision (6 Burger & Lobster's suspected designer/architect swap, 18 the
@@ -103,7 +108,9 @@ Must cover:
 3. Content or kill for the 8 pipeline projects, Twinta especially — it exists only in the
    July 10 transcript, so nothing can be written without him.
 4. Vector logo. Only a 2048×566 PNG exists.
-5. Video files without end logos, and where he wants them hosted.
+5. Video files without end logos, and where he wants them hosted — **but ask Alexey before you
+   write this one**: Cursor is chasing him for the files directly (PLAN §1 row 32), so this may
+   already be answered, or may need to be sharper than "please send video".
 6. **WP 564** — confirm the slug correction to `/commercial/washington-sq-dermatology/`. Worth
    telling him it is not a new name: it is that project's own former URL, still in WordPress's
    history, and the post is already titled "Washington Sq. Dermatology".
@@ -193,9 +200,14 @@ TypeGen pass. Schema *deploy* is blocked — no Sanity project exists yet
   anywhere — conflicts row 18, Eric's call, so leave it flagged and unpublished.
 - **Partners**: the ~30 firm marks on commercial deck p42. **Updated 2026-08-20b —** Cursor
   now extracts the marks from the PDF locally and reads the firm names off the page, landing
-  them in `content/images/partners/` with a manifest of verified spellings. Build the type and
-  the layout against that manifest; where it hasn't landed yet, build the layout and list
-  what's missing. Never publish a name straight from the OCR.
+  them in `content/images/partners/` with a manifest of verified spellings. **Corrected
+  2026-08-20c — the artwork does not exist in a usable form.** Every deck page is a single
+  flattened raster (p42 is one 1020×1320 JPEG, 97 KB), so each mark is a ~170px region of a
+  low-resolution scan. What you get is the **verified firm-name manifest** plus
+  not-for-publication reference crops; publishable marks must come from each firm's press kit or
+  from Eric. **Build the wall's type and layout against the name manifest and leave the artwork
+  slot visibly empty.** Never publish a name straight from the OCR, and never trace, upscale or
+  generate a third-party logo. `content/findings/deck-raster-finding.md`.
 - **Deck strings — updated 2026-08-20b.** Cursor is verifying the strings that will actually
   ship against the page images and filing `content/deck-corrections.tsv` (OCR string →
   corrected string, page, confidence). Apply those corrections; do not publish raw OCR,
@@ -231,10 +243,13 @@ All three built fully, not sketched, with the variants switchable:
   wall as ambient proof, services demoted to one supporting page.
 
 Variants, switchable: homepage ×4 (non-scrolling video loop · non-scrolling rotating stills ·
-scrolling video hero · single still), nav ×4, testimonials ×4. **Updated 2026-08-20b:** the
+scrolling video hero · single still), nav ×4, testimonials ×4. **Updated 2026-08-20b/c:** the
 local dump contains **zero video files** of any format, so the two video homepage variants
-cannot be built or even mocked until Eric sends files — build the two stills variants, and
-leave the video ones as declared-but-empty rather than faking a placeholder loop.
+cannot be built or even mocked until files arrive — build the two stills variants, and leave the
+video ones as declared-but-empty rather than faking a placeholder loop. Cursor is asking Alexey
+for the files directly (PLAN §1 row 32); if the answer is self-hosted rather than YouTube, the
+`video` doc type's YouTube-ID shape in PLAN §8 needs revisiting, so treat that as a schema
+question you may get handed.
 
 Project detail in every direction: full-bleed lightbox inside the persistent sidebar, thin
 chevron paging, title bottom-left, × close, ⌃ expand → panel with location · sq ft · role ·

@@ -16,6 +16,12 @@ are there and are not repeated here.
 > extraction, brand measurement, live link-check, backup checksums), §6 (review Grok's
 > handoff) and §9 (progress protocol). §4 — the image set — is unchanged. The filename stays
 > `cursor-images.md` because other documents point at it.
+>
+> 2026-08-20c: the PDF toolchain is **installed** (§2 — poppler, PyMuPDF, pypdf, Pillow), so
+> spend no time on setup. **§5.6 is now an ask, not a note: request the video files from
+> Alexey.** And §5.2 is corrected by measurement — every deck page is a single flattened raster,
+> so the partner logos cannot be extracted as publishable artwork; the verified name list is the
+> deliverable (`content/findings/deck-raster-finding.md`).
 
 ---
 
@@ -71,14 +77,25 @@ order and a human needs to look before you build on it. Note that the `--uploads
 
 ### What this machine has
 
-`tesseract`, `sips`, `node`, `npm`, `python3`, `numpy`, `brew`. **Not** installed: poppler
-(`pdfimages`, `pdftoppm`, `pdftotext`), PyMuPDF, pypdf, Pillow, ImageMagick. Install what you
-need and record it in your plan.
+Installed 2026-08-20b at Alexey's instruction — the PDF toolchain is ready, don't go shopping:
 
-One provenance oddity worth knowing before you redo work: `content/deck-transcripts/*.md` say
-they were OCR'd at 120dpi with tesseract on 2026-08-20, but this machine currently has no PDF
-rasteriser, so that route is not reproducible as-is. Work out how you're rasterising, write it
-down, and don't assume the existing transcripts can be regenerated.
+| | |
+|---|---|
+| poppler CLI | `pdfimages`, `pdftoppm`, `pdftotext`, `pdfinfo` |
+| Python libs | **PyMuPDF 1.28.2, pypdf 6.16.1, Pillow 12.3.0** in a project venv at `.venv/` (git-ignored) |
+| Also | `tesseract`, `sips`, `node`, `npm`, `python3` 3.13.5, `numpy`, `brew` |
+
+```bash
+.venv/bin/python -c "import pymupdf; print(pymupdf.__doc__)"   # no activation needed
+```
+
+Homebrew's Python is externally managed (PEP 668) so `pip install` into it is refused — that is
+why the venv exists. **The repo's own scripts stay stdlib-only** so they run on any machine;
+the venv is for your local PDF and image work. If you add a package, record it in your plan.
+
+Provenance note: the deck transcripts say they were OCR'd at 120dpi with tesseract on
+2026-08-20. That is reproducible again now — but see §5.1 for why re-running it at a higher DPI
+will not help.
 
 ## 3. What you are working from
 
@@ -92,7 +109,7 @@ down, and don't assume the existing transcripts can be regenerated.
 | `content/image-audit.tsv` | the 19 Aug per-project audit. Agrees with the export everywhere except `median_w` on four projects (§4.6) |
 | `content/originals-finding.md` · `content/findings/wxr-export-finding.md` | the originals finding, and why the numbers are now reproducible offline |
 | `inputs/raw/brand/streamline-logo.png` | the 2048×566 logo master (§5.3) |
-| `~/Downloads/Zipcodes/Streamline USA/Sample Portfolios_Streamline/` | **the two capability deck PDFs**, image-only: `Commercial Portfolio .pdf` (43 pp, 8.7 MB) and `Open Full residential` (44 pp, 13.7 MB, no file extension). Deliberately **not** in the repo — §5.1, §5.2, and the hard rule in §8 |
+| `~/Downloads/Zipcodes/Streamline USA/Sample Portfolios_Streamline/` | **the two capability deck PDFs**: `Commercial Portfolio .pdf` (43 pp, 8.7 MB) and `Open Full residential 32824.pdf` (44 pp, 13.8 MB). **Every page is one flattened raster** — commercial ~1020×1320, residential ~1105×1430, zero text characters on any page. Deliberately **not** in the repo — §5.1, §5.2, and the hard rule in §8 |
 | `~/Downloads/Zipcodes/Streamline USA/Images_Streamline/*.png` | ten 2048×2048 client-supplied PNGs outside the WordPress library (§4.7) |
 
 ### The baseline, verified 2026-08-20 — reproduce it, don't re-derive it
@@ -227,7 +244,14 @@ response, or this laptop's disk.
 
 Both transcripts open with a warning: uncorrected machine transcription, verify any string
 against the page image before it is published. Nobody has. Grok is about to build copy on top
-of them, so the strings that will actually ship are worth checking now:
+of them, so the strings that will actually ship are worth checking now.
+
+**Why re-OCR won't fix it, and reading will.** Each deck page is a single flattened raster at
+~1020×1320 (commercial) or ~1105×1430 (residential) — that is all the detail the file holds.
+Rendering at 300 or 600 dpi just upsamples the same pixels, so the OCR ceiling is fixed and the
+mangling (`RCD t. eee Vira`, `STReEeAMLIMNe usa`) is not a settings problem. You have the one
+capability that beats it: you can look at the page. Read the strings that matter; don't tune a
+pipeline.
 
 - **The proof points, commercial deck p3** — `$10M GL insurance`, the "almost every building in
   the city and 5 boros" line, "pricing for **most** projects in 7 working days" (the qualifier
@@ -245,18 +269,29 @@ apply it. Do **not** rewrite the transcripts in place; they are the raw OCR of r
 
 ### 5.2 Extract the partner logo marks
 
-`workorders/README.md` §5 lists this as blocked on Alexey; it is now yours. The ~30 firm marks
-live on **commercial deck p42** as images inside an image-only PDF. Grok's Phase D builds the
-type and the layout and leaves the wall unfilled.
+`workorders/README.md` §5 listed this as blocked on Alexey. It is now yours — with one
+important correction to what "extract" can mean here.
 
-- Extract the marks from **p42 only**, at the best resolution the PDF holds.
-- Read the firm names off the page and correct the mangled OCR (`RCD t. eee Vira`,
-  `Tonseetina — ASSOCIATES nuns`, `CELANO ii cust Hosp` and friends). Every name is unverified
-  until a human has read it off the page — which is exactly what you can do.
-- Trim, transparent-background where the source allows, sensible pixel size for a logo wall.
-- These are third-party trademarks used as client references — PLAN §1 row 21 permits logos and
-  testimonials. Keep the total under a couple of MB and commit them as assets, unlike the 887
-  photographs.
+**Measured 2026-08-20b: the marks are not extractable as artwork.** Commercial deck p42
+contains exactly **one** embedded image — a single flattened 1020×1320 JPEG of the whole page,
+97 KB. Every page in both decks is like that. So the ~30 logos are regions of one low-resolution
+bitmap, each perhaps 150–200px wide. That is enough to *identify* a firm and nowhere near
+enough to publish a mark on a wall of them.
+
+What that makes your deliverable:
+
+- **The verified firm-name list.** Read the names off p42 and correct the mangled OCR
+  (`RCD t. eee Vira`, `Tonseetina — ASSOCIATES nuns`, `CELANO ii cust Hosp` and friends). Every
+  name is unverified until a human has read it off the page — which is exactly what you can do,
+  and nobody else in this build can.
+- **Reference crops, clearly labelled not-for-publication**, at native resolution, one per
+  firm — so a human can confirm the reading and so whoever sources the real artwork knows what
+  they are looking for. Small files; keep them out of any rendered path.
+- **Publishable artwork is an ask, not a task.** Real marks have to come from each firm's own
+  site or press kit, or from Eric. That is a decision about third-party trademark use (PLAN §1
+  row 21 permits logos and testimonials in principle) — raise it, don't resolve it, and don't
+  upscale or redraw a mark to fill the gap. A traced approximation of someone else's logo is
+  both invented content and a worse problem than an empty wall.
 
 **Hard boundary:** the page *before* it — commercial p41, and residential p42–43 — is the
 testimonials/references page carrying the REFERENCES block: three architects' direct phones and
@@ -309,13 +344,34 @@ checksum manifest of the **887 referenced files** (about 100 KB of text) makes a
 verifiable, and makes "the backup is intact" a checkable claim instead of a hope. Record the
 dump's own totals — file count, bytes — while you are there.
 
-### 5.6 Videos — there are none
+### 5.6 Videos — ask Alexey for them
 
-PLAN §5 and §12 treat video as pending Eric (files without end logos, hosting preference), and
-the homepage variants include two video options. **The dump contains zero video files** — no
-`.mp4`, `.mov`, `.webm`, `.m4v`. Confirm that independently and record it: it means the two
-video homepage variants cannot be built or even mocked from anything on this machine, and the
-`video` doc type has no content until Eric sends files.
+**The dump contains zero video files** — no `.mp4`, `.mov`, `.webm`, `.m4v` anywhere in
+`wp-content/`. Confirm that independently. It means two of the four homepage variants
+(non-scrolling video loop, scrolling video hero) cannot be built or even mocked from anything on
+this machine, and the `video` doc type has no content at all.
+
+**So ask Alexey for the video files. Directly, early, and before you plan around their
+absence** — this is the one input in your lane that a question can unblock in a day, and PLAN §5
+makes video half the homepage variant set. Ask him for:
+
+1. **The files themselves**, and where to put them — they are large binaries, so they do *not*
+   go in this repo (§8). A local path outside the repo, with an inventory committed instead.
+2. **Whether the end logos are stripped.** PLAN §12 records the ask to Eric as "video files
+   without end logos" — the existing cuts apparently end on a logo card that the site's
+   variants can't use.
+3. **Hosting preference** — self-hosted vs YouTube vs Vimeo. The `video` doc type in PLAN §8 is
+   modelled around a YouTube ID and a poster frame, so if the answer is self-hosted, that is a
+   schema question for Grok rather than an asset question for you.
+4. **Which video goes where** — homepage loop vs hero vs a project page, and whether any of them
+   is project-specific.
+5. **Poster frames** — or permission to pull a frame from the file, which you can do locally.
+
+If he has them: inventory each one — filename, duration, dimensions, codec, bitrate, size,
+sha256, whether it loops cleanly, whether it has audio, and whether the end logo is present —
+into `content/video-inventory.tsv`, and note which homepage variants become buildable. If he
+doesn't have them yet, say so plainly in your session log and in `STATUS.md` so the two video
+variants stay visibly unbuilt rather than quietly forgotten.
 
 ---
 
@@ -364,7 +420,8 @@ can depend on them.
 | `content/images/image-manifest.tsv` | one row per referenced file: attachment ID, project, served path, chosen source path, measured original dimensions, aspect, orientation, hero-capable, notes |
 | `content/images/alt-text.tsv` | attachment ID, project, alt text, confidence, flag-for-review |
 | `content/images/checksums-887.tsv` | sha256 per referenced file (§5.5) |
-| `content/images/partners/` | the extracted logo marks + a manifest of verified firm names (§5.2) |
+| `content/images/partners/` | the manifest of verified firm names, plus `reference/` crops labelled not-for-publication (§5.2) |
+| `content/video-inventory.tsv` | whatever Alexey sends: filename, duration, dimensions, codec, bitrate, size, sha256, loops cleanly, has audio, end logo present (§5.6). The files themselves stay out of the repo |
 | `content/images/brand/` | the logo sampling report and interim raster set (§5.3) |
 | `content/images/README.md` | what each file is, how to regenerate it, what a reviewer should check |
 | `content/deck-corrections.tsv` | OCR string → corrected string, page, confidence (§5.1) |
@@ -378,9 +435,10 @@ reproduction command.
 
 ## 8. Hard rules
 
-- **Never commit `wp-content/`, or any of the 887 photographs, anywhere.** ~12 GB against a
-  100 MB GitHub file cap. Run `git status` before every commit. The logo marks and brand assets
-  in §5.2/§5.3 are the deliberate exception — small, few, and needed to build.
+- **Never commit `wp-content/`, the 887 photographs, or any video file.** ~12 GB against a
+  100 MB GitHub file cap, and video is worse. Run `git status` before every commit. The brand
+  assets in §5.3 and the small reference crops in §5.2 are the deliberate exception — few,
+  small, and needed to build.
 - **Never commit the deck PDFs, and never touch the REFERENCES pages** (commercial p41,
   residential p42–43). Architect direct phones and emails never enter this repo in any form —
   not as an extract, a screenshot, an OCR line, or a note.
@@ -427,7 +485,9 @@ The gates that are yours, answerable from your output alone:
 - [ ] `scripts/build-image-manifest.mjs` runs clean from a fresh checkout plus the dump, and
       re-verifies the 1,763 / 791 / 388 / 137 figures
 - [ ] Deck strings that will ship are verified against the page images, corrections filed
-- [ ] The logo wall's marks extracted and its firm names read off the page, not off OCR
+- [ ] The logo wall's firm names read off the page rather than off OCR, reference crops filed,
+      and publishable artwork raised as an ask
+- [ ] Alexey has been asked for the video files, and the answer is recorded either way
 - [ ] `#DA2128` is a reproducible measurement, not a remembered one
 - [ ] Every one of the 73 legacy URLs has a dated live status, and the 11 `SKIP` rows are
       confirmed to serve 200

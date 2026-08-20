@@ -41,6 +41,9 @@ phase boundary rather than assuming what you read at the start still holds.
 1. **Cursor:** brainstorm the work order → commit `workorders/cursor-plan.md` → execute. The
    image set is the critical path for everything visual; the 887-image alt-text pass is the
    single largest job in the build.
+1b. **Cursor → Alexey, on day one: ask for the video files.** There are none on this machine, so
+   two of the four homepage variants are unbuildable until they arrive. It is one question, and
+   it unblocks half the variant set (`cursor-images.md` §5.6, PLAN §1 row 32).
 2. **Grok:** phases B–H (scaffold → schema → content → three directions → migration → SEO).
 3. **Cursor:** review Grok's handoff when it lands (`cursor-images.md` §C).
 4. **Alexey:** send Eric's email once Grok's draft is reviewed; create the Sanity project when
@@ -53,7 +56,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · video files + hosting · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | Sanity project + write token · push rights for `grok/build` · partner logo marks are extractable locally (now a Cursor task) · second copy of the dump off this laptop |
+| **Alexey** | **the video files — Cursor is asking, and nothing video-shaped can be built or mocked until they land** · Sanity project + write token · push rights for `grok/build` · publishable partner logo artwork (the decks can only supply names — `content/findings/deck-raster-finding.md`) · second copy of the dump off this laptop |
 
 ## PLAN §11 step tracker
 

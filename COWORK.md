@@ -72,6 +72,7 @@ invalidates a decision gets a new PLAN §1 row, not an edit.
 | 2026-08-20 | Adversarial review + fix | hygiene commit; PLAN/DESIGN/CLAUDE/COWORK rebuilt; content-inventory.tsv; source-conflicts.md; spec+originals patches; deck transcripts; FINAL-PLAN.md deleted |
 | 2026-08-20 | Archive decision | `docs/archive/` — the two 19 Aug drafts, redacted |
 | 2026-08-20 | Source ingest + work orders | `inputs/raw/` (WXR export, both workbooks, logo master, 2022 export CSV); `inputs/derived/` (83 extracts, 17 assertions passing); `scripts/` (3 extractors + README); `workorders/` (README + Cursor + Grok lanes); 2 findings; PLAN §1 rows 23–29; source-conflicts A-21 + §F; CLAUDE/COWORK/originals synced |
+| 2026-08-20 | Deck measurement + tooling | PDF toolchain installed (poppler; PyMuPDF/pypdf/Pillow in a git-ignored `.venv/`); `deck-raster-finding.md` — both decks are flattened page rasters, so partner logo artwork isn't extractable, only names; Cursor tasked to ask Alexey for the video files (none exist on this machine); PLAN §1 rows 31–32 |
 | 2026-08-20 | Lane scope + progress protocol | Cursor lane broadened to all local work (deck PDFs, partner logo marks, logo sampling, live link-check, backup checksums) + adversarial review of Grok's handoffs, with a brainstorm→plan→execute opening; Grok's order gets a progress protocol and a handoff obligation; `workorders/STATUS.md`, `sessions/`, `handoffs/`, `reviews/`; PLAN §1 row 30 |
 
 Add a row per session, same day.

@@ -127,7 +127,8 @@ skipped.
 | `subCategory` taxonomy — workbook's 10 two-level values vs the retired flat 5 | Eric | the second filter level; 55 of 58 need backfill either way |
 | Content for the 8 pipeline projects (Twinta especially — it exists only in the transcript) | Eric | those 8 drafts stay title-only |
 | Vector logo (only a 2048×566 PNG exists) | Eric | crisp wordmark at large sizes |
-| Video files without end logos, and hosting preference | Eric | the video homepage variants, `video` doc type |
+| **Video files** — none exist anywhere on this machine | **Alexey first, then Eric.** Cursor asks him directly (`cursor-images.md` §5.6): files, end-logo status, hosting preference, which variant each one is for, poster frames | two of the four homepage variants, the `video` doc type. One question unblocks half the variant set |
+| Publishable partner logo artwork (~30 marks) | Eric / Alexey — the decks can only supply names, not artwork (`content/findings/deck-raster-finding.md`) | the logo wall's images; its type and layout can be built now |
 | Confirm the WP 564 slug fix, and the newly found WP 558 `autrium` typo | Eric | two redirect rows |
 | RFP recipient addresses · Procore mention keep/drop · Mercer St testimonial attribution · which phone numbers are publishable · references-page approach · one site or two | Eric | the RFP form, one services line, one testimonial, `siteSettings` |
 | Sanity project + write token | Alexey | schema deploy, TypeGen against a real dataset, any migration dry-run |
