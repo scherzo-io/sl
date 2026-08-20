@@ -4,7 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Grok (session 05) · next action: **Cursor reviews Phase E on a real screen; Alexey reviews/sends `content/eric-email.md`; do not start F until Eric + Sanity project + images**
+Last updated: **2026-08-20** · by: Grok (session 06) · next action: **Cursor reviews Phase G+H on a real screen and runs the live HEAD sweep; Alexey walks `content/findings/legacy-review-rows.md` and `content/eric-email.md`; do not start F until Eric + Sanity project + images**
 
 ---
 
@@ -13,7 +13,7 @@ Last updated: **2026-08-20** · by: Grok (session 05) · next action: **Cursor r
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
 | **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **not started.** Work order broadened 2026-08-20 to cover all local-only work + reviewing Grok's handoff | `cursor/images` | — |
-| **Grok** — the build | [`grok-build.md`](grok-build.md) | **Phase E directions landed** 2026-08-20. F blocked | `grok/build` | A/B/C fully built, switchable, lightbox, empty photo slots |
+| **Grok** — the build | [`grok-build.md`](grok-build.md) | **Phase G + H landed** 2026-08-20. F skipped (blocked) | `grok/build` | A–E, G, H. F not started |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
 the change is additive and called out in that file's changelog — read it again at your next
@@ -33,19 +33,21 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | **Grok Phase C.** Sanity schema + TypeGen. No schema deploy | `sanity/**`, `schema.json`, `sanity.types.ts` |
 | 2026-08-20 | **Grok Phase D.** 10 pages assembled; 8 testimonials; scrubbed bios; PT converter 58/58 | `content/copy/**`, `content/pages/**` |
 | 2026-08-20 | **Grok Phase E.** Three directions fully built, switchable variants, lightbox, empty photo slots | `app/commercial/[slug]`, `app/residential/[slug]`, `components/review/**`, `components/media/ProjectView.tsx` |
+| 2026-08-20 | **Grok Phase G.** 37 301s, 11 SKIP never redirected, 25 REVIEW 404, 2×410, metadata, JSON-LD, sitemap/robots, consent banner (IDs null) | `middleware.ts`, `lib/redirects.ts`, `lib/seo.ts`, `content/copy/redirects.json`, `content/findings/legacy-review-rows.md` |
+| 2026-08-20 | **Grok Phase H.** Gate table. F still blocked. `npm run build` not run (dev on 8080) | `workorders/handoffs/grok-2026-08-20-h.md` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
-| Grok | E — three directions | 2026-08-20 | **landed this session.** Photography still empty slots |
-| Grok | F — migration | blocked | Needs Eric answers + Sanity project + Cursor image manifest |
+| Grok | F — migration | blocked | Needs Eric answers + Sanity project + Cursor image manifest. Do not start |
+| Cursor | images + live HEAD + G/H review | not started | `content/link-check/` still absent |
 
 ## Next up
 
-1. **Cursor:** `workorders/cursor-plan.md` then execute. Review Grok handoffs A–E on a real screen and keyboard (`workorders/handoffs/grok-2026-08-20-e.md`). Partner-name manifest unblocks the logo wall.
-2. **Alexey:** review and send `content/eric-email.md`. Flip the GitHub remote private if `grok/build` should be pushed. Video files (row 32). Sanity project when Studio should mount.
-3. **Grok (this lane, after the blocks lift):** Phase F migration. Do not start it against invented values.
+1. **Cursor:** review Grok handoffs G and H (`workorders/handoffs/grok-2026-08-20-g.md`, `…-h.md`) on a real screen. Live `HEAD` of the 73 into `content/link-check/<date>.tsv`. Partner-name manifest still unblocks the logo wall.
+2. **Alexey:** `content/findings/legacy-review-rows.md` (25 REVIEW). Send `content/eric-email.md`. Flip the GitHub remote private if `grok/build` should be pushed. Video files (row 32). Sanity project when Studio should mount. Analytics IDs when they exist.
+3. **Grok (this lane):** stop until F unblocks. Do not invent IDs, phones, or REVIEW targets.
 
 ## Blocked, and on whom
 
@@ -54,7 +56,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | **the video files — Cursor is asking, and nothing video-shaped can be built or mocked until they land** · Sanity project + write token · push rights for `grok/build` · publishable partner logo artwork (the decks can only supply names — `content/findings/deck-raster-finding.md`) · second copy of the dump off this laptop |
+| **Alexey** | **the video files — Cursor is asking, and nothing video-shaped can be built or mocked until they land** · Sanity project + write token · push rights for `grok/build` · publishable partner logo artwork (the decks can only supply names — `content/findings/deck-raster-finding.md`) · second copy of the dump off this laptop · **25 REVIEW redirect targets** (`content/findings/legacy-review-rows.md`) · analytics IDs |
 
 ## PLAN §11 step tracker
 
@@ -70,7 +72,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | 8 · Directions A, B, C + variants | ✅ Phase E landed 2026-08-20 | Grok |
 | 9 · Eric picks a direction | 🟡 unblocked on 8; waiting on Eric looking at the three | — |
 | 10 · migration into `staging` | 🔒 blocked on 3 + Sanity project + Cursor images | Grok |
-| 11 · SEO / redirect layer | ⬜ open — bigger than PLAN §9 knew (`legacy-slugs-finding.md`) | Grok + Cursor (link-check) |
+| 11 · SEO / redirect layer | ✅ Grok G landed locally (37 301 / 11 SKIP / 25 REVIEW / 2 410). 🟡 live HEAD of 73 still Cursor | Grok + Cursor (link-check) |
 | 12 · staging sign-off, cutover | 🔒 blocked | — |
 
 ## How to resume
