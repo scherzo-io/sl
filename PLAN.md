@@ -16,7 +16,11 @@ This is the single source of truth. Companion documents hold detail, not decisio
 | `content/content-inventory.tsv` | canonical project registry: 58 live (REST-verified 2026-08-20) + 8 pipeline |
 | `content/source-conflicts.md` | every cross-source disagreement, one row each, for Eric |
 | `content/originals-finding.md` | hidden high-res originals + the migration filter rule |
-| `content/findings/` | one file per future research finding |
+| `content/findings/` | one file per research finding |
+| `inputs/raw/` | snapshotted sources, immutable: the 2026-08-20 WXR export, both workbooks, the logo master (row 23) |
+| `inputs/derived/` | script-generated text extracts of the above — projects, pages, attachments, legacy slugs, workbook sheets |
+| `scripts/` | the extractors. Stdlib Python 3, no network, no credentials |
+| `workorders/` | the two agent lanes: `cursor-images.md` (the image set) and `grok-build.md` (everything else), plus the ownership map (row 29) |
 
 > **Provenance.** The original four-document merge (19 Aug) was never persisted — its output
 > existed only in a chat session and is lost. This PLAN was rebuilt 20 Aug from
@@ -32,7 +36,8 @@ This is the single source of truth. Companion documents hold detail, not decisio
 Settled decisions with reasoning. **Do not silently change a row — add a new row that
 supersedes it.** Rows 1–10 reconstruct the 19 Aug merge (labeled R — reconstructed from the
 two surviving drafts; the original table is lost). Rows 11–22 are from the 20 Aug review
-(labeled V — verified, with evidence).
+(labeled V — verified, with evidence). Rows 23–29 are from the 20 Aug source-ingest session
+(labeled S — the WordPress export arriving in the repo, and what it proved).
 
 | # | Decision | Resolution | Why / evidence |
 |---|---|---|---|
@@ -58,6 +63,13 @@ two surviving drafts; the original table is lost). Rows 11–22 are from the 20 
 | 20 V | Capability decks | **Two distinct decks**: commercial (43pp) and residential (44pp) — not one brochure twice. **Neither has a text layer**; all transcription is OCR/manual. Residential deck carries ~25 case studies incl. Lantern House and the Pierre | pypdf/pdftotext: 0 extractable chars in both. The "43pp has a real text layer" claim was false |
 | 21 V | REFERENCES block (deck C p41, deck R p42) | **Never published.** Logos and testimonials yes; the three architects' direct contacts replaced by "references available on request" | Present in both decks; publishing it burns exactly the audience the site targets |
 | 22 V | Prototype content | **Kill-list enforced** (DESIGN §9): no invented names, addresses, phones, hours, or stock photography survives into the build. Every displayed fact traces to `content-inventory.tsv`, a deck, or the live site | Verified on the live prototype 20 Aug: fake project, fake address, two fake phone numbers, invented hours, © 2024 |
+| 23 S | Source data: live-measured vs snapshotted in-repo | **The 2026-08-20 WXR export is committed at `inputs/raw/`, with text extracts in `inputs/derived/`.** `inputs/raw/` is the source of record and immutable; `inputs/derived/` is script-generated and never hand-edited. **Supersedes row 8's "no WordPress export needed"** — the export stays optional for *launch*, but it is now the offline source of truth for structure — and **closes §11 step 4's authenticated-manifest dependency**: no WP admin session is needed for any number in this repo | 17 assertions recompute from the one committed file: 58 projects · 27/31 · 880 gallery · **887 union** · 7 featured-outside-gallery · 137 `post: 0` · 387 gallery originals · 791 library originals · 445 ≥1920 · 259 ≥2048 · 74 square · 878 missing alt · 5+3 architects · 10 raw role strings. All pass. `content/findings/wxr-export-finding.md` |
+| 24 S | Library image total | **1,763 image records (1,764 attachments), not 1,744** — so ~876 unreferenced, not ~857. Every *derived* figure is unchanged; only the denominator moves | The 1,744/1,760 pair was the 19 Aug authenticated live read. The export is the 20 Aug snapshot and is repo-reproducible. Corrected in `originals-finding.md` §Also-worth-knowing |
+| 25 S | Legacy project URLs | **73 retired project URLs across 35 of 58 projects**, classified in `inputs/derived/legacy-slugs.tsv`: **37 → 301**, **11 → never redirect** (the retired slug is another project's *live* slug), **25 → human review** (24 ambiguous, 1 `__trashed`). Only the 37 become `redirect` docs; every row gets a live `HEAD` in the §9 link-check. Extends §9, which knew of three exceptions | `_wp_old_slug` repeats per retired slug, so a last-wins parse reports zero of them. The slugs were shuffled in bulk at some point: `mackage-soho`, `mexicue`, `tribeca-loft`, `haus-nightclub` and 7 more are simultaneously live slugs and other projects' history. `content/findings/legacy-slugs-finding.md` |
+| 26 S | WP 564 slug fix (row 16) — evidence | **Row 16 stands, and is no longer a proposal from outside the data.** `washington-sq-dermatology` is in WP 564's own `_wp_old_slug` history; the post is already titled "Washington Sq. Dermatology", located "West Village", and described as a dermatology build-out. Still Eric's confirm | The correction restores the project's own former URL rather than inventing one |
+| 27 S | WP 558 `autrium-corporate-office` | **"Atrium Corporate Office" is live at a typo'd slug.** Correctly spelled `atrium-corporate-office` is in its retired history. Same class as row 16 → **PENDING ERIC** (`source-conflicts.md` A-21). Until he answers, the live URL is preserved as-is per row 3 | Found in the export's slug history. A typo in a URL is the one case where row 3's "preserve exactly" is worth asking about |
+| 28 S | Newest project date | **Lantern House and 795 5th Ave (The Pierre) were published 2023-10-18** — corrects §3's "Newest: Lantern House (Oct 2024)". No new project in 22 months | Both `wp:post_date` values in the export. Worth knowing before describing the portfolio as current |
+| 29 S | Division of labour | **Two lanes, one repo: Cursor owns the image set, Grok owns everything else.** Work orders in `workorders/` — `README.md` carries the file-ownership map, branch policy (`cursor/images`, `grok/build`; `main` is Alexey's), and the blocked-on-a-person list. Deck PDFs stay out of the repo (row 21 — the REFERENCES block), so the scrubbed OCR transcripts remain the repo-side source | Cursor is on the machine with the ~12 GB dump and can see a photograph; Grok reads the repo over GitHub. The ownership map has no overlaps, so both lanes can run at once |
 
 Open items requiring people, not analysis: §12.
 
@@ -312,6 +324,11 @@ backfill review · content-or-kill for the 8 pipeline projects (Twinta content e
 vector logo (only a 2048×566 PNG exists) · video files without end logos + hosting preference ·
 Mercer St Loft testimonial attribution + re-consent posture · references-page approach ·
 Procore mention keep/drop · RFP recipient addresses · confirm WSD slug fix · one-site-or-two.
+
+Two asks were added by the 20 Aug source-ingest session and are not in the list above:
+**confirm the WP 558 `autrium-corporate-office` slug typo** (row 27) and **say which of the
+four phone numbers on the live contact page are publishable** (row 23 — two office lines and
+two mobiles). The full draft lives in `content/eric-email.md`.
 
 **From Alexey:** Sanity account when scaffolding starts · real contact phone for siteSettings ·
 decide whether the two rescued 19 Aug drafts get archived into the repo (they quote

@@ -34,6 +34,7 @@ Where LIVE agrees with one source, that's evidence, not a verdict — Eric still
 | 18 | Testimonial "Mercer St Loft Owners" | attribution | WB Testimonials sheet | not in decks | no Mercer project anywhere | multi-project client per the quote; attribute, anonymize, or drop |
 | 19 | Vivvi ×2 | designer/architect roles | Tribeca: Des "Eleven of Eleven Architecture" / Arch "Carol Gretter" · Hudson Yards: Des "Eleven of Eleven Design" / Arch "Carol Gretter / Eleven of Eleven" | — | matches WB | the two rows invert who's designer vs architect — normalize |
 | 20 | Grand Ole Opry | architect display | SWA Architecture | — | ACF **has** "SWA architecture" | site template hides it — display bug on the old site, not a data gap. New site shows it; nothing for Eric unless the credit is wrong |
+| 21 | Atrium Corporate Office (WP 558) | slug/URL | — | in deck | live slug `autrium-corporate-office` | **NEW 2026-08-20b.** The live URL misspells "Atrium". The correctly spelled `atrium-corporate-office` sits in the project's own `_wp_old_slug` history. Same class as row 16: correct the slug + 301, or preserve the typo per PLAN §1 row 3? **Eric confirms** (PLAN §1 row 27) |
 
 ## B. Data hygiene — fixed mechanically at migration (no Eric needed)
 
@@ -67,3 +68,22 @@ assignment — Alexey can draft from photos/decks, Eric approves.
 
 Six normalized atoms + `roleDetail` raw string. Mapping table in `CLAUDE.md`. The
 "is_unique verbatim" instruction is superseded; live raw strings number 10, not 8 or 9.
+
+## F. Evidence added 2026-08-20b — from the committed WXR export
+
+Not new conflicts; new evidence on rows that were already open. Source:
+`inputs/raw/streamlineusa.WordPress.2026-08-20.xml` via `scripts/wxr-extract.py`
+(`content/findings/wxr-export-finding.md`, `legacy-slugs-finding.md`).
+
+- **Row 16 (Washington Sq. Dermatology, WP 564)** — `washington-sq-dermatology` is in that
+  project's own retired-slug history. The post is titled "Washington Sq. Dermatology", its
+  location is "West Village", and its description is a dermatology build-out. The proposed
+  correction restores its former URL rather than inventing one. Eric's confirm still needed.
+- **Row 18 (Mercer St Loft testimonial)** — still unmatched. The export confirms there is no
+  Mercer project among the 58, and none in the retired-slug history either.
+- **Rows 1, 5, 10–15 (sizes and credits)** — live ACF values re-confirmed from the export;
+  they match the LIVE column of this table exactly. `sq_feet` is a dead ACF field (empty on
+  all 58); `size_sq_ft` is the live one, so nothing in this table was read off the wrong key.
+- **Section B hygiene items** — all re-confirmed in the export: the `" General Contractor"`
+  leading space (WP 3392), the three pseudo-blank architects, the five truly empty ones, and
+  the location strings needing tidying.

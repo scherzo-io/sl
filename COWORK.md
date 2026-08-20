@@ -25,6 +25,10 @@ failure structurally impossible to repeat.
 | `content/content-inventory.tsv` | canonical project registry | regenerate from sources, don't hand-edit live rows |
 | `content/source-conflicts.md` | open cross-source disagreements | add rows; mark resolved with Eric's answer + date |
 | `content/findings/` | research findings | template in its README |
+| `inputs/raw/` | snapshotted sources (WXR export, workbooks, logo master) | immutable — never edited, never regenerated |
+| `inputs/derived/` | text extracts of the above | change the script in `scripts/` and re-run; never hand-edit |
+| `scripts/` | extractors now, image manifest + migration later | ordinary code review; stdlib only for the extractors |
+| `workorders/` | the two agent lanes and the file-ownership map | update when a lane's scope changes |
 
 **Propagation rule:** any PLAN §1 row that touches tokens, schema, URLs, or content rules must
 be mirrored into DESIGN.md / CLAUDE.md in the same session, and the row cites what it
@@ -63,5 +67,7 @@ invalidates a decision gets a new PLAN §1 row, not an edit.
 |---|---|---|
 | 2026-08-19 | Planning (audit, reference capture, two plan drafts, brief, merge attempt) | FINAL-PLAN.md, spec, image-audit.tsv, originals-finding.md — merge output lost (see §0) |
 | 2026-08-20 | Adversarial review + fix | hygiene commit; PLAN/DESIGN/CLAUDE/COWORK rebuilt; content-inventory.tsv; source-conflicts.md; spec+originals patches; deck transcripts; FINAL-PLAN.md deleted |
+| 2026-08-20 | Archive decision | `docs/archive/` — the two 19 Aug drafts, redacted |
+| 2026-08-20 | Source ingest + work orders | `inputs/raw/` (WXR export, both workbooks, logo master, 2022 export CSV); `inputs/derived/` (83 extracts, 17 assertions passing); `scripts/` (3 extractors + README); `workorders/` (README + Cursor + Grok lanes); 2 findings; PLAN §1 rows 23–29; source-conflicts A-21 + §F; CLAUDE/COWORK/originals synced |
 
 Add a row per session, same day.

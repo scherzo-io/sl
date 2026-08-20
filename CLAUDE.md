@@ -2,15 +2,32 @@
 
 Read `PLAN.md` first; §1 is the decision table and it wins over anything here. This file is
 the operational rulebook for code sessions. `DESIGN.md` owns visuals; `COWORK.md` owns
-session protocol.
+session protocol. If you are an agent working one of the two lanes, your work order in
+`workorders/` says what is yours; this file says how to build it.
 
 ## Stack & repo
 
 - Next.js App Router · TypeScript · Tailwind · Sanity (embedded Studio at `/studio`)
 - Vercel hosting; `production` + `staging` Sanity datasets; migrations dry-run against staging
-- Never commit: `wp-content/` (an ~11 GB dump may appear locally — `.gitignore` blocks it;
-  keep it out of the repo folder anyway), `.env*`, `node_modules/`
-- Local commits fine; **do not push** without Alexey. Remote is `scherzo-io/sl` (private)
+- Never commit: `wp-content/` (an ~12 GB dump is present locally — `.gitignore` blocks it;
+  keep it out of the repo folder anyway), `.env*`, `node_modules/`, any image binary, the
+  capability deck PDFs (they carry the REFERENCES block — see Hard prohibitions), the
+  internal-notes folder, or the website proposal
+- Local commits fine; **do not push** without Alexey. Remote is `scherzo-io/sl` (private).
+  Lane branches: `cursor/images`, `grok/build`; `main` is Alexey's
+
+## Sources (PLAN §1 row 23)
+
+- **`inputs/raw/` is the source of record and immutable.** The 2026-08-20 WXR export, both
+  content workbooks, the 2022 WP All Export CSV, the logo master. Never edit, never regenerate
+- **`inputs/derived/` is generated.** Change the script in `scripts/` and re-run; never
+  hand-edit an extract. `python3 scripts/wxr-extract.py` must print `assertions failed: 0` —
+  it checks 17 numbers against PLAN.md, and a failure means a human looks before anything
+  downstream runs
+- A number in this repo must recompute from this repo. Anything that can only come from the
+  live site is labelled measured-from-live, dated, with a reproduction command (COWORK §3)
+- Structure, ACF values, page copy, the media library, the menu and the retired-slug history
+  all come from the export — no authenticated WordPress session is needed for any of it
 
 ## Sanity conventions
 
@@ -66,8 +83,18 @@ session protocol.
 - Prefer the hidden full-size originals (strip WordPress `-scaled`/`-WxH` suffixes; see
   `content/originals-finding.md`); migrate via `_sanityAsset` original URLs so Sanity builds
   derivatives; production never references the legacy WordPress CDN
-- Every image gets descriptive alt text at migration (878/880 currently missing). Pattern:
-  "<Project name> — <room/space>, <notable feature>". No filename-as-alt
+- Every image gets descriptive alt text at migration. Pattern:
+  "<Project name> — <room/space>, <notable feature>". No filename-as-alt — which makes the
+  real count **887 to write, not 885**: the only two images with any alt value carry
+  `Boqueria` (the project name) and `Screen Shot 2016-03-02 at 1.48.15 PM` (a filename), and
+  neither survives this rule
+- The image set is one lane's job (`workorders/cursor-images.md`), working from the committed
+  export plus the local dump — all 887 referenced files, and their originals, are present on
+  disk. Everything else consumes `content/images/` and never re-derives it
+- **The export records the dimensions WordPress *serves*.** For the 388 files with a larger
+  original, true dimensions must be measured off disk — never trusted from metadata
+- No upscaling, AI enhancement, retouching or generated imagery. Streamline's own photography
+  only; a generated pixel is invented content
 - `next/image` everywhere; `object-cover`; tiles keep native aspect ratios
 
 ## URLs, redirects, SEO
@@ -75,7 +102,14 @@ session protocol.
 - Preserve `/commercial/<slug>/` and `/residential/<slug>/` exactly
 - `/sample-page/`, `/1248-2/` → **410**
 - WP 564 `upper-east-side-townhouse` → `/commercial/washington-sq-dermatology/` + **301**
-  (pending Eric's confirm — PLAN §1 row 16); use the `redirect` doc type
+  (pending Eric's confirm — PLAN §1 rows 16, 26); use the `redirect` doc type
+- WP 558 is live at the typo'd `autrium-corporate-office` — pending Eric (row 27); until he
+  answers, preserve it exactly per row 3
+- **73 retired project URLs** in `inputs/derived/legacy-slugs.tsv` (PLAN §1 row 25): the 37
+  marked `301` become `redirect` docs; the **11 marked `SKIP` are never redirected** — each is
+  another project's live slug, and a redirect would take a working page off the site; the 25
+  marked `REVIEW` need a human target or an honest 404. Re-run the extractor before cutover —
+  adding a project can flip a `301` row to `SKIP`
 - Metadata API from the `seo` object; `LocalBusiness` + `GeneralContractor` JSON-LD
   (483 10th Ave Ste 205, NY 10018); sitemap + robots; link-check old vs new before cutover
 - GA4 · Search Console · Meta pixel · LinkedIn tag → consent banner (minimal, bottom-anchored)
@@ -104,5 +138,7 @@ session protocol.
       no retired reds in CSS output
 - [ ] All three directions render at 390 / 768 / 1440; lightbox keyboardable;
       `prefers-reduced-motion` respected
-- [ ] Every legacy URL resolves 200 / 301 / intentional 410
+- [ ] Every legacy URL resolves 200 / 301 / intentional 410 — including all 73 rows of
+      `inputs/derived/legacy-slugs.tsv`, with the 11 `SKIP` rows still serving 200
+- [ ] `python3 scripts/wxr-extract.py` prints `assertions failed: 0`
 - [ ] `npm run dev` and `npm run build` clean; TypeGen current

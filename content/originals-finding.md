@@ -97,6 +97,20 @@ step 4); until it exists, the 1,744 / 791 / 387 / 137 numbers above are dated li
 measurements, not repo-reproducible facts. The 880 gallery total and the 887 union ARE
 reproducible: `content/image-audit.tsv` and the anonymous posts endpoint.
 
+> **Superseded in part, 2026-08-20b (PLAN §1 rows 23–24).** A full WXR export of the site is
+> now committed at `inputs/raw/streamlineusa.WordPress.2026-08-20.xml`, and
+> `scripts/wxr-extract.py` recomputes **791 · 387 · 137 · 880 · 887** from it offline — no
+> authenticated session, no network. So the paragraph above is out of date on one point: those
+> numbers are repo-reproducible facts now, not dated live measurements. Two corrections came
+> with it: the library total is **1,763 image records (1,764 attachments), not 1,744**, so
+> ~876 are unreferenced rather than ~857; and both cross-checks hold (all **887 of 887**
+> referenced files, and their originals, are present in the local dump). What is still open is
+> the part the export genuinely cannot answer — for the 388 files with a larger original,
+> `_wp_attachment_metadata` records the *scaled* copy's dimensions, so true original
+> dimensions must be measured off disk. That, plus hero re-verification, is what
+> `build-image-manifest.mjs` is still for (`workorders/cursor-images.md`).
+> See `content/findings/wxr-export-finding.md`.
+
 > Disk cross-check, 2026-08-20: the WordPress dump landed locally (`wp-content/`,
 > git-ignored). `uploads/` holds 25,750 image files including all derivatives; 3,831
 > non-derivative originals and 1,578 `-scaled` copies. Both bound the API-measured figures
