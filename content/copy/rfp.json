@@ -1,0 +1,19 @@
+{
+  "source": "PLAN §5 Request For Pricing fields. Recipient: live contact email only. Estimating address does not exist in-repo (Phase A item 10) — not invented.",
+  "title": "Request for pricing",
+  "intro": "Streamline USA would love to be on your bidder's list for future projects.",
+  "introSource": "PLAN §6 / commercial deck p3 (verified wording, not OCR)",
+  "fields": [
+    { "name": "projectName", "label": "Project name", "type": "text", "required": true },
+    { "name": "location", "label": "Location", "type": "text", "required": true },
+    { "name": "type", "label": "Type", "type": "text", "required": true },
+    { "name": "sqft", "label": "Square feet", "type": "text", "required": true },
+    { "name": "timeline", "label": "Timeline", "type": "text", "required": true },
+    { "name": "message", "label": "Notes", "type": "textarea", "required": false }
+  ],
+  "mailto": "Eric@StreamlineUSA.com",
+  "skipped": [
+    "drawings upload — no file endpoint; not faked",
+    "estimating@… recipient — does not exist in sources"
+  ]
+}

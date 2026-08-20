@@ -1,0 +1,26 @@
+{
+  "source": "inputs/derived/pages/about.txt + homepage story from template.txt. Live lorem block and the mismatched millwork heading are recorded in flags.json, not here.",
+  "story": [
+    "Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.",
+    "This team came together with a vision that each member would bring his own unique talents and problem-solving abilities to bear. By combining a passion for construction and the synergy of a partnership, Streamline has continued to grow stronger while remaining agile and dynamic. Streamline is your partner for commercial and residential projects."
+  ],
+  "mission": [
+    "Our first commitment is the quality of our product. Fulfilling and exceeding our client and design team’s expectations drives our company’s culture.",
+    "Each partner is actively engaged in promoting a company culture that attracts and nurtures the outstanding talent in all areas of business: from artisan tradesmen to resourceful project managers.",
+    "Together we have built a successful team of industry professionals. They are all loyal and passionate about constructing client satisfaction."
+  ],
+  "whyWorkWithUs": [
+    {
+      "title": "Flexible bidding",
+      "body": "We can bid your project as the GC / CM or as a sub contractor."
+    },
+    {
+      "title": "We meet deadlines",
+      "body": "We specialize in fast paced schedules and high end interior finishes."
+    },
+    {
+      "title": "Attention to detail",
+      "body": "We know what it takes to bring in a project on time and on budget."
+    }
+  ]
+}

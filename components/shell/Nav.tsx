@@ -5,9 +5,14 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { nav, type NavItem } from "@/lib/nav";
 
+function pathOf(href: string) {
+  return href.split("#")[0] ?? href;
+}
+
 function isActive(pathname: string, href: string) {
-  if (href === "/") return pathname === "/";
-  return pathname === href || pathname.startsWith(`${href}/`);
+  const path = pathOf(href);
+  if (path === "/") return pathname === "/";
+  return pathname === path || pathname.startsWith(`${path}/`);
 }
 
 function Item({
@@ -28,7 +33,7 @@ function Item({
         <Link
           href={item.href}
           onClick={onNavigate}
-          className={`flex min-h-nav items-center justify-center px-3 text-center text-md font-display font-light ${
+          className={`flex min-h-nav items-center justify-center px-3 text-center font-display text-md font-light ${
             active ? "text-red-on-dark" : "text-paper hover:text-red-on-dark"
           }`}
         >
@@ -44,7 +49,7 @@ function Item({
         type="button"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className={`flex min-h-nav w-full items-center justify-center px-3 text-center text-md font-display font-light ${
+        className={`flex min-h-nav w-full items-center justify-center px-3 text-center font-display text-md font-light ${
           active || childActive ? "text-red-on-dark" : "text-paper hover:text-red-on-dark"
         }`}
       >
@@ -57,7 +62,7 @@ function Item({
               <Link
                 href={child.href}
                 onClick={onNavigate}
-                className={`flex min-h-10 items-center justify-center px-4 text-center text-sm font-display font-light ${
+                className={`flex min-h-10 items-center justify-center px-4 text-center font-display text-sm font-light ${
                   isActive(pathname, child.href)
                     ? "text-red-on-dark"
                     : "text-paper hover:text-red-on-dark"

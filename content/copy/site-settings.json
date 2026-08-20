@@ -1,0 +1,19 @@
+{
+  "source": "PLAN §8 siteSettings; live contact page; DESIGN §9 year is automatic",
+  "legalName": "Streamline USA LLC",
+  "name": "Streamline USA",
+  "wordmark": "Streamline",
+  "email": "Eric@StreamlineUSA.com",
+  "address": {
+    "line": "483 10th Ave, Suite 205, New York 10018",
+    "street": "483 10th Ave",
+    "suite": "Suite 205",
+    "city": "New York",
+    "region": "NY",
+    "postal": "10018"
+  },
+  "phone": null,
+  "phoneNote": "Pending Eric (Phase A item 8). Do not render an empty field.",
+  "social": [],
+  "socialNote": "No profile URLs in the export chrome. Do not invent."
+}

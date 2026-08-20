@@ -9,6 +9,9 @@
     "start": "next start -H 0.0.0.0 -p 8080",
     "typecheck": "tsc --noEmit",
     "check:tokens": "node scripts/check-retired-hex.mjs",
+    "check:copy": "node scripts/check-kill-list.mjs",
+    "pt:sample": "node scripts/to-portable-text.mjs sample",
+    "pt:all": "node scripts/to-portable-text.mjs all",
     "schema:extract": "sanity schema extract",
     "typegen": "sanity typegen generate"
   },

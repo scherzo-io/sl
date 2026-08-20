@@ -1,0 +1,26 @@
+{
+  "source": "DESIGN.md §5 default IA. Property management stays (PLAN §5). Testimonials keep live URL /clients/ (PLAN §9). Sentence case (DESIGN §3).",
+  "items": [
+    {
+      "label": "About us",
+      "href": "/about",
+      "children": [
+        { "label": "Company profile", "href": "/about" },
+        { "label": "Team", "href": "/about#team" },
+        { "label": "In-house millwork + cabinet shop", "href": "/about/millwork" }
+      ]
+    },
+    { "label": "Services", "href": "/services" },
+    { "label": "Portfolio", "href": "/portfolio" },
+    { "label": "Testimonials", "href": "/clients" },
+    { "label": "Videos", "href": "/videos" },
+    { "label": "Property management", "href": "/property-management" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Request for pricing", "href": "/request-for-pricing" }
+  ],
+  "orphansFixed": [
+    "/about/ and partner bios now reachable from About us",
+    "Testimonials label points at /clients/ (live URL preserved)",
+    "In-house millwork promoted under About us (DESIGN §5)"
+  ]
+}

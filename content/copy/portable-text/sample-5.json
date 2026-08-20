@@ -1,0 +1,107 @@
+{
+  "generated": "scripts/to-portable-text.mjs",
+  "mode": "sample",
+  "count": 5,
+  "projects": [
+    {
+      "_id": "project-3966",
+      "slug": "lantern-house",
+      "description": [
+        {
+          "_type": "block",
+          "_key": "d079eebb9ee2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "d079eebb9ee2-s0",
+              "text": "PH10 with rooftop deck and stunning views is a dream come true in the Chelsea area. This incredible building rests up against the highline and has the most distinguishable floor to ceiling windows in the city. Designer Catalina Castaneo redesigned this entire 4 bedroom apartment and roof to perfection. Venetian plaster, new millwork, and all the features on the roof make this a top shelf feature in the building.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "project-3451",
+      "slug": "bad-roman-columbus-circle-mall",
+      "description": [
+        {
+          "_type": "block",
+          "_key": "43e7f8e92f80",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "43e7f8e92f80-s0",
+              "text": "This flagship restaurant is located on Central Park West at 10 Columbus Mall. Industry powerhouse Quality Branded has delivered its newest concept with the same high end characteristics of its many restaurants across the city. The mission was to build out this existing location and take the dining experience over the top. With this concept and all the custom finishes...it is just that! Streamline USA delivered this design build in 6 months from the start date.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "project-561",
+      "slug": "kith",
+      "description": [
+        {
+          "_type": "block",
+          "_key": "eeea15c4a14b",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "eeea15c4a14b-s0",
+              "text": "A 7,500 sq ft gut renovation of an old store on Broadway made super modern, full of customized millwork. Streamline worked with a renowned sports-fashion designer to build the New York City flagship store for state of the art footwear. We worked with an extremely creative designer and architect to bring in a top showroom. Challenge: Extremely high ceilings and no access below. Streamline was the General Contractor for this project.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "project-512",
+      "slug": "momofuku-ko",
+      "description": [
+        {
+          "_type": "block",
+          "_key": "fcb69489bbd2",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "fcb69489bbd2-s0",
+              "text": "We added an additional floor and kitchen space while increasing the seating and table areas in a very busy location. Challenges: Working around the clock, supplying new HVAC to an existing space without disrupting business in a very limited time frame. We learned to create a new look in an extension of an existing restaurant with a good flow all while making sure the neighbors are on board with adjoining spaces. We always insured schedules can be maintained, so as not to disrupt the flow of reservations. Streamline was the General Contractor for this project.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "project-439",
+      "slug": "boqueria-restaurant",
+      "description": [
+        {
+          "_type": "block",
+          "_key": "97310664b724",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_type": "span",
+              "_key": "97310664b724-s0",
+              "text": "A flagship restaurant in a brand new out of the ground AC Marriott hotel in Times Square. This 5-star restaurant was built in a new hotel that was being developed in tandem. We coordinated with the building's GC during construction and installation of the glass curtain wall storefront. Streamline was the General Contractor for this project.",
+              "marks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

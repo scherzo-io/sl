@@ -1,0 +1,62 @@
+{
+  "source": "inputs/derived/pages/services.txt; order from commercial deck p3 / PLAN §8",
+  "intro": "Streamline USA, LLC is a New York City-based General Contractor and Construction Management Company founded by two partners who have known each other for many years and finally decided to work together as a team. Eric Ortense and Liam Treanor, collectively possess over thirty years of diverse construction experience and this enables them to engage in commercial, hospitality, and high-end residential projects.",
+  "procore": {
+    "include": false,
+    "reason": "PLAN keep-or-drop is Eric's. Skipped until he answers."
+  },
+  "items": [
+    {
+      "order": 1,
+      "name": "General contracting",
+      "body": "A lump sum agreement between client and Streamline USA that is based on the architectural and design drawings."
+    },
+    {
+      "order": 2,
+      "name": "Construction management",
+      "body": "Open book contract when ownership holds the sub contracts and Streamline USA manages the project, provides and selects the subcontractors and deals with all aspects of billing, insurance, schedules and pre construction planning."
+    },
+    {
+      "order": 3,
+      "name": "Design build",
+      "body": "Streamline USA and the design team work hand in hand with our client to build the project phase by phase."
+    },
+    {
+      "order": 4,
+      "name": "Millwork",
+      "body": "Streamline USA prices out, fabricates and installs the millwork package for our client."
+    },
+    {
+      "order": 5,
+      "name": "Carpentry",
+      "body": "Our team of in house carpenters can handle all aspects of carpentry and finish work. This can give us the winning edge with speed and quality of work since we control the most important trade."
+    },
+    {
+      "order": 6,
+      "name": "Pre construction planning",
+      "body": "Pricing out the drawings, providing input on the schedule and VE value engineering is a specialty."
+    }
+  ],
+  "whyWorkWithUs": [
+    {
+      "title": "Flexible bidding",
+      "body": "We can bid your project as the GC / CM or as a sub contractor."
+    },
+    {
+      "title": "Fast paced schedules",
+      "body": "We can meet all deadlines once agreed upon with design team and ownership."
+    },
+    {
+      "title": "We meet deadlines",
+      "body": "We work overtime and on weekends when the project requires it."
+    },
+    {
+      "title": "Highest quality finishing",
+      "body": "Our team of finishers leave the project at 100% complete everytime."
+    },
+    {
+      "title": "Owner operated",
+      "body": "Our CEO and COO are involved from start to finish on every project we engage in."
+    }
+  ]
+}

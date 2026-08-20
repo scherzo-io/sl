@@ -1,19 +1,13 @@
+import settings from "@/content/copy/site-settings.json";
+
 /**
- * Facts that may render. Each traces to PLAN / DESIGN / a live page extract.
- * Phone is pending Eric (Phase A item 8) — do not put a number here.
- * Social profiles were not in the export chrome — do not invent them.
+ * Facts that may render. Phone is null until Eric answers — never render it.
  */
 export const site = {
-  name: "Streamline USA",
-  legalName: "Streamline USA LLC",
-  wordmark: "Streamline",
-  email: "Eric@StreamlineUSA.com",
-  address: {
-    line: "483 10th Ave, Suite 205, New York 10018",
-    street: "483 10th Ave",
-    suite: "Suite 205",
-    city: "New York",
-    region: "NY",
-    postal: "10018",
-  },
+  name: settings.name,
+  legalName: settings.legalName,
+  wordmark: settings.wordmark,
+  email: settings.email,
+  address: settings.address,
+  phone: settings.phone,
 } as const;

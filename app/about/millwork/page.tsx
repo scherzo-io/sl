@@ -5,8 +5,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = { title: "In-house millwork + cabinet shop" };
 
-const millwork = services.find((s) => s.name === "Millwork");
-const carpentry = services.find((s) => s.name === "Carpentry");
+const millwork = services.items.find((s) => s.name === "Millwork");
+const carpentry = services.items.find((s) => s.name === "Carpentry");
 
 export default function MillworkPage() {
   return (

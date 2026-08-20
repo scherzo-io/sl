@@ -1,0 +1,32 @@
+{
+  "source": "PLAN §6 'verbatim-verified' from commercial deck p3. Not raw OCR (PROGORE, 'bring ina' discarded).",
+  "items": [
+    {
+      "id": "millwork",
+      "text": "We have our own millwork shop and team of carpenters & finishers."
+    },
+    {
+      "id": "schedule",
+      "text": "We specialize in fast paced schedules and high end interior finishes."
+    },
+    {
+      "id": "on-time",
+      "text": "We know what it takes to bring in a project on time and on budget."
+    },
+    {
+      "id": "gl",
+      "text": "Our 10 million dollar GL insurance policy can qualify us to work in almost every building in the city and 5 boros."
+    },
+    {
+      "id": "pricing",
+      "text": "We can provide pricing for most projects in 7 working days.",
+      "note": "Keep the qualifier 'most'. Architects notice overclaims (DESIGN §1)."
+    }
+  ],
+  "skipped": [
+    {
+      "id": "procore",
+      "reason": "Eric keep-or-drop, Phase A item 9"
+    }
+  ]
+}

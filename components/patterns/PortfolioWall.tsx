@@ -4,10 +4,16 @@ import { useMemo, useState } from "react";
 import { ProjectImageSlot } from "@/components/media/ProjectImageSlot";
 import type { ProjectTile } from "@/lib/projects";
 
-type Filter = "all" | "commercial" | "residential";
+export type Filter = "all" | "commercial" | "residential";
 
-export function PortfolioWall({ tiles }: { tiles: ProjectTile[] }) {
-  const [filter, setFilter] = useState<Filter>("all");
+export function PortfolioWall({
+  tiles,
+  initialFilter = "all",
+}: {
+  tiles: ProjectTile[];
+  initialFilter?: Filter;
+}) {
+  const [filter, setFilter] = useState<Filter>(initialFilter);
   const shown = useMemo(
     () => (filter === "all" ? tiles : tiles.filter((t) => t.category === filter)),
     [filter, tiles],
