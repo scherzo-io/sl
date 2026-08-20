@@ -4,7 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Grok (session 06) · next action: **Cursor reviews Phase G+H on a real screen and runs the live HEAD sweep; Alexey walks `content/findings/legacy-review-rows.md` and `content/eric-email.md`; do not start F until Eric + Sanity project + images**
+Last updated: **2026-08-20** · by: Grok (session 07) · next action: **Paste `workorders/cursor-kickoff.md` into Cursor. Fetch `grok/build` (bundle or private push) — it is not on origin. Then Cursor writes `cursor-plan.md` before executing.**
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: **2026-08-20** · by: Grok (session 06) · next action: **Cursor r
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **not started.** Work order broadened 2026-08-20 to cover all local-only work + reviewing Grok's handoff | `cursor/images` | — |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **kickoff written, not started.** Paste [`cursor-kickoff.md`](cursor-kickoff.md). Branch from `grok/build`, not `main` | `cursor/images` | — |
 | **Grok** — the build | [`grok-build.md`](grok-build.md) | **Phase G + H landed** 2026-08-20. F skipped (blocked) | `grok/build` | A–E, G, H. F not started |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
@@ -35,6 +35,7 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | **Grok Phase E.** Three directions fully built, switchable variants, lightbox, empty photo slots | `app/commercial/[slug]`, `app/residential/[slug]`, `components/review/**`, `components/media/ProjectView.tsx` |
 | 2026-08-20 | **Grok Phase G.** 37 301s, 11 SKIP never redirected, 25 REVIEW 404, 2×410, metadata, JSON-LD, sitemap/robots, consent banner (IDs null) | `middleware.ts`, `lib/redirects.ts`, `lib/seo.ts`, `content/copy/redirects.json`, `content/findings/legacy-review-rows.md` |
 | 2026-08-20 | **Grok Phase H.** Gate table. F still blocked. `npm run build` not run (dev on 8080) | `workorders/handoffs/grok-2026-08-20-h.md` |
+| 2026-08-20 | **Cursor kickoff.** Handoff rewritten for A–E/G/H. Paste-ready prompt. `grok/build` still not on origin | `workorders/cursor-kickoff.md`, `workorders/handoff-to-cursor.md` |
 
 ## In flight
 
@@ -45,8 +46,8 @@ phase boundary rather than assuming what you read at the start still holds.
 
 ## Next up
 
-1. **Cursor:** review Grok handoffs G and H (`workorders/handoffs/grok-2026-08-20-g.md`, `…-h.md`) on a real screen. Live `HEAD` of the 73 into `content/link-check/<date>.tsv`. Partner-name manifest still unblocks the logo wall.
-2. **Alexey:** `content/findings/legacy-review-rows.md` (25 REVIEW). Send `content/eric-email.md`. Flip the GitHub remote private if `grok/build` should be pushed. Video files (row 32). Sanity project when Studio should mount. Analytics IDs when they exist.
+1. **You:** paste `workorders/cursor-kickoff.md` into a Cursor Agent chat on `~/sl`. Get `grok/build` onto that machine (bundle `grok-build.bundle`, or flip the remote private and push). Cursor writes `cursor-plan.md` before it executes.
+2. **Alexey (also):** `content/findings/legacy-review-rows.md` (25 REVIEW). Send `content/eric-email.md`. Video files when Cursor asks. Sanity project when Studio should mount. Analytics IDs when they exist.
 3. **Grok (this lane):** stop until F unblocks. Do not invent IDs, phones, or REVIEW targets.
 
 ## Blocked, and on whom

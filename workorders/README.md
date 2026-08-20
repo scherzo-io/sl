@@ -23,6 +23,7 @@ away — it is what makes coming back to this project cheap, and both lanes main
 | `handoffs/` | Grok's phase-gate handoffs, `grok-<date>.md` |
 | `reviews/` | Cursor's adversarial reviews of those handoffs, `grok-<date>.md` |
 | `cursor-plan.md` | Cursor's own executable plan, committed before it starts work |
+| `cursor-kickoff.md` | paste-ready first Cursor Agent message. Grok wrote it 2026-08-20. Does not replace `cursor-images.md` |
 
 ---
 
