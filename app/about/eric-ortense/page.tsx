@@ -1,9 +1,9 @@
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { personBySlug } from "@/lib/copy";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Eric Ortense" };
+export const metadata = pageMetadata("Eric Ortense", "/about/eric-ortense");
 
 export default function EricPage() {
   const person = personBySlug("eric-ortense");

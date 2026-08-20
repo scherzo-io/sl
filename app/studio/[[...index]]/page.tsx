@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import { noindexMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Studio" };
+export const metadata = noindexMetadata("Studio");
 
 /**
  * Embedded Studio route — reserved. next-sanity mounts here in Phase C

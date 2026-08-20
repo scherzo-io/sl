@@ -1,9 +1,9 @@
 import { PortfolioWall } from "@/components/patterns/PortfolioWall";
 import { Shell } from "@/components/shell/Shell";
 import { loadLiveProjects } from "@/lib/projects";
-import type { Metadata } from "next";
+import { noindexMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Pattern B" };
+export const metadata = noindexMetadata("Pattern B");
 
 export default function PatternBPage() {
   const projects = loadLiveProjects();

@@ -1,8 +1,8 @@
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Videos" };
+export const metadata = pageMetadata("Videos", "/videos");
 
 export default function VideosPage() {
   return (

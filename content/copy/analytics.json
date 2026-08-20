@@ -1,0 +1,8 @@
+{
+  "source": "PLAN §9 analytics behind consent. IDs are not in any source in this repo. Do not invent measurement IDs, pixel IDs, or verification codes.",
+  "ga4": null,
+  "metaPixel": null,
+  "linkedin": null,
+  "searchConsole": null,
+  "note": "Consent banner is mounted as the visible cost of the retargeting decision. Scripts do not inject until an ID is supplied."
+}

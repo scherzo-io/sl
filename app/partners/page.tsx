@@ -1,8 +1,8 @@
 import { PartnersWall } from "@/components/media/PartnersWall";
 import { Shell } from "@/components/shell/Shell";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Partners" };
+export const metadata = pageMetadata("Partners", "/partners");
 
 export default function PartnersPage() {
   return (

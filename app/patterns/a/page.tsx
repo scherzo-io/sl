@@ -1,8 +1,8 @@
 import { PatternA } from "@/components/patterns/PatternA";
 import { Shell } from "@/components/shell/Shell";
-import type { Metadata } from "next";
+import { noindexMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Pattern A" };
+export const metadata = noindexMetadata("Pattern A");
 
 export default function PatternAPage() {
   return (

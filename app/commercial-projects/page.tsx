@@ -1,9 +1,9 @@
 import { PortfolioWall } from "@/components/patterns/PortfolioWall";
 import { Shell } from "@/components/shell/Shell";
 import { loadLiveProjects } from "@/lib/projects";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Commercial projects" };
+export const metadata = pageMetadata("Commercial projects", "/commercial-projects");
 
 export default function CommercialProjectsPage() {
   const projects = loadLiveProjects();

@@ -1,8 +1,8 @@
 import { TestimonialsView } from "@/components/clients/TestimonialsView";
 import { Shell } from "@/components/shell/Shell";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Testimonials" };
+export const metadata = pageMetadata("Testimonials", "/clients");
 
 export default function ClientsPage() {
   return (

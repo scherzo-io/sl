@@ -25,6 +25,17 @@ columns for local verification and will leave the tree dirty; don't commit that 
 `stage-raw-inputs.py` finds the author addresses it redacts by pattern rather than by name —
 hardcoding them in a committed script would defeat the redaction.
 
+## Node (build lane)
+
+Stdlib Node, run from the repo root. Do not hand-edit generated JSON.
+
+| Script | Does | Reads | Writes |
+|---|---|---|---|
+| `build-redirects.mjs` | `npm run redirects:build` — 37 301s, 11 SKIP, 25 REVIEW, 2×410, 58 live | `inputs/derived/legacy-slugs.tsv`, `content/content-inventory.tsv` | `content/copy/redirects.json` |
+| `check-redirects.mjs` | `npm run check:redirects` — invariants, then local HTTP 301/410/200/404. `--offline` skips HTTP. Never hits production | `content/copy/redirects.json` | — |
+| `check-kill-list.mjs` | `npm run check:copy` | `app/`, `components/`, `lib/`, sourced JSON | — |
+| `check-retired-hex.mjs` | `npm run check:tokens` | built/CSS sources | — |
+
 ## Still to be written
 
 | Script | Owner | Per |

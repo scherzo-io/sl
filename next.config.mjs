@@ -9,6 +9,9 @@ const nextConfig = {
   poweredByHeader: false,
   outputFileTracingRoot: dir,
   eslint: { ignoreDuringBuilds: true },
+  // Middleware owns slash collapsing so /sample-page/ and /1248-2/ 410
+  // in one hop, and the 37 301s fire on the trailing-slash WP form.
+  skipTrailingSlashRedirect: true,
   images: {
     // Photography lands from Cursor's manifest in a later phase.
     // Do not point production at the legacy WordPress CDN.

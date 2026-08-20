@@ -29,6 +29,7 @@ const paths = [
   "content/copy/testimonials.json",
   "content/copy/navigation.json",
   "content/copy/partners.json",
+  "content/copy/analytics.json",
 ];
 
 let failed = 0;

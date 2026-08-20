@@ -8,7 +8,7 @@ export const redirect = defineType({
     defineField({
       name: "from",
       type: "string",
-      description: "Legacy path, including leading slash. Never a live project slug (SKIP rows).",
+      description: "Legacy path, including leading slash. Never a live project slug (SKIP rows). Seed is content/copy/redirects.json until Phase F imports these as documents; a from that equals a live path must not publish.",
       validation: (Rule) => Rule.required().regex(/^\//, "Must start with /"),
     }),
     defineField({

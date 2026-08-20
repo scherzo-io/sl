@@ -1,10 +1,10 @@
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { contact } from "@/lib/copy";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "Contact" };
+export const metadata = pageMetadata("Contact", "/contact");
 
 export default function ContactPage() {
   return (

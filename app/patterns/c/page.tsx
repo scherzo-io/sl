@@ -1,9 +1,9 @@
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { servicesIntro } from "@/lib/copy";
-import type { Metadata } from "next";
+import { noindexMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Pattern C" };
+export const metadata = noindexMetadata("Pattern C");
 
 export default function PatternCPage() {
   return (

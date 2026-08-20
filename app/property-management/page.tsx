@@ -1,9 +1,9 @@
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { propertyManagement } from "@/lib/copy";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Property management" };
+export const metadata = pageMetadata("Property management", "/property-management");
 
 export default function PropertyManagementPage() {
   return (

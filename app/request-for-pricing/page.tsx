@@ -2,9 +2,9 @@ import { RfpForm } from "@/components/forms/RfpForm";
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { rfp } from "@/lib/copy";
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Request for pricing" };
+export const metadata = pageMetadata("Request for pricing", "/request-for-pricing");
 
 export default function RfpPage() {
   return (

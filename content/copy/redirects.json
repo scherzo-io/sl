@@ -1,0 +1,832 @@
+{
+  "source": "inputs/derived/legacy-slugs.tsv (verdict=301 only) + PLAN §9 410s. SKIP never redirected. REVIEW is 404 until Alexey/Eric pick a target. WP 564 and WP 558 slug corrections pending Eric — live URLs preserved.",
+  "generated": "scripts/build-redirects.mjs",
+  "counts": {
+    "legacyRows": 73,
+    "permanent": 37,
+    "skip": 11,
+    "review": 25,
+    "gone": 2,
+    "live": 58
+  },
+  "gone": [
+    "/sample-page",
+    "/1248-2"
+  ],
+  "permanent": [
+    {
+      "from": "/residential/5th-avenue-townhouse",
+      "to": "/residential/12th-st-townhouse-greenwich-village",
+      "wpId": "2504",
+      "title": "12th st townhouse"
+    },
+    {
+      "from": "/residential/hells-kitchen-apt-2",
+      "to": "/residential/1st-ave-apt",
+      "wpId": "527",
+      "title": "1st Ave Apartment"
+    },
+    {
+      "from": "/residential/madison-ave-duplex",
+      "to": "/residential/1st-ave-apt",
+      "wpId": "527",
+      "title": "1st Ave Apartment"
+    },
+    {
+      "from": "/residential/69th-st-penthouse",
+      "to": "/residential/69th-st-townhouse",
+      "wpId": "570",
+      "title": "69th St Townhouse"
+    },
+    {
+      "from": "/residential/upper-west-side-townhouse-2",
+      "to": "/residential/69th-st-townhouse",
+      "wpId": "570",
+      "title": "69th St Townhouse"
+    },
+    {
+      "from": "/residential/jackson-heights-townhouse-2",
+      "to": "/residential/84th-st-townhouse",
+      "wpId": "2396",
+      "title": "84th st townhouse"
+    },
+    {
+      "from": "/residential/wyckoff-st-townhouse-2",
+      "to": "/residential/84th-st-townhouse",
+      "wpId": "2396",
+      "title": "84th st townhouse"
+    },
+    {
+      "from": "/residential/duane-street-penthouse-2",
+      "to": "/residential/duane-street-penthouse",
+      "wpId": "552",
+      "title": "Duane Street Penthouse"
+    },
+    {
+      "from": "/residential/east-side-townhouse",
+      "to": "/residential/e64-st-townhouse",
+      "wpId": "2306",
+      "title": "e64th St Townhouse"
+    },
+    {
+      "from": "/residential/hudson-yards-mall-2",
+      "to": "/residential/e64-st-townhouse",
+      "wpId": "2306",
+      "title": "e64th St Townhouse"
+    },
+    {
+      "from": "/commercial/madison-avenue-penthouse-2",
+      "to": "/commercial/free-people-retail-store",
+      "wpId": "503",
+      "title": "Free People Retail Store"
+    },
+    {
+      "from": "/commercial/ground-central-coffee-company-2",
+      "to": "/commercial/ground-central-coffee-company",
+      "wpId": "2384",
+      "title": "Ground Central Coffee Company"
+    },
+    {
+      "from": "/commercial/gunter-seeger-2",
+      "to": "/commercial/gunter-seeger",
+      "wpId": "549",
+      "title": "Gunter-Seeger"
+    },
+    {
+      "from": "/commercial/my-darling-ivy-2",
+      "to": "/commercial/gunter-seeger",
+      "wpId": "549",
+      "title": "Gunter-Seeger"
+    },
+    {
+      "from": "/residential/east-side-townhouse-2",
+      "to": "/residential/horatio-st-townhouse",
+      "wpId": "567",
+      "title": "Horatio St. Townhouse"
+    },
+    {
+      "from": "/residential/hudson-street-penthouse-2",
+      "to": "/residential/hudson-street-penthouse",
+      "wpId": "517",
+      "title": "Hudson Street Penthouse"
+    },
+    {
+      "from": "/residential/vivvi-daycare-hudson-yards-2",
+      "to": "/residential/hudson-street-penthouse",
+      "wpId": "517",
+      "title": "Hudson Street Penthouse"
+    },
+    {
+      "from": "/commercial/mackage-soho-2",
+      "to": "/commercial/mackage-soho",
+      "wpId": "1931",
+      "title": "Mackage SoHo"
+    },
+    {
+      "from": "/commercial/riverside-apt-2",
+      "to": "/commercial/mackage-soho",
+      "wpId": "1931",
+      "title": "Mackage SoHo"
+    },
+    {
+      "from": "/residential/madison-ave-duplex-penthouse",
+      "to": "/residential/madison-ave-duplex-2",
+      "wpId": "523",
+      "title": "Madison Ave Duplex"
+    },
+    {
+      "from": "/residential/madison-avenue-penthouse",
+      "to": "/residential/madison-ave-duplex-2",
+      "wpId": "523",
+      "title": "Madison Ave Duplex"
+    },
+    {
+      "from": "/residential/warren-st-apt-2",
+      "to": "/residential/madison-ave-duplex-2",
+      "wpId": "523",
+      "title": "Madison Ave Duplex"
+    },
+    {
+      "from": "/commercial/free-people-retail-store-2",
+      "to": "/commercial/mint-kitchen-restaurant",
+      "wpId": "443",
+      "title": "Mint Kitchen Restaurant"
+    },
+    {
+      "from": "/commercial/mint-kitchen-restaurant-2",
+      "to": "/commercial/mint-kitchen-restaurant",
+      "wpId": "443",
+      "title": "Mint Kitchen Restaurant"
+    },
+    {
+      "from": "/commercial/5th-avenue-townhouse-2",
+      "to": "/commercial/my-darling-ivy",
+      "wpId": "2425",
+      "title": "My Darling Ivy"
+    },
+    {
+      "from": "/residential/riverside-apartment",
+      "to": "/residential/riverside-drive-apartment",
+      "wpId": "2842",
+      "title": "Riverside Drive Apartment"
+    },
+    {
+      "from": "/residential/riverside-apt",
+      "to": "/residential/riverside-drive-apartment",
+      "wpId": "2842",
+      "title": "Riverside Drive Apartment"
+    },
+    {
+      "from": "/residential/st-lukes-place-townhouse-2",
+      "to": "/residential/st-lukes-place-townhouse",
+      "wpId": "531",
+      "title": "St. Lukes Place townhouse"
+    },
+    {
+      "from": "/residential/west-village-townhouse-2",
+      "to": "/residential/st-lukes-place-townhouse",
+      "wpId": "531",
+      "title": "St. Lukes Place townhouse"
+    },
+    {
+      "from": "/residential/thompson-st-studio-2",
+      "to": "/residential/thompson-st-studio",
+      "wpId": "534",
+      "title": "Thompson St. Studio"
+    },
+    {
+      "from": "/residential/upper-west-side-apartment-2",
+      "to": "/residential/thompson-st-studio",
+      "wpId": "534",
+      "title": "Thompson St. Studio"
+    },
+    {
+      "from": "/residential/tribeca-loft-2",
+      "to": "/residential/tribeca-loft",
+      "wpId": "520",
+      "title": "Tribeca Loft"
+    },
+    {
+      "from": "/commercial/upper-east-side-townhouse-2",
+      "to": "/commercial/upper-east-side-townhouse",
+      "wpId": "564",
+      "title": "Washington Sq. Dermatology"
+    },
+    {
+      "from": "/commercial/rock-reillys",
+      "to": "/commercial/versa-marriott",
+      "wpId": "546",
+      "title": "Versa at the Marriott Renaissance"
+    },
+    {
+      "from": "/commercial/vivvi-daycare-2",
+      "to": "/commercial/vivvi-daycare-hudson-yards",
+      "wpId": "2853",
+      "title": "Vivvi Daycare Hudson Yards"
+    },
+    {
+      "from": "/commercial/motel-23-lounge-2",
+      "to": "/commercial/vivvi-daycare-tribeca",
+      "wpId": "494",
+      "title": "ViVVI Daycare Tribeca"
+    },
+    {
+      "from": "/residential/wyckoff-st-townhouse",
+      "to": "/residential/wyckoff-townhouse",
+      "wpId": "2860",
+      "title": "Wyckoff Townhouse"
+    }
+  ],
+  "skipSlugs": [
+    "mackage-soho",
+    "mint-kitchen-restaurant",
+    "mexicue",
+    "thompson-st-studio",
+    "upper-east-side-townhouse",
+    "haus-nightclub",
+    "tribeca-loft",
+    "ground-central-coffee-company",
+    "st-lukes-place-townhouse",
+    "hudson-street-penthouse"
+  ],
+  "skip": [
+    {
+      "from": "/residential/mackage-soho",
+      "slug": "mackage-soho",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Mackage SoHo) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/mint-kitchen-restaurant",
+      "slug": "mint-kitchen-restaurant",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Mint Kitchen Restaurant) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/mexicue",
+      "slug": "mexicue",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Mexicue) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/commercial/thompson-st-studio",
+      "slug": "thompson-st-studio",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Thompson St. Studio) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/upper-east-side-townhouse",
+      "slug": "upper-east-side-townhouse",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Washington Sq. Dermatology) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/haus-nightclub",
+      "slug": "haus-nightclub",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Haus Nightclub) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/tribeca-loft",
+      "slug": "tribeca-loft",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Tribeca Loft) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/commercial/ground-central-coffee-company",
+      "slug": "ground-central-coffee-company",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Ground Central Coffee Company) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/mexicue",
+      "slug": "mexicue",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Mexicue) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/st-lukes-place-townhouse",
+      "slug": "st-lukes-place-townhouse",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (St. Lukes Place townhouse) — a 301 here would hijack a live URL"
+    },
+    {
+      "from": "/residential/hudson-street-penthouse",
+      "slug": "hudson-street-penthouse",
+      "liveOwnerNote": "retired slug is another project's LIVE slug (Hudson Street Penthouse) — a 301 here would hijack a live URL"
+    }
+  ],
+  "review": [
+    {
+      "from": "/residential/hells-kitchen-apt",
+      "slug": "hells-kitchen-apt",
+      "wouldHaveGoneTo": "/residential/1st-ave-apt",
+      "wpId": "527",
+      "title": "1st Ave Apartment",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/murray-hill-apartments",
+      "slug": "murray-hill-apartments",
+      "wouldHaveGoneTo": "/residential/1st-ave-apt",
+      "wpId": "527",
+      "title": "1st Ave Apartment",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/hells-kitchen-apt",
+      "slug": "hells-kitchen-apt",
+      "wouldHaveGoneTo": "/residential/53rd-st-studio",
+      "wpId": "2838",
+      "title": "53rd st studio",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/sullivan-st-duplex",
+      "slug": "sullivan-st-duplex",
+      "wouldHaveGoneTo": "/residential/53rd-st-studio",
+      "wpId": "2838",
+      "title": "53rd st studio",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/upper-west-side-townhouse",
+      "slug": "upper-west-side-townhouse",
+      "wouldHaveGoneTo": "/residential/69th-st-townhouse",
+      "wpId": "570",
+      "title": "69th St Townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/jackson-heights-townhouse",
+      "slug": "jackson-heights-townhouse",
+      "wouldHaveGoneTo": "/residential/84th-st-townhouse",
+      "wpId": "2396",
+      "title": "84th st townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/atrium-corporate-office",
+      "slug": "atrium-corporate-office",
+      "wouldHaveGoneTo": "/commercial/autrium-corporate-office",
+      "wpId": "558",
+      "title": "Atrium Corporate Office",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/murray-hill-apartments",
+      "slug": "murray-hill-apartments",
+      "wouldHaveGoneTo": "/commercial/autrium-corporate-office",
+      "wpId": "558",
+      "title": "Atrium Corporate Office",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/upper-east-side-penthouse",
+      "slug": "upper-east-side-penthouse",
+      "wouldHaveGoneTo": "/residential/e63-st-penthouse",
+      "wpId": "540",
+      "title": "e63rd st Penthouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/upper-east-side-penthouse__trashed",
+      "slug": "upper-east-side-penthouse__trashed",
+      "wouldHaveGoneTo": "/residential/e63-st-penthouse",
+      "wpId": "540",
+      "title": "e63rd st Penthouse",
+      "claimants": "1",
+      "note": "WordPress trash artefact, never a public URL — 410 rather than 301"
+    },
+    {
+      "from": "/residential/west-23rd-townhouse",
+      "slug": "west-23rd-townhouse",
+      "wouldHaveGoneTo": "/residential/e63-st-penthouse",
+      "wpId": "540",
+      "title": "e63rd st Penthouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/atrium-corporate-office",
+      "slug": "atrium-corporate-office",
+      "wouldHaveGoneTo": "/commercial/haus-nightclub",
+      "wpId": "2520",
+      "title": "Haus Nightclub",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/washington-sq-dermatology",
+      "slug": "washington-sq-dermatology",
+      "wouldHaveGoneTo": "/commercial/hudson-yards-mall",
+      "wpId": "2850",
+      "title": "Hudson Yards Mall",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/upper-west-side-townhouse",
+      "slug": "upper-west-side-townhouse",
+      "wouldHaveGoneTo": "/residential/lexington-ave-townhouse",
+      "wpId": "1835",
+      "title": "Lexington Ave Townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/upper-east-side-penthouse",
+      "slug": "upper-east-side-penthouse",
+      "wouldHaveGoneTo": "/commercial/motel-23-lounge",
+      "wpId": "2345",
+      "title": "Motel 23 Lounge",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/vivvi-daycare",
+      "slug": "vivvi-daycare",
+      "wouldHaveGoneTo": "/residential/st-lukes-place-townhouse",
+      "wpId": "531",
+      "title": "St. Lukes Place townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/west-village-townhouse",
+      "slug": "west-village-townhouse",
+      "wouldHaveGoneTo": "/residential/st-lukes-place-townhouse",
+      "wpId": "531",
+      "title": "St. Lukes Place townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/sullivan-st-duplex",
+      "slug": "sullivan-st-duplex",
+      "wouldHaveGoneTo": "/residential/sullivan-st-duplex-2",
+      "wpId": "1907",
+      "title": "Sullivan St duplex",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/horatio-st-townhouse-2",
+      "slug": "horatio-st-townhouse-2",
+      "wouldHaveGoneTo": "/residential/tribeca-loft",
+      "wpId": "520",
+      "title": "Tribeca Loft",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/washington-sq-dermatology",
+      "slug": "washington-sq-dermatology",
+      "wouldHaveGoneTo": "/commercial/upper-east-side-townhouse",
+      "wpId": "564",
+      "title": "Washington Sq. Dermatology",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/jackson-heights-townhouse",
+      "slug": "jackson-heights-townhouse",
+      "wouldHaveGoneTo": "/residential/upper-west-side-apartment",
+      "wpId": "2409",
+      "title": "Upper West Side Apartment",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/commercial/vivvi-daycare",
+      "slug": "vivvi-daycare",
+      "wouldHaveGoneTo": "/commercial/vivvi-daycare-tribeca",
+      "wpId": "494",
+      "title": "ViVVI Daycare Tribeca",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/horatio-st-townhouse-2",
+      "slug": "horatio-st-townhouse-2",
+      "wouldHaveGoneTo": "/residential/west-23rd-townhouse-2",
+      "wpId": "537",
+      "title": "West 23rd St. Townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/west-23rd-townhouse",
+      "slug": "west-23rd-townhouse",
+      "wouldHaveGoneTo": "/residential/west-23rd-townhouse-2",
+      "wpId": "537",
+      "title": "West 23rd St. Townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    },
+    {
+      "from": "/residential/west-village-townhouse",
+      "slug": "west-village-townhouse",
+      "wouldHaveGoneTo": "/residential/west-23rd-townhouse-2",
+      "wpId": "537",
+      "title": "West 23rd St. Townhouse",
+      "claimants": "2",
+      "note": "claimed by 2 projects — ambiguous, pick a target by hand or leave it 404"
+    }
+  ],
+  "live": [
+    {
+      "category": "commercial",
+      "slug": "grand-ole-opry-city-stage",
+      "path": "/commercial/grand-ole-opry-city-stage"
+    },
+    {
+      "category": "commercial",
+      "slug": "sugar-cane-raw-bar-and-grill",
+      "path": "/commercial/sugar-cane-raw-bar-and-grill"
+    },
+    {
+      "category": "commercial",
+      "slug": "boqueria-restaurant",
+      "path": "/commercial/boqueria-restaurant"
+    },
+    {
+      "category": "commercial",
+      "slug": "mint-kitchen-restaurant",
+      "path": "/commercial/mint-kitchen-restaurant"
+    },
+    {
+      "category": "commercial",
+      "slug": "kat-theo",
+      "path": "/commercial/kat-theo"
+    },
+    {
+      "category": "commercial",
+      "slug": "vivvi-daycare-tribeca",
+      "path": "/commercial/vivvi-daycare-tribeca"
+    },
+    {
+      "category": "commercial",
+      "slug": "free-people-retail-store",
+      "path": "/commercial/free-people-retail-store"
+    },
+    {
+      "category": "commercial",
+      "slug": "spring-studios-spring-place",
+      "path": "/commercial/spring-studios-spring-place"
+    },
+    {
+      "category": "commercial",
+      "slug": "burger-lobster",
+      "path": "/commercial/burger-lobster"
+    },
+    {
+      "category": "commercial",
+      "slug": "momofuku-ko",
+      "path": "/commercial/momofuku-ko"
+    },
+    {
+      "category": "residential",
+      "slug": "hudson-street-penthouse",
+      "path": "/residential/hudson-street-penthouse"
+    },
+    {
+      "category": "residential",
+      "slug": "tribeca-loft",
+      "path": "/residential/tribeca-loft"
+    },
+    {
+      "category": "residential",
+      "slug": "madison-ave-duplex-2",
+      "path": "/residential/madison-ave-duplex-2"
+    },
+    {
+      "category": "residential",
+      "slug": "1st-ave-apt",
+      "path": "/residential/1st-ave-apt"
+    },
+    {
+      "category": "residential",
+      "slug": "st-lukes-place-townhouse",
+      "path": "/residential/st-lukes-place-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "thompson-st-studio",
+      "path": "/residential/thompson-st-studio"
+    },
+    {
+      "category": "residential",
+      "slug": "west-23rd-townhouse-2",
+      "path": "/residential/west-23rd-townhouse-2"
+    },
+    {
+      "category": "residential",
+      "slug": "e63-st-penthouse",
+      "path": "/residential/e63-st-penthouse"
+    },
+    {
+      "category": "commercial",
+      "slug": "versa-marriott",
+      "path": "/commercial/versa-marriott"
+    },
+    {
+      "category": "commercial",
+      "slug": "gunter-seeger",
+      "path": "/commercial/gunter-seeger"
+    },
+    {
+      "category": "residential",
+      "slug": "duane-street-penthouse",
+      "path": "/residential/duane-street-penthouse"
+    },
+    {
+      "category": "commercial",
+      "slug": "indeed-corporate-office-suite",
+      "path": "/commercial/indeed-corporate-office-suite"
+    },
+    {
+      "category": "commercial",
+      "slug": "autrium-corporate-office",
+      "path": "/commercial/autrium-corporate-office"
+    },
+    {
+      "category": "commercial",
+      "slug": "kith",
+      "path": "/commercial/kith"
+    },
+    {
+      "category": "commercial",
+      "slug": "upper-east-side-townhouse",
+      "path": "/commercial/upper-east-side-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "horatio-st-townhouse",
+      "path": "/residential/horatio-st-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "69th-st-townhouse",
+      "path": "/residential/69th-st-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "lexington-ave-townhouse",
+      "path": "/residential/lexington-ave-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "sullivan-st-duplex-2",
+      "path": "/residential/sullivan-st-duplex-2"
+    },
+    {
+      "category": "commercial",
+      "slug": "mackage-soho",
+      "path": "/commercial/mackage-soho"
+    },
+    {
+      "category": "residential",
+      "slug": "e64-st-townhouse",
+      "path": "/residential/e64-st-townhouse"
+    },
+    {
+      "category": "commercial",
+      "slug": "motel-23-lounge",
+      "path": "/commercial/motel-23-lounge"
+    },
+    {
+      "category": "residential",
+      "slug": "wainscott-east-hampton-residence",
+      "path": "/residential/wainscott-east-hampton-residence"
+    },
+    {
+      "category": "commercial",
+      "slug": "ground-central-coffee-company",
+      "path": "/commercial/ground-central-coffee-company"
+    },
+    {
+      "category": "residential",
+      "slug": "84th-st-townhouse",
+      "path": "/residential/84th-st-townhouse"
+    },
+    {
+      "category": "residential",
+      "slug": "upper-west-side-apartment",
+      "path": "/residential/upper-west-side-apartment"
+    },
+    {
+      "category": "commercial",
+      "slug": "my-darling-ivy",
+      "path": "/commercial/my-darling-ivy"
+    },
+    {
+      "category": "residential",
+      "slug": "12th-st-townhouse-greenwich-village",
+      "path": "/residential/12th-st-townhouse-greenwich-village"
+    },
+    {
+      "category": "commercial",
+      "slug": "haus-nightclub",
+      "path": "/commercial/haus-nightclub"
+    },
+    {
+      "category": "residential",
+      "slug": "53rd-st-studio",
+      "path": "/residential/53rd-st-studio"
+    },
+    {
+      "category": "residential",
+      "slug": "riverside-drive-apartment",
+      "path": "/residential/riverside-drive-apartment"
+    },
+    {
+      "category": "residential",
+      "slug": "warren-st-apt",
+      "path": "/residential/warren-st-apt"
+    },
+    {
+      "category": "commercial",
+      "slug": "hudson-yards-mall",
+      "path": "/commercial/hudson-yards-mall"
+    },
+    {
+      "category": "commercial",
+      "slug": "vivvi-daycare-hudson-yards",
+      "path": "/commercial/vivvi-daycare-hudson-yards"
+    },
+    {
+      "category": "residential",
+      "slug": "wyckoff-townhouse",
+      "path": "/residential/wyckoff-townhouse"
+    },
+    {
+      "category": "commercial",
+      "slug": "mexicue",
+      "path": "/commercial/mexicue"
+    },
+    {
+      "category": "residential",
+      "slug": "w23rd-st-duplex",
+      "path": "/residential/w23rd-st-duplex"
+    },
+    {
+      "category": "residential",
+      "slug": "11th-ave-apt",
+      "path": "/residential/11th-ave-apt"
+    },
+    {
+      "category": "residential",
+      "slug": "700-park-ave",
+      "path": "/residential/700-park-ave"
+    },
+    {
+      "category": "commercial",
+      "slug": "bad-roman-columbus-circle-mall",
+      "path": "/commercial/bad-roman-columbus-circle-mall"
+    },
+    {
+      "category": "residential",
+      "slug": "92-laight-st",
+      "path": "/residential/92-laight-st"
+    },
+    {
+      "category": "commercial",
+      "slug": "ketchy-shubby",
+      "path": "/commercial/ketchy-shubby"
+    },
+    {
+      "category": "residential",
+      "slug": "40-e66th-st",
+      "path": "/residential/40-e66th-st"
+    },
+    {
+      "category": "residential",
+      "slug": "652-hudson-st",
+      "path": "/residential/652-hudson-st"
+    },
+    {
+      "category": "commercial",
+      "slug": "momofuku-noodle-bar-171-1st-ave",
+      "path": "/commercial/momofuku-noodle-bar-171-1st-ave"
+    },
+    {
+      "category": "residential",
+      "slug": "262-mott-st",
+      "path": "/residential/262-mott-st"
+    },
+    {
+      "category": "residential",
+      "slug": "795-5th-ave-the-pierre",
+      "path": "/residential/795-5th-ave-the-pierre"
+    },
+    {
+      "category": "residential",
+      "slug": "lantern-house",
+      "path": "/residential/lantern-house"
+    }
+  ],
+  "pendingEric": [
+    "WP 564: do not 301 /commercial/upper-east-side-townhouse to /commercial/washington-sq-dermatology until Eric confirms. washington-sq-dermatology is REVIEW (two claimants).",
+    "WP 558: live slug autrium-corporate-office stays. atrium-corporate-office is REVIEW (two claimants)."
+  ]
+}

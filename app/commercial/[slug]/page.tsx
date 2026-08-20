@@ -3,6 +3,7 @@ import { ProjectView } from "@/components/media/ProjectView";
 import { Shell } from "@/components/shell/Shell";
 import { loadLiveProjects, projectBySlug } from "@/lib/projects";
 import { toSibling } from "@/lib/projectTypes";
+import { projectPageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 
 type Params = { slug: string };
@@ -19,8 +20,7 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const project = projectBySlug(slug);
-  return { title: project?.title ?? "Project" };
+  return projectPageMetadata(projectBySlug(slug), "commercial");
 }
 
 export default async function CommercialProjectPage({
