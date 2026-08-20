@@ -5,8 +5,9 @@ work chunk by whoever did the work. If this file disagrees with your memory, tru
 if it disagrees with the repo, trust the repo and fix this file.
 
 Last updated: **2026-08-20** · by: Claude Code (fix session 2 — video variants + variant switcher) · next action: **Cursor —
-paste [`handoff-to-cursor-2.md`](handoff-to-cursor-2.md) and start the 887 alt-text pass. The
-redirect blocker is fixed and photography renders; alt text is the last large piece of work.**
+paste [`cursor-kickoff-2.md`](cursor-kickoff-2.md), then work from
+[`handoff-to-cursor-2.md`](handoff-to-cursor-2.md). The redirect blocker is fixed and photography
+renders; the 887 alt-text pass is the last large piece of work.**
 
 ---
 
