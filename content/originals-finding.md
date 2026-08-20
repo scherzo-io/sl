@@ -96,3 +96,10 @@ original URL, true dimensions — at migration time. **Status: not yet written**
 step 4); until it exists, the 1,744 / 791 / 387 / 137 numbers above are dated live
 measurements, not repo-reproducible facts. The 880 gallery total and the 887 union ARE
 reproducible: `content/image-audit.tsv` and the anonymous posts endpoint.
+
+> Disk cross-check, 2026-08-20: the WordPress dump landed locally (`wp-content/`,
+> git-ignored). `uploads/` holds 25,750 image files including all derivatives; 3,831
+> non-derivative originals and 1,578 `-scaled` copies. Both bound the API-measured figures
+> plausibly (disk > library because uploads include orphans and deleted-attachment files)
+> but do not replace the authenticated manifest. The dump also satisfies the cold-backup
+> requirement — keep a copy somewhere that isn't this laptop.

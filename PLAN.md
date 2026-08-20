@@ -225,9 +225,10 @@ Expected unreferenced: ~857 of 1,744 — re-verify both totals when the manifest
 ### No download needed
 
 Originals are public URLs; Sanity migration uses `_sanityAsset` with original URLs and
-generates derivatives server-side. Production never points at the legacy CDN. Do anyway: a
-cold backup of `/wp-content/uploads` (originals exist on one server). The ~11 GB dump lives
-**outside the repo**; `.gitignore` blocks `wp-content/` regardless.
+generates derivatives server-side. Production never points at the legacy CDN. The cold
+backup exists as of 20 Aug: the ~11 GB dump landed in `wp-content/` locally (git-ignored,
+verified) — 25,750 image files on disk, bounds consistent with the library measurements.
+Keep a second copy off this machine.
 
 ---
 
