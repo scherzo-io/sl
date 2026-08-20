@@ -4,7 +4,7 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Claude Code (review of both lanes) · next action: **Alexey —
+Last updated: **2026-08-20** · by: Claude Code (review of both lanes + branch audit) · next action: **Alexey —
 decide the redirect question in [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md) §1b.
 32 of 73 legacy URLs resolve on production today and 404 on the new build.**
 
@@ -51,7 +51,8 @@ phase boundary rather than assuming what you read at the start still holds.
 |---|---|---|---|
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
 | Cursor | idle | 2026-08-20 | Names on the wall; artwork empty |
-| — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 5 defects, 3 nits. Nothing patched |
+| — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 6 defects, 3 nits. Nothing patched |
+| — | branch audit | done 2026-08-20 | review §9. All six refs are ancestors of `main`; **nothing stranded**. `origin/workorders/lane-scope-and-status` is merged and deletable; `origin/cursor/images` and `origin/grok/build` are behind `main` — fast-forward before resuming either lane |
 
 ## Next up
 
