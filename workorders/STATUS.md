@@ -4,9 +4,8 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor (merge commit 1) · next action: **optional second
-commit: copy 30 `firm_name`s into `content/copy/partners.json`. Do not start Phase F.
-Do not push unless Alexey asks.**
+Last updated: **2026-08-20** · by: Cursor (merge commit 2) · next action: **Alexey —
+send `content/eric-email.md`. Do not start Phase F. Do not push unless asked.**
 
 ---
 
@@ -14,7 +13,7 @@ Do not push unless Alexey asks.**
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + Grok review, now on `main`.** Alt-text / Sanity deferred | `cursor/images` merged into `main` | 887 manifest, link-check, 30 names TSV |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + review on `main`; `/partners` names live, artwork empty.** Alt-text / Sanity deferred | `cursor/images` merged into `main` | 887 manifest, link-check, 30 names on wall |
 | **Grok** — the build | [`grok-build.md`](grok-build.md) | **A–E, G, H on `main`.** F skipped | `main` | A–E, G, H. F not started |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
@@ -41,18 +40,19 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | Cursor Wave 1: measured 887 originals, checksums, live link-check, deck corrections, 30 partner names, logo sample `#DE2426` | `content/images/**`, `content/link-check/`, `content/deck-corrections.tsv`, `scripts/build-image-manifest.mjs` |
 | 2026-08-20 | Two WhatsApp reels inventoried (end logos present); binaries kept out of git | `content/video-inventory.tsv` |
 | 2026-08-20 | Cursor review of Grok A/E/G/H (local build + HTTP) | `workorders/reviews/grok-2026-08-20.md` |
-| 2026-08-20 | **Merge `cursor/images` → `main` (commit 1).** Artifacts on the build tree. `partners.json` names still `[]`. Site behavior unchanged | this merge |
+| 2026-08-20 | **Merge `cursor/images` → `main` (commit 1).** Artifacts on the build tree. Site behavior unchanged at that commit | this merge |
+| 2026-08-20 | **`partners.json` names filled from TSV (commit 2).** 30 names, `artwork: []`. `/partners` shows type + empty tiles | `content/copy/partners.json` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
-| Cursor | idle after merge commit 1 | 2026-08-20 | Names TSV is on disk; wall not wired until commit 2 |
+| Cursor | idle | 2026-08-20 | Names on the wall; artwork empty |
 
 ## Next up
 
-1. **This plan, Task 5–6:** second commit — copy 30 `firm_name`s into `content/copy/partners.json`. Leave `artwork: []`.
+1. Leftover list in [`sessions/2026-08-20-cursor-03.md`](sessions/2026-08-20-cursor-03.md) + this session [`04`](sessions/2026-08-20-cursor-04.md).
 2. **Alexey:** send [`content/eric-email.md`](../content/eric-email.md). Video hosting / mapping / no-logo cuts. 25 REVIEW targets in `content/findings/legacy-review-rows.md`.
 3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project. 887 alt-text is Cursor, later.
 4. **Do not push** this merge unless Alexey asks. Remote is still public.
@@ -76,7 +76,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | 4 · image manifest, raw snapshot, re-verify totals | ✅ manifest + checksums + 887/388/137 re-verified; hero 35/58 (finding, not a code change) | Cursor |
 | 5 · deck transcription | ✅ raw OCR · 🟡 ship-strings corrected (`deck-corrections.tsv`); testimonials not visually verified (REFERENCES pages skipped) | Cursor |
 | 6 · scaffold | ✅ Phase B landed 2026-08-20 | Grok |
-| 7 · page copy, logo wall, testimonials | 🟡 copy assembled; **30 names on tree in `content/images/partners/names.tsv`**; `partners.json` still `[]` until commit 2; publishable marks still an ask | Grok + Cursor |
+| 7 · page copy, logo wall, testimonials | 🟡 copy assembled; **30 names on the wall; artwork empty; publishable marks still an ask** | Grok + Cursor |
 | 8 · Directions A, B, C + variants | ✅ Phase E landed 2026-08-20 | Grok |
 | 9 · Eric picks a direction | 🟡 unblocked on 8; waiting on Eric looking at the three | — |
 | 10 · migration into `staging` | 🔒 blocked on 3 + Sanity project + ingest scripts | Grok |
