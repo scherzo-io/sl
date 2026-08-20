@@ -1,0 +1,68 @@
+{
+  "modal_hex": "#DE2426",
+  "modal_count": 62258,
+  "pixel_count": 66785,
+  "r_range": [
+    222,
+    234
+  ],
+  "g_range": [
+    36,
+    118
+  ],
+  "b_range": [
+    38,
+    119
+  ],
+  "top_hexes": [
+    {
+      "hex": "#DE2426",
+      "count": 62258
+    },
+    {
+      "hex": "#DF2E30",
+      "count": 891
+    },
+    {
+      "hex": "#DF2D2F",
+      "count": 545
+    },
+    {
+      "hex": "#E65B5C",
+      "count": 446
+    },
+    {
+      "hex": "#E75F60",
+      "count": 264
+    },
+    {
+      "hex": "#E76061",
+      "count": 254
+    },
+    {
+      "hex": "#DE2628",
+      "count": 172
+    },
+    {
+      "hex": "#E55354",
+      "count": 150
+    }
+  ],
+  "deltas": {
+    "locked_DA2128": [
+      4,
+      3,
+      -2
+    ],
+    "retired_D42E12": [
+      10,
+      -10,
+      20
+    ],
+    "remembered_DE2426": [
+      0,
+      0,
+      0
+    ]
+  }
+}

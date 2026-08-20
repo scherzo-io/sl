@@ -1,0 +1,888 @@
+attachment_id	project_slug	served_path	source_path	measured_w	measured_h	wp_w	wp_h	has_larger_original	aspect	orientation	hero_capable	featured_only	parent_is_zero	notes
+434	grand-ole-opry-city-stage	2019/12/OPRY1.jpg	2019/12/OPRY1.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+437	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE1.jpg	2019/12/SUGARCANE1.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+440	boqueria-restaurant	2019/12/Featured-1-scaled.jpg	2019/12/Featured-1.jpg	3600	2403	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+442	sugar-cane-raw-bar-and-grill	2019/12/Sugarcane-Featured.jpg	2019/12/Sugarcane-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+488	mint-kitchen-restaurant	2019/12/Mint-Featured-2-scaled.jpg	2019/12/Mint-Featured-2.jpg	4536	3024	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+492	kat-theo	2019/12/Kat-Theo-Featured.jpg	2019/12/Kat-Theo-Featured.jpg	2048	1121	2048	1121	no	1.827	landscape	yes	no	no	
+501	vivvi-daycare-tribeca	2019/12/Vivvi-Featured-5-scaled.jpg	2019/12/Vivvi-Featured-5.jpg	4410	3307	2048	1536	yes	1.334	landscape	yes	no	no	larger_original
+510	burger-lobster	2019/12/Burger-Lobster-Featured.jpg	2019/12/Burger-Lobster-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+514	momofuku-ko	2019/12/Momofuku-Featured.jpg	2019/12/Momofuku-Featured.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+521	tribeca-loft	2019/12/Tribeca-Loft-Featured-scaled.jpg	2019/12/Tribeca-Loft-Featured.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+528	1st-ave-apt	2019/12/Murray-Hill-Featured.jpg	2019/12/Murray-Hill-Featured.jpg	1200	870	1200	870	no	1.379	landscape	no	no	no	
+532	st-lukes-place-townhouse	2019/12/West-Village-Featured.jpg	2019/12/West-Village-Featured.jpg	1647	1100	1647	1100	no	1.497	landscape	no	no	no	
+535	thompson-st-studio	2019/12/THOMPSON_STUDIO-Featured-scaled.jpg	2019/12/THOMPSON_STUDIO-Featured.jpg	3000	2000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+538	west-23rd-townhouse-2	2019/12/W23-Featured.jpg.png	2019/12/W23-Featured.jpg.png	990	740	990	740	no	1.338	landscape	no	yes	no	featured_only
+541	e63-st-penthouse	2019/12/Upper-East-Side-Penthouse-Featured.jpg	2019/12/Upper-East-Side-Penthouse-Featured.jpg	640	392	640	392	no	1.633	landscape	no	no	no	
+547	versa-marriott	2019/12/Featured-Rock-and-Rileys-scaled.jpg	2019/12/Featured-Rock-and-Rileys.jpg	2625	1095	2048	854	yes	2.397	landscape	yes	no	no	larger_original
+550	gunter-seeger	2019/12/Gunter-Seeger-Featured.jpg	2019/12/Gunter-Seeger-Featured.jpg	1642	900	1642	900	no	1.824	landscape	no	no	no	
+553	mexicue	2019/12/Mexicue-Featured.jpg	2019/12/Mexicue-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+565	upper-east-side-townhouse	2019/12/Washington-Sq-Derm-Featured.jpg	2019/12/Washington-Sq-Derm-Featured.jpg	1695	1232	1695	1232	no	1.376	landscape	no	no	no	
+577	indeed-corporate-office-suite	2019/12/Indeed-Updated-Featured.jpg	2019/12/Indeed-Updated-Featured.jpg	1034	647	1034	647	no	1.598	landscape	no	yes	no	featured_only
+578	gunter-seeger	2019/12/Gunter-Updated-Featured-scaled.jpg	2019/12/Gunter-Updated-Featured.jpg	2625	1095	2048	854	yes	2.397	landscape	yes	no	no	larger_original
+580	free-people-retail-store	2019/12/Free-People-Updated-Featured.jpg	2019/12/Free-People-Updated-Featured.jpg	513	601	513	601	no	0.854	portrait	no	yes	no	featured_only
+607	69th-st-townhouse	2019/12/UWS_TOWNHOUSE6.jpg	2019/12/UWS_TOWNHOUSE6.jpg	1200	1800	1200	1800	no	0.667	portrait	no	no	no	
+609	69th-st-townhouse	2019/12/UWS_TOWNHOUSE4.jpg	2019/12/UWS_TOWNHOUSE4.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+613	horatio-st-townhouse	2019/12/Horatio-St-3.68x6.74.jpg	2019/12/Horatio-St-3.68x6.74.jpg	1104	2022	1104	2022	no	0.546	portrait	no	no	no	
+615	horatio-st-townhouse	2019/12/Horatio-St-3.9x3.jpg	2019/12/Horatio-St-3.9x3.jpg	1170	1002	1170	1002	no	1.168	landscape	no	no	no	
+616	horatio-st-townhouse	2019/12/Horatio-St-2.35x3.12.jpg	2019/12/Horatio-St-2.35x3.12.jpg	705	936	705	936	no	0.753	portrait	no	no	no	
+617	horatio-st-townhouse	2019/12/Horatio-St-4.50x2.86.jpg	2019/12/Horatio-St-4.50x2.86.jpg	1350	858	1350	858	no	1.573	landscape	no	no	no	
+618	horatio-st-townhouse	2019/12/Horatio-St-2.17x3.12.jpg	2019/12/Horatio-St-2.17x3.12.jpg	651	936	651	936	no	0.696	portrait	no	no	no	
+619	horatio-st-townhouse	2019/12/Streamline-Residential-Horatio-12-4.11x5.65.jpg	2019/12/Streamline-Residential-Horatio-12-4.11x5.65.jpg	1695	1233	1695	1233	no	1.375	landscape	no	no	no	
+622	horatio-st-townhouse	2019/12/Streamline-Residential-Horatio-17-1.71x2.08-1.jpg	2019/12/Streamline-Residential-Horatio-17-1.71x2.08-1.jpg	513	624	513	624	no	0.822	portrait	no	no	no	
+627	upper-east-side-townhouse	2019/12/Streamline-USA-Washington-Square-Dermatology-2.08x2.63.jpg	2019/12/Streamline-USA-Washington-Square-Dermatology-2.08x2.63.jpg	624	789	624	789	no	0.791	portrait	no	no	no	
+628	upper-east-side-townhouse	2019/12/Streamline-USA-Washington-Square-Dermatology-3.69x4.36.jpg	2019/12/Streamline-USA-Washington-Square-Dermatology-3.69x4.36.jpg	1107	1309	1107	1309	no	0.846	portrait	no	no	no	
+629	upper-east-side-townhouse	2019/12/Streamline-USA-Washington-Square-Dermatology-1.71x4.37.jpg	2019/12/Streamline-USA-Washington-Square-Dermatology-1.71x4.37.jpg	513	1311	513	1311	no	0.391	portrait	no	no	no	
+632	kith	2019/12/StreamlineUSA-RET-Kith-02-4x5.65.jpg	2019/12/StreamlineUSA-RET-Kith-02-4x5.65.jpg	1695	1200	1695	1200	no	1.413	landscape	no	no	no	
+633	kith	2019/12/StreamlineUSA-RET-Kith-12-3x2.jpg	2019/12/StreamlineUSA-RET-Kith-12-3x2.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+635	kith	2019/12/SL-_-Retail-Kith-17-2.155x2-1-scaled.jpg	2019/12/SL-_-Retail-Kith-17-2.155x2-1.jpg	2722	2935	2048	2208	yes	0.927	portrait	yes	no	no	larger_original
+636	kith	2019/12/StreamlineUSA-RET-Kith-03-2x4.205.jpg	2019/12/StreamlineUSA-RET-Kith-03-2x4.205.jpg	1262	600	1262	600	no	2.103	landscape	no	no	no	
+637	kith	2019/12/StreamlineUSA-RET-Kith-13-4.3708x3.4.jpg	2019/12/StreamlineUSA-RET-Kith-13-4.3708x3.4.jpg	1020	1311	1020	1311	no	0.778	portrait	no	no	no	
+640	kith	2019/12/SL-_-Retail-Kith-08-2.155x2.jpg	2019/12/SL-_-Retail-Kith-08-2.155x2.jpg	600	647	600	647	no	0.927	portrait	no	no	no	
+641	kith	2019/12/StreamlineUSA-RET-Kith-03-4.37x3.4.jpg	2019/12/StreamlineUSA-RET-Kith-03-4.37x3.4.jpg	1020	1311	1020	1311	no	0.778	portrait	no	no	no	
+642	kith	2019/12/SL-_-Retail-Kith-02-2x3.jpg	2019/12/SL-_-Retail-Kith-02-2x3.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+644	kith	2019/12/StreamlineUSA-RET-Kith-04-1.46x2.jpg	2019/12/StreamlineUSA-RET-Kith-04-1.46x2.jpg	600	438	600	438	no	1.370	landscape	no	no	no	
+649	autrium-corporate-office	2019/12/Streamline-USA-Atrium-5.65x4.11.jpg	2019/12/Streamline-USA-Atrium-5.65x4.11.jpg	1695	1233	1695	1233	no	1.375	landscape	no	yes	no	featured_only
+653	69th-st-townhouse	2019/12/UWS_TOWNHOUSE7-1.jpg	2019/12/UWS_TOWNHOUSE7-1.jpg	1200	1800	1200	1800	no	0.667	portrait	no	no	no	
+655	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-06-3x2.jpg	2019/12/SL-_-Commercial-Indeed-06-3x2.jpg	1436	599	1436	599	no	2.397	landscape	no	no	no	
+656	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-07-1.4x2.jpg	2019/12/SL-_-Commercial-Indeed-07-1.4x2.jpg	600	420	600	420	no	1.429	landscape	no	no	no	
+658	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-02-2.155x2.jpg	2019/12/SL-_-Commercial-Indeed-02-2.155x2.jpg	600	646	600	646	no	0.929	portrait	no	no	no	
+659	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-01-4x5.65.jpg	2019/12/SL-_-Commercial-Indeed-01-4x5.65.jpg	1695	1200	1695	1200	no	1.413	landscape	no	no	no	
+661	indeed-corporate-office-suite	2019/12/Indeed-Pic.jpg	2019/12/Indeed-Pic.jpg	1600	1068	1600	1068	no	1.498	landscape	no	no	no	
+665	mexicue	2019/12/MEX6.jpg	2019/12/MEX6.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+666	mexicue	2019/12/MEX5.jpg	2019/12/MEX5.jpg	1200	990	1200	990	no	1.212	landscape	no	no	no	
+667	mexicue	2019/12/MEX1.jpg	2019/12/MEX1.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+668	mexicue	2019/12/MEX2.jpg	2019/12/MEX2.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+669	mexicue	2019/12/MEX4.jpg	2019/12/MEX4.jpg	970	647	970	647	no	1.499	landscape	no	no	no	
+673	gunter-seeger	2019/12/BLURRY.jpg	2019/12/BLURRY.jpg	938	900	938	900	no	1.042	landscape	no	no	no	
+676	versa-marriott	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-3.125x3-1.jpg	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-3.125x3-1.jpg	938	900	938	900	no	1.042	landscape	no	no	no	
+677	versa-marriott	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-3.125x3-2-scaled.jpg	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-3.125x3-2.jpg	3024	2904	2048	1966	yes	1.041	landscape	yes	no	no	larger_original
+678	versa-marriott	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-5.475x3-2.jpg	2019/12/SL-_-Hospitality-_-218-W35-_-RocknReillys-5.475x3-2.jpg	1643	900	1643	900	no	1.826	landscape	no	no	no	
+680	e63-st-penthouse	2019/12/Upper-East-Side-Penthouse-1.jpg	2019/12/Upper-East-Side-Penthouse-1.jpg	640	427	640	427	no	1.499	landscape	no	no	no	
+681	e63-st-penthouse	2019/12/Upper-East-Side-Penthouse-2.jpg	2019/12/Upper-East-Side-Penthouse-2.jpg	640	401	640	401	no	1.596	landscape	no	no	no	
+682	e63-st-penthouse	2019/12/Upper-East-Side-Penthouse-5.jpg	2019/12/Upper-East-Side-Penthouse-5.jpg	640	401	640	401	no	1.596	landscape	no	no	no	
+683	e63-st-penthouse	2019/12/Upper-East-Side-Penthouse-4.jpg	2019/12/Upper-East-Side-Penthouse-4.jpg	640	393	640	393	no	1.628	landscape	no	no	no	
+694	thompson-st-studio	2019/12/THOMPSON_STUDIO3-scaled.jpg	2019/12/THOMPSON_STUDIO3.jpg	3000	2000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+695	thompson-st-studio	2019/12/THOMPSON_STUDIO1-scaled.jpg	2019/12/THOMPSON_STUDIO1.jpg	3000	2000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+696	thompson-st-studio	2019/12/THOMPSON_STUDIO4-scaled.jpg	2019/12/THOMPSON_STUDIO4.jpg	3000	2000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+697	thompson-st-studio	2019/12/THOMPSON_STUDIO5-scaled.jpg	2019/12/THOMPSON_STUDIO5.jpg	3000	2000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+699	st-lukes-place-townhouse	2019/12/12.jpg	2019/12/12.jpg	1670	1100	1670	1100	no	1.518	landscape	no	no	no	
+700	st-lukes-place-townhouse	2019/12/14.jpg	2019/12/14.jpg	1648	1100	1648	1100	no	1.498	landscape	no	no	no	
+701	st-lukes-place-townhouse	2019/12/17.jpg	2019/12/17.jpg	733	1100	733	1100	no	0.666	portrait	no	no	no	
+702	st-lukes-place-townhouse	2019/12/1.jpg	2019/12/1.jpg	1649	1100	1649	1100	no	1.499	landscape	no	no	no	
+703	st-lukes-place-townhouse	2019/12/3.jpg	2019/12/3.jpg	1649	1100	1649	1100	no	1.499	landscape	no	no	no	
+704	st-lukes-place-townhouse	2019/12/8.jpg	2019/12/8.jpg	1648	1100	1648	1100	no	1.498	landscape	no	no	no	
+705	st-lukes-place-townhouse	2019/12/9.jpg	2019/12/9.jpg	1649	1100	1649	1100	no	1.499	landscape	no	no	no	
+706	st-lukes-place-townhouse	2019/12/10.jpg	2019/12/10.jpg	1647	1100	1647	1100	no	1.497	landscape	no	no	no	
+707	st-lukes-place-townhouse	2019/12/11.jpg	2019/12/11.jpg	1652	1100	1652	1100	no	1.502	landscape	no	no	no	
+708	st-lukes-place-townhouse	2019/12/13.jpg	2019/12/13.jpg	1650	1100	1650	1100	no	1.500	landscape	no	no	no	
+709	st-lukes-place-townhouse	2019/12/15.jpg	2019/12/15.jpg	1648	1100	1648	1100	no	1.498	landscape	no	no	no	
+710	st-lukes-place-townhouse	2019/12/16.jpg	2019/12/16.jpg	1640	1100	1640	1100	no	1.491	landscape	no	no	no	
+711	st-lukes-place-townhouse	2019/12/2.jpg	2019/12/2.jpg	1650	1100	1650	1100	no	1.500	landscape	no	no	no	
+712	st-lukes-place-townhouse	2019/12/4.jpg	2019/12/4.jpg	1650	1100	1650	1100	no	1.500	landscape	no	no	no	
+714	st-lukes-place-townhouse	2019/12/7.jpg	2019/12/7.jpg	1647	1100	1647	1100	no	1.497	landscape	no	no	no	
+716	1st-ave-apt	2019/12/MURRAYHILL1.jpg	2019/12/MURRAYHILL1.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+717	1st-ave-apt	2019/12/MURRAYHILL2.jpg	2019/12/MURRAYHILL2.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+718	1st-ave-apt	2019/12/MURRAYHILL4.jpg	2019/12/MURRAYHILL4.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+719	1st-ave-apt	2019/12/MURRAYHILL3.jpg	2019/12/MURRAYHILL3.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+720	1st-ave-apt	2019/12/MURRAYHILL5.jpg	2019/12/MURRAYHILL5.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+721	1st-ave-apt	2019/12/MURRAYHILL7.jpg	2019/12/MURRAYHILL7.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+727	53rd-st-studio	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.425x3.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.425x3.jpg	1027	900	1027	900	no	1.141	landscape	no	no	no	
+729	tribeca-loft	2019/12/IMG_1243-scaled.jpg	2019/12/IMG_1243.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+730	tribeca-loft	2019/12/IMG_1244-scaled.jpg	2019/12/IMG_1244.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+731	tribeca-loft	2019/12/IMG_1245-scaled.jpg	2019/12/IMG_1245.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+732	tribeca-loft	2019/12/IMG_1246-scaled.jpg	2019/12/IMG_1246.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+733	tribeca-loft	2019/12/IMG_1247-scaled.jpg	2019/12/IMG_1247.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+739	hudson-street-penthouse	2019/12/Hudson-Featured.jpg	2019/12/Hudson-Featured.jpg	1280	854	1280	854	no	1.499	landscape	no	no	no	
+743	hudson-street-penthouse	2019/12/i-7HqhMqw-X2.jpg	2019/12/i-7HqhMqw-X2.jpg	640	960	640	960	no	0.667	portrait	no	no	no	
+744	hudson-street-penthouse	2019/12/i-Khm4Tpw-X2.jpg	2019/12/i-Khm4Tpw-X2.jpg	768	960	768	960	no	0.800	portrait	no	no	no	
+745	hudson-street-penthouse	2019/12/i-pSZ2SP3-X3.jpg	2019/12/i-pSZ2SP3-X3.jpg	1600	1069	1600	1069	no	1.497	landscape	no	no	no	
+746	hudson-street-penthouse	2019/12/i-tVwN3fB-X2.jpg	2019/12/i-tVwN3fB-X2.jpg	1280	854	1280	854	no	1.499	landscape	no	no	no	
+747	hudson-street-penthouse	2019/12/i-CS9WgLM-X2.jpg	2019/12/i-CS9WgLM-X2.jpg	1280	854	1280	854	no	1.499	landscape	no	no	no	
+748	hudson-street-penthouse	2019/12/i-WcQdmRm-X2.jpg	2019/12/i-WcQdmRm-X2.jpg	1142	960	1142	960	no	1.190	landscape	no	no	no	
+749	hudson-street-penthouse	2019/12/i-Dpjk2Rc-X2.jpg	2019/12/i-Dpjk2Rc-X2.jpg	768	960	768	960	no	0.800	portrait	no	no	no	
+750	hudson-street-penthouse	2019/12/i-Nssb2GP-X2.jpg	2019/12/i-Nssb2GP-X2.jpg	640	960	640	960	no	0.667	portrait	no	no	no	
+752	hudson-street-penthouse	2019/12/i-xTCMsVL-X2.jpg	2019/12/i-xTCMsVL-X2.jpg	1280	854	1280	854	no	1.499	landscape	no	no	no	
+755	hudson-street-penthouse	2019/12/Hudson-Featured-1.jpg	2019/12/Hudson-Featured-1.jpg	1280	854	1280	854	no	1.499	landscape	no	yes	no	featured_only
+762	momofuku-ko	2019/12/20180215_Momofuku_Ko_0173b_WEB.jpg	2019/12/20180215_Momofuku_Ko_0173b_WEB.jpg	1500	1071	1500	1071	no	1.401	landscape	no	no	no	
+763	momofuku-ko	2019/12/20180215_Momofuku_Ko_0206_WEB.jpg	2019/12/20180215_Momofuku_Ko_0206_WEB.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+764	momofuku-ko	2019/12/20180215_Momofuku_Ko_0173_WEB.jpg	2019/12/20180215_Momofuku_Ko_0173_WEB.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+765	momofuku-ko	2019/12/20180215_Momofuku_Ko_0279_WEB.jpg	2019/12/20180215_Momofuku_Ko_0279_WEB.jpg	1500	1125	1500	1125	no	1.333	landscape	no	no	no	
+766	momofuku-ko	2019/12/20180215_Momofuku_Ko_0280_WEB.jpg	2019/12/20180215_Momofuku_Ko_0280_WEB.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+767	momofuku-ko	2019/12/20180215_Momofuku_Ko_0459_WEB.jpg	2019/12/20180215_Momofuku_Ko_0459_WEB.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+768	momofuku-ko	2019/12/20180215_Momofuku_Ko_0368_WEB.jpg	2019/12/20180215_Momofuku_Ko_0368_WEB.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+770	burger-lobster	2019/12/BURGERLOBSTER6.jpg	2019/12/BURGERLOBSTER6.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+771	burger-lobster	2019/12/BURGERLOBSTER2.jpg	2019/12/BURGERLOBSTER2.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+772	burger-lobster	2019/12/BURGERLOBSTER7.jpg	2019/12/BURGERLOBSTER7.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+773	burger-lobster	2019/12/BURGERLOBSTER3.jpg	2019/12/BURGERLOBSTER3.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+774	burger-lobster	2019/12/BURGERLOBSTER5.jpg	2019/12/BURGERLOBSTER5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+775	burger-lobster	2019/12/BURGERLOBSTER4.jpg	2019/12/BURGERLOBSTER4.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+782	spring-studios-spring-place	2019/12/Spring-Studio-Featured-1.jpg	2019/12/Spring-Studio-Featured-1.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+790	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN┬⌐-03-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN┬⌐-03.jpg	5040	3780	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+794	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN┬⌐-13-2-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN┬⌐-13-2.jpg	3763	2822	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+796	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN11-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN11.jpg	2688	2016	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+799	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN09-1-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN09-1.jpg	6720	5040	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+803	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN10-3-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN10-3.jpg	4301	3225	2048	1536	yes	1.334	landscape	yes	no	no	larger_original
+806	vivvi-daycare-tribeca	2019/12/11OF11-VIVVI-F.OUDEMAN12-2-scaled.jpg	2019/12/11OF11-VIVVI-F.OUDEMAN12-2.jpg	4704	3528	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+808	kat-theo	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-3.125x3-2.jpg	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-3.125x3-2.jpg	896	933	896	933	no	0.960	portrait	no	no	no	
+809	kat-theo	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-3.125x3-1.jpg	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-3.125x3-1.jpg	1736	1667	1736	1667	no	1.041	landscape	no	no	no	
+810	kat-theo	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-8.175x3.65.jpg	2019/12/SL-_-Hospitality-_-2-W21-_-KatTheo-8.175x3.65.jpg	2048	854	2048	854	no	2.398	landscape	yes	no	no	
+813	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-11-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-11.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+815	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-13-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-13.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+818	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-16-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-16.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+827	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-6-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-6.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+828	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-7-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-7.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+829	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-8-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-8.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+830	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-9-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-9.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+833	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-3-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-3-1.jpg	4480	2986	2048	1365	yes	1.500	landscape	yes	no	no	larger_original
+837	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_210-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_210.jpg	2404	3600	1710	2560	yes	0.668	portrait	yes	no	no	larger_original
+838	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_211-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_211.jpg	3600	2403	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+839	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_212-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_212.jpg	3600	2403	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+843	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_197-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_197.jpg	2403	3600	1709	2560	yes	0.667	portrait	yes	no	no	larger_original
+844	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_203-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_203.jpg	3600	2404	2048	1368	yes	1.498	landscape	yes	no	no	larger_original
+845	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_206-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_206.jpg	3600	2403	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+846	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_209-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_209.jpg	3600	2403	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+850	boqueria-restaurant	2019/12/Boqueria_West40_0518_LizClayman_128-1-scaled.jpg	2019/12/Boqueria_West40_0518_LizClayman_128-1.jpg	4800	3204	2048	1367	yes	1.498	landscape	yes	no	no	larger_original
+852	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE2.jpg	2019/12/SUGARCANE2.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+853	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE3.jpg	2019/12/SUGARCANE3.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+854	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE9.jpg	2019/12/SUGARCANE9.jpg	923	1200	923	1200	no	0.769	portrait	no	no	no	
+855	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE6.jpg	2019/12/SUGARCANE6.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+856	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE4.jpg	2019/12/SUGARCANE4.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+858	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE7.jpg	2019/12/SUGARCANE7.jpg	1200	1079	1200	1079	no	1.112	landscape	no	no	no	
+859	sugar-cane-raw-bar-and-grill	2019/12/SUGARCANE8.jpg	2019/12/SUGARCANE8.jpg	1500	1000	1500	1000	no	1.500	landscape	no	no	no	
+861	grand-ole-opry-city-stage	2019/12/OPRY5.jpg	2019/12/OPRY5.jpg	480	312	480	312	no	1.538	landscape	no	no	no	
+862	grand-ole-opry-city-stage	2019/12/OPRY10.jpg	2019/12/OPRY10.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+863	grand-ole-opry-city-stage	2019/12/OPRY11.jpg	2019/12/OPRY11.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+864	grand-ole-opry-city-stage	2019/12/OPRY2.jpg	2019/12/OPRY2.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+865	grand-ole-opry-city-stage	2019/12/OPRY3.jpg	2019/12/OPRY3.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+866	grand-ole-opry-city-stage	2019/12/OPRY4.jpg	2019/12/OPRY4.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+867	grand-ole-opry-city-stage	2019/12/OPRY6.jpg	2019/12/OPRY6.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+868	grand-ole-opry-city-stage	2019/12/OPRY7.jpg	2019/12/OPRY7.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+869	grand-ole-opry-city-stage	2019/12/OPRY8.jpg	2019/12/OPRY8.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+870	grand-ole-opry-city-stage	2019/12/OPRY9.jpg	2019/12/OPRY9.jpg	1800	1200	1800	1200	no	1.500	landscape	no	no	no	
+925	vivvi-daycare-tribeca	2019/12/Vivvi-8-scaled.jpg	2019/12/Vivvi-8.jpg	4200	3150	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+926	vivvi-daycare-tribeca	2019/12/Vivvi-7-scaled.jpg	2019/12/Vivvi-7.jpg	5040	3780	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+927	vivvi-daycare-tribeca	2019/12/Vivvi-6-scaled.jpg	2019/12/Vivvi-6.jpg	5040	3780	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+929	vivvi-daycare-tribeca	2019/12/Vivvi-5-scaled.jpg	2019/12/Vivvi-5.jpg	5040	3780	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+930	vivvi-daycare-tribeca	2019/12/Vivvi-2-1-scaled.jpg	2019/12/Vivvi-2-1.jpg	5040	3779	2048	1535	yes	1.334	landscape	yes	no	no	larger_original
+931	vivvi-daycare-tribeca	2019/12/Vivvi-2-2-scaled.jpg	2019/12/Vivvi-2-2.jpg	5040	3780	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+990	mexicue	2019/12/DSC_0062-scaled.jpg	2019/12/DSC_0062.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+992	mexicue	2019/12/DSC_0049-scaled.jpg	2019/12/DSC_0049.jpg	4800	3200	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+993	mexicue	2019/12/DSC_0048-scaled.jpg	2019/12/DSC_0048.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+994	mexicue	2019/12/DSC_0064-scaled.jpg	2019/12/DSC_0064.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+995	mexicue	2019/12/DSC_0058-scaled.jpg	2019/12/DSC_0058.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+996	mexicue	2019/12/DSC_0059-scaled.jpg	2019/12/DSC_0059.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+997	mexicue	2019/12/DSC_0065-scaled.jpg	2019/12/DSC_0065.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+998	mexicue	2019/12/DSC_0057-scaled.jpg	2019/12/DSC_0057.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+999	mexicue	2019/12/DSC_0056-scaled.jpg	2019/12/DSC_0056.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1000	mexicue	2019/12/DSC_0054-scaled.jpg	2019/12/DSC_0054.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1001	mexicue	2019/12/DSC_0055-scaled.jpg	2019/12/DSC_0055.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1002	mexicue	2019/12/DSC_0052-scaled.jpg	2019/12/DSC_0052.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1003	mexicue	2019/12/DSC_0047-scaled.jpg	2019/12/DSC_0047.jpg	6000	4000	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1008	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.10-PM.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.10-PM.jpg	1874	1236	1874	1236	no	1.516	landscape	no	no	no	
+1009	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.15-PM.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.15-PM.jpg	1866	1236	1866	1236	no	1.510	landscape	no	no	no	
+1010	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.02-PM.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.02-PM.jpg	1860	1236	1860	1236	no	1.505	landscape	no	no	no	
+1011	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.46-PM-1.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.46-PM-1.jpg	818	1222	818	1222	no	0.669	portrait	no	no	no	
+1012	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.52-PM.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.52-PM.jpg	1854	1230	1854	1230	no	1.507	landscape	no	no	no	
+1013	kat-theo	2019/12/Screen-Shot-2016-03-02-at-1.48.29-PM.jpg	2019/12/Screen-Shot-2016-03-02-at-1.48.29-PM.jpg	820	1238	820	1238	no	0.662	portrait	no	no	no	
+1017	free-people-retail-store	2019/12/IMG_3444-scaled.jpg	2019/12/IMG_3444.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1018	free-people-retail-store	2019/12/Free-People-by-Streamline-USA-1.71x2.0.jpg	2019/12/Free-People-by-Streamline-USA-1.71x2.0.jpg	513	601	513	601	no	0.854	portrait	no	no	no	
+1019	free-people-retail-store	2019/12/Free-People-by-Streamline-USA-1.71x2.19-1.jpg	2019/12/Free-People-by-Streamline-USA-1.71x2.19-1.jpg	513	873	513	873	no	0.588	portrait	no	no	no	
+1020	free-people-retail-store	2019/12/Free-People-by-Streamline-USA-2.1x3.71-1.jpg	2019/12/Free-People-by-Streamline-USA-2.1x3.71-1.jpg	630	1113	630	1113	no	0.566	portrait	no	no	no	
+1021	free-people-retail-store	2019/12/Free-People-by-Streamline-USA-3.69x4.36.jpg	2019/12/Free-People-by-Streamline-USA-3.69x4.36.jpg	1107	1309	1107	1309	no	0.846	portrait	no	no	no	
+1022	free-people-retail-store	2019/12/Free-People-by-Streamline-USA-5.65x4.11-1.jpg	2019/12/Free-People-by-Streamline-USA-5.65x4.11-1.jpg	1695	1233	1695	1233	no	1.375	landscape	no	no	no	
+1030	indeed-corporate-office-suite	2019/12/IMG_1211-scaled.jpg	2019/12/IMG_1211.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1032	indeed-corporate-office-suite	2019/12/IMG_1212-scaled.jpg	2019/12/IMG_1212.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1033	indeed-corporate-office-suite	2019/12/IMG_1216-scaled.jpg	2019/12/IMG_1216.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1034	indeed-corporate-office-suite	2019/12/IMG_1217-scaled.jpg	2019/12/IMG_1217.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1035	indeed-corporate-office-suite	2019/12/IMG_1215-scaled.jpg	2019/12/IMG_1215.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1042	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-05-2x2.155-1.jpg	2019/12/SL-_-Commercial-Indeed-05-2x2.155-1.jpg	646	600	646	600	no	1.077	landscape	no	no	no	
+1044	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-03-2.155x3.445.jpg	2019/12/SL-_-Commercial-Indeed-03-2.155x3.445.jpg	1034	647	1034	647	no	1.598	landscape	no	no	no	
+1046	indeed-corporate-office-suite	2019/12/SL-_-Commercial-Indeed-04-2x4.7875-1.jpg	2019/12/SL-_-Commercial-Indeed-04-2x4.7875-1.jpg	1436	599	1436	599	no	2.397	landscape	no	no	no	
+1076	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-08.png	2019/12/tersigni-palachek-residential-west-village-08.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1077	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-06.png	2019/12/tersigni-palachek-residential-west-village-06.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1078	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-04.png	2019/12/tersigni-palachek-residential-west-village-04.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1079	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-09.png	2019/12/tersigni-palachek-residential-west-village-09.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1080	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-07.png	2019/12/tersigni-palachek-residential-west-village-07.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1081	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-03.png	2019/12/tersigni-palachek-residential-west-village-03.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1082	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-05.png	2019/12/tersigni-palachek-residential-west-village-05.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1083	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-02.png	2019/12/tersigni-palachek-residential-west-village-02.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1086	horatio-st-townhouse	2019/12/tersigni-palachek-residential-west-village-01-1.png	2019/12/tersigni-palachek-residential-west-village-01-1.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1097	69th-st-townhouse	2019/12/BlackHenselNYC_10retouched1-scaled.jpg	2019/12/BlackHenselNYC_10retouched1.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1098	69th-st-townhouse	2019/12/BlackHenselNYC_041-scaled.jpg	2019/12/BlackHenselNYC_041.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1099	69th-st-townhouse	2019/12/BlackHenselNYC_031-scaled.jpg	2019/12/BlackHenselNYC_031.jpg	2415	3300	1873	2560	yes	0.732	portrait	yes	no	no	larger_original
+1100	69th-st-townhouse	2019/12/BlackHenselNYC_061-scaled.jpg	2019/12/BlackHenselNYC_061.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1101	69th-st-townhouse	2019/12/BlackHenselNYC_081-scaled.jpg	2019/12/BlackHenselNYC_081.jpg	2415	3300	1873	2560	yes	0.732	portrait	yes	no	no	larger_original
+1102	69th-st-townhouse	2019/12/BlackHenselNYC_011-scaled.jpg	2019/12/BlackHenselNYC_011.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1103	69th-st-townhouse	2019/12/BlackHenselNYC_021-scaled.jpg	2019/12/BlackHenselNYC_021.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1104	69th-st-townhouse	2019/12/BlackHenselNYC_091-scaled.jpg	2019/12/BlackHenselNYC_091.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1105	69th-st-townhouse	2019/12/BlackHenselNYC_071-scaled.jpg	2019/12/BlackHenselNYC_071.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1106	69th-st-townhouse	2019/12/BlackHenselNYC_11retouched1-scaled.jpg	2019/12/BlackHenselNYC_11retouched1.jpg	3300	2557	2048	1587	yes	1.291	landscape	yes	no	no	larger_original
+1107	69th-st-townhouse	2019/12/BlackHenselNYC_051-scaled.jpg	2019/12/BlackHenselNYC_051.jpg	2415	3300	1873	2560	yes	0.732	portrait	yes	no	no	larger_original
+1109	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-8.75x3.65-scaled.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-8.75x3.65.jpg	2625	1095	2048	854	yes	2.397	landscape	yes	no	no	larger_original
+1110	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125x3-3-1.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125x3-3-1.jpg	937	900	937	900	no	1.041	landscape	no	no	no	
+1111	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125x3-1-1.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125x3-1-1.jpg	937	900	937	900	no	1.041	landscape	no	no	no	
+1112	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125X3-2-1.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.125X3-2-1.jpg	900	937	900	937	no	0.961	portrait	no	no	no	
+1113	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-5.475x3-1.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-5.475x3-1.jpg	1642	900	1642	900	no	1.824	landscape	no	no	no	
+1114	madison-ave-duplex-2	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.425x3-1.jpg	2019/12/SL-_-Residential-_-215-Madision-_-Residence-3.425x3-1.jpg	1027	900	1027	900	no	1.141	landscape	no	no	no	
+1118	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-04.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-04.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1119	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-05.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-05.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1120	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-03.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-03.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1121	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-02.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-02.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1122	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-01.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-01.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1123	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-01a.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-01a.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1124	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-06.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-06.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1125	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-07.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-07.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1126	west-23rd-townhouse-2	2019/12/tersigni-palachek-residential-manhattan-townhouse-08.png	2019/12/tersigni-palachek-residential-manhattan-townhouse-08.png	990	740	990	740	no	1.338	landscape	no	no	no	
+1143	autrium-corporate-office	2019/12/Streamline-USA-Atrium-8.0x2.25.jpg	2019/12/Streamline-USA-Atrium-8.0x2.25.jpg	2048	576	2048	576	no	3.556	landscape	yes	no	no	
+1144	autrium-corporate-office	2019/12/Streamline-USA-Atrium-1.71x1.90-1.jpg	2019/12/Streamline-USA-Atrium-1.71x1.90-1.jpg	513	573	513	573	no	0.895	portrait	no	no	no	
+1145	autrium-corporate-office	2019/12/Streamline-USA-Atrium-3.69x1.91-1.jpg	2019/12/Streamline-USA-Atrium-3.69x1.91-1.jpg	1431	741	1431	741	no	1.931	landscape	no	no	no	
+1146	autrium-corporate-office	2019/12/Streamline-USA-Atrium-5.65x4.11-1.jpg	2019/12/Streamline-USA-Atrium-5.65x4.11-1.jpg	1695	1233	1695	1233	no	1.375	landscape	no	no	no	
+1147	autrium-corporate-office	2019/12/Streamline-USA-Atrium-1.71x1.91-1.jpg	2019/12/Streamline-USA-Atrium-1.71x1.91-1.jpg	513	573	513	573	no	0.895	portrait	no	no	no	
+1152	kith	2019/12/IMG_1071-scaled.jpg	2019/12/IMG_1071.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1153	kith	2019/12/IMG_1070-scaled.jpg	2019/12/IMG_1070.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1155	kith	2019/12/IMG_1073-scaled.jpg	2019/12/IMG_1073.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1156	kith	2019/12/IMG_7210-scaled.jpg	2019/12/IMG_7210.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1157	kith	2019/12/IMG_1077-scaled.jpg	2019/12/IMG_1077.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1158	kith	2019/12/IMG_1076-scaled.jpg	2019/12/IMG_1076.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1159	kith	2019/12/IMG_1074-scaled.jpg	2019/12/IMG_1074.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1160	kith	2019/12/IMG_1075-scaled.jpg	2019/12/IMG_1075.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1161	kith	2019/12/IMG_0126-scaled.jpg	2019/12/IMG_0126.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1162	kith	2019/12/IMG_0127-scaled.jpg	2019/12/IMG_0127.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1164	kith	2019/12/IMG_0125-scaled.jpg	2019/12/IMG_0125.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1165	kith	2019/12/IMG_0124-scaled.jpg	2019/12/IMG_0124.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1168	kith	2019/12/IMG_0108-scaled.jpg	2019/12/IMG_0108.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1169	kith	2019/12/IMG_0109-scaled.jpg	2019/12/IMG_0109.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1170	kith	2019/12/IMG_0121-scaled.jpg	2019/12/IMG_0121.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1171	kith	2019/12/IMG_0123-scaled.jpg	2019/12/IMG_0123.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1173	kith	2019/12/IMG_0107-scaled.jpg	2019/12/IMG_0107.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1175	kith	2019/12/IMG_0112-scaled.jpg	2019/12/IMG_0112.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1176	kith	2019/12/IMG_0110-scaled.jpg	2019/12/IMG_0110.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1177	kith	2019/12/IMG_0111-scaled.jpg	2019/12/IMG_0111.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1178	kith	2019/12/IMG_0115-scaled.jpg	2019/12/IMG_0115.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1180	kith	2019/12/IMG_0116-scaled.jpg	2019/12/IMG_0116.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1181	kith	2019/12/IMG_0117-scaled.jpg	2019/12/IMG_0117.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1182	kith	2019/12/IMG_1084-scaled.jpg	2019/12/IMG_1084.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1183	kith	2019/12/IMG_1085-scaled.jpg	2019/12/IMG_1085.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1184	kith	2019/12/IMG_1082-scaled.jpg	2019/12/IMG_1082.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1188	spring-studios-spring-place	2019/12/16041_pr_springplace_5-5-1621862-3x3-1.jpg	2019/12/16041_pr_springplace_5-5-1621862-3x3-1.jpg	900	900	900	900	no	1.000	square	no	no	no	
+1189	spring-studios-spring-place	2019/12/8.75x2.25-spring-1-scaled.jpg	2019/12/8.75x2.25-spring-1.jpg	2625	675	2048	526	yes	3.889	landscape	yes	no	no	larger_original
+1190	spring-studios-spring-place	2019/12/16041_pr_springplace_5-5-1621784-3x2-1.jpg	2019/12/16041_pr_springplace_5-5-1621784-3x2-1.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+1191	spring-studios-spring-place	2019/12/16041_pr_springplace_5-5-1621884-3x2-1.jpg	2019/12/16041_pr_springplace_5-5-1621884-3x2-1.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+1192	spring-studios-spring-place	2019/12/16041_pr_springplace_5-5-1621823-3x3-1.jpg	2019/12/16041_pr_springplace_5-5-1621823-3x3-1.jpg	900	900	900	900	no	1.000	square	no	no	no	
+1194	spring-studios-spring-place	2019/12/Streamline-USA-Spring-Studios-29-3x2-2.jpg	2019/12/Streamline-USA-Spring-Studios-29-3x2-2.jpg	900	600	900	600	no	1.500	landscape	no	no	no	
+1197	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-15-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-15-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1198	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-2-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-2.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1201	mint-kitchen-restaurant	2019/12/Mint-Featured-3-scaled.jpg	2019/12/Mint-Featured-3.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1202	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-6-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-6-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1203	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-20-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-20-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1204	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-13-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-13-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1205	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-19-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-19.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1206	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-4-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-4-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1207	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-14-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-14-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1208	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-7-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-7-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1209	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-16-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-16-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1210	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-5-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-5-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1211	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-17-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-17-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1212	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-9-2-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-9-2.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1213	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-8-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-8-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1214	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-12-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-12-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1215	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-11-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-11-1.jpg	5600	3733	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+1216	mint-kitchen-restaurant	2019/12/Creme_Mint-Kitchen_HR-18-1-scaled.jpg	2019/12/Creme_Mint-Kitchen_HR-18-1.jpg	3733	5600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+1829	gunter-seeger	2019/12/Gunter-1.jpg	2019/12/Gunter-1.jpg	1000	750	1000	750	no	1.333	landscape	no	no	no	
+1830	gunter-seeger	2019/12/Gunter-2.jpg	2019/12/Gunter-2.jpg	1000	666	1000	666	no	1.502	landscape	no	no	no	
+1831	gunter-seeger	2019/12/Gunter-3.jpg	2019/12/Gunter-3.jpg	1000	585	1000	585	no	1.709	landscape	no	no	no	
+1832	gunter-seeger	2019/12/Gunter-4.jpg	2019/12/Gunter-4.jpg	1000	750	1000	750	no	1.333	landscape	no	no	no	
+1837	lexington-ave-townhouse	2020/02/UES-8-e1595540404244.jpg	2020/02/UES-8-e1595540404244.jpg	599	399	599	399	no	1.501	landscape	no	no	no	
+1840	lexington-ave-townhouse	2020/02/46883486.jpg	2020/02/46883486.jpg	800	533	800	533	no	1.501	landscape	no	no	no	
+1841	lexington-ave-townhouse	2020/02/UES-4.jpg	2020/02/UES-4.jpg	1024	682	1024	682	no	1.501	landscape	no	no	no	
+1842	lexington-ave-townhouse	2020/02/UES-5.jpg	2020/02/UES-5.jpg	1024	682	1024	682	no	1.501	landscape	no	no	no	
+1843	lexington-ave-townhouse	2020/02/UES-6.jpg	2020/02/UES-6.jpg	1024	682	1024	682	no	1.501	landscape	no	no	no	
+1844	lexington-ave-townhouse	2020/02/UES-7.jpg	2020/02/UES-7.jpg	352	235	352	235	no	1.498	landscape	no	no	no	
+1845	lexington-ave-townhouse	2020/02/UES-9.jpg	2020/02/UES-9.jpg	800	533	800	533	no	1.501	landscape	no	no	no	
+1846	lexington-ave-townhouse	2020/02/UES-10.jpg	2020/02/UES-10.jpg	800	533	800	533	no	1.501	landscape	no	no	no	
+1847	lexington-ave-townhouse	2020/02/UES-11.jpg	2020/02/UES-11.jpg	800	533	800	533	no	1.501	landscape	no	no	no	
+1848	lexington-ave-townhouse	2020/02/UES-Townhouse-3.jpg	2020/02/UES-Townhouse-3.jpg	1024	682	1024	682	no	1.501	landscape	no	no	no	
+1851	lexington-ave-townhouse	2020/02/UES-13.jpg	2020/02/UES-13.jpg	600	1303	600	1303	no	0.460	portrait	no	no	no	
+1852	lexington-ave-townhouse	2020/02/UES-12.jpg	2020/02/UES-12.jpg	800	533	800	533	no	1.501	landscape	no	no	no	
+1853	lexington-ave-townhouse	2020/02/UES-Townhouse-2.jpg	2020/02/UES-Townhouse-2.jpg	1024	682	1024	682	no	1.501	landscape	no	no	no	
+1859	versa-marriott	2019/12/Versa-1.jpg	2019/12/Versa-1.jpg	1920	1280	1920	1280	no	1.500	landscape	yes	no	no	
+1860	versa-marriott	2019/12/Versa-2.jpg	2019/12/Versa-2.jpg	1920	1080	1920	1080	no	1.778	landscape	yes	no	no	
+1861	versa-marriott	2019/12/Versa-3.jpg	2019/12/Versa-3.jpg	1920	1080	1920	1080	no	1.778	landscape	yes	no	no	
+1862	versa-marriott	2019/12/Versa-4.jpg	2019/12/Versa-4.jpg	2000	1334	2000	1334	no	1.499	landscape	yes	no	no	
+1863	versa-marriott	2019/12/versa-canopy2.jpg	2019/12/versa-canopy2.jpg	2000	1334	2000	1334	no	1.499	landscape	yes	no	no	
+1892	spring-studios-spring-place	2019/12/SP2020_3-1.png	2019/12/SP2020_3-1.png	640	360	640	360	no	1.778	landscape	no	no	no	
+1893	spring-studios-spring-place	2019/12/SP2020_2.png	2019/12/SP2020_2.png	640	360	640	360	no	1.778	landscape	no	no	no	
+1894	spring-studios-spring-place	2019/12/SP2020_3.png	2019/12/SP2020_3.png	640	360	640	360	no	1.778	landscape	no	no	no	
+1895	spring-studios-spring-place	2019/12/SP2020_1.jpeg	2019/12/SP2020_1.jpeg	640	430	640	430	no	1.488	landscape	no	no	no	
+1902	spring-studios-spring-place	2019/12/Spring-Studio.jpg	2019/12/Spring-Studio.jpg	1880	1058	1880	1058	no	1.777	landscape	no	no	no	
+1914	sullivan-st-duplex-2	2020/02/DSC_0850-scaled.jpeg	2020/02/DSC_0850.jpeg	3993	2986	2048	1531	yes	1.337	landscape	yes	no	no	larger_original
+1915	sullivan-st-duplex-2	2020/02/DSC_0857-scaled.jpg	2020/02/DSC_0857.jpg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1916	sullivan-st-duplex-2	2020/02/DSC_0844-scaled.jpg	2020/02/DSC_0844.jpg	4323	2991	2048	1417	yes	1.445	landscape	yes	no	no	larger_original
+1917	sullivan-st-duplex-2	2020/02/DSC_0847-scaled.jpg	2020/02/DSC_0847.jpg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1919	sullivan-st-duplex-2	2020/02/DSC_0855-scaled.jpeg	2020/02/DSC_0855.jpeg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1920	sullivan-st-duplex-2	2020/02/DSC_0860-scaled.jpeg	2020/02/DSC_0860.jpeg	3717	2971	2048	1637	yes	1.251	landscape	yes	no	no	larger_original
+1921	sullivan-st-duplex-2	2020/02/DSC_0862-scaled.jpeg	2020/02/DSC_0862.jpeg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1922	sullivan-st-duplex-2	2020/02/DSC_0863-scaled.jpg	2020/02/DSC_0863.jpg	3747	2995	2048	1637	yes	1.251	landscape	yes	no	no	larger_original
+1923	sullivan-st-duplex-2	2020/02/DSC_0867-scaled.jpeg	2020/02/DSC_0867.jpeg	2832	2970	2048	2148	yes	0.954	portrait	yes	no	no	larger_original
+1924	sullivan-st-duplex-2	2020/02/DSC_0870-scaled.jpg	2020/02/DSC_0870.jpg	3212	2981	2048	1901	yes	1.077	landscape	yes	no	no	larger_original
+1925	sullivan-st-duplex-2	2020/02/DSC_0871-scaled.jpg	2020/02/DSC_0871.jpg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1926	sullivan-st-duplex-2	2020/02/DSC_0873-scaled.jpg	2020/02/DSC_0873.jpg	3906	2965	2048	1554	yes	1.317	landscape	yes	no	no	larger_original
+1930	sullivan-st-duplex-2	2020/02/DSC_0872-scaled.jpeg	2020/02/DSC_0872.jpeg	3090	2953	2048	1957	yes	1.046	landscape	yes	no	no	larger_original
+1936	sullivan-st-duplex-2	2020/02/DSC_0853-scaled.jpeg	2020/02/DSC_0853.jpeg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1937	sullivan-st-duplex-2	2020/02/DSC_0858-scaled.jpeg	2020/02/DSC_0858.jpeg	2403	2985	2048	2544	yes	0.805	portrait	yes	no	no	larger_original
+1940	mackage-soho	2020/02/IMG_8618-scaled.jpg	2020/02/IMG_8618.jpg	4032	3024	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+1941	mackage-soho	2020/02/IMG_8626-scaled.jpg	2020/02/IMG_8626.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1942	mackage-soho	2020/02/IMG_8629-scaled.jpg	2020/02/IMG_8629.jpg	2410	3935	1568	2560	yes	0.612	portrait	yes	no	no	larger_original
+1943	mackage-soho	2020/02/IMG_8634-scaled.jpg	2020/02/IMG_8634.jpg	3821	2260	2048	1211	yes	1.691	landscape	yes	no	no	larger_original
+1944	mackage-soho	2020/02/IMG_8635-scaled.jpg	2020/02/IMG_8635.jpg	4032	3024	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+1945	mackage-soho	2020/02/IMG_8638-scaled.jpg	2020/02/IMG_8638.jpg	2808	3010	2048	2196	yes	0.933	portrait	yes	no	no	larger_original
+1946	mackage-soho	2020/02/IMG_8643-scaled.jpg	2020/02/IMG_8643.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1947	mackage-soho	2020/02/IMG_8644-scaled.jpg	2020/02/IMG_8644.jpg	3024	4032	1920	2560	yes	0.750	portrait	yes	no	no	larger_original
+1949	mackage-soho	2020/02/IMG_8645-scaled.jpg	2020/02/IMG_8645.jpg	3989	2133	2048	1095	yes	1.870	landscape	yes	no	no	larger_original
+1950	mackage-soho	2020/02/IMG_8647-scaled.jpg	2020/02/IMG_8647.jpg	2287	2844	2048	2546	yes	0.804	portrait	yes	no	no	larger_original
+1951	mackage-soho	2020/02/IMG_8648-scaled.jpg	2020/02/IMG_8648.jpg	4032	3024	2048	1536	yes	1.333	landscape	yes	no	no	larger_original
+1958	sullivan-st-duplex-2	2020/02/DSC_0839-scaled.jpeg	2020/02/DSC_0839.jpeg	4496	3000	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+1968	st-lukes-place-townhouse	2019/12/1-1.jpg	2019/12/1-1.jpg	1649	1100	1649	1100	no	1.499	landscape	no	yes	no	featured_only
+1973	upper-east-side-townhouse	2019/12/wash.jpg	2019/12/wash.jpg	1074	717	1074	717	no	1.498	landscape	no	no	no	
+2307	e64-st-townhouse	2020/05/20200416_118East64th-3362.jpg	2020/05/20200416_118East64th-3362.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2308	e64-st-townhouse	2020/05/20200416_118East64th-3402.jpg	2020/05/20200416_118East64th-3402.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2309	e64-st-townhouse	2020/05/20200416_118East64th-3417.jpg	2020/05/20200416_118East64th-3417.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2310	e64-st-townhouse	2020/05/20200416_118East64th-3332.jpg	2020/05/20200416_118East64th-3332.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2311	e64-st-townhouse	2020/05/20200416_118East64th-3422.jpg	2020/05/20200416_118East64th-3422.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2312	e64-st-townhouse	2020/05/20200416_118East64th-3327.jpg	2020/05/20200416_118East64th-3327.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2313	e64-st-townhouse	2020/05/20200416_118East64th-3412.jpg	2020/05/20200416_118East64th-3412.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2315	e64-st-townhouse	2020/05/20200416_118East64th-3322.jpg	2020/05/20200416_118East64th-3322.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2316	e64-st-townhouse	2020/05/20200416_118East64th-3307.jpg	2020/05/20200416_118East64th-3307.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2317	e64-st-townhouse	2020/05/20200416_118East64th-3282.jpg	2020/05/20200416_118East64th-3282.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2318	e64-st-townhouse	2020/05/20200416_118East64th-3162.jpg	2020/05/20200416_118East64th-3162.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2319	e64-st-townhouse	2020/05/20200416_118East64th-3102.jpg	2020/05/20200416_118East64th-3102.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2320	e64-st-townhouse	2020/05/20200416_118East64th-3037.jpg	2020/05/20200416_118East64th-3037.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2321	e64-st-townhouse	2020/05/20200416_118East64th-3152.jpg	2020/05/20200416_118East64th-3152.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2322	e64-st-townhouse	2020/05/20200416_118East64th-3182.jpg	2020/05/20200416_118East64th-3182.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2323	e64-st-townhouse	2020/05/East-Side-Townhouse-Featured.jpg	2020/05/East-Side-Townhouse-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2325	e64-st-townhouse	2020/05/20200416_118East64th-3112.jpg	2020/05/20200416_118East64th-3112.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2326	e64-st-townhouse	2020/05/20200416_118East64th-3227.jpg	2020/05/20200416_118East64th-3227.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2327	e64-st-townhouse	2020/05/20200416_118East64th-3067.jpg	2020/05/20200416_118East64th-3067.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2328	e64-st-townhouse	2020/05/20200416_118East64th-3242.jpg	2020/05/20200416_118East64th-3242.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2330	e64-st-townhouse	2020/05/20200416_118East64th-3302.jpg	2020/05/20200416_118East64th-3302.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2331	e64-st-townhouse	2020/05/20200416_118East64th-3172.jpg	2020/05/20200416_118East64th-3172.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2333	e64-st-townhouse	2020/05/20200416_118East64th-3232.jpg	2020/05/20200416_118East64th-3232.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2335	e64-st-townhouse	2020/05/20200416_118East64th-3297.jpg	2020/05/20200416_118East64th-3297.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2336	e64-st-townhouse	2020/05/20200416_118East64th-3277.jpg	2020/05/20200416_118East64th-3277.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2337	e64-st-townhouse	2020/05/20200416_118East64th-3132.jpg	2020/05/20200416_118East64th-3132.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2338	e64-st-townhouse	2020/05/20200416_118East64th-3142.jpg	2020/05/20200416_118East64th-3142.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2339	e64-st-townhouse	2020/05/20200416_118East64th-3212.jpg	2020/05/20200416_118East64th-3212.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2340	e64-st-townhouse	2020/05/20200416_118East64th-3022.jpg	2020/05/20200416_118East64th-3022.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2341	e64-st-townhouse	2020/05/20200416_118East64th-3077.jpg	2020/05/20200416_118East64th-3077.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2346	motel-23-lounge	2020/05/20200422_161West23rdSt-3688-Edit-2.jpg	2020/05/20200422_161West23rdSt-3688-Edit-2.jpg	1200	960	1200	960	no	1.250	landscape	no	no	no	
+2347	motel-23-lounge	2020/05/20200422_161West23rdSt-3612.jpg	2020/05/20200422_161West23rdSt-3612.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2348	motel-23-lounge	2020/05/20200422_161West23rdSt-3617.jpg	2020/05/20200422_161West23rdSt-3617.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2349	motel-23-lounge	2020/05/20200422_161West23rdSt-3698.jpg	2020/05/20200422_161West23rdSt-3698.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2350	motel-23-lounge	2020/05/20200422_161West23rdSt-3592.jpg	2020/05/20200422_161West23rdSt-3592.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2351	motel-23-lounge	2020/05/20200422_161West23rdSt-3677.jpg	2020/05/20200422_161West23rdSt-3677.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2352	motel-23-lounge	2020/05/20200422_161West23rdSt-3572.jpg	2020/05/20200422_161West23rdSt-3572.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2353	motel-23-lounge	2020/05/20200422_161West23rdSt-3662.jpg	2020/05/20200422_161West23rdSt-3662.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2354	motel-23-lounge	2020/05/20200422_161West23rdSt-3632.jpg	2020/05/20200422_161West23rdSt-3632.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2355	motel-23-lounge	2020/05/Motel-23-Featured.jpg	2020/05/Motel-23-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2356	motel-23-lounge	2020/05/20200422_161West23rdSt-3602.jpg	2020/05/20200422_161West23rdSt-3602.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2357	motel-23-lounge	2020/05/20200422_161West23rdSt-3667.jpg	2020/05/20200422_161West23rdSt-3667.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2358	motel-23-lounge	2020/05/20200422_161West23rdSt-3587.jpg	2020/05/20200422_161West23rdSt-3587.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2359	motel-23-lounge	2020/05/20200422_161West23rdSt-3657.jpg	2020/05/20200422_161West23rdSt-3657.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2360	motel-23-lounge	2020/05/20200422_161West23rdSt-3672.jpg	2020/05/20200422_161West23rdSt-3672.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2361	motel-23-lounge	2020/05/20200422_161West23rdSt-3652.jpg	2020/05/20200422_161West23rdSt-3652.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2362	motel-23-lounge	2020/05/20200422_161West23rdSt-3642.jpg	2020/05/20200422_161West23rdSt-3642.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2363	motel-23-lounge	2020/05/20200422_161West23rdSt-3637.jpg	2020/05/20200422_161West23rdSt-3637.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2367	wainscott-east-hampton-residence	2020/05/IMG_1257.png	2020/05/IMG_1257.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2368	wainscott-east-hampton-residence	2020/05/IMG_1258.png	2020/05/IMG_1258.png	828	1792	828	1792	no	0.462	portrait	no	no	no	
+2369	wainscott-east-hampton-residence	2020/05/IMG_1261.png	2020/05/IMG_1261.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2370	wainscott-east-hampton-residence	2020/05/IMG_1266.png	2020/05/IMG_1266.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2371	wainscott-east-hampton-residence	2020/05/IMG_1256.png	2020/05/IMG_1256.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2372	wainscott-east-hampton-residence	2020/05/IMG_1260.png	2020/05/IMG_1260.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2373	wainscott-east-hampton-residence	2020/05/IMG_1263.png	2020/05/IMG_1263.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2374	wainscott-east-hampton-residence	2020/05/IMG_1264.png	2020/05/IMG_1264.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2375	wainscott-east-hampton-residence	2020/05/IMG_1259.png	2020/05/IMG_1259.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2376	wainscott-east-hampton-residence	2020/05/IMG_1265.png	2020/05/IMG_1265.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2377	wainscott-east-hampton-residence	2020/05/IMG_1262.png	2020/05/IMG_1262.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2378	wainscott-east-hampton-residence	2020/05/IMG_2543.png	2020/05/IMG_2543.png	1136	640	1136	640	no	1.775	landscape	no	no	no	
+2379	wainscott-east-hampton-residence	2020/05/IMG_1267.png	2020/05/IMG_1267.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2380	wainscott-east-hampton-residence	2020/05/IMG_2544.png	2020/05/IMG_2544.png	1136	640	1136	640	no	1.775	landscape	no	no	no	
+2381	wainscott-east-hampton-residence	2020/05/IMG_2545.png	2020/05/IMG_2545.png	1136	640	1136	640	no	1.775	landscape	no	no	no	
+2385	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3773.jpg	2020/05/20200422_2ndAveGroundCentral-3773.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2386	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3728.jpg	2020/05/20200422_2ndAveGroundCentral-3728.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2387	ground-central-coffee-company	2020/05/Ground-Central-Featured.jpg	2020/05/Ground-Central-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2388	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3763.jpg	2020/05/20200422_2ndAveGroundCentral-3763.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2389	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3753.jpg	2020/05/20200422_2ndAveGroundCentral-3753.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2390	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3788.jpg	2020/05/20200422_2ndAveGroundCentral-3788.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2391	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3708.jpg	2020/05/20200422_2ndAveGroundCentral-3708.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2392	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3733.jpg	2020/05/20200422_2ndAveGroundCentral-3733.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2393	ground-central-coffee-company	2020/05/20200422_2ndAveGroundCentral-3718.jpg	2020/05/20200422_2ndAveGroundCentral-3718.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2397	84th-st-townhouse	2020/05/IMG_0458.png	2020/05/IMG_0458.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2398	84th-st-townhouse	2020/05/IMG_0457.png	2020/05/IMG_0457.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2399	84th-st-townhouse	2020/05/IMG_0449.png	2020/05/IMG_0449.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2400	84th-st-townhouse	2020/05/Jackson-Heights-Featured.png	2020/05/Jackson-Heights-Featured.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2401	84th-st-townhouse	2020/05/IMG_0462.png	2020/05/IMG_0462.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2402	84th-st-townhouse	2020/05/IMG_0448.png	2020/05/IMG_0448.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2403	84th-st-townhouse	2020/05/IMG_0450.png	2020/05/IMG_0450.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2404	84th-st-townhouse	2020/05/IMG_0452.png	2020/05/IMG_0452.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2405	84th-st-townhouse	2020/05/IMG_0455.png	2020/05/IMG_0455.png	1792	828	1792	828	no	2.164	landscape	no	no	no	
+2410	upper-west-side-apartment	2020/05/IMG_7306.jpg	2020/05/IMG_7306.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2411	upper-west-side-apartment	2020/05/IMG_7300.jpg	2020/05/IMG_7300.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2412	upper-west-side-apartment	2020/05/IMG_7299.jpg	2020/05/IMG_7299.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2413	upper-west-side-apartment	2020/05/IMG_7302.jpg	2020/05/IMG_7302.jpg	900	1200	900	1200	no	0.750	portrait	no	no	no	
+2414	upper-west-side-apartment	2020/05/IMG_7313.jpg	2020/05/IMG_7313.jpg	900	1200	900	1200	no	0.750	portrait	no	no	no	
+2415	upper-west-side-apartment	2020/05/Upper-West-Side-Apt-Featured.jpg	2020/05/Upper-West-Side-Apt-Featured.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2416	upper-west-side-apartment	2020/05/IMG_7318.jpg	2020/05/IMG_7318.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2417	upper-west-side-apartment	2020/05/IMG_7311.jpg	2020/05/IMG_7311.jpg	1200	900	1200	900	no	1.333	landscape	no	no	no	
+2426	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4826_27_28_29_30.jpg	2020/05/20200507_444W17MyDarlingIvy-4826_27_28_29_30.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2427	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4836_37_38_39_40.jpg	2020/05/20200507_444W17MyDarlingIvy-4836_37_38_39_40.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2428	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4841_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4841_2_3_4_5.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2429	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4846_47_48_49_50.jpg	2020/05/20200507_444W17MyDarlingIvy-4846_47_48_49_50.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2430	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4851_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4851_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2431	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4856_57_58_59_60.jpg	2020/05/20200507_444W17MyDarlingIvy-4856_57_58_59_60.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2432	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4861_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4861_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2433	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4866_67_68_69_70.jpg	2020/05/20200507_444W17MyDarlingIvy-4866_67_68_69_70.jpg	799	1200	799	1200	no	0.666	portrait	no	no	no	
+2434	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4871_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4871_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2435	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4876_77_78_79_80.jpg	2020/05/20200507_444W17MyDarlingIvy-4876_77_78_79_80.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2436	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4881_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4881_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2437	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4886_87_88_89_90.jpg	2020/05/20200507_444W17MyDarlingIvy-4886_87_88_89_90.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2438	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4891_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4891_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2439	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4901_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4901_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2440	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4906_07_08_09_10.jpg	2020/05/20200507_444W17MyDarlingIvy-4906_07_08_09_10.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2441	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4911_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4911_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2442	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4921_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4921_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2443	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4926_27_28_29_30.jpg	2020/05/20200507_444W17MyDarlingIvy-4926_27_28_29_30.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2444	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4931_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4931_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2445	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4941_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4941_2_3_4_5.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2446	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4946_47_48_49_50.jpg	2020/05/20200507_444W17MyDarlingIvy-4946_47_48_49_50.jpg	799	1200	799	1200	no	0.666	portrait	no	no	no	
+2447	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4956_57_58_59_60.jpg	2020/05/20200507_444W17MyDarlingIvy-4956_57_58_59_60.jpg	799	1200	799	1200	no	0.666	portrait	no	no	no	
+2448	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4961_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4961_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2449	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4966_67_68_69_70.jpg	2020/05/20200507_444W17MyDarlingIvy-4966_67_68_69_70.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2450	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4971_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4971_2_3_4_5.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2451	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4976_77_78_79_80.jpg	2020/05/20200507_444W17MyDarlingIvy-4976_77_78_79_80.jpg	800	1200	800	1200	no	0.667	portrait	no	no	no	
+2452	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4981_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-4981_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2453	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-4986_87_88_89_90.jpg	2020/05/20200507_444W17MyDarlingIvy-4986_87_88_89_90.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2454	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-5001_2_3_4_5.jpg	2020/05/20200507_444W17MyDarlingIvy-5001_2_3_4_5.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2455	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-5006_07_08_09_10.jpg	2020/05/20200507_444W17MyDarlingIvy-5006_07_08_09_10.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2456	my-darling-ivy	2020/05/20200507_444W17MyDarlingIvy-5016_17_18_19_20.jpg	2020/05/20200507_444W17MyDarlingIvy-5016_17_18_19_20.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2457	my-darling-ivy	2020/05/My-Darling-Ivy-Featured.jpg	2020/05/My-Darling-Ivy-Featured.jpg	1200	800	1200	800	no	1.500	landscape	no	no	no	
+2507	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9496-copy.jpg	2020/07/5th-Ave-9496-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2508	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9495-copy.jpg	2020/07/5th-Ave-9495-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2509	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9494-copy.jpg	2020/07/5th-Ave-9494-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2510	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9493-copy.jpg	2020/07/5th-Ave-9493-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2511	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9492-copy.jpg	2020/07/5th-Ave-9492-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2512	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9491-copy.jpg	2020/07/5th-Ave-9491-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2513	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9490-copy.jpg	2020/07/5th-Ave-9490-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2514	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9488-copy.jpg	2020/07/5th-Ave-9488-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2515	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9485-copy.jpg	2020/07/5th-Ave-9485-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2516	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9483-copy.jpg	2020/07/5th-Ave-9483-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2517	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-9481-copy.jpg	2020/07/5th-Ave-9481-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2518	12th-st-townhouse-greenwich-village	2020/07/5th-Ave-Featured-copy.jpg	2020/07/5th-Ave-Featured-copy.jpg	640	295	640	295	no	2.169	landscape	no	no	no	
+2521	haus-nightclub	2020/07/IMG_6905.jpg	2020/07/IMG_6905.jpg	1124	761	1124	761	no	1.477	landscape	no	no	no	
+2522	haus-nightclub	2020/07/IMG_6910.jpg	2020/07/IMG_6910.jpg	883	1280	883	1280	no	0.690	portrait	no	no	no	
+2523	haus-nightclub	2020/07/IMG_6906.jpg	2020/07/IMG_6906.jpg	1124	769	1124	769	no	1.462	landscape	no	no	no	
+2524	haus-nightclub	2020/07/Haus-Featured.jpg	2020/07/Haus-Featured.jpg	1124	763	1124	763	no	1.473	landscape	no	no	no	
+2525	haus-nightclub	2020/07/IMG_6913.jpg	2020/07/IMG_6913.jpg	1124	749	1124	749	no	1.501	landscape	no	no	no	
+2526	haus-nightclub	2020/07/IMG_6917.jpg	2020/07/IMG_6917.jpg	1124	766	1124	766	no	1.467	landscape	no	no	no	
+2527	haus-nightclub	2020/07/IMG_6916.jpg	2020/07/IMG_6916.jpg	1124	711	1124	711	no	1.581	landscape	no	no	no	
+2528	haus-nightclub	2020/07/IMG_6914.jpg	2020/07/IMG_6914.jpg	1124	830	1124	830	no	1.354	landscape	no	no	no	
+2529	haus-nightclub	2020/07/IMG_6915.jpg	2020/07/IMG_6915.jpg	880	1280	880	1280	no	0.688	portrait	no	no	no	
+2530	haus-nightclub	2020/07/IMG_6909.jpg	2020/07/IMG_6909.jpg	1124	721	1124	721	no	1.559	landscape	no	no	no	
+2531	haus-nightclub	2020/07/IMG_6908.jpg	2020/07/IMG_6908.jpg	1124	862	1124	862	no	1.304	landscape	no	no	no	
+2597	st-lukes-place-townhouse	2020/07/West-Village-Townhouse-Lrg-scaled.jpg	2020/07/West-Village-Townhouse-Lrg.jpg	11926	7955	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2652	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5373-scaled.jpg	2022/02/20210219_55HudsonYards-5373.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2653	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5368-scaled.jpg	2022/02/20210219_55HudsonYards-5368.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2654	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5363-scaled.jpg	2022/02/20210219_55HudsonYards-5363.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2656	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5353-scaled.jpg	2022/02/20210219_55HudsonYards-5353.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2657	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5348-scaled.jpg	2022/02/20210219_55HudsonYards-5348.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2658	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5343-scaled.jpg	2022/02/20210219_55HudsonYards-5343.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2659	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5338-scaled.jpg	2022/02/20210219_55HudsonYards-5338.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2660	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5333-scaled.jpg	2022/02/20210219_55HudsonYards-5333.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2661	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5328-scaled.jpg	2022/02/20210219_55HudsonYards-5328.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2662	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5323-scaled.jpg	2022/02/20210219_55HudsonYards-5323.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2663	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5313-scaled.jpg	2022/02/20210219_55HudsonYards-5313.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2664	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5308-scaled.jpg	2022/02/20210219_55HudsonYards-5308.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2665	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5303-scaled.jpg	2022/02/20210219_55HudsonYards-5303.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2666	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5298-scaled.jpg	2022/02/20210219_55HudsonYards-5298.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2667	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5293-scaled.jpg	2022/02/20210219_55HudsonYards-5293.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2668	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5278-scaled.jpg	2022/02/20210219_55HudsonYards-5278.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2669	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5268-scaled.jpg	2022/02/20210219_55HudsonYards-5268.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2671	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5258-scaled.jpg	2022/02/20210219_55HudsonYards-5258.jpg	3600	2880	2048	1638	yes	1.250	landscape	yes	no	yes	larger_original,parent_is_zero
+2672	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5253-scaled.jpg	2022/02/20210219_55HudsonYards-5253.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2673	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5248-scaled.jpg	2022/02/20210219_55HudsonYards-5248.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2674	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5238-scaled.jpg	2022/02/20210219_55HudsonYards-5238.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2677	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5223-scaled.jpg	2022/02/20210219_55HudsonYards-5223.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2679	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5203-scaled.jpg	2022/02/20210219_55HudsonYards-5203.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2681	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5193-scaled.jpg	2022/02/20210219_55HudsonYards-5193.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2682	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5188-scaled.jpg	2022/02/20210219_55HudsonYards-5188.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2683	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5183-scaled.jpg	2022/02/20210219_55HudsonYards-5183.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2684	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5178-scaled.jpg	2022/02/20210219_55HudsonYards-5178.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2688	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5158-scaled.jpg	2022/02/20210219_55HudsonYards-5158.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2689	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5148-scaled.jpg	2022/02/20210219_55HudsonYards-5148.jpg	3600	2398	2048	1364	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2690	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5143-scaled.jpg	2022/02/20210219_55HudsonYards-5143.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2691	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5138-scaled.jpg	2022/02/20210219_55HudsonYards-5138.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2692	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5133-scaled.jpg	2022/02/20210219_55HudsonYards-5133.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2693	vivvi-daycare-hudson-yards	2022/02/20210219_55HudsonYards-5128-scaled.jpg	2022/02/20210219_55HudsonYards-5128.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2694	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0127-scaled.jpg	2022/02/20210222_HudsonYardsMall-0127.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2696	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0117-scaled.jpg	2022/02/20210222_HudsonYardsMall-0117.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2697	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0112-scaled.jpg	2022/02/20210222_HudsonYardsMall-0112.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2699	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0102-scaled.jpg	2022/02/20210222_HudsonYardsMall-0102.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2700	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0097-scaled.jpg	2022/02/20210222_HudsonYardsMall-0097.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2702	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0087-scaled.jpg	2022/02/20210222_HudsonYardsMall-0087.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2704	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0077-scaled.jpg	2022/02/20210222_HudsonYardsMall-0077.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2705	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0072-scaled.jpg	2022/02/20210222_HudsonYardsMall-0072.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2706	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0067-scaled.jpg	2022/02/20210222_HudsonYardsMall-0067.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2709	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0047-scaled.jpg	2022/02/20210222_HudsonYardsMall-0047.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2710	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0042-scaled.jpg	2022/02/20210222_HudsonYardsMall-0042.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2711	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0037-scaled.jpg	2022/02/20210222_HudsonYardsMall-0037.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2713	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0027-scaled.jpg	2022/02/20210222_HudsonYardsMall-0027.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2714	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0022-scaled.jpg	2022/02/20210222_HudsonYardsMall-0022.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2715	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0017-scaled.jpg	2022/02/20210222_HudsonYardsMall-0017.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2716	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0012-scaled.jpg	2022/02/20210222_HudsonYardsMall-0012.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2717	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0007-scaled.jpg	2022/02/20210222_HudsonYardsMall-0007.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2718	hudson-yards-mall	2022/02/20210222_HudsonYardsMall-0002-scaled.jpg	2022/02/20210222_HudsonYardsMall-0002.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	yes	larger_original,parent_is_zero
+2726	53rd-st-studio	2022/02/20210310_425West53rdSt-3752.jpg	2022/02/20210310_425West53rdSt-3752.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2727	53rd-st-studio	2022/02/20210310_425West53rdSt-3739.jpg	2022/02/20210310_425West53rdSt-3739.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2729	53rd-st-studio	2022/02/20210310_425West53rdSt-3719.jpg	2022/02/20210310_425West53rdSt-3719.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2730	53rd-st-studio	2022/02/20210310_425West53rdSt-3709.jpg	2022/02/20210310_425West53rdSt-3709.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2732	53rd-st-studio	2022/02/20210310_425West53rdSt-3699.jpg	2022/02/20210310_425West53rdSt-3699.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	yes	parent_is_zero
+2733	53rd-st-studio	2022/02/20210310_425West53rdSt-3684.jpg	2022/02/20210310_425West53rdSt-3684.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2734	53rd-st-studio	2022/02/20210310_425West53rdSt-3679.jpg	2022/02/20210310_425West53rdSt-3679.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2735	53rd-st-studio	2022/02/20210310_425West53rdSt-3674.jpg	2022/02/20210310_425West53rdSt-3674.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	yes	parent_is_zero
+2736	53rd-st-studio	2022/02/20210310_425West53rdSt-3669.jpg	2022/02/20210310_425West53rdSt-3669.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2737	53rd-st-studio	2022/02/20210310_425West53rdSt-3664.jpg	2022/02/20210310_425West53rdSt-3664.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2738	53rd-st-studio	2022/02/20210310_425West53rdSt-3659.jpg	2022/02/20210310_425West53rdSt-3659.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2742	53rd-st-studio	2022/02/20210310_425West53rdSt-3639.jpg	2022/02/20210310_425West53rdSt-3639.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2743	53rd-st-studio	2022/02/20210310_425West53rdSt-3634.jpg	2022/02/20210310_425West53rdSt-3634.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2744	53rd-st-studio	2022/02/20210310_425West53rdSt-3629.jpg	2022/02/20210310_425West53rdSt-3629.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2746	53rd-st-studio	2022/02/20210310_425West53rdSt-3619.jpg	2022/02/20210310_425West53rdSt-3619.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2748	warren-st-apt	2022/02/20210222_30WarrenSt-0273.jpg	2022/02/20210222_30WarrenSt-0273.jpg	1200	960	1200	960	no	1.250	landscape	no	no	yes	parent_is_zero
+2751	warren-st-apt	2022/02/20210222_30WarrenSt-0258.jpg	2022/02/20210222_30WarrenSt-0258.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2752	warren-st-apt	2022/02/20210222_30WarrenSt-0253.jpg	2022/02/20210222_30WarrenSt-0253.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2753	warren-st-apt	2022/02/20210222_30WarrenSt-0248.jpg	2022/02/20210222_30WarrenSt-0248.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2755	warren-st-apt	2022/02/20210222_30WarrenSt-0238-2.jpg	2022/02/20210222_30WarrenSt-0238-2.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2759	warren-st-apt	2022/02/20210222_30WarrenSt-0228-2.jpg	2022/02/20210222_30WarrenSt-0228-2.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2761	warren-st-apt	2022/02/20210222_30WarrenSt-0218.jpg	2022/02/20210222_30WarrenSt-0218.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2762	warren-st-apt	2022/02/20210222_30WarrenSt-0213.jpg	2022/02/20210222_30WarrenSt-0213.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2763	warren-st-apt	2022/02/20210222_30WarrenSt-0208.jpg	2022/02/20210222_30WarrenSt-0208.jpg	1200	799	1200	799	no	1.502	landscape	no	no	yes	parent_is_zero
+2764	warren-st-apt	2022/02/20210222_30WarrenSt-0208-2.jpg	2022/02/20210222_30WarrenSt-0208-2.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2767	warren-st-apt	2022/02/20210222_30WarrenSt-0183.jpg	2022/02/20210222_30WarrenSt-0183.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2768	warren-st-apt	2022/02/20210222_30WarrenSt-0183-2.jpg	2022/02/20210222_30WarrenSt-0183-2.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2769	warren-st-apt	2022/02/20210222_30WarrenSt-0178.jpg	2022/02/20210222_30WarrenSt-0178.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2771	warren-st-apt	2022/02/20210222_30WarrenSt-0173.jpg	2022/02/20210222_30WarrenSt-0173.jpg	1200	799	1200	799	no	1.502	landscape	no	no	yes	parent_is_zero
+2773	warren-st-apt	2022/02/20210222_30WarrenSt-0168.jpg	2022/02/20210222_30WarrenSt-0168.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2775	warren-st-apt	2022/02/20210222_30WarrenSt-0163.jpg	2022/02/20210222_30WarrenSt-0163.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2776	warren-st-apt	2022/02/20210222_30WarrenSt-0163-2.jpg	2022/02/20210222_30WarrenSt-0163-2.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	yes	parent_is_zero
+2781	warren-st-apt	2022/02/20210222_30WarrenSt-0133.jpg	2022/02/20210222_30WarrenSt-0133.jpg	1200	800	1200	800	no	1.500	landscape	no	no	yes	parent_is_zero
+2799	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1184-scaled.jpg	2022/02/20211202_118WyckoffSt-1184.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2800	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1179-scaled.jpg	2022/02/20211202_118WyckoffSt-1179.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2801	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1174-scaled.jpg	2022/02/20211202_118WyckoffSt-1174.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2802	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1159-scaled.jpg	2022/02/20211202_118WyckoffSt-1159.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2803	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1104-scaled.jpg	2022/02/20211202_118WyckoffSt-1104.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2804	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1099-scaled.jpg	2022/02/20211202_118WyckoffSt-1099.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2805	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1074-scaled.jpg	2022/02/20211202_118WyckoffSt-1074.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2807	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1039-scaled.jpg	2022/02/20211202_118WyckoffSt-1039.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2808	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-1009-scaled.jpg	2022/02/20211202_118WyckoffSt-1009.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2809	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-0994-scaled.jpg	2022/02/20211202_118WyckoffSt-0994.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2810	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-0974-scaled.jpg	2022/02/20211202_118WyckoffSt-0974.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+2811	wyckoff-townhouse	2022/02/20211202_118WyckoffSt-0964-scaled.jpg	2022/02/20211202_118WyckoffSt-0964.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	yes	larger_original,parent_is_zero
+2812	riverside-drive-apartment	2022/02/420-riverside-158.jpg	2022/02/420-riverside-158.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2813	riverside-drive-apartment	2022/02/420-riverside-75.jpg	2022/02/420-riverside-75.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2814	riverside-drive-apartment	2022/02/420-riverside-50.jpg	2022/02/420-riverside-50.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2815	riverside-drive-apartment	2022/02/420-riverside-36.jpg	2022/02/420-riverside-36.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2818	riverside-drive-apartment	2022/02/420-riverside-265.jpg	2022/02/420-riverside-265.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2819	riverside-drive-apartment	2022/02/420-riverside-254.jpg	2022/02/420-riverside-254.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2820	riverside-drive-apartment	2022/02/420-riverside-249.jpg	2022/02/420-riverside-249.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2821	riverside-drive-apartment	2022/02/420-riverside-194.jpg	2022/02/420-riverside-194.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2822	riverside-drive-apartment	2022/02/420-riverside-150.jpg	2022/02/420-riverside-150.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2823	riverside-drive-apartment	2022/02/420-riverside-134.jpg	2022/02/420-riverside-134.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2825	riverside-drive-apartment	2022/02/420-riverside-121.jpg	2022/02/420-riverside-121.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+2826	riverside-drive-apartment	2022/02/420-riverside-102.jpg	2022/02/420-riverside-102.jpg	2048	1366	2048	1366	no	1.499	landscape	yes	no	yes	parent_is_zero
+3227	duane-street-penthouse	2019/12/20210310_129DuaneSt-3795.jpg	2019/12/20210310_129DuaneSt-3795.jpg	1067	1600	1067	1600	no	0.667	portrait	no	no	no	
+3228	duane-street-penthouse	2019/12/20210310_129DuaneSt-3800.jpg	2019/12/20210310_129DuaneSt-3800.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3234	duane-street-penthouse	2019/12/20210310_129DuaneSt-3835.jpg	2019/12/20210310_129DuaneSt-3835.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3235	duane-street-penthouse	2019/12/20210310_129DuaneSt-3840.jpg	2019/12/20210310_129DuaneSt-3840.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3237	duane-street-penthouse	2019/12/20210310_129DuaneSt-3855.jpg	2019/12/20210310_129DuaneSt-3855.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3238	duane-street-penthouse	2019/12/20210310_129DuaneSt-3860.jpg	2019/12/20210310_129DuaneSt-3860.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3240	duane-street-penthouse	2019/12/20210310_129DuaneSt-3870.jpg	2019/12/20210310_129DuaneSt-3870.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3242	duane-street-penthouse	2019/12/20210310_129DuaneSt-3885.jpg	2019/12/20210310_129DuaneSt-3885.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3243	duane-street-penthouse	2019/12/20210310_129DuaneSt-3890.jpg	2019/12/20210310_129DuaneSt-3890.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3246	duane-street-penthouse	2019/12/20210310_129DuaneSt-3905.jpg	2019/12/20210310_129DuaneSt-3905.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3248	duane-street-penthouse	2019/12/20210310_129DuaneSt-3915.jpg	2019/12/20210310_129DuaneSt-3915.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3249	duane-street-penthouse	2019/12/20210310_129DuaneSt-3920.jpg	2019/12/20210310_129DuaneSt-3920.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3251	duane-street-penthouse	2019/12/20210310_129DuaneSt-3935.jpg	2019/12/20210310_129DuaneSt-3935.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3255	duane-street-penthouse	2019/12/20210310_129DuaneSt-3960.jpg	2019/12/20210310_129DuaneSt-3960.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3256	duane-street-penthouse	2019/12/20210310_129DuaneSt-3965.jpg	2019/12/20210310_129DuaneSt-3965.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3258	duane-street-penthouse	2019/12/20210310_129DuaneSt-3980.jpg	2019/12/20210310_129DuaneSt-3980.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3259	duane-street-penthouse	2019/12/20210310_129DuaneSt-3990-1.jpg	2019/12/20210310_129DuaneSt-3990-1.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3260	duane-street-penthouse	2019/12/20210310_129DuaneSt-3995-1.jpg	2019/12/20210310_129DuaneSt-3995-1.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3261	duane-street-penthouse	2019/12/20210310_129DuaneSt-4000.jpg	2019/12/20210310_129DuaneSt-4000.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3262	duane-street-penthouse	2019/12/20210310_129DuaneSt-4012.jpg	2019/12/20210310_129DuaneSt-4012.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3264	duane-street-penthouse	2019/12/20210310_129DuaneSt-4025.jpg	2019/12/20210310_129DuaneSt-4025.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3265	duane-street-penthouse	2019/12/20210310_129DuaneSt-4036.jpg	2019/12/20210310_129DuaneSt-4036.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3268	duane-street-penthouse	2019/12/20210310_129DuaneSt-4050.jpg	2019/12/20210310_129DuaneSt-4050.jpg	1066	1600	1066	1600	no	0.666	portrait	no	no	no	
+3271	duane-street-penthouse	2019/12/20210310_129DuaneSt-4075.jpg	2019/12/20210310_129DuaneSt-4075.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3273	duane-street-penthouse	2019/12/20210310_129DuaneSt-4090.jpg	2019/12/20210310_129DuaneSt-4090.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3275	duane-street-penthouse	2019/12/20210310_129DuaneSt-4105.jpg	2019/12/20210310_129DuaneSt-4105.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3276	duane-street-penthouse	2019/12/20210310_129DuaneSt-4115.jpg	2019/12/20210310_129DuaneSt-4115.jpg	1600	1066	1600	1066	no	1.501	landscape	no	no	no	
+3278	duane-street-penthouse	2019/12/20210310_129DuaneSt-4130.jpg	2019/12/20210310_129DuaneSt-4130.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3279	duane-street-penthouse	2019/12/20210310_129DuaneSt-4135.jpg	2019/12/20210310_129DuaneSt-4135.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3280	duane-street-penthouse	2019/12/20210310_129DuaneSt-4140.jpg	2019/12/20210310_129DuaneSt-4140.jpg	1066	1600	1066	1600	no	0.666	portrait	no	no	no	
+3282	duane-street-penthouse	2019/12/20210310_129DuaneSt-4150.jpg	2019/12/20210310_129DuaneSt-4150.jpg	1600	1067	1600	1067	no	1.500	landscape	no	no	no	
+3283	duane-street-penthouse	2019/12/20210310_129DuaneSt-3830-2-scaled.jpg	2019/12/20210310_129DuaneSt-3830-2.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3284	duane-street-penthouse	2019/12/20210310_129DuaneSt-3975-2-scaled.jpg	2019/12/20210310_129DuaneSt-3975-2.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3285	duane-street-penthouse	2019/12/20210310_129DuaneSt-3990-2-scaled.jpg	2019/12/20210310_129DuaneSt-3990-2.jpg	3600	2399	2048	1365	yes	1.501	landscape	yes	no	no	larger_original
+3286	duane-street-penthouse	2019/12/20210310_129DuaneSt-3995-2-scaled.jpg	2019/12/20210310_129DuaneSt-3995-2.jpg	3600	2401	2048	1366	yes	1.499	landscape	yes	no	no	larger_original
+3287	duane-street-penthouse	2019/12/20210310_129DuaneSt-4145-2-scaled.jpg	2019/12/20210310_129DuaneSt-4145-2.jpg	2399	3600	1706	2560	yes	0.666	portrait	yes	no	no	larger_original
+3290	duane-street-penthouse	2019/12/20211021_129DuaneSt-8040-1-scaled.jpg	2019/12/20211021_129DuaneSt-8040-1.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3292	duane-street-penthouse	2019/12/20211021_129DuaneSt-8110-1-scaled.jpg	2019/12/20211021_129DuaneSt-8110-1.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3293	duane-street-penthouse	2019/12/20211021_129DuaneSt-8120-1-scaled.jpg	2019/12/20211021_129DuaneSt-8120-1.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3295	duane-street-penthouse	2019/12/20211021_129DuaneSt-8159-1-scaled.jpg	2019/12/20211021_129DuaneSt-8159-1.jpg	3600	2400	2048	1366	yes	1.500	landscape	yes	no	no	larger_original
+3296	duane-street-penthouse	2019/12/20211021_129DuaneSt-8169-1-scaled.jpg	2019/12/20211021_129DuaneSt-8169-1.jpg	2400	3600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+3297	duane-street-penthouse	2019/12/20211021_129DuaneSt-8194-1-scaled.jpg	2019/12/20211021_129DuaneSt-8194-1.jpg	2400	3600	1707	2560	yes	0.667	portrait	yes	no	no	larger_original
+3368	w23rd-st-duplex	2022/04/ee6d879929ab0d084e90815fbbff4813-uncropped_scaled_within_1536_1152.jpg	2022/04/ee6d879929ab0d084e90815fbbff4813-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3369	w23rd-st-duplex	2022/04/848062e8ee51ff06a726cb7358ad3ea2-uncropped_scaled_within_1536_1152.jpg	2022/04/848062e8ee51ff06a726cb7358ad3ea2-uncropped_scaled_within_1536_1152.jpg	768	1152	768	1152	no	0.667	portrait	no	no	yes	parent_is_zero
+3370	w23rd-st-duplex	2022/04/767502abfdbb486cd3ae0ee39baa9a0c-uncropped_scaled_within_1536_1152.jpg	2022/04/767502abfdbb486cd3ae0ee39baa9a0c-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3371	w23rd-st-duplex	2022/04/814e93958eb585920f50930a1fb5306b-uncropped_scaled_within_1536_1152.jpg	2022/04/814e93958eb585920f50930a1fb5306b-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3372	w23rd-st-duplex	2022/04/750d5420b506f7fe2f94b8630b137980-uncropped_scaled_within_1536_1152.jpg	2022/04/750d5420b506f7fe2f94b8630b137980-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3373	w23rd-st-duplex	2022/04/504b0c1f305405c0ff49ecbbe8eaea8d-uncropped_scaled_within_1536_1152.jpg	2022/04/504b0c1f305405c0ff49ecbbe8eaea8d-uncropped_scaled_within_1536_1152.jpg	768	1152	768	1152	no	0.667	portrait	no	no	yes	parent_is_zero
+3374	w23rd-st-duplex	2022/04/81ea9a2ef6bd668b1cc5fc8dc8aa5b48-uncropped_scaled_within_1536_1152.jpg	2022/04/81ea9a2ef6bd668b1cc5fc8dc8aa5b48-uncropped_scaled_within_1536_1152.jpg	768	1152	768	1152	no	0.667	portrait	no	no	yes	parent_is_zero
+3375	w23rd-st-duplex	2022/04/75feff340a22624f9bd43cf1c42decc9-uncropped_scaled_within_1536_1152.jpg	2022/04/75feff340a22624f9bd43cf1c42decc9-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3376	w23rd-st-duplex	2022/04/18cec58e4ea6d745bf37a047da1d07d9-uncropped_scaled_within_1536_1152.jpg	2022/04/18cec58e4ea6d745bf37a047da1d07d9-uncropped_scaled_within_1536_1152.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3377	w23rd-st-duplex	2022/04/1.jpg	2022/04/1.jpg	1536	1024	1536	1024	no	1.500	landscape	no	no	yes	parent_is_zero
+3393	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2023-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2023-Edit_By-Petrini-studio.jpg	6585	4229	2048	1315	yes	1.557	landscape	yes	no	yes	larger_original,parent_is_zero
+3394	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2038-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2038-Edit_By-Petrini-studio.jpg	6681	4454	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3395	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2053b-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2053b-Edit_By-Petrini-studio.jpg	6720	4480	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3396	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2053-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2053-Edit_By-Petrini-studio.jpg	6720	4480	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3397	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2058-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2058-Edit_By-Petrini-studio.jpg	6720	4480	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3398	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2074-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2074-Edit_By-Petrini-studio.jpg	8602	4470	2048	1064	yes	1.924	landscape	yes	no	yes	larger_original,parent_is_zero
+3399	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2107_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2107_By-Petrini-studio.jpg	4380	6570	1707	2560	yes	0.667	portrait	yes	no	yes	larger_original,parent_is_zero
+3400	11th-ave-apt	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2113-Edit_By-Petrini-studio-scaled.jpg	2022/04/2022.01_NYC_Wald-kitchen-Jeann-Nouvel-bldg_2113-Edit_By-Petrini-studio.jpg	4315	6472	1707	2560	yes	0.667	portrait	yes	no	yes	larger_original,parent_is_zero
+3401	11th-ave-apt	2022/04/DSC02034ab-scaled.jpg	2022/04/DSC02034ab.jpg	4988	3990	2048	1638	yes	1.250	landscape	yes	no	yes	larger_original,parent_is_zero
+3403	11th-ave-apt	2022/04/DSC02059-scaled.jpg	2022/04/DSC02059.jpg	4000	6000	1707	2560	yes	0.667	portrait	yes	no	yes	larger_original,parent_is_zero
+3404	11th-ave-apt	2022/04/DSC02067-scaled.jpg	2022/04/DSC02067.jpg	3792	5688	1707	2560	yes	0.667	portrait	yes	no	yes	larger_original,parent_is_zero
+3405	11th-ave-apt	2022/04/DSC02092-scaled.jpg	2022/04/DSC02092.jpg	4658	3726	2048	1638	yes	1.250	landscape	yes	no	yes	larger_original,parent_is_zero
+3406	11th-ave-apt	2022/04/DSC02094-scaled.jpg	2022/04/DSC02094.jpg	4971	3977	2048	1638	yes	1.250	landscape	yes	no	yes	larger_original,parent_is_zero
+3407	11th-ave-apt	2022/04/DSC02097-scaled.jpg	2022/04/DSC02097.jpg	5464	3643	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3408	11th-ave-apt	2022/04/DSC02103a-scaled.jpg	2022/04/DSC02103a.jpg	5945	3963	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3409	11th-ave-apt	2022/04/DSC02106-scaled.jpg	2022/04/DSC02106.jpg	5979	3986	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3417	11th-ave-apt	2022/04/IMG_0141-scaled.jpg	2022/04/IMG_0141.jpg	5400	3600	2048	1366	yes	1.500	landscape	yes	no	yes	larger_original,parent_is_zero
+3418	11th-ave-apt	2022/04/IMG_0142-scaled.jpg	2022/04/IMG_0142.jpg	3884	5826	1707	2560	yes	0.667	portrait	yes	no	yes	larger_original,parent_is_zero
+3556	92-laight-st	2023/05/20230306_92LaightSt-3109-scaled.jpg	2023/05/20230306_92LaightSt-3109.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3557	92-laight-st	2023/05/20230306_92LaightSt-3114-scaled.jpg	2023/05/20230306_92LaightSt-3114.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3558	92-laight-st	2023/05/20230306_92LaightSt-3119-scaled.jpg	2023/05/20230306_92LaightSt-3119.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3559	92-laight-st	2023/05/20230306_92LaightSt-3124-scaled.jpg	2023/05/20230306_92LaightSt-3124.jpg	2400	3600	1280	1920	yes	0.667	portrait	yes	no	no	larger_original
+3563	92-laight-st	2023/05/20230306_92LaightSt-3149-scaled.jpg	2023/05/20230306_92LaightSt-3149.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3566	92-laight-st	2023/05/20230306_92LaightSt-3164-scaled.jpg	2023/05/20230306_92LaightSt-3164.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3569	92-laight-st	2023/05/20230306_92LaightSt-3034-scaled.jpg	2023/05/20230306_92LaightSt-3034.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3571	92-laight-st	2023/05/20230306_92LaightSt-3044-scaled.jpg	2023/05/20230306_92LaightSt-3044.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3572	92-laight-st	2023/05/20230306_92LaightSt-3049-scaled.jpg	2023/05/20230306_92LaightSt-3049.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3574	92-laight-st	2023/05/20230306_92LaightSt-3059-scaled.jpg	2023/05/20230306_92LaightSt-3059.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3575	92-laight-st	2023/05/20230306_92LaightSt-3074-scaled.jpg	2023/05/20230306_92LaightSt-3074.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3576	92-laight-st	2023/05/20230306_92LaightSt-3079-scaled.jpg	2023/05/20230306_92LaightSt-3079.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3579	92-laight-st	2023/05/20230306_92LaightSt-3094-scaled.jpg	2023/05/20230306_92LaightSt-3094.jpg	2400	3600	1280	1920	yes	0.667	portrait	yes	no	no	larger_original
+3581	92-laight-st	2023/05/20230306_92LaightSt-3104-scaled.jpg	2023/05/20230306_92LaightSt-3104.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3583	92-laight-st	2023/05/20230306_92LaightSt-2964-scaled.jpg	2023/05/20230306_92LaightSt-2964.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3587	92-laight-st	2023/05/20230306_92LaightSt-2989-scaled.jpg	2023/05/20230306_92LaightSt-2989.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3589	92-laight-st	2023/05/20230306_92LaightSt-2999-scaled.jpg	2023/05/20230306_92LaightSt-2999.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3597	92-laight-st	2023/05/20230306_92LaightSt-2954-scaled.jpg	2023/05/20230306_92LaightSt-2954.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3598	92-laight-st	2023/05/20230306_92LaightSt-3184-scaled.jpg	2023/05/20230306_92LaightSt-3184.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3611	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1369-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1369.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3612	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1374-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1374.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3613	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1379-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1379.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3617	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1349-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1349.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3618	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1354-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1354.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3619	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1359-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1359.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3621	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1314-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1314.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3622	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1319-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1319.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3623	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1329-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1329.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3624	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1289-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1289.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3625	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1294-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1294.jpg	3600	2410	1920	1285	yes	1.494	landscape	yes	no	no	larger_original
+3627	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1304-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1304.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3628	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1269-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1269.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3629	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1274-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1274.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3630	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1279-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1279.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3631	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1284-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1284.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3632	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1244-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1244.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3633	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1249-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1249.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3634	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1254-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1254.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3635	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1259-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1259.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3637	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1219-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1219.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3638	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1224-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1224.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3640	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1234-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1234.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3641	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1239-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1239.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3642	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1194-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1194.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3645	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1209-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1209.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3646	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1214-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1214.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3647	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1174-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1174.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3648	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1179-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1179.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3649	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1184-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1184.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3650	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1189-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1189.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3651	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1324-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1324.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3653	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1149-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1149.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3654	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1154-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1154.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3655	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1159-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1159.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3656	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1164-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1164.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3657	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1169-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1169.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3658	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1119-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1119.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3659	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1124-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1124.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3660	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1129-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1129.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3661	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1134-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1134.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3662	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1139-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1139.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3663	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1084-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1084.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3665	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1104-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1104.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3666	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1109-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1109.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3667	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1114-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1114.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3668	bad-roman-columbus-circle-mall	2023/05/20230310_10ColumbusBadRoman-1089-scaled.jpg	2023/05/20230310_10ColumbusBadRoman-1089.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3683	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0752-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0752.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3685	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0762-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0762.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3686	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0767-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0767.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3687	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0772-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0772.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3688	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0777-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0777.jpg	2404	3600	1282	1920	yes	0.668	portrait	yes	no	no	larger_original
+3691	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0702-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0702.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3693	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0712-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0712.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3694	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0717-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0717.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3695	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0722-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0722.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3697	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0732-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0732.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3698	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0737-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0737.jpg	3600	2397	1920	1278	yes	1.502	landscape	yes	no	no	larger_original
+3700	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0667-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0667.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3701	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0672-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0672.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3702	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0677-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0677.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3703	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0682-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0682.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3705	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0692-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0692.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3706	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0697-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0697.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3707	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0627-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0627.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3708	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0632-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0632.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3709	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0637-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0637.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3710	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0642-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0642.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3711	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0647-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0647.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3713	ketchy-shubby	2023/05/20230320_406BroomeKetchyShuby-0657-scaled.jpg	2023/05/20230320_406BroomeKetchyShuby-0657.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3724	700-park-ave	2023/05/20230306_700ParkAve-3404-scaled.jpg	2023/05/20230306_700ParkAve-3404.jpg	2400	3600	1280	1920	yes	0.667	portrait	yes	no	no	larger_original
+3727	700-park-ave	2023/05/20230306_700ParkAve-3419-scaled.jpg	2023/05/20230306_700ParkAve-3419.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3731	700-park-ave	2023/05/20230306_700ParkAve-3324-scaled.jpg	2023/05/20230306_700ParkAve-3324.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3732	700-park-ave	2023/05/20230306_700ParkAve-3329-scaled.jpg	2023/05/20230306_700ParkAve-3329.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3734	700-park-ave	2023/05/20230306_700ParkAve-3339-scaled.jpg	2023/05/20230306_700ParkAve-3339.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3737	700-park-ave	2023/05/20230306_700ParkAve-3359-scaled.jpg	2023/05/20230306_700ParkAve-3359.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3740	700-park-ave	2023/05/20230306_700ParkAve-3374-scaled.jpg	2023/05/20230306_700ParkAve-3374.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3741	700-park-ave	2023/05/20230306_700ParkAve-3379-scaled.jpg	2023/05/20230306_700ParkAve-3379.jpg	2400	3600	1280	1920	yes	0.667	portrait	yes	no	no	larger_original
+3743	700-park-ave	2023/05/20230306_700ParkAve-3259-scaled.jpg	2023/05/20230306_700ParkAve-3259.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3744	700-park-ave	2023/05/20230306_700ParkAve-3269-scaled.jpg	2023/05/20230306_700ParkAve-3269.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3745	700-park-ave	2023/05/20230306_700ParkAve-3274-scaled.jpg	2023/05/20230306_700ParkAve-3274.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3749	700-park-ave	2023/05/20230306_700ParkAve-3294-scaled.jpg	2023/05/20230306_700ParkAve-3294.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	yes	no	larger_original,featured_only
+3750	700-park-ave	2023/05/20230306_700ParkAve-3299-scaled.jpg	2023/05/20230306_700ParkAve-3299.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3751	700-park-ave	2023/05/20230306_700ParkAve-3304-scaled.jpg	2023/05/20230306_700ParkAve-3304.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3753	700-park-ave	2023/05/20230306_700ParkAve-3204-scaled.jpg	2023/05/20230306_700ParkAve-3204.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3756	700-park-ave	2023/05/20230306_700ParkAve-3219-scaled.jpg	2023/05/20230306_700ParkAve-3219.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3757	700-park-ave	2023/05/20230306_700ParkAve-3224-scaled.jpg	2023/05/20230306_700ParkAve-3224.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3759	700-park-ave	2023/05/20230306_700ParkAve-3234-scaled.jpg	2023/05/20230306_700ParkAve-3234.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3763	700-park-ave	2023/05/20230306_700ParkAve-3394-scaled.jpg	2023/05/20230306_700ParkAve-3394.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3766	262-mott-st	2023/05/20230306_262MottSt-2919-scaled.jpg	2023/05/20230306_262MottSt-2919.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3769	262-mott-st	2023/05/20230306_262MottSt-2939-scaled.jpg	2023/05/20230306_262MottSt-2939.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3770	262-mott-st	2023/05/20230306_262MottSt-2854-scaled.jpg	2023/05/20230306_262MottSt-2854.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3771	262-mott-st	2023/05/20230306_262MottSt-2859-scaled.jpg	2023/05/20230306_262MottSt-2859.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3772	262-mott-st	2023/05/20230306_262MottSt-2864-scaled.jpg	2023/05/20230306_262MottSt-2864.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3773	262-mott-st	2023/05/20230306_262MottSt-2869-scaled.jpg	2023/05/20230306_262MottSt-2869.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3775	262-mott-st	2023/05/20230306_262MottSt-2879-scaled.jpg	2023/05/20230306_262MottSt-2879.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3776	262-mott-st	2023/05/20230306_262MottSt-2884-scaled.jpg	2023/05/20230306_262MottSt-2884.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3778	262-mott-st	2023/05/20230306_262MottSt-2809-scaled.jpg	2023/05/20230306_262MottSt-2809.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3779	262-mott-st	2023/05/20230306_262MottSt-2814-scaled.jpg	2023/05/20230306_262MottSt-2814.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3781	262-mott-st	2023/05/20230306_262MottSt-2824-scaled.jpg	2023/05/20230306_262MottSt-2824.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3782	262-mott-st	2023/05/20230306_262MottSt-2829-scaled.jpg	2023/05/20230306_262MottSt-2829.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3784	262-mott-st	2023/05/20230306_262MottSt-2839-scaled.jpg	2023/05/20230306_262MottSt-2839.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3785	262-mott-st	2023/05/20230306_262MottSt-2849-scaled.jpg	2023/05/20230306_262MottSt-2849.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3786	262-mott-st	2023/05/20230306_262MottSt-2784-scaled.jpg	2023/05/20230306_262MottSt-2784.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3787	262-mott-st	2023/05/20230306_262MottSt-2789-scaled.jpg	2023/05/20230306_262MottSt-2789.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3788	262-mott-st	2023/05/20230306_262MottSt-2794-scaled.jpg	2023/05/20230306_262MottSt-2794.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3789	262-mott-st	2023/05/20230306_262MottSt-2799-scaled.jpg	2023/05/20230306_262MottSt-2799.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3790	262-mott-st	2023/05/20230306_262MottSt-2804-scaled.jpg	2023/05/20230306_262MottSt-2804.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3791	262-mott-st	2023/05/20230306_262MottSt-2894-scaled.jpg	2023/05/20230306_262MottSt-2894.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3793	262-mott-st	2023/05/20230306_262MottSt-2909-scaled.jpg	2023/05/20230306_262MottSt-2909.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3794	262-mott-st	2023/05/20230306_262MottSt-2914-scaled.jpg	2023/05/20230306_262MottSt-2914.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3799	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1469-scaled.jpg	2023/05/20230310_171FirstMomofuku-1469.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3801	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1479-scaled.jpg	2023/05/20230310_171FirstMomofuku-1479.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3802	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1489-scaled.jpg	2023/05/20230310_171FirstMomofuku-1489.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3803	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1494-scaled.jpg	2023/05/20230310_171FirstMomofuku-1494.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3804	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1499-scaled.jpg	2023/05/20230310_171FirstMomofuku-1499.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3807	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1529-scaled.jpg	2023/05/20230310_171FirstMomofuku-1529.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3808	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1534-scaled.jpg	2023/05/20230310_171FirstMomofuku-1534.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3809	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1539-scaled.jpg	2023/05/20230310_171FirstMomofuku-1539.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3811	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1424-scaled.jpg	2023/05/20230310_171FirstMomofuku-1424.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3812	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1429-scaled.jpg	2023/05/20230310_171FirstMomofuku-1429.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3815	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1444-scaled.jpg	2023/05/20230310_171FirstMomofuku-1444.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3817	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1459-scaled.jpg	2023/05/20230310_171FirstMomofuku-1459.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3818	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1464-scaled.jpg	2023/05/20230310_171FirstMomofuku-1464.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3819	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1549-scaled.jpg	2023/05/20230310_171FirstMomofuku-1549.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3820	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1554-scaled.jpg	2023/05/20230310_171FirstMomofuku-1554.jpg	3600	2400	1920	1280	yes	1.500	landscape	yes	no	no	larger_original
+3821	momofuku-noodle-bar-171-1st-ave	2023/05/20230310_171FirstMomofuku-1559-scaled.jpg	2023/05/20230310_171FirstMomofuku-1559.jpg	3600	2404	1920	1282	yes	1.498	landscape	yes	no	no	larger_original
+3898	652-hudson-st	2023/05/pV6WCuFm.png	2023/05/pV6WCuFm.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3899	652-hudson-st	2023/05/yGdWGXjE.png	2023/05/yGdWGXjE.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3900	652-hudson-st	2023/05/WHRG7_L8.png	2023/05/WHRG7_L8.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3901	652-hudson-st	2023/05/tS1BrvuU.png	2023/05/tS1BrvuU.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3902	652-hudson-st	2023/05/nM8EAOYL.png	2023/05/nM8EAOYL.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3903	652-hudson-st	2023/05/QaCmYq6o.png	2023/05/QaCmYq6o.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3904	652-hudson-st	2023/05/MN3ggzaE.png	2023/05/MN3ggzaE.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3905	652-hudson-st	2023/05/MPQK_fKt.png	2023/05/MPQK_fKt.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3906	652-hudson-st	2023/05/KYFGpmK-.png	2023/05/KYFGpmK-.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3907	652-hudson-st	2023/05/jqXbTe4c.png	2023/05/jqXbTe4c.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3908	652-hudson-st	2023/05/k50AaJrR.png	2023/05/k50AaJrR.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3909	652-hudson-st	2023/05/JbaudPAU.png	2023/05/JbaudPAU.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3910	652-hudson-st	2023/05/HQLr22IJ.png	2023/05/HQLr22IJ.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3911	652-hudson-st	2023/05/HTitThJb.png	2023/05/HTitThJb.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3912	652-hudson-st	2023/05/er1u9Vib.png	2023/05/er1u9Vib.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3913	652-hudson-st	2023/05/ax_PJ9Hg.png	2023/05/ax_PJ9Hg.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3914	652-hudson-st	2023/05/0_tPyqHa.png	2023/05/0_tPyqHa.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3915	652-hudson-st	2023/05/28MOItsz.png	2023/05/28MOItsz.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3916	652-hudson-st	2023/05/3jZi0pAh.png	2023/05/3jZi0pAh.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3917	652-hudson-st	2023/05/5URfRJ9e.png	2023/05/5URfRJ9e.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3918	652-hudson-st	2023/05/a5Dmw-7R.png	2023/05/a5Dmw-7R.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3924	40-e66th-st	2023/05/up-NVbb.png	2023/05/up-NVbb.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3925	40-e66th-st	2023/05/0IoIH6b4.png	2023/05/0IoIH6b4.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3926	40-e66th-st	2023/05/5xCs3wN5.png	2023/05/5xCs3wN5.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3927	40-e66th-st	2023/05/8jwKxYSO.png	2023/05/8jwKxYSO.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3928	40-e66th-st	2023/05/aE07q2Oz.png	2023/05/aE07q2Oz.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3929	40-e66th-st	2023/05/BUGe4tAy.png	2023/05/BUGe4tAy.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3930	40-e66th-st	2023/05/exO_TEfq.png	2023/05/exO_TEfq.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3931	40-e66th-st	2023/05/FTYyaK0I.png	2023/05/FTYyaK0I.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3932	40-e66th-st	2023/05/kYGMIkIJ.png	2023/05/kYGMIkIJ.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3933	40-e66th-st	2023/05/nRraX3Xr.png	2023/05/nRraX3Xr.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3934	40-e66th-st	2023/05/QVmRDF9j.png	2023/05/QVmRDF9j.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3935	40-e66th-st	2023/05/rXEhi671.png	2023/05/rXEhi671.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3936	40-e66th-st	2023/05/t-2-bhzc.png	2023/05/t-2-bhzc.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3938	40-e66th-st	2023/05/UYzIKSZQ.png	2023/05/UYzIKSZQ.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3939	40-e66th-st	2023/05/VspGumor.png	2023/05/VspGumor.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3940	40-e66th-st	2023/05/w13IACwl.png	2023/05/w13IACwl.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3941	40-e66th-st	2023/05/xL-Dh7eY.png	2023/05/xL-Dh7eY.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3942	40-e66th-st	2023/05/ZGAatUwy.png	2023/05/ZGAatUwy.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3943	40-e66th-st	2023/05/ZPqUWFvo.png	2023/05/ZPqUWFvo.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3947	lantern-house	2023/10/gPGeBN2.png	2023/10/gPGeBN2.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3948	lantern-house	2023/10/0Nv-gP_C.png	2023/10/0Nv-gP_C.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3949	lantern-house	2023/10/42aV-lsp.png	2023/10/42aV-lsp.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3950	lantern-house	2023/10/50oCW_b3.png	2023/10/50oCW_b3.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3951	lantern-house	2023/10/B3WVFByK.png	2023/10/B3WVFByK.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3952	lantern-house	2023/10/Bhg72j4I.png	2023/10/Bhg72j4I.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3953	lantern-house	2023/10/bjdGcsBQ.png	2023/10/bjdGcsBQ.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3954	lantern-house	2023/10/cPH1Np1J.png	2023/10/cPH1Np1J.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3955	lantern-house	2023/10/inxgtHse.png	2023/10/inxgtHse.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3956	lantern-house	2023/10/iUL4bg6I.png	2023/10/iUL4bg6I.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3957	lantern-house	2023/10/jujlwux2.png	2023/10/jujlwux2.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3958	lantern-house	2023/10/kqPJIYO5.png	2023/10/kqPJIYO5.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3959	lantern-house	2023/10/p_hdLg16.png	2023/10/p_hdLg16.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3960	lantern-house	2023/10/pJ8ScVZ1.png	2023/10/pJ8ScVZ1.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3961	lantern-house	2023/10/POirSLT_.png	2023/10/POirSLT_.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3962	lantern-house	2023/10/VO0lnQyd.png	2023/10/VO0lnQyd.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3969	795-5th-ave-the-pierre	2023/10/cy3ewAA.png	2023/10/cy3ewAA.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3970	795-5th-ave-the-pierre	2023/10/tn_eMKH.png	2023/10/tn_eMKH.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3971	795-5th-ave-the-pierre	2023/10/bFgPyUc.png	2023/10/bFgPyUc.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3972	795-5th-ave-the-pierre	2023/10/5bYk0H-W.png	2023/10/5bYk0H-W.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3973	795-5th-ave-the-pierre	2023/10/5JVsSAfX.png	2023/10/5JVsSAfX.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3974	795-5th-ave-the-pierre	2023/10/8XzGWRIe.png	2023/10/8XzGWRIe.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3975	795-5th-ave-the-pierre	2023/10/a8qS-y5g.png	2023/10/a8qS-y5g.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3976	795-5th-ave-the-pierre	2023/10/DdpDaK1U.png	2023/10/DdpDaK1U.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3977	795-5th-ave-the-pierre	2023/10/fFTRw7QE.png	2023/10/fFTRw7QE.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3978	795-5th-ave-the-pierre	2023/10/hAixnmTg.png	2023/10/hAixnmTg.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3979	795-5th-ave-the-pierre	2023/10/i_Nug0I7.png	2023/10/i_Nug0I7.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3980	795-5th-ave-the-pierre	2023/10/i19SRx_V.png	2023/10/i19SRx_V.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3981	795-5th-ave-the-pierre	2023/10/Mc30PuxF.png	2023/10/Mc30PuxF.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3982	795-5th-ave-the-pierre	2023/10/mO7hW0q1.png	2023/10/mO7hW0q1.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3983	795-5th-ave-the-pierre	2023/10/r2zePbz6.png	2023/10/r2zePbz6.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
+3984	795-5th-ave-the-pierre	2023/10/UTt2aYWB.png	2023/10/UTt2aYWB.png	2048	2048	2048	2048	no	1.000	square	yes	no	no	
