@@ -24,7 +24,9 @@ away — it is what makes coming back to this project cheap, and both lanes main
 | `reviews/` | Cursor's adversarial reviews of those handoffs, `grok-<date>.md` |
 | `cursor-plan.md` | Cursor's own executable plan, committed before it starts work |
 | `cursor-kickoff-2.md` | **paste-ready first message for Cursor.** Supersedes `cursor-kickoff.md`, which Grok wrote pre-merge and which describes a tree that no longer exists. Neither replaces `cursor-images.md` |
-| [`handoff-to-claude.md`](handoff-to-claude.md) | the Claude Code review brief — **done**, see `reviews/claude-2026-08-20.md` |
+| [`handoff-to-claude.md`](handoff-to-claude.md) | the both-lanes review brief — **done**, see `reviews/claude-2026-08-20.md` |
+| [`handoff-to-claude-2.md`](handoff-to-claude-2.md) | Claude Code review of Cursor session 06 (findings + alt 83/887) |
+| [`claude-kickoff.md`](claude-kickoff.md) | **paste-ready first message for Claude Code** for that review |
 | [`handoff-to-cursor-2.md`](handoff-to-cursor-2.md) | what changed in the two fix sessions and Cursor's job list. Revision 2 |
 
 ---

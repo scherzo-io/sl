@@ -4,8 +4,9 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor session 06 · next action: **continue alt at
-`40-e66th-st` (19 frames).**
+Last updated: **2026-08-20** · by: Cursor (session 06 merged) · next action: **Claude Code —
+paste [`claude-kickoff.md`](claude-kickoff.md), then work from
+[`handoff-to-claude-2.md`](handoff-to-claude-2.md).**
 
 ---
 
@@ -13,7 +14,7 @@ Last updated: **2026-08-20** · by: Cursor session 06 · next action: **continue
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 + videos + session 06 findings on `cursor/images`.** Alt **83/887** (6 projects); first-wave paused | `cursor/images` (local, not pushed) | photography + video findings; `alt-text.tsv` 83 rows |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Session 06 on `main` (FF).** Alt **83/887** (6 projects); first-wave paused | `main` (local, not pushed) | photography + video findings; `alt-text.tsv` 83 rows |
 | **Grok** — the build | [`grok-build.md`](grok-build.md) | **A–E, G, H on `main`.** F skipped | `main` | A–E, G, H. F not started |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
@@ -60,12 +61,13 @@ phase boundary rather than assuming what you read at the start still holds.
 
 ## Next up
 
-1. **Cursor — remaining alt.** Resume from [`sessions/2026-08-20-cursor-06.md`](sessions/2026-08-20-cursor-06.md). Gate: `npm run check:alt`. Do not invent rows to turn it green.
-2. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
+1. **Claude Code — review session 06.** Paste [`claude-kickoff.md`](claude-kickoff.md). Job list: [`handoff-to-claude-2.md`](handoff-to-claude-2.md). Report; don’t patch.
+2. **Cursor — remaining alt** (after that, or when Alexey says). Resume from [`sessions/2026-08-20-cursor-06.md`](sessions/2026-08-20-cursor-06.md) at `40-e66th-st` (19). Gate: `npm run check:alt`. Do not invent rows to turn it green.
+3. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
    public remote. Send [`content/eric-email.md`](../content/eric-email.md). Video **masters**, not
    the WhatsApp reels (1024×576, burned-in titles + logo bug — unusable). Then hosting +
    per-variant mapping.
-3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project.
+4. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project.
    `lib/projects.ts` should adopt hero 35/58 inside F (C-2).
 
 ## Blocked, and on whom
