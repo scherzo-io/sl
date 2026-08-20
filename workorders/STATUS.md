@@ -4,8 +4,8 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Claude (cowork session 3) · next action: **Cursor brainstorms
-`workorders/cursor-images.md` and commits `workorders/cursor-plan.md` before executing**
+Last updated: **2026-08-20** · by: Cursor (session 01) · next action: **wait for Grok
+handoff under `workorders/handoffs/`; Alexey: video files (see `content/images/video-ask.md`)**
 
 ---
 
@@ -13,7 +13,7 @@ Last updated: **2026-08-20** · by: Claude (cowork session 3) · next action: **
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **not started.** Work order broadened 2026-08-20 to cover all local-only work + reviewing Grok's handoff | `cursor/images` | — |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 landed** (bar B, no Sanity, no alt-text). Plan + manifest + link-check + deck/brand. Waiting on Grok handoff | `cursor/images` | `41633b1` |
 | **Grok** — the build | [`grok-build.md`](grok-build.md) | **started 2026-08-20**, phase A | `grok/build` | — |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
@@ -29,25 +29,22 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | The two 19 Aug drafts archived, redacted | `docs/archive/` |
 | 2026-08-20 | **Source ingest.** The 2026-08-20 WXR export committed with text extracts; 3 extractors; 17 assertions passing; 2 findings; PLAN §1 rows 23–29 | `inputs/**`, `scripts/**`, `content/findings/**` |
 | 2026-08-20 | Two work orders + this status protocol | `workorders/**` |
+| 2026-08-20 | Cursor Wave 1: measured 887 originals, checksums, live link-check, deck corrections, 30 partner names, logo sample `#DE2426` | `content/images/**`, `content/link-check/`, `content/deck-corrections.tsv`, `scripts/build-image-manifest.mjs` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
 | Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | unblocks PLAN §11 step 10; everything downstream of migration waits on Eric's answers |
+| Cursor | idle — waiting on Grok handoff | 2026-08-20 | Wave 1 done; Phase 3 review starts when `workorders/handoffs/grok-*.md` lands |
 
 ## Next up
 
-1. **Cursor:** brainstorm the work order → commit `workorders/cursor-plan.md` → execute. The
-   image set is the critical path for everything visual; the 887-image alt-text pass is the
-   single largest job in the build.
-1b. **Cursor → Alexey, on day one: ask for the video files.** There are none on this machine, so
-   two of the four homepage variants are unbuildable until they arrive. It is one question, and
-   it unblocks half the variant set (`cursor-images.md` §5.6, PLAN §1 row 32).
-2. **Grok:** phases B–H (scaffold → schema → content → three directions → migration → SEO).
-3. **Cursor:** review Grok's handoff when it lands (`cursor-images.md` §C).
-4. **Alexey:** send Eric's email once Grok's draft is reviewed; create the Sanity project when
-   scaffolding starts.
+1. **Alexey:** video files — dump has zero. Five questions in [`content/images/video-ask.md`](../content/images/video-ask.md).
+2. **Grok:** finish current phase, write `workorders/handoffs/grok-<date>.md`. Cursor reviews it.
+3. **Alexey:** send Eric's email once Grok's draft is reviewed; create the Sanity project later (not this pass).
+4. **Cursor, later:** 887 alt-text; leftover glance (876 unused, client PNGs). Not started.
+5. **Claude Code handback** after the Grok review: leftover list in the newest `workorders/sessions/2026-08-20-cursor-*.md`.
 
 ## Blocked, and on whom
 
@@ -65,14 +62,14 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | 1 · documents, hygiene, conflicts, inventory | ✅ done | — |
 | 2 · extract 58 projects, image audit, REST verification | ✅ done | — |
 | 3 · Eric's conflict email | 🟡 drafting | Grok |
-| 4 · image manifest, raw snapshot, re-verify totals | 🟡 snapshot + extracts done; manifest open | Cursor |
-| 5 · deck transcription | ✅ raw OCR both decks · 🟡 string verification against page images open | Cursor |
+| 4 · image manifest, raw snapshot, re-verify totals | ✅ manifest + checksums + 887/388/137 re-verified; hero 35/58 | Cursor |
+| 5 · deck transcription | ✅ raw OCR · 🟡 ship-strings corrected (`deck-corrections.tsv`); testimonials not visually verified (REFERENCES pages skipped) | Cursor |
 | 6 · scaffold | ⬜ open | Grok |
-| 7 · page copy, logo wall, testimonials | 🟡 copy extracted; assembly open; logo marks open | Grok + Cursor |
+| 7 · page copy, logo wall, testimonials | 🟡 copy extracted; assembly open; **partner names verified (30)**; publishable marks still an ask | Grok + Cursor |
 | 8 · Directions A, B, C + variants | ⬜ open | Grok |
 | 9 · Eric picks a direction | 🔒 blocked on 8 | — |
 | 10 · migration into `staging` | 🔒 blocked on 3 + Sanity project | Grok |
-| 11 · SEO / redirect layer | ⬜ open — bigger than PLAN §9 knew (`legacy-slugs-finding.md`) | Grok + Cursor (link-check) |
+| 11 · SEO / redirect layer | 🟡 live snapshot in `content/link-check/2026-08-20.tsv`; Grok still wires redirects | Grok + Cursor (link-check done) |
 | 12 · staging sign-off, cutover | 🔒 blocked | — |
 
 ## How to resume
