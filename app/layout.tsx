@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { BenchNine, Lato } from "next/font/google";
+import { cookies, headers } from "next/headers";
+import { ReviewProvider } from "@/components/review/ReviewProvider";
 import { aboutStory } from "@/lib/copy";
+import { parseReview, REVIEW_COOKIE } from "@/lib/review";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -27,10 +30,18 @@ export const metadata: Metadata = {
   icons: { icon: "/favicon.svg" },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const jar = await cookies();
+  const hdrs = await headers();
+  const initial = parseReview(
+    hdrs.get("x-sl-review") ?? jar.get(REVIEW_COOKIE)?.value,
+  );
+
   return (
     <html lang="en" className={`${benchNine.variable} ${lato.variable}`}>
-      <body className="font-body font-light antialiased">{children}</body>
+      <body className="font-body font-light antialiased">
+        <ReviewProvider initial={initial}>{children}</ReviewProvider>
+      </body>
     </html>
   );
 }

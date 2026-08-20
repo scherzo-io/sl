@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { nav, type NavItem } from "@/lib/nav";
+import { useReview } from "@/components/review/ReviewProvider";
+import { navFor, type NavItem } from "@/lib/nav";
 
 function pathOf(href: string) {
   return href.split("#")[0] ?? href;
@@ -33,6 +34,7 @@ function Item({
         <Link
           href={item.href}
           onClick={onNavigate}
+          aria-current={active ? "page" : undefined}
           className={`flex min-h-nav items-center justify-center px-3 text-center font-display text-md font-light ${
             active ? "text-red-on-dark" : "text-paper hover:text-red-on-dark"
           }`}
@@ -62,6 +64,7 @@ function Item({
               <Link
                 href={child.href}
                 onClick={onNavigate}
+                aria-current={isActive(pathname, child.href) ? "page" : undefined}
                 className={`flex min-h-10 items-center justify-center px-4 text-center font-display text-sm font-light ${
                   isActive(pathname, child.href)
                     ? "text-red-on-dark"
@@ -79,10 +82,12 @@ function Item({
 }
 
 export function Nav({ onNavigate }: { onNavigate?: () => void }) {
+  const { state } = useReview();
+  const items = navFor(state.direction, state.nav);
   return (
     <ul className="flex w-full flex-col">
-      {nav.map((item) => (
-        <Item key={item.href} item={item} onNavigate={onNavigate} />
+      {items.map((item) => (
+        <Item key={`${item.label}-${item.href}`} item={item} onNavigate={onNavigate} />
       ))}
     </ul>
   );

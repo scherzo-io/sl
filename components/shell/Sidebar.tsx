@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReviewControls } from "@/components/review/ReviewControls";
 import { site } from "@/lib/site";
 import { Nav } from "./Nav";
 
@@ -6,7 +7,7 @@ export function SidebarChrome({ onNavigate }: { onNavigate?: () => void }) {
   const year = new Date().getFullYear();
 
   return (
-    <div className="flex h-full flex-col items-center bg-sidebar px-3 py-8 text-center">
+    <div className="flex h-full flex-col items-center overflow-y-auto bg-sidebar px-3 py-8 text-center">
       <Link
         href="/"
         onClick={onNavigate}
@@ -19,7 +20,8 @@ export function SidebarChrome({ onNavigate }: { onNavigate?: () => void }) {
         <Nav onNavigate={onNavigate} />
       </nav>
 
-      <div className="mt-auto flex flex-col items-center gap-3 pt-8">
+      <div className="mt-auto flex w-full flex-col items-center gap-3 pt-8">
+        <ReviewControls />
         <a
           href={`mailto:${site.email}`}
           className="break-all font-display text-sm font-light text-red-on-dark"

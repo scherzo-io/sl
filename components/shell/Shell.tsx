@@ -14,7 +14,7 @@ export function Shell({ children, scroll = "pane" }: Props) {
       <MobileBar />
       <Sidebar />
       <div
-        className={`min-w-0 flex-1 pt-14 lg:pt-0 ${
+        className={`min-h-0 min-w-0 flex-1 pt-14 lg:pt-0 ${
           scroll === "none" ? "overflow-hidden" : "overflow-y-auto"
         }`}
       >

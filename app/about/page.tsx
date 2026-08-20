@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DirectionProofPoints } from "@/components/review/DirectionProofPoints";
 import { PatternC } from "@/components/patterns/PatternC";
 import { Shell } from "@/components/shell/Shell";
 import { about, people } from "@/lib/copy";
@@ -24,6 +25,7 @@ export default function AboutPage() {
             <p>{item.body}</p>
           </div>
         ))}
+        <DirectionProofPoints />
         <h2 id="team" className="font-display text-md font-light">
           Team
         </h2>
