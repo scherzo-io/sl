@@ -34,7 +34,7 @@ bar C (starts 887 vision writes before a handoff exists).
 | `content/deck-corrections.tsv` | C | OCR → corrected, page, confidence |
 | `content/images/partners/` | C | verified names + `reference/` crops |
 | `content/images/brand/` | C | sampling report + interim rasters |
-| `content/video-inventory.tsv` | C | only if Alexey supplies files |
+| `content/video-inventory.tsv` | C / parent | two WhatsApp reels landed 2026-08-20; binaries live outside the repo |
 | `workorders/reviews/grok-<date>.md` | parent | after Grok hands off |
 | `workorders/sessions/<date>-cursor-NN.md` | parent | session log |
 | `content/findings/<topic>-finding.md` | whoever | only if a PLAN number moves |

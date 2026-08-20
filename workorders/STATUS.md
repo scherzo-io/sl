@@ -4,8 +4,8 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor (session 01) · next action: **wait for Grok
-handoff under `workorders/handoffs/`; Alexey: video files (see `content/images/video-ask.md`)**
+Last updated: **2026-08-20** · by: Cursor (session 02) · next action: **Claude Code —
+see `workorders/sessions/2026-08-20-cursor-02.md` handback. Grok still has no handoff.**
 
 ---
 
@@ -13,8 +13,8 @@ handoff under `workorders/handoffs/`; Alexey: video files (see `content/images/v
 
 | Lane | Work order | State | Branch | Last landed |
 |---|---|---|---|---|
-| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **Wave 1 landed** (bar B, no Sanity, no alt-text). Plan + manifest + link-check + deck/brand. Waiting on Grok handoff | `cursor/images` | `41633b1` |
-| **Grok** — the build | [`grok-build.md`](grok-build.md) | **started 2026-08-20**, phase A | `grok/build` | — |
+| **Cursor** — everything local | [`cursor-images.md`](cursor-images.md) | **bar B done.** Wave 1 + video inventory + empty-handoff review. Alt-text / Sanity deferred | `cursor/images` | `31af6e9` |
+| **Grok** — the build | [`grok-build.md`](grok-build.md) | **started 2026-08-20**, phase A — **not in this repo or on GitHub** | `grok/build` (absent) | — |
 
 Both lanes maintain their own rows here. If a lane is mid-run when its work order changes,
 the change is additive and called out in that file's changelog — read it again at your next
@@ -30,21 +30,23 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | **Source ingest.** The 2026-08-20 WXR export committed with text extracts; 3 extractors; 17 assertions passing; 2 findings; PLAN §1 rows 23–29 | `inputs/**`, `scripts/**`, `content/findings/**` |
 | 2026-08-20 | Two work orders + this status protocol | `workorders/**` |
 | 2026-08-20 | Cursor Wave 1: measured 887 originals, checksums, live link-check, deck corrections, 30 partner names, logo sample `#DE2426` | `content/images/**`, `content/link-check/`, `content/deck-corrections.tsv`, `scripts/build-image-manifest.mjs` |
+| 2026-08-20 | Two WhatsApp reels inventoried (end logos present); binaries moved out of repo | `content/video-inventory.tsv` |
+| 2026-08-20 | Cursor review of Grok: no handoff to check | `workorders/reviews/grok-2026-08-20.md` |
 
 ## In flight
 
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
-| Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | unblocks PLAN §11 step 10; everything downstream of migration waits on Eric's answers |
-| Cursor | idle — waiting on Grok handoff | 2026-08-20 | Wave 1 done; Phase 3 review starts when `workorders/handoffs/grok-*.md` lands |
+| Grok | A — Eric's conflict email (`content/eric-email.md`) | 2026-08-20 | file and `grok/build` still absent locally and on `scherzo-io/sl` |
+| Cursor | done this pass | 2026-08-20 | handback in `sessions/2026-08-20-cursor-02.md` |
 
 ## Next up
 
-1. **Alexey:** video files — dump has zero. Five questions in [`content/images/video-ask.md`](../content/images/video-ask.md).
-2. **Grok:** finish current phase, write `workorders/handoffs/grok-<date>.md`. Cursor reviews it.
-3. **Alexey:** send Eric's email once Grok's draft is reviewed; create the Sanity project later (not this pass).
-4. **Cursor, later:** 887 alt-text; leftover glance (876 unused, client PNGs). Not started.
-5. **Claude Code handback** after the Grok review: leftover list in the newest `workorders/sessions/2026-08-20-cursor-*.md`.
+1. **Claude Code:** leftover list in [`sessions/2026-08-20-cursor-02.md`](sessions/2026-08-20-cursor-02.md) — Grok handoff when it exists; do not start Sanity or alt-text.
+2. **Grok:** land Phase A (`content/eric-email.md` + `workorders/handoffs/grok-<date>.md`) on `grok/build`.
+3. **Alexey:** video hosting / mapping / no-logo cuts — files are at `~/Downloads/Zipcodes/Streamline USA/videos/`. See [`content/images/video-ask.md`](../content/images/video-ask.md).
+4. **Alexey:** send Eric's email once the draft exists; Sanity project later.
+5. **Cursor, later:** 887 alt-text.
 
 ## Blocked, and on whom
 
@@ -53,7 +55,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · video files + hosting · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | **the video files — Cursor is asking, and nothing video-shaped can be built or mocked until they land** · Sanity project + write token · push rights for `grok/build` · publishable partner logo artwork (the decks can only supply names — `content/findings/deck-raster-finding.md`) · second copy of the dump off this laptop |
+| **Alexey** | **videos arrived (2 WhatsApp reels) but still have end logos — hosting, mapping, trim/masters open** · Sanity project + write token · push rights for `grok/build` · publishable partner logo artwork · second copy of the dump off this laptop |
 
 ## PLAN §11 step tracker
 
