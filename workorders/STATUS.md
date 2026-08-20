@@ -5,9 +5,7 @@ work chunk by whoever did the work. If this file disagrees with your memory, tru
 if it disagrees with the repo, trust the repo and fix this file.
 
 Last updated: **2026-08-20** · by: Cursor session 06 · next action: **continue alt at
-`40-e66th-st` (19 frames).** Photography and video findings are written. Alt is
-**83/887** (6/58 projects). The 404 blocker and trailing-slash call are **done**
-(PLAN §1 rows 33–37).
+`40-e66th-st` (19 frames).**
 
 ---
 
@@ -54,7 +52,6 @@ phase boundary rather than assuming what you read at the start still holds.
 | Lane | Phase | Started | Notes |
 |---|---|---|---|
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
-| Cursor | session 06 done | 2026-08-20 | Findings landed. Alt paused at 83/887 |
 | — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 6 defects, 3 nits. Nothing patched |
 | — | fix session 2 | done 2026-08-20 | Homepage video variants play for real (`video-loop` full strength, `video-tint` under 45% black); variant switcher rebuilt — it was inert under Archive and blank on video, both fixed, plus Reset. **New finding: both reels carry burned-in titles + a logo bug, so nothing ships on this footage** (`homepage-video-finding.md`). PLAN §1 rows 40–42 |
 | — | fix session | done 2026-08-20 | 404 blocker closed (all 73 legacy URLs → 200, production's exact targets, one hop); photography wired and rendering; trailing slash restored; PROGORE, flags.json and the unrunnable QA scripts fixed. PLAN §1 rows 33–39 |
@@ -63,19 +60,13 @@ phase boundary rather than assuming what you read at the start still holds.
 
 ## Next up
 
-1. **Cursor — remaining alt.** Resume at `40-e66th-st` (19 frames), then the rest of the
-   first-wave unusable set, then the other 44 live projects. Gate: `npm run check:alt`
-   (today **83/887**). Do not invent rows to turn it green.
+1. **Cursor — remaining alt.** Resume from [`sessions/2026-08-20-cursor-06.md`](sessions/2026-08-20-cursor-06.md). Gate: `npm run check:alt`. Do not invent rows to turn it green.
 2. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
    public remote. Send [`content/eric-email.md`](../content/eric-email.md). Video **masters**, not
    the WhatsApp reels (1024×576, burned-in titles + logo bug — unusable). Then hosting +
    per-variant mapping.
 3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project.
-   `lib/projects.ts` should adopt hero 35/58 inside F (C-2). Proposed hero overrides
-   (Spring 1902, Free People 1022, Kith judgment) stay in the session log until Alexey wants
-   a column.
-
-The 404 blocker and trailing-slash call are **done** (PLAN §1 rows 33–37). Do not re-open them.
+   `lib/projects.ts` should adopt hero 35/58 inside F (C-2).
 
 ## Blocked, and on whom
 
@@ -84,7 +75,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | **flip `scherzo-io/sl` private — everything is already on a public remote** · **videos: both reels carry burned-in titles and a logo bug through most of their length at 1024×576 — the variants play so motion can be judged, but nothing ships on this footage. The specific ask is in `content/findings/homepage-video-finding.md`** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · **25 REVIEW redirect targets** · analytics IDs |
+| **Alexey** | **flip `scherzo-io/sl` private — everything is already on a public remote** · **videos: both reels carry burned-in titles and a logo bug through most of their length at 1024×576 — the variants play so motion can be judged, but nothing ships on this footage. The specific ask is in `content/findings/homepage-video-finding.md`** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · analytics IDs |
 
 ## PLAN §11 step tracker
 

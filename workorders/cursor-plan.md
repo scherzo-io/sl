@@ -58,9 +58,6 @@ first-wave alt set. The rest is an explicit skip with a queue.**
 `lib/projects.ts:67` still reads `hero_capable` from `image-audit.tsv` (34), not the
 measured 35. That is C-2. Flag it. Do not patch Grok-owned code.
 
-`STATUS.md` **Next up** still claims the 404 blocker and trailing-slash call are open.
-Both are closed (PLAN rows 33–37). Rewriting STATUS is part of stopping.
-
 Parallel alt seats are rejected. One voice, one quality bar.
 
 ---
@@ -96,7 +93,7 @@ Done 2026-08-20 on `cursor/images` @ `789e06f`.
 ### Task 2: Rewrite this living plan and commit it
 
 - [x] This file rewritten as bar C
-- [ ] Commit only this file (next step)
+- [x] Commit only this file (next step)
 
 ---
 
@@ -189,8 +186,6 @@ Counts from the manifest, not inventory.
 - [x] `workorders/sessions/2026-08-20-cursor-06.md` from the template
 - [x] `STATUS.md` Last updated / In flight / Next up — 404 and trailing slash are **done**
 - [x] Commit; `git status` clean of keepers; kill 8080
-
-First-wave alt stopped after `652-hudson-st` (Alexey: skip remaining alt). `check:alt` **83/887**.
 
 ---
 
