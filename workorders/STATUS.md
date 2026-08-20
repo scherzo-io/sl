@@ -4,9 +4,9 @@
 work chunk by whoever did the work. If this file disagrees with your memory, trust this file;
 if it disagrees with the repo, trust the repo and fix this file.
 
-Last updated: **2026-08-20** · by: Cursor (Claude Code handoff) · next action: **Claude Code —
-paste [`handoff-to-claude.md`](handoff-to-claude.md). Review both lanes against their work
-orders. Do not start Phase F. Do not push.**
+Last updated: **2026-08-20** · by: Claude Code (review of both lanes) · next action: **Alexey —
+decide the redirect question in [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md) §1b.
+32 of 73 legacy URLs resolve on production today and 404 on the new build.**
 
 ---
 
@@ -43,6 +43,7 @@ phase boundary rather than assuming what you read at the start still holds.
 | 2026-08-20 | Cursor review of Grok A/E/G/H (local build + HTTP) | `workorders/reviews/grok-2026-08-20.md` |
 | 2026-08-20 | **Merge `cursor/images` → `main` (commit 1).** Artifacts on the build tree. Site behavior unchanged at that commit | this merge |
 | 2026-08-20 | **`partners.json` names filled from TSV (commit 2).** 30 names, `artwork: []`. `/partners` shows type + empty tiles | `content/copy/partners.json` |
+| 2026-08-20 | **Claude Code review of both lanes.** Every runnable gate re-run; Phase E reproduced in a browser; the 404 regression found by joining Cursor's production link-check to Grok's redirect table | `workorders/reviews/claude-2026-08-20.md` |
 
 ## In flight
 
@@ -50,13 +51,26 @@ phase boundary rather than assuming what you read at the start still holds.
 |---|---|---|---|
 | Grok | F — migration | blocked | Eric + Sanity project. Manifest is now on this tree; that does **not** unblock F |
 | Cursor | idle | 2026-08-20 | Names on the wall; artwork empty |
+| — | review of both lanes | done 2026-08-20 | [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). Phase E reproduced on a real browser and **passes**; Phase G **contradicted**. 1 blocker, 5 defects, 3 nits. Nothing patched |
 
 ## Next up
 
-1. **Claude Code:** [`handoff-to-claude.md`](handoff-to-claude.md) — review Grok + Cursor against their work orders. Write `reviews/claude-2026-08-20.md`. Do not patch unless Alexey assigns. Do not start F. Do not push.
-2. **Alexey:** send [`content/eric-email.md`](../content/eric-email.md). Video hosting / mapping / no-logo cuts. 25 REVIEW targets in `content/findings/legacy-review-rows.md`. Flip `scherzo-io/sl` private.
-3. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project. 887 alt-text is Cursor, later.
-4. **Do not push** this merge unless Alexey asks. Remote is still public. Local `main` is `2b0a0de`, ahead of `origin/main`.
+1. **Alexey — the redirect decision (blocker for cutover).** Review §1b of
+   [`reviews/claude-2026-08-20.md`](reviews/claude-2026-08-20.md). All 73 legacy URLs resolve on
+   production today; **32 of them 404 on the new build** (25 REVIEW rows + 7 cross-category SKIP
+   paths). The targets are not unknown — production supplies all 25, and `_wp_old_slug` in the
+   committed WXR reproduces the mapping offline. Assign the fix and the owner.
+2. **Alexey — the trailing-slash call.** The build drops it; PLAN §1 row 3 says "exactly". Either
+   `trailingSlash: true` or a superseding row.
+3. **Alexey:** flip `scherzo-io/sl` **private** — everything reviewed here is already pushed to a
+   public remote. Send [`content/eric-email.md`](../content/eric-email.md). Video **masters**, not
+   the WhatsApp reels (1024×576, audio, end logos, one watermarked frame — unusable for the
+   variants). Then hosting + per-variant mapping.
+4. **Whoever is assigned:** the four one-liners — `PROGORE` → `Procore` in
+   `content/copy/proof-points.json`; two stale `flags.json` `emptyUntilCursor` entries; and either
+   add `playwright` or delete `scripts/qa-*.mjs`, which cannot run as committed.
+5. **Later:** Phase F (Sanity) only after Eric answers + a Sanity project. 887 alt-text is Cursor,
+   later. `lib/projects.ts` should adopt hero 35/58 inside F.
 
 ## Blocked, and on whom
 
@@ -65,7 +79,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | Blocked on | Items |
 |---|---|
 | **Eric** | 21 conflict rows · subCategory taxonomy · content for the 8 pipeline projects · vector logo · WP 564 and WP 558 slug confirms · which phones are publishable · Procore keep/drop · Mercer testimonial · RFP addresses · references approach · one site or two |
-| **Alexey** | **videos arrived (2 WhatsApp reels) but still have end logos — hosting, mapping, trim/masters open** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · **25 REVIEW redirect targets** · analytics IDs |
+| **Alexey** | **the redirect decision — 32 legacy URLs 404 that resolve today (review §1b)** · **videos: the 2 reels are 1024×576 with audio and end logos, so masters are needed, not trims — hosting and mapping still open** · Sanity project + write token · publishable partner logo artwork (names only — PLAN §1 row 31) · second copy of the dump off this laptop · **25 REVIEW redirect targets** · analytics IDs |
 
 ## PLAN §11 step tracker
 
@@ -81,7 +95,7 @@ Full table with detail: [`README.md`](README.md) §5. Summary:
 | 8 · Directions A, B, C + variants | ✅ Phase E landed 2026-08-20 | Grok |
 | 9 · Eric picks a direction | 🟡 unblocked on 8; waiting on Eric looking at the three | — |
 | 10 · migration into `staging` | 🔒 blocked on 3 + Sanity project + ingest scripts | Grok |
-| 11 · SEO / redirect layer | ✅ Grok G (37 301 / 11 SKIP / 25 REVIEW / 2 410). ✅ Cursor live HEAD in `content/link-check/2026-08-20.tsv` | Grok + Cursor |
+| 11 · SEO / redirect layer | ⚠️ **regression found.** Grok G wiring is internally consistent and Cursor's live sweep is complete, but joined they show **32 of 73 legacy URLs 404 on the new build** while resolving on production (review §1b). Metadata, JSON-LD, sitemap, robots, consent all confirmed | Grok + Cursor |
 | 12 · staging sign-off, cutover | 🔒 blocked | — |
 
 ## How to resume
